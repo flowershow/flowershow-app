@@ -1,5 +1,12 @@
-# Flowershow default template
+# 🌷 Flowershow Documentation
 
-Flowershow default app template. Uses Next.js with Tailwind and MDX.
+The documentation site for Flowershow. Built with [Flowershow](https://github.com/datopian/flowershow)!
 
-To learn more how to create and customize your Flowershow website check our docs at https://flowershow.app/docs
+Deployed site available at: https://flowershow.app
+
+To run the project locally:
+
+```bash
+npm install
+npm run dev
+```
