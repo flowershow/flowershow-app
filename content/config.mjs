@@ -2,10 +2,10 @@ const config = {
   title: "Flowershow",
   description: "Publish your digital garden",
   author: "Flowershow",
-  logo: "/assets/images/logo.svg",
+  logo: "/images/logo.svg",
   domain: "https://flowershow.app",
   navbarTitle: {
-    logo: "/assets/images/logo.svg",
+    logo: "/images/logo.svg",
     text: "Flowershow",
     version: "Alpha",
   },

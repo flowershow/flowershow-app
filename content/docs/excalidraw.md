@@ -37,7 +37,7 @@ Optional (bonus): you can also configure use of wiki-links which Flowershow supp
 
 First, make sure you have a defined folder for your Excalidraw files. This entry shouldn't be blank. The default is `Excalidraw` (in this example it is has been lower-cased!)
 
-![[assets/images/docs-excalidraw-images-3.png]]
+![[docs-excalidraw-images-3.png]]
 
 Then, symlink this directory into the public folder in flowershow.
 
