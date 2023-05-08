@@ -29,7 +29,7 @@ const userConfig = {
   ...
   navBarTitle: {
     text: "Your custom title here",
-    logo: "/assets/your-logo.svg", // optional
+    logo: "/images/your-logo.svg", // optional
   },
 };
 ```
