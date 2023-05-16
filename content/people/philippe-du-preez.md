@@ -1,5 +1,5 @@
 ---
 name: Philippe du Preez
-avatar: /assets/images/phil.jpg
+avatar: /assets/phil.jpg
 isDraft: true
 ---
