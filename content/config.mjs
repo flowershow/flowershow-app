@@ -10,7 +10,7 @@ const config = {
     version: "Alpha",
   },
   editLinkRoot:
-    "https://github.com/flowershow/flowershow/edit/main/site",
+    "https://github.com/datopian/flowershow-app/edit/main",
   showEditLink: true,
   showToc: true,
   showSidebar: false,
