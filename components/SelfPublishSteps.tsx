@@ -73,7 +73,7 @@ export default function SelfPublishSteps() {
                     />
                 </div>
                 <div className="text-center mt-12 text-lg">
-                    👉 See our [[publish-tutorial|self-publish tutorial]] to learn more!
+                    👉 See our <a href="/docs/publish-tutorial">self-publish tutorial to learn more</a>!
                 </div>
             </div>
         </div>
