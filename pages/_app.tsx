@@ -14,7 +14,7 @@ import {
   ThemeProvider,
   NavItem,
   NavGroup,
-} from "@flowershow/core";
+} from "@portaljs/core";
 
 import "tailwindcss/tailwind.css";
 import "../styles/docsearch.css";
