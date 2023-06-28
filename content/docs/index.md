@@ -20,7 +20,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 1. [[docs/config|Basic configurations with `config.mjs`]]
 2. [[syntax|Markdown syntax support]]
-3. [[callouts|Callouts (admonitions)]]
+3. [[syntax#callouts|Callouts (admonitions)]]
 4. [[tailwind|Styling with Tailwind]]
 5. [[table-of-contents|Table of contents]]
 6. [[assets|Assets]]
