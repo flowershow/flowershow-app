@@ -36,6 +36,10 @@ module.exports = {
           DEFAULT: colors.sky[400],
           dark: colors.sky[400],
         },
+        accent: {
+          DEFAULT: colors.amber[300],
+          dark: colors.amber[300],
+        },
       },
     },
   },

@@ -19,7 +19,7 @@ To this:
 
 Flowershow uses [Tailwind CSS](https://tailwindcss.com/) to style its websites, thus customization of fonts and colors is going to be done via tailwindcss through the use of its config file.
 
-The config file is called `tailwind.config.js` and located in the directory where your Flowershow app is installed, usually a `.flowershow` subfolder wherever you ran `npx flowershow install`.
+The config file is called `tailwind.config.js` and located in the root of your Flowershow app.
 
 > If you want to change the theme of only one section, then that should be done using HTML/Tailwindcss inside that specific markdown file
 

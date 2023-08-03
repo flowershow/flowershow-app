@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+import { ArrowNarrowRightIcon } from '@heroicons/react/solid'
 
 /* eslint jsx-a11y/label-has-associated-control: off */
 export default function Hero() {
@@ -30,6 +31,15 @@ export default function Hero() {
             <div className="py-16 sm:px-2 lg:relative lg:py-20 lg:px-0">
                 <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
                     <div className="relative mb-10 lg:mb-0 md:text-center lg:text-left">
+                        <div className="mt-24 sm:mt-32 lg:mt-16 mb-12">
+                            <a href="https://github.com/datopian/obsidian-flowershow" className="inline-flex space-x-6 ">
+                                <span className="inline-flex items-center space-x-2 px-3 py-1 text-sm leading-6 text-accent rounded-full dark:bg-slate-500/10 ring-1 ring-inset ring-slate-400/50 dark:ring-slate-500/20">
+                                    <span>Just shipped:</span>
+                                    <span className="font-medium"> Obsidian Flowershow plugin v1.0 🚀</span>
+                                    <ArrowNarrowRightIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
+                                </span>
+                            </a>
+                        </div>
                         <div role="heading" className="h-44 md:h-32 lg:h-44 xl:h-32">
                             <h1 className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text text-6xl tracking-tight text-transparent">
                                 Publish your

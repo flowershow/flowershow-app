@@ -12,7 +12,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 ## Tutorials
 
-1. [[publish-tutorial|How to (self) publish your markdown files with Flowershow]]
+1. [[publish-howto|How to (self) publish your markdown files with Flowershow Obsidian plugin]]
 2. [[custom-theme|Customize theme]]
 3. [[2023-02-16-nextjs-tutorial|Jumpstart a NextJS site with Flowershow]]
 
