@@ -45,7 +45,6 @@ For example, assuming your Obsidian vault is your Flowershow content folder you'
 
 ```bash
 $ cd <flowershow-template-directory>
-# .flowershow folder created by `npx flowershow@latest install`, e.g. ~/.flowershow
 $ ln -s <relative-path-to-excalidraw-folder> ./public/excalidraw
 # e.g. ln -s ../my-digital-garden/excalidraw ./public/excalidraw
 ```

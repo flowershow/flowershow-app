@@ -23,9 +23,6 @@ cd my-flowershow-app/public
 ln -s your-content-dir/assets assets
 ```
 
-> [!note]
-> If you're using Flowershow CLI to create your Flowershow project, you don't need to manually create the symlink to your assets folder inside the /public folder. The CLI will allow you to select a subfolder in your content folder that it should treat as your assets folder, and it will create the symlink for you.
-
 3. Once linked, you can now use your assets folder as a source. For example:
 
 ```md
