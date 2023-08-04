@@ -4,6 +4,7 @@ description: Learn how to create and publish your first Flowershow website 🌷
 layout: blog
 date: 2022-09-14
 authors: [Ola Rubaj]
+isDraft: true
 ---
 
 ## Video Tutorial
