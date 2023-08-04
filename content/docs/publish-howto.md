@@ -1,6 +1,6 @@
 ---
 title: Self publish your digital garden with Obsidian Flowershow plugin
-description: Learn how to create and publish your first Flowershow website with Obsidian Flowershow plugin 🌷
+description: Learn how to publish your digital garden with Obsidian Flowershow plugin 🌷
 layout: blog
 date: 2023-08-03
 authors: [Ola Rubaj]
@@ -12,9 +12,9 @@ authors: [Ola Rubaj]
 - [Vercel account](https://vercel.com/signup) (recommended)
 - [Obsidian](https://obsidian.md/) installed on your computer
 
-## Prepare the content
+## Prepare your Obsidian vault
 
-First, you'll need some Obsidian vault. If you don't have one yet, you can create it by opening Obsidian desktop app and selecting "Create new vault" option.
+First, you'll need an Obsidian vault that you want to publish. If you don't have one yet, you can create it by opening Obsidian desktop app and selecting "Create new vault" option.
 
 > [!note]
 > If you already have a folder with some markdown files you'd like to publish, you can open it in Obsidian and use it as your vault, by choosing "Open folder as vault" option.
@@ -28,13 +28,17 @@ Each folder can have it's own `index.md` file, which will be available under it'
 In order to embed files (e.g. images or pdfs) in your markdown files, you will also need to create a dedicated folder for them in the root of your digital garden directory, and name it `assets`.
 
 > [!tip]
-> To make Obsidian automatically save any images to the `/assets` folder when you paste them in your notes, set this folder as an attachments folder, by right-clicking on it in the sidebar on the left hand side and selecting option "Set as attachments folder".
+> To make Obsidian automatically save any images to the `/assets` folder when you paste them in your notes, set this folder as an attachments folder by right-clicking on it in the sidebar on the left hand side and selecting option "Set as attachments folder".
+
+If you've been saving your images directly in the root of your vault (default Obsidian behaviour), you need to move them to the `/assets` folder. (We plan to support images saved anywhere in the vault soon.)
 
 ## Copy Flowershow repository to your GitHub account and setup continuous deployment
 
-In order to publish your digital garden, you will need to copy [the Flowershow repository](https://github.com/datopian/flowershow) to your GitHub account and setup continuous deployment, so that each time the Flowershow plugin pushes your notes to that repository, the site gets automatically rebuilt to reflect the latest version of your notes.
+In order to publish your digital garden, first you need to copy [the Flowershow repository](https://github.com/datopian/flowershow) to your GitHub account (read on, don't do it just yet). This repository is a Flowershow app template - it holds all the code needed to build your own digital garden website. All the notes you'll publish from your Obsidian vault will be pushed to your copy of this repository, specifically to its `/content` folder.
 
-The easiest way to do it, is to use [the "Deploy" button](https://github.com/datopian/flowershow#quick-clone-and-deploy) available in the README to the Flowershow repository. It will use Vercel to both copy the repository to your GitHub account and setup continuous deployment for you. You will be asked to login to your GitHub and Vercel accounts (unless you're already logged in), and then you will be able to choose your GitHub account as a scope and give a name to your Flowershow site's repository.
+Next part is to setup continuous deployment, so that each time the Flowershow plugin pushes your notes to that repository, the site gets automatically rebuilt to reflect the latest version of your notes.
+
+While you can do both of these steps on your own, the easiest and fastest way is to use [the "Deploy" button](https://github.com/datopian/flowershow#quick-clone-and-deploy) available in the README to the Flowershow repository. It will use Vercel to both copy the repository to your GitHub account and setup continuous deployment for you. You will be asked to login to your GitHub and Vercel accounts (unless you're already logged in), and then you will be able to choose your GitHub account as a scope and give a name to your Flowershow site's repository.
 
 ![[vercel_new_repo.png]]
 
@@ -46,9 +50,9 @@ You can now click on the site preview to visit it.
 
 ## Install and configure the Flowershow plugin
 
-Once you have the Flowershow repository copied and your site deployed, you can install and configure the Flowershow plugin in Obsidian.
+Once you have the Flowershow repository copied and your site deployed, you need a way of syncing your Obsidian notes with the `/content` folder of that repository. This is where Obsidian Flowershow plugin comes in.
 
-Open Obsidian settings by clicking on the ⚙️ icon in the Obsidian ribbon (the leftmost vertical part of the sidebar on the left) and open "Community plugins" tab. (You may need to enable community plugins to follow the next steps.)
+To install it in your vault, open Obsidian settings by clicking on the ⚙️ icon in the Obsidian ribbon (the leftmost vertical part of the sidebar on the left) and open "Community plugins" tab. (You may need to enable community plugins to follow the next steps.)
 
 ![[community_plugins.png]]
 
