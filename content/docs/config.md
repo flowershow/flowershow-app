@@ -11,7 +11,7 @@ const config = {
   title: "My Awesome Blog",
   description: "This is my awesome blog built with Flowershow",
   author: "John",
-  authorLogo: "/images/logo.svg",
+  logo: "/images/logo.svg",
   domain: "https://john.app/",
   // links to the pages you want to link to in the navbar and in the footer
   navLinks: [{ href: "/about", name: "About" }],
@@ -27,7 +27,7 @@ The Title and the logo in the navbar can be set by adding a **navbarTitle** attr
 ```js
 const userConfig = {
   ...
-  navBarTitle: {
+  navbarTitle: {
     text: "Your custom title here",
     logo: "/images/your-logo.svg", // optional
   },
