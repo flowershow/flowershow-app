@@ -4,7 +4,7 @@ export default function CloudPublishSteps() {
     return (
         <div className="py-10 sm:px-2 lg:relative lg:px-0" id="how">
             <div className="prose dark:prose-invert mx-auto max-w-6xl p-4 lg:max-w-6xl lg:p-8 xl:p-12">
-                <h2 className="text-center">
+                <h2 id="cloud-publish" className="text-center">
                     Publish your notes with Obsidian Flowershow plugin
                 </h2>
                 <p className="text-center">🚧 Coming soon! 🚧</p>
