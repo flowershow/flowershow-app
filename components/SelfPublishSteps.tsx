@@ -2,9 +2,9 @@ import React from "react";
 
 export default function SelfPublishSteps() {
     return (
-        <div id="self-publish" className="py-10 sm:px-2 lg:relative lg:px-0">
+        <div className="py-10 sm:px-2 lg:relative lg:px-0">
             <div className="rounded-md prose dark:prose-invert mx-auto max-w-6xl p-4 lg:max-w-6xl lg:p-8 xl:p-12">
-                <h2 className="text-center">
+                <h2 id="self-publish" className="text-center">
                     Self-publish your digital garden with Obsidian Flowershow plugin
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 gap-4 lg:gap-12">
