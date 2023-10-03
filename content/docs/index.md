@@ -13,8 +13,9 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 ## Tutorials
 
 1. [[publish-howto|How to (self) publish your markdown files with Obsidian Flowershow plugin]]
-2. [[custom-theme|Customize theme]]
-3. [[2023-02-16-nextjs-tutorial|Jumpstart a NextJS site with Flowershow]]
+2. [[blog-tutorial|Blog tutorial]]
+3. [[custom-theme|Customize theme]]
+4. [[2023-02-16-nextjs-tutorial|Jumpstart a NextJS site with Flowershow]]
 
 ## Guides
 
