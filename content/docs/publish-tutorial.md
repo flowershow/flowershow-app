@@ -4,8 +4,11 @@ description: Learn how to create and publish your first Flowershow website 🌷
 layout: blog
 date: 2022-09-14
 authors: [Ola Rubaj]
-isDraft: true
 ---
+
+> [!warning] Deprecated
+>
+> Aug 2023: We have a new, better system for publishing your digital garden - see [[publish-howto]]. This old tutorial is now out of date (published in Sep 2022 it represents the old v1 approach).
 
 ## Video Tutorial
 
