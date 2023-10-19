@@ -64,7 +64,7 @@ In order to create a new Next.js project using the Flowershow template, you can 
 Run the following command in the terminal and then pass a name of your project when prompted (we'll name it `my-flowershow-app` for the purpose of this tutorial).
 
 ```shell
-npx create-next-app@latest --example https://github.com/flowershow/flowershow/tree/main/packages/template
+npx create-next-app@latest --example https://github.com/datopian/flowershow
 ```
 
 After the command has finished running, your project structure should look similar to this:
