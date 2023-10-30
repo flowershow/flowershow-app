@@ -2,11 +2,9 @@
 title: Roadmap
 ---
 
-Flowershow is under active development and there is a lot of good stuff we plan to ship with upcoming releases. Any contributions are more than welcome!
+Flowershow is actively developed. Contributions are very welcome! We track our roadmap in this board on github:
 
-We track our roadmap in this board on github:
-
-https://github.com/orgs/flowershow/projects/1/views/7
+https://github.com/orgs/datopian/projects/45/views/5
 
 ## Notes
 
