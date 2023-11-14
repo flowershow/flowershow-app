@@ -20,7 +20,6 @@
     "@portaljs/remark-wiki-link": "^1.0.3",
     "@portaljs/core": "^1.0.7",
     "@silvenon/remark-smartypants": "^2.0.0",
-    "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
