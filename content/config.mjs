@@ -40,7 +40,7 @@ const config = {
     { href: "/_all", name: "All" },
   ],
   social: [
-    { label: "github", href: "https://github.com/flowershow/flowershow" },
+    { label: "github", href: "https://github.com/datopian/flowershow" },
     { label: "discord", href: "https://discord.gg/cPxejPzpwt" },
   ],
   search: {
