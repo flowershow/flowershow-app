@@ -2,8 +2,9 @@ import React from "react";
 import { GetStaticProps, GetStaticPropsResult } from "next";
 
 import { Hero } from "@/components/Hero";
+import { FeaturesTiles } from "@/components/FeatureTiles";
+import { CTASection } from "@/components/CTASection";
 import { Button } from "@/components/common/Button"
-import { Features } from "@/components/Features";
 
 import type { CustomAppProps } from "../_app";
 
@@ -15,7 +16,7 @@ const heroProps = {
     subtitle: "With Flowershow Cloud you can turn your markdown into a website in a couple of clicks.",
     highlights: [
         "All of Flowershow goodness",
-        "Always up to date",
+        "Always up to date with latest Flowershow",
         "Run off GitHub",
     ],
     infoBadges: [
@@ -30,26 +31,52 @@ const heroProps = {
     ]
 }
 
-const features = []
+const features = [
+    {
+        imageSrc: "/images/obsidian_icon.png",
+        imageAlt: "",
+        title: "Always up to date with latest Flowershow",
+        description: `Works with your existing Obsidian notes out of the box.No need
+to modify the syntax or change file layout. Not an obsidian fan?
+Flowershow will work with any CommonMark or GFM markdown files.`
+    },
+    {
+        imageSrc: "/images/park.png",
+        imageAlt: "",
+        title: "Instant publishing",
+        description: `Clean and elegant default theme with dark and light mode, hero,
+navbar, backlinks section and support for internal links,
+backlinks, math, mermaid, callouts and more.`
+    },
+    {
+        imageSrc: "/images/farming.png",
+        imageAlt: "",
+        title: "All of Flowershow goodness",
+        description: `Want to spice things up ? Flowershow is easy to extend, tweak and
+customize and is built on standard, modern web stack – React,
+NextJS and Tailwind.`
+    },
+    {
+        imageSrc: "/images/data.png",
+        imageAlt: "",
+        title: "Run off GitHub",
+        description: `We’ve been building content and data driven products for over a
+decade, and we’re passionate about sharing knowledge and ideas
+with others. We love markdown as much as we love open-source (a lot!).`
+    }
+]
 
 export default function Home() {
     return (
         <main>
             <Hero {...heroProps} />
-
-            <div className="py-10 sm:px-2 lg:relative lg:px-0" id="overview">
-                <div className="prose dark:prose-invert mx-auto max-w-6xl px-4 lg:max-w-6xl lg:px-8 xl:px-12">
-                    <h2 className="text-center">🚀 Now available as Obsidian plugin! 🚀</h2>
-                    <p>
-                        Flowershow is now available as an Obsidian plugin! This means you can now
-                        publish your digital garden directly from Obsidian, in just a few easy steps, without having to use the command line at all!
-                        <p>👉 See our <a href="/docs/publish-howto">self-publish howto</a> to get started.</p>
-                        PS: It's so good, the Flowershow CLI has been deprecated and will no longer be maintained 😎
-                        <p>🚧 TBD: Support for configuring Flowershow from the Obsidian settings UI.</p>
-                    </p>
-                </div>
-            </div>
-            <Features features={features} />
+            <FeaturesTiles features={features} />
+            <CTASection
+                title="Join our waitlist"
+                subtitle="Some subtitle"
+                cta="Join"
+                href="/cloud/waitlist"
+            />
         </main>
     );
 }
