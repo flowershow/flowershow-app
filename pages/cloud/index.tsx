@@ -4,6 +4,7 @@ import { GetStaticProps, GetStaticPropsResult } from "next";
 import { Hero } from "@/components/Hero";
 import { FeaturesTiles } from "@/components/FeatureTiles";
 import { CTASection } from "@/components/CTASection";
+import { Pricing } from "@/components/Pricing";
 import { Button } from "@/components/common/Button"
 
 import type { CustomAppProps } from "../_app";
@@ -66,6 +67,7 @@ export default function Home() {
         <main>
             <Hero {...heroProps} />
             <FeaturesTiles features={features} />
+            <Pricing />
             <CTASection
                 title="Get early dibs on Flowershow Cloud!"
                 subtitle="Hop on our waitlist, and you'll be the first to know when it's ready to roll out. Get early access, special offers, and a chance to shape our product."
