@@ -5,7 +5,7 @@ const tiers = [
     {
         name: 'Free',
         id: 'tier-free',
-        href: '#',
+        href: 'https://tally.so/r/nGRKRp',
         priceMonthly: '$0',
         description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
         mostPopular: true,
@@ -13,7 +13,7 @@ const tiers = [
     {
         name: 'Premium',
         id: 'tier-premium',
-        href: '#',
+        href: 'https://tally.so/r/nGRKRp',
         priceMonthly: '$5',
         description: 'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
         mostPopular: false,
@@ -57,7 +57,7 @@ export const Pricing = () => {
                     </p>
                 </div>
                 <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600 dark:text-white">
-                    Flowershow Cloud is currently free. And there is always going to be a free option.
+                    Flowershow Cloud is currently free. And there will always be a free option.
                 </p>
 
                 {/* xs to lg */}
@@ -82,7 +82,7 @@ export const Pricing = () => {
                                 aria-describedby={tier.id}
                                 className={classNames(
                                     tier.mostPopular
-                                        ? 'bg-secondary/70 text-white hover:bg-secondary/80'
+                                        ? 'bg-secondary text-white hover:bg-secondary/80'
                                         : 'text-secondary ring-1 ring-inset ring-secondary/50 hover:ring-secondary/70',
                                     'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary/70'
                                 )}
@@ -124,7 +124,7 @@ export const Pricing = () => {
                                     aria-hidden="true"
                                     style={{ marginLeft: `${(tiers.findIndex((tier) => tier.mostPopular) + 1) * 25}%` }}
                                 >
-                                    <div className="w-full rounded-t-xl border-x border-t border-gray-900/10 dark:border-gray-800 bg-gray-400/5 dark:bg-gray-500/5" />
+                                    <div className="w-full rounded-t-xl border-x border-t border-gray-900/10 dark:border-white/10 bg-gray-400/5 dark:bg-gray-500/5" />
                                 </div>
                             </div>
                         ) : null}
@@ -183,14 +183,14 @@ export const Pricing = () => {
                                                 )}
                                             >
                                                 {section.name}
-                                                <div className="absolute inset-x-8 mt-4 h-px bg-gray-900/10" />
+                                                <div className="absolute inset-x-8 mt-4 h-px bg-gray-900/10 dark:bg-white/20" />
                                             </th>
                                         </tr>
                                         {section.features.map((feature) => (
                                             <tr key={feature.name}>
                                                 <th scope="row" className="py-4 text-sm font-normal leading-6 text-gray-900 dark:text-white">
                                                     {feature.name}
-                                                    <div className="absolute inset-x-8 mt-4 h-px bg-gray-900/5" />
+                                                    <div className="absolute inset-x-8 mt-4 h-px bg-gray-900/5 dark:bg-white/10" />
                                                 </th>
                                                 {tiers.map((tier) => (
                                                     <td key={tier.id} className="px-6 py-4 xl:px-8">
