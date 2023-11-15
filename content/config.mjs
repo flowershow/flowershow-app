@@ -27,12 +27,12 @@ const config = {
   },
   analytics: "G-RQWLTRWBS2",
   navLinks: [
-    { href: "/#overview", name: "Overview" },
     { href: "/#features", name: "Features" },
     { href: "/docs", name: "Docs" },
     { href: "/blog", name: "Blog" },
     { href: "/docs/roadmap", name: "Roadmap" },
     { href: "/about", name: "About" },
+    { href: "/cloud", name: "Cloud" },
     {
       href: "https://github.com/flowershow/flowershow/discussions",
       name: "Forum",
