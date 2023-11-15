@@ -16,7 +16,7 @@ import type { CustomAppProps } from "./_app";
 type Props = CustomAppProps;
 
 const heroProps = {
-    title: "Publish your markdown notes. For free, no coding.",
+    title: "Create websites from Markdown",
     subtitle: "Turn your markdown notes into an elegant website and tailor it to your needs.",
     highlights: [
         "Easy to use",
