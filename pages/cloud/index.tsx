@@ -26,7 +26,7 @@ const heroProps = {
         </h2>)
     ],
     ctaButtons: [
-        (<Button href="https://tally.so/r/nGRKRp">
+        (<Button target="_blank" rel="noreferer" href="https://tally.so/r/nGRKRp">
             <span>Join our waitlist</span>
         </Button>),
     ]

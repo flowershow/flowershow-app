@@ -14,7 +14,7 @@ const tiers = [
     {
         name: 'Premium',
         id: 'tier-premium',
-        href: 'https://tally.so/r/nGRKRp',
+        href: 'https://tally.so/r/nGRKRp?tier=premium',
         priceMonthly: '$5',
         description: 'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
         mostPopular: false,
@@ -75,6 +75,8 @@ export const Pricing = () => {
                             </p>
                             <a
                                 href={tier.href}
+                                target="_blank"
+                                rel="noreferrer"
                                 aria-describedby={tier.id}
                                 className={classNames(
                                     tier.mostPopular
@@ -155,6 +157,8 @@ export const Pricing = () => {
                                             </div>
                                             <a
                                                 href={tier.href}
+                                                target="_blank"
+                                                rel="noreferrer"
                                                 className={classNames(
                                                     tier.mostPopular
                                                         ? 'bg-secondary text-white hover:bg-secondary/60'
