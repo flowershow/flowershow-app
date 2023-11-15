@@ -26,8 +26,9 @@ const heroProps = {
     infoBadges: [
         (<Link
             href="/cloud"
-            className="rounded-full bg-secondary-500/10 px-3 py-1 text-sm font-medium leading-6 text-secondary ring-1 ring-inset ring-secondary/20">
-            Coming soon: Flowershow Cloud 🔥
+            className="rounded-full bg-secondary-500/10 px-3 py-1 text-sm leading-6 ring-1 ring-inset ring-secondary/20">
+            <span className="mr-1 bg-clip-text text-transparent font-bold bg-gradient-to-r from-sky-500 to-indigo-400">Flowershow Cloud</span>
+            is here 💐🎉 - get early access
             <ArrowNarrowRightIcon className="inline ml-1 h-5 w-5" aria-hidden="true" />
         </Link>),
         /* (<Link
