@@ -9,6 +9,7 @@ const tiers = [
         priceMonthly: '$0',
         description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
         mostPopular: true,
+        cta: "Request invite"
     },
     {
         name: 'Premium',
@@ -17,28 +18,23 @@ const tiers = [
         priceMonthly: '$5',
         description: 'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
         mostPopular: false,
+        cta: "Early access"
     },
 ]
 const sections = [
     {
         name: 'Features',
         features: [
-            { name: 'Custom domain', tiers: { Free: true, Premium: true } },
-            { name: 'No Flowershow branding', tiers: { Free: true, Premium: true } },
-            { name: 'Team members', tiers: { Premium: 'Up to 50 users' } },
-        ],
-    },
-    {
-        name: 'Reporting',
-        features: [
-            { name: 'Advanced analytics', tiers: { Free: true, Premium: true } },
-            { name: 'Professional reports', tiers: { Premium: true } },
+            { name: 'Custom Domains', tiers: { Premium: true } },
+            { name: 'No Flowershow Branding', tiers: { Premium: true } },
         ],
     },
     {
         name: 'Support',
         features: [
-            { name: '1:1 onboarding tour', tiers: { Premium: true } },
+            { name: 'Discord Community Support', tiers: { Free: true, Premium: true } },
+            { name: 'Private Discord Channel', tiers: { Premium: true } },
+            { name: '1:1 Onboarding Tour', tiers: { Premium: true } },
         ],
     },
 ]
@@ -78,7 +74,7 @@ export const Pricing = () => {
                                 <span className="text-sm font-semibold">/month</span>
                             </p>
                             <a
-                                href="{tier.href}"
+                                href={tier.href}
                                 aria-describedby={tier.id}
                                 className={classNames(
                                     tier.mostPopular
@@ -87,7 +83,7 @@ export const Pricing = () => {
                                     'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary/70'
                                 )}
                             >
-                                Join waitlist
+                                {tier.cta}
                             </a>
                             <ul role="list" className="mt-10 space-y-4 text-sm leading-6 text-gray-900 dark:text-white">
                                 {sections.map((section) => (
@@ -166,7 +162,7 @@ export const Pricing = () => {
                                                     'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
                                                 )}
                                             >
-                                                Join waitlist
+                                                {tier.cta}
                                             </a>
                                         </td>
                                     ))}
