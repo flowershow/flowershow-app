@@ -9,7 +9,7 @@ import { Button } from "@/components/common/Button"
 import { Features } from "@/components/Features";
 import WhatIsFlowershow from "@/components/WhatIsFlowershow";
 import SelfPublishSteps from "@/components/SelfPublishSteps";
-import CloudPublishSteps from "@/components/CloudPublishSteps";
+/* import CloudPublishSteps from "@/components/CloudPublishSteps"; */
 import type { CustomAppProps } from "./_app";
 
 
@@ -126,7 +126,7 @@ export default function Home() {
                 </div>
             </div>
             <SelfPublishSteps />
-            <CloudPublishSteps />
+            {/* <CloudPublishSteps /> */}
             <Features features={features} />
             {/** Why the name? **/}
             <div className="py-10 sm:px-2 lg:relative lg:px-0">
