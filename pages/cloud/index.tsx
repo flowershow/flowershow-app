@@ -18,6 +18,7 @@ const heroProps = {
     highlights: [
         "All of Flowershow goodness",
         "Always up to date with latest Flowershow",
+        "Obsidian compatible",
         "Run off GitHub",
     ],
     infoBadges: [
@@ -27,7 +28,7 @@ const heroProps = {
     ],
     ctaButtons: [
         (<Button target="_blank" rel="noreferer" href="https://tally.so/r/nGRKRp">
-            <span>Join our waitlist</span>
+            <span>Get started for free</span>
         </Button>),
     ]
 }
