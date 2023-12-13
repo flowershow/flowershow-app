@@ -42,7 +42,7 @@ export const getStaticProps: GetStaticProps = async (): Promise<
     });
 
     const blogsList = await Promise.all(blogsMetadataPromises);
-    const sortedBlogsList = blogsList.sort((a, b) => {
+    blogsList.sort((a, b) => {
         return new Date(b.date).getTime() - new Date(a.date).getTime();
     });
 
@@ -56,7 +56,7 @@ export const getStaticProps: GetStaticProps = async (): Promise<
                 showEditLink: false,
                 urlPath: "/blog",
             },
-            blogs: sortedBlogsList,
+            blogs: blogsList,
         },
     };
 };
