@@ -23,10 +23,21 @@ const tiers = [
 ]
 const sections = [
     {
-        name: 'Features',
+        name: 'Customization',
         features: [
             { name: 'Custom Domains', tiers: { Premium: true } },
             { name: 'No Flowershow Branding', tiers: { Premium: true } },
+        ],
+    },
+    {
+        name: 'Syntax features',
+        features: [
+            { name: 'Custom dark and light themes', tiers: { Free: true, Premium: true } },
+            { name: 'Full-text search', tiers: { Free: true, Premium: true } },
+            { name: 'Blog Support', tiers: { Free: true, Premium: true } },
+            { name: 'Table of contents', tiers: { Free: true, Premium: true } },
+            { name: 'Mermaid and MathJax support', tiers: { Free: true, Premium: true } },
+            { name: 'Tailwind support', tiers: { Free: true, Premium: true } },
         ],
     },
     {
