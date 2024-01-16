@@ -100,7 +100,6 @@ export const Layout: React.FC<Props> = ({
                             title={nav.title}
                             logo={nav.logo}
                             links={nav.links}
-                            search={nav.search}
                             social={nav.social}
                             defaultTheme={theme.defaultTheme}
                             themeToggleIcon={theme.themeToggleIcon}
