@@ -23,14 +23,3 @@ To create a custom 404 page, follow these steps:
 
 <p>Sorry, the page you are looking for does not exist. Please check the URL or navigate back to the home page.</p>
 ```
-
-### Preview:
-
-If you follow the provided example, the rendered page will look like this:
-
-# 404
-
-<h1>Page Not Found</h1>
-
-<p>Sorry, the page you are looking for does not exist. Please check the URL or navigate back to the home page.</p>
-
