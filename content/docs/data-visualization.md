@@ -11,7 +11,7 @@ For example, a chart like the one below:
 ```
 
 will be displayed as:
-![[LineChart.png]]
+![[linechart.png]]
 
 To use the `@portaljs/component` in FlowerShow, follow these steps:
 
