@@ -35,3 +35,4 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 14. [[document-types|Document Types]]
 15. [[tasks|Tasks]]
 16. [[content-processing|Modifying Content of Files with JavaScript]]
+17. [[data-visualization|Visualizing data in FlowerShow]]
