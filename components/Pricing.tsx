@@ -86,7 +86,6 @@ export const Pricing = () => {
                             <a
                                 href={tier.href}
                                 target="_blank"
-                                rel="noreferrer"
                                 aria-describedby={tier.id}
                                 className={classNames(
                                     tier.mostPopular
@@ -172,7 +171,6 @@ export const Pricing = () => {
                                             <a
                                                 href={tier.href}
                                                 target="_blank"
-                                                rel="noreferrer"
                                                 className={classNames(
                                                     tier.mostPopular
                                                         ? 'bg-secondary text-white hover:bg-secondary/60'

@@ -55,7 +55,6 @@ export const Hero: React.FC<Props> = ({
                         Built with<span className="text-xl mx-1.5">❤</span>by
                         <a
                             href="https://www.datopian.com/"
-                            rel="noopener noreferrer"
                             target="_blank"
                             className="font-medium"
                         >

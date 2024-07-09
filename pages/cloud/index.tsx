@@ -27,7 +27,7 @@ const heroProps = {
         </h2>)
     ],
     ctaButtons: [
-        (<Button target="_blank" rel="noreferer" href="https://cloud.datahub.io/">
+        (<Button target="_blank" href="https://cloud.datahub.io/">
             <span>Get started for free</span>
         </Button>),
     ]

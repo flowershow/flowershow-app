@@ -31,7 +31,7 @@ export const CTASection: React.FC<Props> = ({ title, subtitle, href, cta }) => {
                     {subtitle}
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
-                    <Button target="_blank" rel="noreferer" color="dark" href={href}>
+                    <Button target="_blank" color="dark" href={href}>
                         <span>{cta}</span>
                     </Button>
                 </div>
