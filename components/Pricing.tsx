@@ -26,17 +26,17 @@ const sections = [
         features: [
             { name: 'Custom Domains', tiers: { Premium: true } },
             { name: 'No Flowershow Branding', tiers: { Premium: true } },
+            { name: 'Custom CSS support', tiers: { Free: true, Premium: true } },
+            { name: 'Custom dark and light themes', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
         ],
     },
     {
-        name: 'Syntax features',
+        name: 'Features',
         features: [
-            { name: 'Custom dark and light themes', tiers: { Free: true, Premium: true } },
-            { name: 'Full-text search', tiers: { Free: true, Premium: true } },
-            { name: 'Blog Support', tiers: { Free: true, Premium: true } },
             { name: 'Table of contents', tiers: { Free: true, Premium: true } },
             { name: 'Mermaid and MathJax support', tiers: { Free: true, Premium: true } },
-            { name: 'Tailwind support', tiers: { Free: true, Premium: true } },
+            { name: 'Full-text search', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
+            { name: 'Blog Support', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
         ],
     },
     {
@@ -104,7 +104,11 @@ export const Pricing = () => {
                                             {section.features.map((feature) =>
                                                 feature.tiers[tier.name] ? (
                                                     <li key={feature.name} className="flex gap-x-3">
-                                                        <CheckIcon className="h-6 w-5 flex-none text-secondary" aria-hidden="true" />
+                                                        {feature.status === "IN_PROGRESS" ? (
+                                                            <div className="text-center">🚧</div>
+                                                        ) : (
+                                                            <CheckIcon className="h-6 w-5 flex-none text-secondary" aria-hidden="true" />
+                                                        )}
                                                         <span>
                                                             {feature.name}{' '}
                                                             {typeof feature.tiers[tier.name] === 'string' ? (
@@ -210,20 +214,22 @@ export const Pricing = () => {
                                                             </div>
                                                         ) : (
                                                             <>
-                                                                {feature.tiers[tier.name] === true ? (
-                                                                    <CheckIcon className="mx-auto h-5 w-5 text-secondary" aria-hidden="true" />
+                                                                {feature.status === "IN_PROGRESS" ? (
+                                                                    <div className="text-center">🚧</div>
                                                                 ) : (
-                                                                    <MinusIcon className="mx-auto h-5 w-5 text-gray-400 dark:text-white" aria-hidden="true" />
+                                                                    feature.tiers[tier.name] === true ? (
+                                                                        <CheckIcon className="mx-auto h-5 w-5 text-secondary" aria-hidden="true" />
+                                                                    ) : (
+                                                                        <MinusIcon className="mx-auto h-5 w-5 text-gray-400 dark:text-white" aria-hidden="true" />
+                                                                    )
                                                                 )}
-
                                                                 <span className="sr-only">
                                                                     {feature.tiers[tier.name] === true ? 'Included' : 'Not included'} in {tier.name}
                                                                 </span>
                                                             </>
                                                         )}
                                                     </td>
-                                                ))}
-                                            </tr>
+                                                ))}                                            </tr>
                                         ))}
                                     </Fragment>
                                 ))}
