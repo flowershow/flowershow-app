@@ -5,20 +5,19 @@ const tiers = [
     {
         name: 'Free',
         id: 'tier-free',
-        href: 'https://tally.so/r/nGRKRp',
+        href: "https://cloud.datahub.io",
         priceMonthly: '$0',
         description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
         mostPopular: true,
-        cta: "Request invite"
+        cta: "Get started"
     },
     {
         name: 'Premium',
         id: 'tier-premium',
-        href: 'https://tally.so/r/nGRKRp?tier=premium',
         priceMonthly: '$5',
         description: 'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
         mostPopular: false,
-        cta: "Early access"
+        cta: "Coming soon"
     },
 ]
 const sections = [
@@ -174,7 +173,7 @@ export const Pricing = () => {
                                                     tier.mostPopular
                                                         ? 'bg-secondary text-white hover:bg-secondary/60'
                                                         : 'text-secondary/80 ring-1 ring-inset ring-secondary/50 hover:ring-secondary/70',
-                                                    'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+                                                    'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6'
                                                 )}
                                             >
                                                 {tier.cta}

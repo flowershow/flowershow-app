@@ -27,7 +27,7 @@ const heroProps = {
         </h2>)
     ],
     ctaButtons: [
-        (<Button target="_blank" rel="noreferer" href="https://tally.so/r/nGRKRp">
+        (<Button target="_blank" rel="noreferer" href="https://cloud.datahub.io/">
             <span>Get started for free</span>
         </Button>),
     ]
@@ -69,10 +69,10 @@ export default function Home() {
             <Hero {...heroProps} />
             <Pricing />
             <CTASection
-                title="Get early dibs on Flowershow Cloud!"
-                subtitle="Hop on our waitlist, and you'll be the first to know when it's ready to roll out. Get early access, special offers, and a chance to shape our product."
-                cta="Join our waitlist"
-                href="https://tally.so/r/nGRKRp"
+                title="Start using Flowershow Cloud now!"
+                subtitle="Try it for free and see how easy it is to turn your markdown into an elegant website."
+                cta="Get started for free"
+                href="https://cloud.datahub.io/"
             />
         </main>
     );
