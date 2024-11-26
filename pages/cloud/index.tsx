@@ -27,7 +27,7 @@ const heroProps = {
         </h2>)
     ],
     ctaButtons: [
-        (<Button target="_blank" href="https://cloud.datahub.io/">
+        (<Button target="_blank" href="https://cloud.flowershow.app">
             <span>Get started for free</span>
         </Button>),
     ]
@@ -72,7 +72,7 @@ export default function Home() {
                 title="Start using Flowershow Cloud now!"
                 subtitle="Try it for free and see how easy it is to turn your markdown into an elegant website."
                 cta="Get started for free"
-                href="https://cloud.datahub.io/"
+                href="https://cloud.flowershow.app"
             />
         </main>
     );
