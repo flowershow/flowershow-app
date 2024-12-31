@@ -12,7 +12,7 @@ In our case to easy and free we'd add _elegant_ and _customizable_.
 
 More generally, publishing markdown isn't easy. And it should be, really easy, as easy as publishing a Facebook post, or posting a tweet.
 
-The goal of Flowershow is to make it easy, fast and fun to publish your digital garden -- and do it beautifully.
+The goal of Flowershow is to make it easy, fast and fun to publish your digital garden -- and markdown in general -- and do it beautifully.
 
 ## Backstory
 
@@ -24,7 +24,7 @@ As a result we have been building tooling and sites with markdown as the content
 
 Enter Obsidian! A year and a half ago some of team started using obsidian personally. Many of us loved it and started using it for content authoring especially on wiki-like sites.
 
-We then found we wanted to be able to publish resulting notes and vaults especially with some of features obsidian brings for granted -- ranging from all those markdown goodies like math, gfm etc but also the more exciting stuff like the network graph that really makes obsidian special. So we started working on adding these features to Flowershow.
+We then found we wanted to be able to publish resulting notes and vaults especially with some of features obsidian brings for granted -- ranging from all those markdown goodies like math, gfm etc but also the more exciting stuff like the network graph that really makes Obsidian special. So we started working on adding these features to Flowershow.
 
 Finally, we ️thought a wider community could benefit from what we were doing. So we decided to make the effort to tidy up what we'd been doing and open source it to allow others to benefit and contribute.
 
