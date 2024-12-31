@@ -11,3 +11,5 @@ General alternatives
 
 - [[notes/nextra|Nextra]]
 - [[notes/vitepress|Vitepress]] (and Vuepress)
+
+Small addition.
