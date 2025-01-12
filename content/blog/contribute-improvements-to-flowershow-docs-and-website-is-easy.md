@@ -1,9 +1,10 @@
 ---
 date: 2025-01-12
+title: Contributing Improvements to Flowershow Docs and Website is Easy
 authors: [ "rufuspollock" ]
+image: https://github.com/user-attachments/assets/91ecfcb8-877e-4a98-b42d-3b5452159ced
 ---
 
-# Contributing Improvements to Flowershow Docs and Website is Easy
 
 The https://flowershow.app/ website is, of course, powered by Flowershow! And if you were wondering where it was you can find it online, it's here:
 
