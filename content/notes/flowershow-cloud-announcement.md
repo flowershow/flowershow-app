@@ -1,5 +1,5 @@
 ---
-title: Flowershow Cloud: The Affordable Way to Share Your Obsidian Notes with the World
+title: "Flowershow Cloud: The Affordable Way to Share Your Obsidian Notes with the World"
 date: 2025-01-23
 authors: [olayway]
 ---
