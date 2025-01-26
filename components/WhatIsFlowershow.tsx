@@ -5,7 +5,7 @@ const features = [
         imageSrc: "/images/obsidian_icon.png",
         imageAlt: "",
         title: "Crafted for Obsidian",
-        description: `Works with your existing Obsidian notes out of the box.No need
+        description: `Works with your existing Obsidian notes out of the box. No need
 to modify the syntax or change file layout. Not an obsidian fan?
 Flowershow will work with any CommonMark or GFM markdown files.`
     },
