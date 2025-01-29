@@ -4,7 +4,7 @@ date: 2025-01-23
 authors: [olayway]
 ---
 
-You can enable comments on your published sites using Giscus - a comments system powered by GitHub Discussions. This means your readers can now engage with your content directly on your pages, with all comments being stored in your GitHub repository's Discussions section.
+You can enable comments on your Flowershow Cloud sites using Giscus - a comments system powered by GitHub Discussions. This means your readers can now engage with your content directly on your pages, with all comments being stored in your GitHub repository's Discussions section.
 
 ## How to Enable Comments
 
@@ -48,5 +48,3 @@ Enable them today to start engaging with your readers!
 ---
 
 We 💙 feedback! If you have any ideas for new features or if you’ve noticed any bugs, please submit an issue [here](https://github.com/flowershow/flowershow/issues) or start a discussion [here](https://github.com/flowershow/flowershow/discussions). Thank you! 🌷
-
-[Join our Discord server!](https://discord.gg/vQ5Y2uUzt6)
