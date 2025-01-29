@@ -33,7 +33,7 @@ You can enable comments on your Flowershow Cloud sites using Giscus - a comments
    - (Ignore any other settings as they are already pre-configured in Flowershow Cloud)
    - The Repository ID and Category ID will be shown in the configuration section at the bottom of the page
 
-![](cloud-comments-demo.mp4)
+![](../assets/cloud-comments-demo.mp4)
 
 https://github.com/user-attachments/assets/2317ce89-4166-43d1-a359-1930bbd95db9
 
