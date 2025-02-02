@@ -35,8 +35,6 @@ You can enable comments on your Flowershow Cloud sites using Giscus - a comments
 
 ![](../assets/cloud-comments-demo.mp4)
 
-https://github.com/user-attachments/assets/2317ce89-4166-43d1-a359-1930bbd95db9
-
 That's it! Once configured, a comments section will appear at the bottom of all your pages. Your readers can use their GitHub accounts to leave comments, which will be synced with your repository's Discussions section.
 
 ## Benefits
