@@ -5,6 +5,7 @@ authors:
   - olayway
 date: 2025-02-09
 ---
+
 This tutorial will guide you through the process of customizing your Flowershow Cloud site's navigation bar. You'll learn how to add your logo, customize the title, create navigation links, and integrate social media links.
 
 ## Prerequisites
