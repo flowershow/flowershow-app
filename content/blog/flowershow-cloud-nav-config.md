@@ -1,9 +1,11 @@
 ---
-title: How to Configure the Navigation Bar in Your DataHub Cloud Site
+title: "Flowershow Cloud: Learn How to Configure the Navigation Bar in Your DataHub Cloud Site"
 description: A step-by-step guide to customizing your site's navigation bar with logos, links, and social media
+date: 2025-02-09
 authors:
   - olayway
-date: 2025-02-09
+tags:
+  - flowershow-cloud
 ---
 
 This tutorial will guide you through the process of customizing your Flowershow Cloud site's navigation bar. You'll learn how to add your logo, customize the title, create navigation links, and integrate social media links.
@@ -156,4 +158,4 @@ Common issues and solutions:
 
 ---
 
-If you encounter any issues or have questions, reach out to us on [Discord](), submit an [issue](https://github.com/flowershow/flowershow/issues) on our GitHub or start a [discussion](https://github.com/flowershow/flowershow/discussions).
+We 💙 feedback! If you have any ideas for new features or if you've noticed any bugs, please submit an issue [here](https://github.com/flowershow/flowershow/issues) or start a discussion [here](https://github.com/flowershow/flowershow/discussions). Thank you! 🌷
