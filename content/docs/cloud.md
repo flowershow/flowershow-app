@@ -20,6 +20,7 @@ Howtos
 - Setting social preview for pages https://datahub.io/docs/datahub-cloud/Configuring+Nav+bar+and+SEO+fields
 - Setting analytics
 - Configuration (in general)
+  - Navbar configuration: [[navbar-configuration]] (blog post: [[flowershow-cloud-nav-config]])
 - Add images 
 - https://datahub.io/docs/datahub-cloud/Add+visuals+and+data-rich+components
 - https://datahub.io/docs/datahub-cloud/Add+sidebar+navigation
