@@ -7,44 +7,47 @@ const tiers = [
         id: 'tier-free',
         href: "https://cloud.flowershow.app",
         priceMonthly: '$0',
-        description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
+        description: 'Perfect for personal digital gardens and small projects',
         mostPopular: true,
         cta: "Get started"
     },
     {
-        name: 'Premium',
-        id: 'tier-premium',
+        name: 'Pro',
+        id: 'tier-pro',
+        href: "https://cloud.flowershow.app",
         priceMonthly: '$5',
-        description: 'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
+        description: 'For creators who want more customization and features',
         mostPopular: false,
         cta: "Coming soon"
     },
 ]
 const sections = [
     {
-        name: 'Customization',
+        name: 'Core Features',
         features: [
-            { name: 'Custom Domains', tiers: { Premium: true } },
-            { name: 'No Flowershow Branding', tiers: { Premium: true } },
-            { name: 'Custom CSS support', tiers: { Free: true, Premium: true } },
-            { name: 'Custom dark and light themes', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
+            { name: 'Unlimited public sites', tiers: { Free: true, Pro: true } },
+            { name: 'Wiki-style links', tiers: { Free: true, Pro: true } },
+            { name: 'Mermaid diagrams', tiers: { Free: true, Pro: true } },
+            { name: 'Math equations', tiers: { Free: true, Pro: true } },
+            { name: 'Table of contents', tiers: { Free: true, Pro: true } },
+            { name: 'Dark/light themes', tiers: { Free: true, Pro: true } },
         ],
     },
     {
-        name: 'Features',
+        name: 'Customization',
         features: [
-            { name: 'Table of contents', tiers: { Free: true, Premium: true } },
-            { name: 'Mermaid and MathJax support', tiers: { Free: true, Premium: true } },
-            { name: 'Full-text search', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
-            { name: 'Blog Support', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
+            { name: 'Custom domain', tiers: { Pro: true } },
+            { name: 'Remove Flowershow branding', tiers: { Pro: true } },
+            { name: 'Custom CSS', tiers: { Free: true, Pro: true } },
+            { name: 'Full-text search', tiers: { Free: true, Pro: true }, status: "IN_PROGRESS" },
         ],
     },
     {
         name: 'Support',
         features: [
-            { name: 'Discord Community Support', tiers: { Free: true, Premium: true } },
-            { name: 'Private Discord Channel', tiers: { Premium: true } },
-            { name: '1:1 Onboarding Tour', tiers: { Premium: true } },
+            { name: 'Community support', tiers: { Free: true, Pro: true } },
+            { name: 'Priority support', tiers: { Pro: true } },
+            { name: 'Onboarding assistance', tiers: { Pro: true } },
         ],
     },
 ]
@@ -63,7 +66,7 @@ export const Pricing = () => {
                     </p>
                 </div>
                 <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600 dark:text-white">
-                    Flowershow Cloud is currently free. And there will always be a free option.
+                    Start sharing your digital garden for free. Upgrade to Pro when you need more features.
                 </p>
 
                 {/* xs to lg */}

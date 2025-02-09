@@ -7,30 +7,26 @@ import { Hero } from "@/components/Hero";
 import { GitHubIcon } from "@/components/icons/GitHubIcon"
 import { Button } from "@/components/common/Button"
 import { Features } from "@/components/Features";
-import WhatIsFlowershow from "@/components/WhatIsFlowershow";
 import SelfPublishSteps from "@/components/SelfPublishSteps";
 /* import CloudPublishSteps from "@/components/CloudPublishSteps"; */
-import type { CustomAppProps } from "../_app";
+import type { CustomAppProps } from "./_app";
 
 
 type Props = CustomAppProps;
 
 const heroProps = {
-    title: "Create websites from Markdown",
-    subtitle: "Turn your markdown notes into an elegant website and tailor it to your needs.",
+    title: "Self-host your digital garden for free",
+    subtitle: "The free, open-source version of Flowershow. Perfect for developers who want full control over their setup.",
     highlights: [
-        "Easy to use",
-        "Obsidian syntax compatible",
-        "Open-source"
+        "100% Free and open-source",
+        "Full control over hosting",
+        "All core features included",
+        "Obsidian compatible"
     ],
     infoBadges: [
-        (<Link
-            href="/cloud"
-            className="rounded-full bg-secondary-500/10 px-3 py-1 text-sm leading-6 ring-1 ring-inset ring-secondary/20">
-            <span className="mr-1 bg-clip-text text-transparent font-bold bg-gradient-to-r from-sky-500 to-indigo-400">Flowershow Cloud</span>
-            is here 💐🎉 - get early access
-            <ArrowNarrowRightIcon className="inline ml-1 h-5 w-5" aria-hidden="true" />
-        </Link>),
+        (<span className="rounded-full bg-secondary-500/10 px-3 py-1 text-sm leading-6 ring-1 ring-inset ring-secondary/20">
+            <span className="mr-1 font-semibold">Free Forever</span> 🌱
+        </span>),
         /* (<Link
 *     href="https://github.com/datopian/obsidian-flowershow"
 *     className="rounded-full bg-secondary-500/10 px-3 py-1 text-sm font-medium leading-6 text-secondary ring-1 ring-inset ring-secondary/20">
@@ -112,33 +108,9 @@ export default function Home() {
     return (
         <main>
             <Hero {...heroProps} />
-            <WhatIsFlowershow />
-            <div className="py-10 sm:px-2 lg:relative lg:px-0" id="overview">
-                <div className="prose dark:prose-invert mx-auto max-w-6xl px-4 lg:max-w-6xl lg:px-8 xl:px-12">
-                    <h2 className="text-center">🚀 Now available as Obsidian plugin! 🚀</h2>
-                    <p>
-                        Flowershow is now available as an Obsidian plugin! This means you can now
-                        publish your digital garden directly from Obsidian, in just a few easy steps, without having to use the command line at all!
-                        <p>👉 See our <a href="/docs/publish-howto">self-publish howto</a> to get started.</p>
-                        PS: It's so good, the Flowershow CLI has been deprecated and will no longer be maintained 😎
-                        <p>🚧 TBD: Support for configuring Flowershow from the Obsidian settings UI.</p>
-                    </p>
-                </div>
-            </div>
             <SelfPublishSteps />
             {/* <CloudPublishSteps /> */}
             <Features features={features} />
-            {/** Why the name? **/}
-            <div className="py-10 sm:px-2 lg:relative lg:px-0">
-                <div className="prose dark:prose-invert mx-auto max-w-2xl px-4 lg:max-w-4xl lg:px-8 xl:px-12">
-                    <h2 className="text-center">Why the name?</h2>
-                    <p>
-                        Flowershow is about sharing your digital garden -- putting it "on
-                        show" to the world. And what do you have in your garden? Flowers!
-                        Hence "Flowershow": it shows off your digital garden to the world!
-                    </p>
-                </div>
-            </div>
         </main>
     );
 }

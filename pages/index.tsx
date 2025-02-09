@@ -6,20 +6,21 @@ import { Hero } from "@/components/Hero";
 import { CTASection } from "@/components/CTASection";
 import { Pricing } from "@/components/Pricing";
 import { Button } from "@/components/common/Button"
+import WhatIsFlowershow from "@/components/WhatIsFlowershow";
 
-import type { CustomAppProps } from "../_app";
+import type { CustomAppProps } from "./_app";
 
 
 type Props = CustomAppProps;
 
 const heroProps = {
-    title: "Avoid the hassle and complexity of deploying yourself.",
-    subtitle: "With Flowershow Cloud you can turn your markdown into a website in a couple of clicks.",
+    title: "Turn your Obsidian vault into a website in minutes",
+    subtitle: "Flowershow Cloud is the simplest way to share your digital garden with the world. No technical setup required - just connect your vault and publish.",
     highlights: [
-        "All of Flowershow goodness",
-        "Always up to date with latest Flowershow",
-        "Obsidian compatible",
-        "Run off GitHub",
+        "Free to get started",
+        "Works with Obsidian out of the box",
+        "Publish in under 2 minutes",
+        "All your favorite features included",
     ],
     infoBadges: [
         (<h2 className="max-w-lg text-3xl sm:text-4xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-indigo-400 ">
@@ -28,7 +29,10 @@ const heroProps = {
     ],
     ctaButtons: [
         (<Button target="_blank" href="https://cloud.flowershow.app">
-            <span>Get started for free</span>
+            <span>Start publishing for free</span>
+        </Button>),
+        (<Button target="_blank" href="/pricing" variant="outline" className="ml-4">
+            <span>View pricing</span>
         </Button>),
     ]
 }
@@ -67,11 +71,22 @@ export default function Home() {
     return (
         <main>
             <Hero {...heroProps} />
-            <Pricing />
+            <WhatIsFlowershow />
+            {/** Why the name? **/}
+            <div className="py-10 sm:px-2 lg:relative lg:px-0">
+                <div className="prose dark:prose-invert mx-auto max-w-2xl px-4 lg:max-w-4xl lg:px-8 xl:px-12">
+                    <h2 className="text-center">Why the name?</h2>
+                    <p>
+                        Flowershow is about sharing your digital garden -- putting it "on
+                        show" to the world. And what do you have in your garden? Flowers!
+                        Hence "Flowershow": it shows off your digital garden to the world!
+                    </p>
+                </div>
+            </div>
             <CTASection
-                title="Start using Flowershow Cloud now!"
-                subtitle="Try it for free and see how easy it is to turn your markdown into an elegant website."
-                cta="Get started for free"
+                title="Join the Flowershow community"
+                subtitle="Join other Obsidian users who are already sharing their digital gardens with the world."
+                cta="Start publishing for free"
                 href="https://cloud.flowershow.app"
             />
         </main>

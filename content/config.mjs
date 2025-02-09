@@ -32,7 +32,8 @@ const config = {
     { href: "/blog", name: "Blog" },
     { href: "/docs/roadmap", name: "Roadmap" },
     { href: "/about", name: "About" },
-    { href: "/cloud", name: "Cloud" },
+    { href: "/pricing", name: "Cloud Pricing" },
+    { href: "/self-hosted", name: "Self-hosted" },
     {
       href: "https://github.com/flowershow/flowershow/discussions",
       name: "Forum",
