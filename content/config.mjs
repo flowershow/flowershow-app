@@ -58,18 +58,22 @@ const config = {
     canonical: "https://flowershow.app",
     openGraph: {
       title: "Flowershow",
+      description: "Turn your markdown notes into an elegant website and tailor it to your needs. Flowershow is easy to use, fully-featured, Obsidian compatible and open-source.",
       images: [
         {
-          url: "https://flowershow.app/assets/images/frontpage-screenshot.jpg",
+          url: "https://r2-assets.flowershow.app/thumbnail.png",
           alt: "Flowershow",
           width: 1200,
-          height: 627,
+          height: 630,
           type: "image/jpg",
         },
       ],
     },
     twitter: {
-      handle: "@flowershow",
+      title: "Flowershow",
+      description:
+      "Turn your markdown notes into an elegant website and tailor it to your needs. Flowershow is easy to use, fully-featured, Obsidian compatible and open-source.",
+      creator: "@flowershow",
       site: "https://flowershow.app",
       cardType: "summary_large_image",
     },
