@@ -4,7 +4,9 @@ title: Roadmap
 
 Flowershow is actively developed. Contributions are very welcome! We track our roadmap in this board on github:
 
-https://github.com/orgs/datopian/projects/45/views/5
+https://github.com/orgs/flowershow/projects/1/views/18
+
+[![image](https://github.com/user-attachments/assets/62f7a912-cba3-4b01-93b0-c2edb9e96be4)](https://github.com/orgs/flowershow/projects/1/views/18)
 
 ## Notes
 
