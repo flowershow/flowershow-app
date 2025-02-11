@@ -5,7 +5,7 @@ const tiers = [
     {
         name: 'Free',
         id: 'tier-free',
-        href: "https://cloud.datahub.io",
+        href: "https://cloud.flowershow.app",
         priceMonthly: '$0',
         description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
         mostPopular: true,

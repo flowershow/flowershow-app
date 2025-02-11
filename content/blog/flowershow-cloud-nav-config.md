@@ -1,5 +1,5 @@
 ---
-title: "Flowershow Cloud: Learn How to Configure the Navigation Bar in Your DataHub Cloud Site"
+title: "Flowershow Cloud: Learn How to Configure the Navigation Bar in Your Site"
 description: A step-by-step guide to customizing your site's navigation bar with logos, links, and social media
 date: 2025-02-09
 authors:

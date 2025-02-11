@@ -8,7 +8,7 @@ tags:
   - flowershow-cloud
 ---
 
-This tutorial will guide you through the process of customizing your DataHub Cloud site's appearance using CSS. You'll learn how to create and use a custom CSS file to modify existing styles and add new styled components like a hero section.
+This tutorial will guide you through the process of customizing your Flowershow Cloud site's appearance using CSS. You'll learn how to create and use a custom CSS file to modify existing styles and add new styled components like a hero section.
 
 ## What You Can Achieve
 
@@ -31,7 +31,7 @@ Into this:
 ## What You'll Need
 
 Before you begin, make sure you have:
-- A DataHub Cloud site set up
+- A Flowershow Cloud site set up
 - Basic knowledge of GitHub UI
 - Basic knowledge of CSS
 - Basic knowledge of browser developer tools
