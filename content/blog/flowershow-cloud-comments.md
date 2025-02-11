@@ -1,53 +1,81 @@
 ---
-title: "Flowershow Cloud: Enabling Comments"
+title: "Flowershow Cloud: Learn How to Enable Comments on Your Site"
+description: "A step-by-step guide to enabling and configuring Giscus-powered comments on your Flowershow Cloud sites, allowing readers to engage with your content through GitHub Discussions."
 date: 2025-01-23
-description: "A step-by-step guide on how to enable and configure Giscus-powered comments on your Flowershow Cloud sites, allowing readers to engage with your content through GitHub Discussions."
 authors:
   - olayway
 tags:
   - flowershow-cloud
 ---
 
-You can enable comments on your Flowershow Cloud sites using Giscus - a comments system powered by GitHub Discussions. This means your readers can now engage with your content directly on your pages, with all comments being stored in your GitHub repository's Discussions section.
+This tutorial will guide you through the process of enabling comments on your Flowershow Cloud site using Giscus - a comments system powered by GitHub Discussions. You'll learn how to set up GitHub Discussions, configure the Giscus app, and integrate comments into your site.
 
-## How to Enable Comments
+## Step 1: Enable GitHub Discussions
 
-1. **Enable GitHub Discussions in your repository:**
-   - Go to your repository's Settings
-   - Scroll down to the Features section
-   - Check "Discussions" checkbox
+1. Go to your site's repository Settings
+2. Scroll down to the Features section
+3. Check the "Discussions" checkbox
 
-2. **Install the Giscus GitHub App in your repository:**
-   - Visit [github.com/apps/giscus](https://github.com/apps/giscus)
-   - Click "Configure"
-   - Select the repository where your site content is hosted and click on Save
+## Step 2: Install Giscus GitHub App
 
-3. **Configure comments in your site settings:**
-   - Go to your site's Settings page in the Flowershow Cloud dashboard
-   - Find the "Comments" section
-   - Toggle the switch to enable comments
-   - You'll need to provide two pieces of information (see point 4.):
-     - Repository ID (starts with 'R_')
-     - Category ID (starts with 'DIC_')
+1. Visit [github.com/apps/giscus](https://github.com/apps/giscus)
+2. Click "Configure"
+3. Select the repository with your site's content
+4. Click "Save"
 
-4. **Getting the required IDs:**
-   - Visit [giscus.app](https://giscus.app)
-   - Enter your repository name
-   - Select your preferred discussion category
-   - (Ignore any other settings as they are already pre-configured in Flowershow Cloud)
-   - The Repository ID and Category ID will be shown in the configuration section at the bottom of the page
+## Step 3: Get Configuration IDs
+
+1. Visit [giscus.app](https://giscus.app)
+2. Enter your repository name in the configuration form
+3. Select your preferred discussion category
+4. Locate the following IDs in the configuration section at the bottom of the page:
+   - Repository ID (starts with 'R_')
+   - Category ID (starts with 'DIC_')
+
+Note: You can ignore other settings as they are pre-configured in Flowershow Cloud.
+
+## Step 4: Configure Your Site
+
+1. Go to your site's Settings page in the Flowershow Cloud dashboard
+2. Find the "Comments" section
+3. Toggle the switch to enable comments
+4. Enter the Repository ID and Category ID from Step 3
+5. Save your changes
+
 
 ![](../assets/cloud-comments-demo.mp4)
 
-That's it! Once configured, a comments section will appear at the bottom of all your pages. Your readers can use their GitHub accounts to leave comments, which will be synced with your repository's Discussions section.
+## Features and Benefits
 
-## Benefits
+Comments powered by Giscus offer several advantages:
 
-- **GitHub integration**: All comments are stored as GitHub Discussions in your repository
-- **Markdown support**: Full markdown support for rich text formatting in comments
-- **GitHub authentication**: Spam protection through GitHub authentication
+1. **GitHub Integration**
+   - All comments are stored as GitHub Discussions
+   - Easy moderation through GitHub's interface
+   - Automatic backup and version control
 
-Enable them today to start engaging with your readers!
+2. **Rich Text Support**
+   - Full Markdown support in comments
+   - Code syntax highlighting
+   - Image embedding capabilities
+
+3. **Security**
+   - Spam protection through GitHub authentication
+   - No anonymous comments
+
+## Troubleshooting
+
+Common issues and solutions:
+
+1. **Comments section not appearing?**
+   - Verify GitHub Discussions is enabled in your repository
+   - Check if Giscus app has correct repository permissions
+   - Ensure Repository ID and Category ID are entered correctly
+
+2. **Users can't comment?**
+   - Confirm they are logged into GitHub
+   - Check if Discussions are locked in your repository
+   - Verify the discussion category still exists
 
 ---
 
