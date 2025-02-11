@@ -70,7 +70,7 @@ This opens the "Developer Tools" window, which might look intimidating at first 
 
 Now comes the fun part - trying out different styles:
 
-4. In the Developer Tools window that opened:
+1. In the Developer Tools window that opened:
    - Look for the "Styles" section (usually on the right or bottom)
    - Click the "+" button to add new styles
    - Type in a CSS selector of what you want to change (like `h2` for all level-2 headings)
@@ -83,14 +83,14 @@ Now comes the fun part - trying out different styles:
 > - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) for comprehensive documentation
 > - [CSS Diner](https://flukeout.github.io) for an interactive game to practice selectors
 
-5. Try changing things like:
+2. Try changing things like:
    - `color` for text color (you can use a color picker!)
    - `background-color` for background colors
    - `font-family` for different fonts
    - `font-size` to make text bigger or smaller
    - `font-weight` to adjust font's thickness
 
-6. When you like how it looks:
+3. When you like how it looks:
    - Copy the styling code you created
    - Paste it into your `custom.css` file
    - Save and sync your site to see the changes live
@@ -134,8 +134,8 @@ The result:
 
 Want to add a beautiful welcome section to your main page? Here's how:
 
-7. Open your main `README.md` file
-8. Replace the title and description with this code:
+1. Open your main `README.md` file
+2. Replace the title and description with this code:
 
 ```html
 <div class="hero">
@@ -151,9 +151,9 @@ Want to add a beautiful welcome section to your main page? Here's how:
 > [!important]
 > When using an h1 tag in a custom component (like our hero section), you must explicitly set `display: block !important;` in your CSS. This is required due to how Flowershow Cloud handles page titles internally. You can see this in the `.hero-title` CSS rule below.
 
-1. Commit your changes and sync your site in the Flowershow Cloud dashboard.
-2. Use developer tools to experiment with hero styles like we did earlier.
-3. Once you're satisfied, add the styles to your `custom.css`, for example:
+3. Commit your changes and sync your site in the Flowershow Cloud dashboard.
+4. Use developer tools to experiment with hero styles like we did earlier.
+5. Once you're satisfied, add the styles to your `custom.css`, for example:
 
 ```css
 /* The main welcome section container */
@@ -208,10 +208,10 @@ The result:
 
 If your changes aren't showing up:
 
-4. Make sure you've saved and synced your site
-5. Try clearing your browser's cache (press Ctrl+F5 or Cmd+Shift+R)
-6. Double-check your `custom.css` file is in the right folder
-7. Look at the Developer Tools to see if other styles are overriding yours (you might need to add `!important` to your styles)
+1. Make sure you've saved and synced your site
+2. Try clearing your browser's cache (press Ctrl+F5 or Cmd+Shift+R)
+3. Double-check your `custom.css` file is in the right folder
+4. Look at the Developer Tools to see if other styles are overriding yours (you might need to add `!important` to your styles)
 
 > [!tip]
 > Keep the Developer Tools open while you work - it's the easiest way to see what's happening with your styles in real-time!
