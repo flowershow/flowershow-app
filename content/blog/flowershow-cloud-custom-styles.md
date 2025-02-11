@@ -6,7 +6,6 @@ authors:
   - Ola Rubaj
 tags:
   - flowershow-cloud
-isDraft: true
 ---
 
 This tutorial will guide you through the process of customizing your DataHub Cloud site's appearance using CSS. You'll learn how to create and use a custom CSS file to modify existing styles and add new styled components like a hero section.
