@@ -80,22 +80,22 @@ export const Hero: React.FC<Props> = ({
                         className="relative"
                     >
                         <img
-                            src="/images/obsidian.png"
+                            src="/images/obsidian_dark_new.png"
                             alt=""
                             className="relative -top-8 w-3/4 rounded-lg hidden dark:block"
                         />
                         <img
-                            src="/images/flowershow.png"
+                            src="/images/flowershow_dark.png"
                             alt=""
                             className="absolute top-12 left-1/3 w-3/4 rounded-lg hidden dark:block"
                         />
                         <img
-                            src="/images/obsidian.png"
+                            src="/images/obsidian_light_new.png"
                             alt=""
                             className="relative -top-8 w-3/4 rounded-lg dark:hidden"
                         />
                         <img
-                            src="/images/flowershow.png"
+                            src="/images/flowershow_light.png"
                             alt=""
                             className="absolute top-12 left-1/3 w-3/4 rounded-lg dark:hidden"
                         />

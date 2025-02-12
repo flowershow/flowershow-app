@@ -12,16 +12,22 @@ export default function PricingPage() {
         <div className="py-12 sm:py-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
-                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+                    <h1 className="py-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
                         Pricing
                     </h1>
                 </div>
-                <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600 dark:text-white">
-                    Start sharing your digital garden for free. Upgrade to Pro when to get more features.
+                <p className="mx-auto mt-6 text-center text-lg leading-8 text-gray-600 dark:text-white">
+                    Start sharing your digital garden for free. Upgrade to get extra premium features.
                 </p>
+                <div className="mx-auto mt-12 text-center px-4 py-2 bg-secondary/10 rounded-lg">
+                    <p className="text-sm text-secondary">
+                        <span className="mr-2">🎉</span>
+                        Beta period: All Pro features are temporarily enabled for free. They will become premium-only features soon.
+                    </p>
+                </div>
 
-                {/* xs to lg */}
-                <div className="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 lg:hidden">
+                {/* xs to md */}
+                <div className="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 md:hidden">
                     {tiers.map((tier) => (
                         <section
                             key={tier.id}
@@ -80,14 +86,14 @@ export default function PricingPage() {
                 </div>
 
                 {/* lg+ */}
-                <div className="isolate mt-20 mx-auto hidden lg:block">
+                <div className="isolate mt-20 mx-auto hidden md:block">
                     <div className="relative -mx-8">
                         {tiers.some((tier) => tier.mostPopular) ? (
                             <div className="absolute inset-x-4 inset-y-0 -z-10 flex">
                                 <div
-                                    className="flex w-1/4 px-4"
+                                    className="flex w-1/3 px-4"
                                     aria-hidden="true"
-                                    style={{ marginLeft: `${(tiers.findIndex((tier) => tier.mostPopular) + 1) * 25}%` }}
+                                    style={{ marginLeft: `${(tiers.findIndex((tier) => tier.mostPopular) + 1) * 31}%` }}
                                 >
                                     <div className="w-full rounded-t-xl border-x border-t border-gray-900/10 dark:border-white/10 bg-gray-400/5 dark:bg-gray-500/5" />
                                 </div>
@@ -96,10 +102,9 @@ export default function PricingPage() {
                         <table className="w-full table-fixed border-separate border-spacing-x-8 text-left">
                             <caption className="sr-only">Pricing plan comparison</caption>
                             <colgroup>
-                                <col className="w-1/4" />
-                                <col className="w-1/4" />
-                                <col className="w-1/4" />
-                                <col className="w-1/4" />
+                                <col className="w-1/3" />
+                                <col className="w-1/3" />
+                                <col className="w-1/3" />
                             </colgroup>
                             <thead>
                                 <tr>
@@ -226,11 +231,10 @@ const tiers = [
     {
         name: 'Pro',
         id: 'tier-pro',
-        href: "https://cloud.flowershow.app",
         priceMonthly: '$5',
         description: 'For creators who want more customization and features',
         mostPopular: false,
-        cta: "Coming soon"
+        cta: "Free during beta"
     },
 ]
 const sections = [

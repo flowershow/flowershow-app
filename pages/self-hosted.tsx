@@ -3,7 +3,7 @@ import Link from "next/link";
 import { GetStaticProps, GetStaticPropsResult } from "next";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 
-import { Hero } from "@/components/Hero";
+import { Hero } from "@/components/HeroSelfHosted";
 import { GitHubIcon } from "@/components/icons/GitHubIcon"
 import { Button } from "@/components/common/Button"
 import SelfPublishSteps from "@/components/SelfPublishSteps";
