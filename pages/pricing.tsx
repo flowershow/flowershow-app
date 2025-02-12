@@ -1,73 +1,33 @@
+import React from "react";
 import { Fragment } from 'react'
+import { GetStaticProps, GetStaticPropsResult } from "next";
+import type { CustomAppProps } from "./_app";
 import { CheckIcon, MinusIcon } from '@heroicons/react/solid'
 
-const tiers = [
-    {
-        name: 'Free',
-        id: 'tier-free',
-        href: "https://cloud.flowershow.app",
-        priceMonthly: '$0',
-        description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
-        mostPopular: true,
-        cta: "Get started"
-    },
-    {
-        name: 'Premium',
-        id: 'tier-premium',
-        priceMonthly: '$5',
-        description: 'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
-        mostPopular: false,
-        cta: "Coming soon"
-    },
-]
-const sections = [
-    {
-        name: 'Customization',
-        features: [
-            { name: 'Custom Domains', tiers: { Premium: true } },
-            { name: 'No Flowershow Branding', tiers: { Premium: true } },
-            { name: 'Custom CSS support', tiers: { Free: true, Premium: true } },
-            { name: 'Custom dark and light themes', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
-        ],
-    },
-    {
-        name: 'Features',
-        features: [
-            { name: 'Table of contents', tiers: { Free: true, Premium: true } },
-            { name: 'Mermaid and MathJax support', tiers: { Free: true, Premium: true } },
-            { name: 'Full-text search', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
-            { name: 'Blog Support', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
-        ],
-    },
-    {
-        name: 'Support',
-        features: [
-            { name: 'Discord Community Support', tiers: { Free: true, Premium: true } },
-            { name: 'Private Discord Channel', tiers: { Premium: true } },
-            { name: '1:1 Onboarding Tour', tiers: { Premium: true } },
-        ],
-    },
-]
+type Props = CustomAppProps;
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
-
-export const Pricing = () => {
+export default function PricingPage() {
     return (
-        <div className="py-24 sm:py-32">
+        <main>
+        <div className="py-12 sm:py-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
-                    <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">
+                    <h1 className="py-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
                         Pricing
+                    </h1>
+                </div>
+                <p className="mx-auto mt-6 text-center text-lg leading-8 text-gray-600 dark:text-white">
+                    Start sharing your digital garden for free. Upgrade to get extra premium features.
+                </p>
+                <div className="mx-auto mt-12 text-center px-4 py-2 bg-secondary/10 rounded-lg">
+                    <p className="text-sm text-secondary">
+                        <span className="mr-2">🎉</span>
+                        Beta period: All Pro features are temporarily enabled for free. They will become premium-only features soon.
                     </p>
                 </div>
-                <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600 dark:text-white">
-                    Flowershow Cloud is currently free. And there will always be a free option.
-                </p>
 
-                {/* xs to lg */}
-                <div className="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 lg:hidden">
+                {/* xs to md */}
+                <div className="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 md:hidden">
                     {tiers.map((tier) => (
                         <section
                             key={tier.id}
@@ -126,14 +86,14 @@ export const Pricing = () => {
                 </div>
 
                 {/* lg+ */}
-                <div className="isolate mt-20 mx-auto hidden lg:block">
+                <div className="isolate mt-20 mx-auto hidden md:block">
                     <div className="relative -mx-8">
                         {tiers.some((tier) => tier.mostPopular) ? (
                             <div className="absolute inset-x-4 inset-y-0 -z-10 flex">
                                 <div
-                                    className="flex w-1/4 px-4"
+                                    className="flex w-1/3 px-4"
                                     aria-hidden="true"
-                                    style={{ marginLeft: `${(tiers.findIndex((tier) => tier.mostPopular) + 1) * 25}%` }}
+                                    style={{ marginLeft: `${(tiers.findIndex((tier) => tier.mostPopular) + 1) * 31}%` }}
                                 >
                                     <div className="w-full rounded-t-xl border-x border-t border-gray-900/10 dark:border-white/10 bg-gray-400/5 dark:bg-gray-500/5" />
                                 </div>
@@ -142,10 +102,9 @@ export const Pricing = () => {
                         <table className="w-full table-fixed border-separate border-spacing-x-8 text-left">
                             <caption className="sr-only">Pricing plan comparison</caption>
                             <colgroup>
-                                <col className="w-1/4" />
-                                <col className="w-1/4" />
-                                <col className="w-1/4" />
-                                <col className="w-1/4" />
+                                <col className="w-1/3" />
+                                <col className="w-1/3" />
+                                <col className="w-1/3" />
                             </colgroup>
                             <thead>
                                 <tr>
@@ -237,5 +196,85 @@ export const Pricing = () => {
                 </div>
             </div>
         </div>
-    )
+        </main>
+    );
+}
+
+export const getStaticProps: GetStaticProps = async (): Promise<
+    GetStaticPropsResult<Props>
+> => {
+    return {
+        props: {
+            meta: {
+                title: "Pricing - Flowershow Cloud",
+                description: "Simple and transparent pricing for Flowershow Cloud",
+                urlPath: "/pricing",
+                showToc: false,
+                showEditLink: false,
+                showSidebar: false,
+                showComments: false,
+            },
+        },
+    };
+};
+
+const tiers = [
+    {
+        name: 'Free',
+        id: 'tier-free',
+        href: "https://cloud.flowershow.app",
+        priceMonthly: '$0',
+        description: 'Perfect for personal digital gardens and small projects',
+        mostPopular: true,
+        cta: "Get started"
+    },
+    {
+        name: 'Pro',
+        id: 'tier-pro',
+        priceMonthly: '$5',
+        description: 'For creators who want more customization and features',
+        mostPopular: false,
+        cta: "Free during beta"
+    },
+]
+const sections = [
+    {
+        name: 'Core Features',
+        features: [
+            { name: 'Wiki-style links', tiers: { Free: true, Pro: true } },
+            { name: 'Mermaid diagrams', tiers: { Free: true, Pro: true } },
+            { name: 'Math equations', tiers: { Free: true, Pro: true } },
+            { name: 'Table of contents', tiers: { Free: true, Pro: true } },
+            { name: 'Obsidian plugin', tiers: { Free: true, Pro: true } },
+        ],
+    },
+    {
+        name: 'Customization',
+        features: [
+            { name: 'Custom CSS', tiers: { Free: true, Pro: true } },
+            { name: 'Custom domain', tiers: { Pro: true } },
+            { name: 'Remove Flowershow branding', tiers: { Pro: true } },
+            { name: 'Full-text search', tiers: { Free: true, Pro: true }, status: "IN_PROGRESS" },
+        ],
+    },
+    {
+        name: 'Content',
+        features: [
+            { name: 'Unlimited public sites', tiers: { Free: false, Pro: true } },
+            { name: 'Unlimited site size', tiers: { Free: false, Pro: true } },
+        ],
+    },
+    {
+        name: 'Support',
+        features: [
+            { name: 'Community support', tiers: { Free: true, Pro: true } },
+            { name: 'Priority support', tiers: { Pro: true } },
+            { name: 'Onboarding assistance', tiers: { Pro: true } },
+        ],
+    },
+]
+
+
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
 }

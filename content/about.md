@@ -2,7 +2,7 @@
 title: About
 ---
 
-## Why Flowershow
+## Why Flowershow?
 
 Publishing a digital garden isn't easy. As [Quartz](https://quartz.jzhao.xyz/notes/philosophy/) puts it:
 
@@ -13,6 +13,10 @@ In our case to easy and free we'd add _elegant_ and _customizable_.
 More generally, publishing markdown isn't easy. And it should be, really easy, as easy as publishing a Facebook post, or posting a tweet.
 
 The goal of Flowershow is to make it easy, fast and fun to publish your digital garden -- and markdown in general -- and do it beautifully.
+
+## Why the name?
+
+The name "Flowershow" elegantly captures our mission: just as a flower show exhibits the most beautiful blooms from gardens, Flowershow helps you showcase your digital garden to the world. Your notes, ideas, and knowledge are like carefully cultivated flowers, and we provide the perfect venue to display them beautifully for others to appreciate and learn from.
 
 ## Backstory
 

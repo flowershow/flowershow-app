@@ -21,7 +21,7 @@ export default function CloudPublishSteps() {
                         <p>If you haven't created your digital garden with Obsidian, but it's written in Markdown, you can still publish it with Flowershow Obsidian Plugin. Just open your digital garden in Obsidian and follow the steps below!</p>
                     </div>
                     <img
-                        src="/images/obsidian_vault.png"
+                        src="/images/obsidian.png"
                         alt=""
                         className="lg:max-h-[20rem] m-0 lg:my-6"
                     />
