@@ -2,10 +2,10 @@ const config = {
   title: "Flowershow",
   description: "Publish your digital garden",
   author: "Flowershow",
-  logo: "/images/logo.svg",
+  logo: "https://r2-assets.flowershow.app/logo.svg",
   domain: "https://flowershow.app",
   navbarTitle: {
-    logo: "/images/logo.svg",
+    logo: "https://r2-assets.flowershow.app/logo.svg",
     text: "Flowershow",
     version: "Alpha",
   },
@@ -32,7 +32,7 @@ const config = {
     { href: "/blog", name: "Blog" },
     { href: "/docs/roadmap", name: "Roadmap" },
     { href: "/about", name: "About" },
-    { href: "/pricing", name: "Cloud Pricing" },
+    { href: "/pricing", name: "Pricing" },
     { href: "/self-hosted", name: "Self-hosted" },
     {
       href: "https://github.com/flowershow/flowershow/discussions",
