@@ -38,11 +38,13 @@ const config = {
       href: "https://github.com/flowershow/flowershow/discussions",
       name: "Forum",
     },
-    { href: "/_all", name: "All" },
+    {
+      href: "https://github.com/flowershow/flowershow/discussions",
+      name: "Support",
+    },
   ],
   social: [
     { label: "github", href: "https://github.com/datopian/flowershow" },
-    { label: "discord", href: "https://discord.gg/cPxejPzpwt" },
   ],
   search: {
     provider: "algolia",
