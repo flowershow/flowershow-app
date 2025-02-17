@@ -1,13 +1,11 @@
 import React from "react";
-import Link from "next/link";
 import { GetStaticProps, GetStaticPropsResult } from "next";
-import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 
 import { Hero } from "@/components/HeroSelfHosted";
 import { GitHubIcon } from "@/components/icons/GitHubIcon"
 import { Button } from "@/components/common/Button"
 import SelfPublishSteps from "@/components/SelfPublishSteps";
-/* import CloudPublishSteps from "@/components/CloudPublishSteps"; */
+import { Features } from "@/components/Features";
 import type { CustomAppProps } from "./_app";
 
 
@@ -50,35 +48,35 @@ const heroProps = {
     ]
 }
 
-// const features = [
-//     {
-//         title: "Blog Support",
-//         description:
-//             "Blog document type for your blog posts. This way you'll be able to fetch and display them on any of your pages by using our BlogsList component (or you can create a custom one).",
-//         link: "/docs/blog",
-//         imageSrc: "/images/blog.png",
-//     },
-//     {
-//         title: "Tailwind support",
-//         description:
-//             "Flowershow comes with built-in tailwind support on any markdown page for styling your content.",
-//         link: "/docs/tailwind",
-//         imageSrc: "/images/tw.png",
-//     },
-//     {
-//         title: "Custom dark and light themes",
-//         description:
-//             "Change the fonts and colors used throughout your website as well as switch between dark and light modes.",
-//         link: "/docs/custom-theme",
-//         imageSrc: "/images/theme.png",
-//     },
-// ];
+const features = [
+    {
+        title: "Blog Support",
+        description:
+            "Blog document type for your blog posts. This way you'll be able to fetch and display them on any of your pages by using our BlogsList component (or you can create a custom one).",
+        link: "/docs/blog",
+        imageSrc: "/images/blog.png",
+    },
+    {
+        title: "Tailwind support",
+        description:
+            "Flowershow comes with built-in tailwind support on any markdown page for styling your content.",
+        link: "/docs/tailwind",
+        imageSrc: "/images/tw.png",
+    },
+    {
+        title: "Custom dark and light themes",
+        description:
+            "Change the fonts and colors used throughout your website as well as switch between dark and light modes.",
+        link: "/docs/custom-theme",
+        imageSrc: "/images/theme.png",
+    },
+];
 
 export default function Home() {
     return (
         <main>
             <Hero {...heroProps} />
-            {/* <Features features={features} /> */}
+            <Features features={features} />
             <SelfPublishSteps />
             {/* <CloudPublishSteps /> */}
         </main>
