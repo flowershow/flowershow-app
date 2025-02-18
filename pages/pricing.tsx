@@ -222,11 +222,11 @@ const tiers = [
     {
         name: 'Free',
         id: 'tier-free',
-        href: "https://cloud.flowershow.app",
+        href: "https://tally.so/r/3EN1yX",
         priceMonthly: '$0',
         description: 'Perfect for personal digital gardens and small projects',
         mostPopular: true,
-        cta: "Get started"
+        cta: "Get early access"
     },
     {
         name: 'Pro',

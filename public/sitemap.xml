@@ -21,6 +21,10 @@
   </url>
 
   <url>
+    <loc>https://flowershow.app/blog/flowershow-cloud-nav-config</loc>
+  </url>
+
+  <url>
     <loc>https://flowershow.app/people/olayway</loc>
   </url>
 
@@ -108,6 +112,10 @@
 
   <url>
     <loc>https://flowershow.app/docs/cloud</loc>
+  </url>
+
+  <url>
+    <loc>https://flowershow.app/docs/flowershow-cloud/custom-styles</loc>
   </url>
 
   <url>
@@ -243,11 +251,19 @@
   </url>
 
   <url>
+    <loc>https://flowershow.app/blog/flowershow-cloud-custom-styles</loc>
+  </url>
+
+  <url>
     <loc>https://flowershow.app/docs/publish-howto</loc>
   </url>
 
   <url>
     <loc>https://flowershow.app/journal/2022-12-14</loc>
+  </url>
+
+  <url>
+    <loc>https://flowershow.app/docs/flowershow-cloud/comments</loc>
   </url>
 
   <url>
@@ -360,6 +376,10 @@
 
   <url>
     <loc>https://flowershow.app/notes/content-layer</loc>
+  </url>
+
+  <url>
+    <loc>https://flowershow.app/docs/flowershow-cloud/navbar-configuration</loc>
   </url>
 
   <url>

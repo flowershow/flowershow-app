@@ -26,8 +26,8 @@ const heroProps = {
         </h2>)
     ],
     ctaButtons: [
-        (<Button target="_blank" href="https://cloud.flowershow.app">
-            <span>Start publishing for free</span>
+        (<Button target="_blank" href="https://tally.so/r/3EN1yX">
+            <span>Sign up for early access</span>
         </Button>),
         (<Button target="_blank" href="/pricing" variant="outline" className="ml-4">
             <span>View pricing</span>
@@ -67,10 +67,10 @@ export default function Home() {
             {/* <CloudPublishSteps/> */}
             <Features features={features} />
             <CTASection
-                title="Join the Flowershow community"
-                subtitle="Join other Obsidian users who are already sharing their digital gardens with the world."
-                cta="Start publishing for free"
-                href="https://cloud.flowershow.app"
+                title="Join Flowershow Early Access"
+                subtitle="Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you."
+                cta="Get early access"
+                href="https://tally.so/r/3EN1yX"
             />
         </main>
     );
