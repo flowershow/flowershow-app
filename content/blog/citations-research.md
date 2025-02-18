@@ -1,4 +1,11 @@
-CItations are references to sources of information from books, papers, journals, websites, etc. These help readers to find the necessary information about the source and more importantly, we are able to give credit to the original author. In addition, citing the source in our documents / pages enables a proper roadmap to our research process.
+---
+date: 2023-10-31
+title: "Markdown Citations: Exploring how they work in Obsidian"
+authors: [ "rufuspollock" ]
+---
+
+
+Citations are references to sources of information from books, papers, journals, websites, etc. These help readers to find the necessary information about the source and more importantly, we are able to give credit to the original author. In addition, citing the source in our documents / pages enables a proper roadmap to our research process.
 
 > [!note] Points to cover:
 > * citation-plugin configuration in Obsidian
@@ -20,8 +27,10 @@ You can follow the plugin setup guide in their repo https://github.com/hans/obsi
 
 The main point to note here is that the plugin supports retrieving data from two different source types which are `BibLaTex` and `CSL-JSON`
 
-* **[BibLaTex](http://www.bibtex.org/)** (.bib file)
-  *A BibTex file usually has entries in a format as below*
+**[BibLaTex](http://www.bibtex.org/)** (.bib file)
+ 
+*A BibTex file usually has entries in a format as below*
+
 ```
 @article{,
   title = {Create Blogs and Websites with Floweshow},
@@ -31,7 +40,7 @@ The main point to note here is that the plugin supports retrieving data from two
 }
 ```
 
-* **CSL-JSON**
+**CSL-JSON**
 
 We will configure the plugin to use BibLaTex with Zotero.
 
@@ -43,22 +52,22 @@ In Zotero, we can export a `bib` file which will be used as a citation database 
 
 Place your exported library/collection bib file in the root of the vault (optional but easier). Then in the obsidian citation plugin settings choose `BibLaTex` as database format and  provide the citation **database path** eg. `./MyLibrary.bib`.
 
-**Literature Notes**
+#### Literature Notes**
 
 In the citation plugin settings you can set the folder name to where you want the reference notes to be stored as files. Note that you will have to create this folder if not already exists. You can then create citations with reference by opening the prompt `cmd + p` and using the `Citations: Insert literature note link` command.
 
-**Pandoc-style markdown citations**
+#### Pandoc-style markdown citations
 
 You are also able to insert citations in Obsidian by opening the prompt `cmd + p` and using the `Citations: Insert markdown citations`.  command.
 
-## Setup to work in Floweshow
+## How could we make this work with Floweshow
 
 **Prerequisites:**
 
 * citation plugin in obsidian to add citations
 * a `bib` file in vault / content
 
-Once we have the above setup, we may then be able to add [rehype-citation](https://github.com/timlrx/rehype-citatioxn) to convert citations and display the bibliography. The rehype plugin would require setting two properties in config which are `Name` and `path` of the bibtex file.
+Once we have the above setup, we may then be able to add [rehype-citation](https://github.com/timlrx/rehype-citation) to convert citations and display the bibliography. The rehype plugin would require setting two properties in config which are `Name` and `path` of the bibtex file.
 
 ```js
 // contentlayer.config.ts
