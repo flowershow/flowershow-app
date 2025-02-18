@@ -1,7 +1,8 @@
 @import "@portaljs/remark-callouts/styles.css";
 
 .nav-logo {
-  height: 2.25rem;
+  height: 2rem;
+  margin-right: 0.5rem;
 }
 
 /* mathjax */
