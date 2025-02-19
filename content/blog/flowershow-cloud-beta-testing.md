@@ -15,4 +15,5 @@ We’ve set up a WhatsApp group where you can easily share your discoveries, ask
 Ready to dive in? Join our [WhatsApp group](https://chat.whatsapp.com/L3tIbvmWdG32fFVMmAFNPw) and start exploring!
 
 Thanks for being awesome 😎,
+
 The Flowershow Team
