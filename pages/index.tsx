@@ -13,16 +13,16 @@ import type { CustomAppProps } from "./_app";
 type Props = CustomAppProps;
 
 const heroProps = {
-    title: "Publish your Obsidian vault for free with Flowershow",
-    subtitle: "The easiest way to share your digital garden with the world – no coding required. Just sign up, connect your vault, and have your site online in 2 minutes!",
+    title: "Publish your Obsidian vault for free",
+    subtitle: "Fast and easy way to publish your digital garden – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.",
     highlights: [
         "Obsidian compatibile",
         "Quick and easy",
-        "Free forever plan available",
+        "Free forever plan",
     ],
     infoBadges: [
         (<h2 className="max-w-lg text-3xl sm:text-4xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-indigo-400 ">
-            Flowershow Cloud
+            Flowershow
         </h2>)
     ],
     ctaButtons: [
