@@ -12,7 +12,7 @@ If you have some markdown files — or even better, an Obsidian vault — you ca
 
 We’ve set up a WhatsApp group where you can easily share your discoveries, ask questions, and chat with us. All the testing instructions will be available in the group description. Your input is essential in helping us polish Flowershow Cloud for everyone, and we’re truly grateful for your support.
 
-Ready to dive in? Join our [WhatsApp group](https://chat.whatsapp.com/L3tIbvmWdG32fFVMmAFNPw) and start exploring!
+Ready to dive in? Sign up [here](https://tally.so/r/3EN1yX) to get early access to the platform and our WhatsApp group!
 
 Thanks for being awesome 😎,
 
