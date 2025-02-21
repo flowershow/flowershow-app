@@ -143,7 +143,7 @@ export const Layout: React.FC<Props> = ({
               />
             </div>
           )}
-          <footer className="bg-gray-900">
+          <footer className="bg-background dark:bg-background-dark">
             <div className="mx-auto max-w-7xl overflow-hidden px-6 py-16 sm:py-20 lg:px-8">
               <nav
                 aria-label="Footer"
@@ -153,16 +153,16 @@ export const Layout: React.FC<Props> = ({
                   <a
                     key={item.name}
                     href={item.href}
-                    className="text-gray-400 hover:text-white"
+                    className="dark:text-gray-400 hover:text-white"
                   >
                     {item.name}
                   </a>
                 ))}
               </nav>
-              <p className="mt-12 text-center text-sm/6 text-gray-400">
+              <p className="mt-12 text-center text-sm/6 dark:text-gray-400">
               Made with 💐 Flowershow
               </p>
-              <p className="mt-4 text-center text-sm/6 text-gray-400">
+              <p className="mt-4 text-center text-sm/6 dark:text-gray-400">
                 &copy; 2025 Datopian, Inc. All rights reserved.
               </p>
             </div>

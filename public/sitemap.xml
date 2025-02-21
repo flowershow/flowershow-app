@@ -33,10 +33,6 @@
   </url>
 
   <url>
-    <loc>https://flowershow.app/notes/citations</loc>
-  </url>
-
-  <url>
     <loc>https://flowershow.app/meta/blog-design</loc>
   </url>
 
@@ -84,6 +80,10 @@
     <loc
       >https://flowershow.app/excalidraw/cloud-publish-options-2022-11-21.excalidraw</loc
     >
+  </url>
+
+  <url>
+    <loc>https://flowershow.app/blog/flowershow-cloud-beta-testing</loc>
   </url>
 
   <url>
@@ -372,6 +372,10 @@
 
   <url>
     <loc>https://flowershow.app/about</loc>
+  </url>
+
+  <url>
+    <loc>https://flowershow.app/blog/citations-research</loc>
   </url>
 
   <url>
