@@ -13,7 +13,7 @@ import type { CustomAppProps } from "./_app";
 type Props = CustomAppProps;
 
 const heroProps = {
-    title: "Publish your Obsidian vault for free",
+    title: "Publish your Obsidian vault quickly, easily and for free",
     subtitle: "Fast and easy way to publish your digital garden – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.",
     highlights: [
         "Obsidian compatibile",
@@ -21,9 +21,6 @@ const heroProps = {
         "Free forever plan",
     ],
     infoBadges: [
-        (<h2 className="max-w-lg text-3xl sm:text-4xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-indigo-400 ">
-            Flowershow
-        </h2>)
     ],
     ctaButtons: [
         (<Button target="_blank" href="https://tally.so/r/3EN1yX">
