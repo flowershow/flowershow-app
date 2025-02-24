@@ -27,10 +27,7 @@ const heroProps = {
     ],
     ctaButtons: [
         (<Button target="_blank" href="https://tally.so/r/3EN1yX">
-            <span>Sign up for early access</span>
-        </Button>),
-        (<Button target="_blank" href="/pricing" variant="outline" className="ml-4">
-            <span>View pricing</span>
+            <span>Try Flowershow for free</span>
         </Button>),
     ]
 }
