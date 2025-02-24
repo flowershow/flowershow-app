@@ -17,7 +17,7 @@ const config = {
   showComments: true,
   comments: {
     provider: "giscus", // supported providers: giscus, utterances, disqus
-    pages: ["blog"], // page directories where we want commments
+    pages: ["blog"], // page directories where we want comments
     config: {
       repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
       repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,

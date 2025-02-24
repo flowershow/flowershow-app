@@ -5,7 +5,7 @@
 https://nx.dev/more-concepts/applications-and-libraries
 
 - a typical Nx workspace is structured into apps and libs
-- Nx automatically creates TS path mappings in the `tsconfig.base.json` file, so that they can be easiliy consumed by other apps, e.g.:
+- Nx automatically creates TS path mappings in the `tsconfig.base.json` file, so that they can be easily consumed by other apps, e.g.:
 
 ```js
 // example of importing from another workspace library
@@ -14,7 +14,7 @@ import { Button } from "@flowershow/ui";
 // ...
 ```
 
-- library is not jus a code put into a separate folder
+- library is not just a code put into a separate folder
   - each library should have a "public API" exposed by its `index.ts` file
   - it forces developers into an "API thinking" (what should be exposed and what should be kept private)
 - library doesn't have to be general purpose (consumed by multiple projects)
@@ -27,7 +27,7 @@ import { Button } from "@flowershow/ui";
 - libraries can be nested into sub-folders
 - application can be thought of as a container that budles functionalities implemented in libraries
 
-> We could probably encapsulate some parts of the current tamplate in libs (e.g. component's library, configs etc.). Not only so that in the future we can use them in other templates but also for the sake of separation of concerns, cleanliness, "API"
+> We could probably encapsulate some parts of the current template in libs (e.g. component's library, configs etc.). Not only so that in the future we can use them in other templates but also for the sake of separation of concerns, cleanliness, "API"
 
 ### Recommended library types
 
@@ -65,11 +65,11 @@ https://nx.dev/more-concepts/library-types
 
 ### Should I add code to an existing library?
 
-Rule of thumb: if the code is closely related to some already exisitng library - probably yes.
+Rule of thumb: if the code is closely related to some already existing library - probably yes.
 
 - related code should be close together
 - better DX as you don't need to jump around multiple different folders
-- every new library adds some folders and config files, which do not directly contibute to business value
+- every new library adds some folders and config files, which do not directly contribute to business value
 - enforcing constraints may not be beneficial for rapidly evolving code (like ours) as it can get in the way of experimentation and exploration
 - if may be a good idea to develop a single library for a while so that the architecture starts to emerge naturally and refactor into smaller libraries when the pace of change has slowed down
 
@@ -196,7 +196,7 @@ To clear the cache run:
 nx reset
 ```
 
-Byy default it uses local computation cache. You can also use Nx Cloud distributed caching for storing the cache (free for open-source poject).
+Byy default it uses local computation cache. You can also use Nx Cloud distributed caching for storing the cache (free for open-source project).
 
 To connect the workspace to Nx Cloud run:
 

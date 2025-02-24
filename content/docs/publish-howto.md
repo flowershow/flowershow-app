@@ -82,7 +82,7 @@ Click on `>_` icon in Obsidian ribbon to open Obsidian command palette, and sear
 
 This gives you two options:
 
-1. Flowershow: Publish all notes - wich will publish all your notes as the name suggests.
+1. Flowershow: Publish all notes - which will publish all your notes as the name suggests.
 2. Flowershow: Publish single note - which will only publish the currently opened and active note.
 
 ### Using Flowershow Publish Status modal

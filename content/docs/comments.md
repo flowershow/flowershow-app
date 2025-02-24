@@ -76,7 +76,7 @@ const config = {
 
 ### Prerequisites
 
-1. You have a public [github repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) with the [discussions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository) feature acitvated which would be used to store your comments.
+1. You have a public [github repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) with the [discussions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository) feature activated which would be used to store your comments.
 2. The [giscus app](https://github.com/apps/giscus) installed in your repo by following their configuration setup at https://giscus.app/
 
 Once the above steps are completed, we will have to get our config values. Head over to https://giscus.app and follow the steps there by filling out the fields.

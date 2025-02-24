@@ -38,7 +38,7 @@ Finally, we ️thought a wider community could benefit from what we were doing. 
 
 <img className="h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://www.gravatar.com/avatar/36661def37f62e4130670ab75e06465a?s=300" alt="" />
 
-Rufus Pollock is an entrepeneur and technologist who has worked on data platforms and open data for over twenty years with governments, businesses and non-profits all over the world. He is Founder of Open Knowledge Foundation, Founder and President of Datopian and an Ashoka and Shuttleworth Fellow. He studied Mathematics at the University of Cambridge, going on to obtain a PhD in Economics and become a research fellow.
+Rufus Pollock is an entrepreneur and technologist who has worked on data platforms and open data for over twenty years with governments, businesses and non-profits all over the world. He is Founder of Open Knowledge Foundation, Founder and President of Datopian and an Ashoka and Shuttleworth Fellow. He studied Mathematics at the University of Cambridge, going on to obtain a PhD in Economics and become a research fellow.
 
 ### Ola Rubaj
 

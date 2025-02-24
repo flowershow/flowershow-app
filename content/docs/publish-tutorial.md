@@ -110,7 +110,7 @@ some-parent-dir
 └── ...
 ```
 
-Note that `config.mjs` and `index.md` files will be created automatically if they didn't exsist in your digital garden folder yet. The config file will allow you to do some basic configurations of your Flowershow app. See [[config|this guide]] to learn more.
+Note that `config.mjs` and `index.md` files will be created automatically if they didn't exist in your digital garden folder yet. The config file will allow you to do some basic configurations of your Flowershow app. See [[config|this guide]] to learn more.
 
 ## (Optional) customize your website
 
