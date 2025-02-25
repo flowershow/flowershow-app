@@ -83,7 +83,7 @@ You can run the above commands for a specific package by using `--filter` (or `-
 pnpm add <pkg> -F @flowershow/template
 ```
 
-See [the offical pnpm docs](https://pnpm.io/) to learn more.
+See [the official pnpm docs](https://pnpm.io/) to learn more.
 
 ## Nx
 
@@ -131,7 +131,7 @@ pnpm nx affected --target=<target>
 
 ### Linting and formatting
 
-Nx uses eslint for code linting and prettier for code formatting. There is a base `eslintrc.json` file in the root of this repository that defines global eslint configs. Each project can have its own `eslintrc.json` for project-specific eslint confiurations.
+Nx uses eslint for code linting and prettier for code formatting. There is a base `eslintrc.json` file in the root of this repository that defines global eslint configs. Each project can have its own `eslintrc.json` for project-specific eslint configurations.
 
 To lint the code in a single project:
 
@@ -204,13 +204,13 @@ You need to have an access token to be able to also write to this cache. It can 
 
 ### Configuration
 
-The entry point of Nx's confiuration is the `nx.json` file in the root of this repository. It defines global configurations as well default configurations for projects targets.
+The entry point of Nx's configuration is the `nx.json` file in the root of this repository. It defines global configurations as well default configurations for projects targets.
 
-To learn more see this [offical docs page](https://nx.dev/reference/nx-json).
+To learn more see this [official docs page](https://nx.dev/reference/nx-json).
 
 Each project also has it's own configuration file - `project.json`, where you can define and configure it's targets (and more).
 
-To learn more see this [offical docs page](https://nx.dev/reference/project-configuration).
+To learn more see this [official docs page](https://nx.dev/reference/project-configuration).
 
 ## Changesets and publishing packages
 
@@ -259,7 +259,7 @@ To ignore changeset files of some packages (e.g. we don't want to version bump t
 pnpm changeset version --ignore @flowershow/template
 ```
 
-After running version command, both all the version bumps and changelog entries of the changed packages should be reviewed before commiting changes made by the command. If needed, changelog entires should be manually adjusted to provide the most accurate description of the changes included in the new release. If everything is correct, packages can be published by running:
+After running version command, both all the version bumps and changelog entries of the changed packages should be reviewed before committing changes made by the command. If needed, changelog entries should be manually adjusted to provide the most accurate description of the changes included in the new release. If everything is correct, packages can be published by running:
 
 ```
 pnpm nx publish <project-name>

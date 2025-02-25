@@ -91,7 +91,7 @@ A no-brainer solution to turning your Obsidian PKM into a Zola site.
 ### Pros
 
 - one-file setup and very easy to publish on netlify: only requires `netlify.toml` (with content copied from their example) to be added to Obsidian vault (+ of course Netlify setup)
-- the above file also serves as a config file (see screenshot below), so you pass all the config as environtment variables (not sure what are benefits/drawbacks of this)
+- the above file also serves as a config file (see screenshot below), so you pass all the config as environment variables (not sure what are benefits/drawbacks of this)
   ![[Pasted image 20220815160117.png]]
 - Fusion 360 embeds ![[Pasted image 20220815201204.png]]
 

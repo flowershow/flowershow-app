@@ -50,7 +50,7 @@ layout: mylayout
 
 All frontmatter data will be passed to the current layout used by a given page. So, if you want to access some page metadata in your custom layout, you can:
 
-1. Add this data as key-value pairs in the frontmatter, along with specifing your custom layout that should be used for this page:
+1. Add this data as key-value pairs in the frontmatter, along with specifying your custom layout that should be used for this page:
 
 ```md
 ---
