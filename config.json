@@ -22,5 +22,5 @@
       { "label": "github", "href": "https://github.com/datopian/flowershow" }
     ]
   },
-  "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/people" "/public"]
+  "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/people", "/public"]
 }
