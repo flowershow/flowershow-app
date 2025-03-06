@@ -11,18 +11,33 @@ cta:
     href: https://github.com/flowershow/flowershow
 ---
 
+## Highlights
+
+- Free and open-source
+- Full control over hosting
+- All core features included
+
 ## Features
 
 ### Blog Support
-
 Blog document type for your blog posts. This way you'll be able to fetch and display them on any of your pages by using our BlogsList component (or you can create a custom one).
 
-### Tailwind support
+[Learn more about Blog Support](/docs/blog)
 
+![Blog feature](/assets/blog.png)
+
+### Tailwind support
 Flowershow comes with built-in tailwind support on any markdown page for styling your content.
 
-### Custom dark and light themes
+[Learn more about Tailwind](/docs/tailwind)
 
+![Tailwind feature](/assets/tw.png)
+
+### Custom dark and light themes
 Change the fonts and colors used throughout your website as well as switch between dark and light modes.
+
+[Learn more about Themes](/docs/custom-theme)
+
+![Theme feature](/assets/theme.png)
 
 👉 See our [self-publish guide](https://flowershow.app/docs/publish-howto) to learn more!
