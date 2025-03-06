@@ -9,20 +9,26 @@ cta:
     href: "https://tally.so/r/3EN1yX"
 ---
 
+## Highlights
+
+- Obsidian compatibile
+- Quick and easy
+- Free forever plan
+
 ## What is Flowershow?
 
 Flowershow is the easiest way to turn your Obsidian vault into an elegant website. No coding, no technical setup, no maintenance required. Just connect your vault and publish with a click. Perfect for digital gardens, documentation, blogs, or any knowledge sharing.
 
-**Crafted for Obsidian**
+### ![Obsidian icon](/assets/obsidian_icon.png) Crafted for Obsidian
 Works with your existing Obsidian notes out of the box. No need to modify the syntax or change file layout. Not an obsidian fan? Flowershow will work with any CommonMark or GFM markdown files.
 
-**Instant Publishing**
+### ![Bolt icon](/assets/bolt.png) Instant Publishing
 No technical setup required. Just connect your vault and publish with a click. Your content goes live instantly, and updates are reflected immediately on your site.
 
-**Elegant & Functional**
+### ![Star icon](/assets/star.png) Elegant & Functional
 Clean and elegant. Perfect for digital gardens, documentation, or any knowledge sharing.
 
-**Always Up to Date**
+### ![Sync icon](/assets/sync.png) Always Up to Date
 Flowershow ensures you're always using the latest features without any maintenance. Focus on creating content while we handle the technical details.
 
 ## Features
