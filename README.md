@@ -4,6 +4,8 @@ description: Fast and easy way to publish your digital garden – no coding requ
 image: hero.png
 showHero: true
 showSidebar: false
+showToc: false
+showEditLink: false
 cta:
   - label: Try Flowershow for free
     href: "https://tally.so/r/3EN1yX"
