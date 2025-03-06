@@ -1,7 +1,7 @@
 ---
 title: Publish your Obsidian vault quickly, easily and for free
 description: Fast and easy way to publish your digital garden – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.
-image: hero.png
+image: /assets/hero.png
 showHero: true
 showToc: false
 showEditLink: false
