@@ -1,7 +1,7 @@
 ---
 title: Self-host your digital garden for free
 description: The free, open-source version of Flowershow. Perfect for developers who want full control over their setup.
-image: /assets/flowershow-light.png
+image: /assets/flowershow_light.png
 showHero: true
 showToc: false
 cta:
