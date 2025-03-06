@@ -1,6 +1,7 @@
 {
   "showSidebar": true,
   "nav": {
+    "title": "Flowershow",
     "links": [
       { "href": "/#features", "name": "Features" },
       { "href": "/docs", "name": "Docs" },
