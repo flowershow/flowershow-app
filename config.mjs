@@ -3,38 +3,9 @@ const config = {
   googleTagManager: "GTM-NF3S6WJ2",
   description: "Publish your digital garden",
   author: "Flowershow",
-  logo: "https://r2-assets.flowershow.app/logo.png",
-  domain: "https://flowershow.app",
-  navbarTitle: {
-    logo: "https://r2-assets.flowershow.app/logo.png",
-    text: "Flowershow",
-    version: "Alpha",
-  },
   editLinkRoot:
     "https://github.com/datopian/flowershow-app/edit/main",
-  showEditLink: true,
-  showToc: true,
-  showSidebar: false,
-  showComments: true,
-  comments: {
-    provider: "giscus", // supported providers: giscus, utterances, disqus
-    pages: ["blog"], // page directories where we want comments
-    config: {
-      repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
-      repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,
-      category: process.env.NEXT_PUBLIC_GISCUS_CATEGORY,
-      categoryId: process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID,
-    },
-  },
   analytics: "G-RQWLTRWBS2",
-  search: {
-    provider: "algolia",
-    config: {
-      appId: process.env.NEXT_PUBLIC_DOCSEARCH_APP_ID,
-      apiKey: process.env.NEXT_PUBLIC_DOCSEARCH_API_KEY,
-      indexName: process.env.NEXT_PUBLIC_DOCSEARCH_INDEX_NAME,
-    },
-  },
   nextSeo: {
     titleTemplate: "%s | Flowershow",
     description:
