@@ -1,6 +1,5 @@
 ---
 title: Get Started with Flowershow
-showLinkPreview: false
 ---
 
 ## What is Flowershow?

@@ -1,1 +1,1 @@
-# Blog Index Page
+## Blog Posts
