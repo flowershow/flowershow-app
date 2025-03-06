@@ -27,26 +27,6 @@ const config = {
     },
   },
   analytics: "G-RQWLTRWBS2",
-  navLinks: [
-    { href: "/#features", name: "Features" },
-    { href: "/docs", name: "Docs" },
-    { href: "/blog", name: "Blog" },
-    { href: "/docs/roadmap", name: "Roadmap" },
-    { href: "/about", name: "About" },
-    { href: "/pricing", name: "Pricing" },
-    { href: "/self-hosted", name: "Self-hosted" },
-    {
-      href: "https://github.com/flowershow/flowershow/discussions",
-      name: "Forum",
-    },
-    {
-      href: "https://github.com/flowershow/flowershow/discussions",
-      name: "Support",
-    },
-  ],
-  social: [
-    { label: "github", href: "https://github.com/datopian/flowershow" },
-  ],
   search: {
     provider: "algolia",
     config: {
