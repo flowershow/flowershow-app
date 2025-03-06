@@ -1,6 +1,7 @@
 ---
 title: Flowershow Blog Posts
 description: A collection of blog posts about Flowershow, its features, updates, and guides.
+showToc: false
 ---
 
 ### [Flowershow Cloud: A Complete Guide to Configuring Your Site's Header](/blog/flowershow-cloud-header-configuration.md)
