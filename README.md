@@ -3,6 +3,7 @@ title: Publish your Obsidian vault quickly, easily and for free
 description: Fast and easy way to publish your digital garden – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.
 image: hero.png
 showHero: true
+showSidebar: false
 cta:
   - label: Try Flowershow for free
     href: "https://tally.so/r/3EN1yX"
