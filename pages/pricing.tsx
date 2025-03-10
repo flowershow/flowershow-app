@@ -245,10 +245,10 @@ export default function PricingPage() {
                             <a
                                 href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox"
                                 target="_blank"
-                                className="rounded-xl bg-secondary px-8 py-4 text-lg font-semibold text-white shadow-sm hover:bg-secondary/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary/70 transition-all duration-200 hover:scale-105"
+                                className="rounded-xl bg-secondary px-8 py-4 text-normal font-semibold text-white shadow-sm hover:bg-secondary/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary/70 transition-all duration-200 hover:scale-105"
                             >
                                 <span className="mr-2">❤</span>
-                                Become a Supporter
+                                Become a Supporter by making a one-off contribution
                             </a>
                         </div>
                     </div>
