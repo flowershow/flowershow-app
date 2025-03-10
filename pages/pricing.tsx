@@ -231,24 +231,24 @@ export default function PricingPage() {
                 </div>
             </div>
 
-            {/* Donation Section */}
+            {/* Supporter Section */}
             <div className="bg-secondary/5 dark:bg-secondary/10">
                 <div className="px-6 lg:px-8 py-16 sm:py-20">
                     <div className="mx-auto max-w-4xl text-center">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                            Support Flowershow Development
+                            Empower Flowershow Development
                         </h2>
                         <p className="mt-6 text-xl leading-8 text-gray-600 dark:text-white">
-                            Help us make digital gardens bloom! Your donation supports our open source development and helps us create better tools for knowledge sharing.
+                            Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.
                         </p>
                         <div className="mt-10">
                             <a
-                                href="https://donate.stripe.com/test_28o6spdZF5Vh8coeUU"
+                                href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox"
                                 target="_blank"
                                 className="rounded-xl bg-secondary px-8 py-4 text-lg font-semibold text-white shadow-sm hover:bg-secondary/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary/70 transition-all duration-200 hover:scale-105"
                             >
                                 <span className="mr-2">❤</span>
-                                Make a Donation
+                                Become a Supporter
                             </a>
                         </div>
                     </div>
