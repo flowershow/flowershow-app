@@ -6,7 +6,7 @@ interface Props {
     features: {
         title: string,
         description: string,
-        link: string,
+        link?: string,
         imageSrc: string
     }[]
 }
