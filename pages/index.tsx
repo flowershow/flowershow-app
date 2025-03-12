@@ -47,7 +47,7 @@ const features = [
     {
         title: "Table of Contents and Sitemap",
         description:
-            "You can add a table of contents to your markdown pages as well as adding a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.",
+            "Every markdown page comes with a table of contents enabled by default. You can also add a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.",
         imageSrc: "/toc_and_sitemap.png",
     },
     {
