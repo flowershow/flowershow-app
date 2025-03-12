@@ -16,7 +16,7 @@ export default function Feature({ feature, index }: FeatureProps) {
   
   return (
     <section 
-      className="overflow-hidden mt-6 sm:grid sm:grid-cols-2 sm:items-start"
+      className="overflow-hidden mt-8 sm:grid sm:grid-cols-2 sm:items-start"
       aria-labelledby={`feature-${index}`}
     >
       <div className={`p-8 ${!isEven ? 'order-2' : ''}`}>

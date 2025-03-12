@@ -13,7 +13,7 @@ interface Props {
 
 export const Features: React.FC<Props> = ({ features }) => {
     return (
-        <div className="mt-24 mb-12">
+        <div className="mt-32 mb-12 max-w-6xl mx-auto">
             <div className="prose dark:prose-invert mx-auto max-w-screen-xl px-4 lg:items-center text-center">
                 <h2 id="features">Features</h2>
                 <p>
