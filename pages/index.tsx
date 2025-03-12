@@ -35,38 +35,38 @@ const features = [
         description:
             "Flowershow was designed with Obsidian users in mind, so it aims to fully support Obsidian syntax, including CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links.",
         link: "/docs/syntax",
-        imageSrc: "/markdown.png",
+        imageSrc: "/images/markdown.png",
     },
     {
         title: "Mermaid and MathJax support",
         description:
             "Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.",
         link: "/docs/mermaid",
-        imageSrc: "/math_and_mermaid.png",
+        imageSrc: "/images/math_and_mermaid.png",
     },
     {
         title: "Table of Contents and Sitemap",
         description:
             "Every markdown page comes with a table of contents enabled by default. You can also add a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.",
-        imageSrc: "/toc_and_sitemap.png",
+        imageSrc: "/images/toc_and_sitemap.png",
     },
     {
         title: "Page Comments",
         description: "Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.",
         link: "/blog/flowershow-cloud-comments",
-        imageSrc: "/comments.png",
+        imageSrc: "/images/comments.png",
     },
     {
         title: "Elegant Layout",
         description: "Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.",
         link: "/blog/flowershow-cloud-header-configuration",
-        imageSrc: "/layout.png",
+        imageSrc: "/images/layout.png",
     },
     {
         title: "Hero Section",
         description: "Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.",
         link: "/blog/flowershow-cloud-hero-sections",
-        imageSrc: "/hero.png",
+        imageSrc: "/images/hero.png",
     },
     // {
     //     title: "Custom CSS",
