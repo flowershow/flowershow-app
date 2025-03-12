@@ -1,61 +1,67 @@
 import React from "react";
+import Link from "next/link";
 
-export default function Feature({ feature, index }) {
-  if (index % 2 == 0) {
-    return (
-      <div className="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center lg:p-8 xl:p-12">
-        <div className="p-8">
-          <div className="mx-auto max-w-xl text-center sm:text-left">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">
-              {feature.title}
-            </h2>
-            <p className="hidden text-gray-500 dark:text-gray-400 md:mt-6 md:block">
-              {feature.description}
-            </p>
-            <div className="mt-4 md:mt-10">
-              <a
-                href={feature.link}
-                className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+interface FeatureProps {
+  feature: {
+    title: string;
+    description: string;
+    link?: string;
+    imageSrc: string;
+  };
+  index: number;
+}
+
+export default function Feature({ feature, index }: FeatureProps) {
+  const isEven = index % 2 === 0;
+  
+  return (
+    <section 
+      className="overflow-hidden mt-6 sm:grid sm:grid-cols-2 sm:items-start"
+      aria-labelledby={`feature-${index}`}
+    >
+      <div className={`p-8 ${!isEven ? 'order-2' : ''}`}>
+        <div className="mx-auto max-w-xl text-center sm:text-left">
+          <h2 
+            id={`feature-${index}`}
+            className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl"
+          >
+            {feature.title}
+          </h2>
+          <p className="mt-4 text-gray-500 dark:text-gray-400 md:mt-6 sm:block">
+            {feature.description}
+          </p>
+          { feature.link && (
+          <div className="mt-6 md:mt-8">
+            <Link
+              href={feature.link}
+              className="inline-flex items-center text-sky-600 hover:text-sky-700 hover:underline font-medium"
+              aria-label={`Learn more about ${feature.title}`}
+            >
+              Learn more
+              <svg 
+                className="ml-2 w-4 h-4" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
               >
-                Learn more
-              </a>
-            </div>
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </Link>
           </div>
+          )}
         </div>
-        <img
-          alt={feature.title}
-          src={feature.imageSrc}
-          className="lg:max-h-[25rem] lg:px-8 xl:px-12"
-        />
       </div>
-    );
-  } else {
-    return (
-      <div className="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center lg:p-8 xl:p-12">
-        <div className="order-2 p-8">
-          <div className="mx-auto max-w-xl text-center sm:text-left">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">
-              {feature.title}
-            </h2>
-            <p className="hidden text-gray-500 dark:text-gray-400 md:mt-4 md:block">
-              {feature.description}
-            </p>
-            <div className="mt-4 md:mt-8">
-              <a
-                href={feature.link}
-                className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
-              >
-                Learn more
-              </a>
-            </div>
-          </div>
-        </div>
-        <img
-          alt={feature.title}
-          src={feature.imageSrc}
-          className="order-1 lg:max-h-[25rem] lg:px-8 xl:px-12"
-        />
-      </div>
-    );
-  }
+      <img
+        alt={feature.title}
+        src={feature.imageSrc}
+        className={`lg:max-h-[25rem] ${!isEven ? 'order-1' : ''}`}
+        loading={index < 2 ? "eager" : "lazy"}
+      />
+    </section>
+  );
 }

@@ -6,7 +6,6 @@ authors:
   - olayway
 tags:
   - flowershow-cloud
-isDraft: true
 ---
 
 Flowershow now allows to set hero sections transform your page headers into elegant, full-width banners. Let's explore how to enable them!
