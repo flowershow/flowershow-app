@@ -1,7 +1,7 @@
 ---
-title: Upgrading from Obsidian Flowershow Plugin v1 to v2
+title: "Upgrading from Obsidian Flowershow Plugin v2 from v1"
 authors: [ "rufuspollock" ]
-date: 2025-03-08
+date: 2025-02-25
 ---
 
 Version two of the Flowershow plugin (released Feb 2025) is designed to work with the new default Flowershow which is Flowershow Cloud 💐☁️.
