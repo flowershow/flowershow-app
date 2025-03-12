@@ -13,8 +13,8 @@ import type { CustomAppProps } from "./_app";
 type Props = CustomAppProps;
 
 const heroProps = {
-    title: "Publish your Obsidian vault quickly, easily and for free",
-    subtitle: "Fast and easy way to publish your digital garden – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.",
+    title: "Publish your markdown quickly, easily and for free",
+    subtitle: "Fast and easy way to publish your digital garden, Obsidian vault or any kind of markdown – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.",
     highlights: [
         "Obsidian compatibile",
         "Quick and easy",
@@ -23,8 +23,8 @@ const heroProps = {
     infoBadges: [
     ],
     ctaButtons: [
-        (<Button target="_blank" href="https://tally.so/r/3EN1yX">
-            <span>Try Flowershow for free</span>
+        (<Button target="_blank" href="https://cloud.flowershow.app/">
+            <span>Use Flowershow for free</span>
         </Button>),
     ]
 }
@@ -84,10 +84,10 @@ export default function Home() {
             {/* <CloudPublishSteps/> */}
             <Features features={features} />
             <CTASection
-                title="Join Flowershow Early Access"
+                title="Try out Flowershow"
                 subtitle="Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you."
-                cta="Get early access"
-                href="https://tally.so/r/3EN1yX"
+                cta="Sign up for free now"
+                href="https://cloud.flowershow.app/"
             />
         </main>
     );
