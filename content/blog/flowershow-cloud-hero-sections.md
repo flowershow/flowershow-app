@@ -1,7 +1,7 @@
 ---
 title: "Flowershow Cloud: Add Beautiful Hero Sections to Your Pages"
 description: Learn how to enhance your pages with eye-catching hero sections using a simple configuration option
-date: 2025-03-05
+date: 2025-03-12
 authors:
   - olayway
 tags:
