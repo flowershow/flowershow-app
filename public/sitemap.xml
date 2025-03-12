@@ -69,6 +69,10 @@
   </url>
 
   <url>
+    <loc>https://flowershow.app/docs/flowershow-cloud/header-configuration</loc>
+  </url>
+
+  <url>
     <loc>https://flowershow.app/docs/self-hosted</loc>
   </url>
 
@@ -221,6 +225,16 @@
   </url>
 
   <url>
+    <loc
+      >https://flowershow.app/blog/Accessing%20Dataview%20API%20or%20database%20outside%20of%20Obsidian</loc
+    >
+  </url>
+
+  <url>
+    <loc>https://flowershow.app/blog/flowershow-cloud-hero-sections</loc>
+  </url>
+
+  <url>
     <loc>https://flowershow.app/docs/excalidraw</loc>
   </url>
 
@@ -361,6 +375,10 @@
   </url>
 
   <url>
+    <loc>https://flowershow.app/blog/flowershow-cloud-header-configuration</loc>
+  </url>
+
+  <url>
     <loc
       >https://flowershow.app/excalidraw/cloud-publish-git-flow-2022-11-21.excalidraw</loc
     >
@@ -376,10 +394,6 @@
 
   <url>
     <loc>https://flowershow.app/docs/tailwind</loc>
-  </url>
-
-  <url>
-    <loc>https://flowershow.app/docs/flowershow-cloud/featured-image</loc>
   </url>
 
   <url>

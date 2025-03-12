@@ -31,26 +31,49 @@ const heroProps = {
 
 const features = [
     {
-        title: "Markdown, MDX syntax support",
+        title: "Markdown and Obsidian Syntax Support",
         description:
-            "Flowershow was designed with Obsidian users in mind, so it aims to fully support Obsidian syntax, including CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links. All of your Markdown files are parsed as MDX. This means you not only can write your content using good old Markdown, but also enrich it with dynamic visualizations, immersive user interactions and much more!",
+            "Flowershow was designed with Obsidian users in mind, so it aims to fully support Obsidian syntax, including CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links.",
         link: "/docs/syntax",
-        imageSrc: "/images/obs_dark.png",
+        imageSrc: "/markdown.png",
     },
     {
         title: "Mermaid and MathJax support",
         description:
-            "Display Mermaid diagrams within your notes as well as math exaptions, where you can use LaTeX notations to denote formulas.",
+            "Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.",
         link: "/docs/mermaid",
-        imageSrc: "/images/mermaid.png",
+        imageSrc: "/math_and_mermaid.png",
     },
     {
-        title: "Table of contents",
+        title: "Table of Contents and Sitemap",
         description:
             "You can add a table of contents to your markdown pages as well as adding a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.",
-        link: "/docs/site-wide-toc",
-        imageSrc: "/images/toc.png",
-    }
+        imageSrc: "/toc_and_sitemap.png",
+    },
+    {
+        title: "Page Comments",
+        description: "Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.",
+        link: "/blog/flowershow-cloud-comments",
+        imageSrc: "/comments.png",
+    },
+    {
+        title: "Elegant Layout",
+        description: "Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.",
+        link: "/blog/flowershow-cloud-header-configuration",
+        imageSrc: "/layout.png",
+    },
+    {
+        title: "Hero Section",
+        description: "Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.",
+        link: "/blog/flowershow-cloud-hero-sections",
+        imageSrc: "/hero.png",
+    },
+    // {
+    //     title: "Custom CSS",
+    //     description: "aaa",
+    //     link: "/docs/site-wide-toc",
+    //     imageSrc: "/tbd.png",
+    // },
 ];
 
 export default function Home() {
