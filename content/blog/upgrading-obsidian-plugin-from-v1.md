@@ -1,4 +1,8 @@
-# Upgrading from Obsidian Flowershow Plugin v1 to v2
+---
+title: Upgrading from Obsidian Flowershow Plugin v1 to v2
+authors: [ "rufuspollock" ]
+date: 2025-03-08
+---
 
 Version two of the Flowershow plugin (released Feb 2025) is designed to work with the new default Flowershow which is Flowershow Cloud 💐☁️.
 
@@ -15,4 +19,6 @@ The best way forward is simply to republish your vault using the new Flowershow 
 
 You just need a way to keep publishing your vault to the existing github repository you created for self hosting using the structure that is there. One option is to use a git client or to use one of the obsidian plugins with git support. If you need help just ask in support (see link above).
 
-There is also a possibility of adding back support for self-hosting in the Flowershow plugin. If you are interested please let us know by leaving a comment below. Note: we're a very small self-funded team 🙂 so we have to prioritise carefully but we'll do our best to support our community's needs 💐.
+There is also a possibility of adding back support for self-hosting in the Flowershow plugin. If you are interested please let us know by leaving a comment below.
+
+Note: we're a very small self-funded team 🙂 so we have to prioritise carefully but we'll do our best to support our community's needs 💐.
