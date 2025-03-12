@@ -1,12 +1,11 @@
 ---
 title: "Flowershow Cloud: Add Beautiful Hero Sections to Your Pages"
 description: Learn how to enhance your pages with eye-catching hero sections using a simple configuration option
-date: 2025-03-05
+date: 2025-03-12
 authors:
   - olayway
 tags:
   - flowershow-cloud
-isDraft: true
 ---
 
 Flowershow now allows to set hero sections transform your page headers into elegant, full-width banners. Let's explore how to enable them!
