@@ -40,10 +40,10 @@ export default function WhatIsFlowershow() {
             <div className="mx-auto max-w-3xl prose dark:prose-invert">
                 <h2 className="text-center">What is Flowershow?</h2>
                 <p>
-                    Flowershow is the easiest way to turn your Obsidian vault into an elegant
+                    Flowershow is a quick and easy way to turn your markdown into an elegant
                     website. No coding, no technical setup, no maintenance required. Just connect
-                    your vault and publish with a click. Perfect for digital gardens, documentation,
-                    blogs, or any knowledge sharing.
+                    your content and publish with a click. Perfect for markdown-based digital gardens, documentation,
+                    blogs, wikis, websites including Obsidian vaults.
                 </p>
             </div>
             <FeaturesTiles features={features} />
