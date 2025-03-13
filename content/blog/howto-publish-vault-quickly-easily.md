@@ -15,6 +15,8 @@ Before we start, this is my sample obsidian vault that I want to publish. and th
 
 <img width="1522" alt="image" src="https://github.com/user-attachments/assets/c7790fb4-4d12-42dc-955e-38f45fa41aed" />
 
+![image](https://github.com/user-attachments/assets/d9ce266b-e264-4962-bbc1-96ea3cf6c1da)
+
 ## STEP 1: Install the Flowershow Plugin
 
 1. Open Obsidian.  
