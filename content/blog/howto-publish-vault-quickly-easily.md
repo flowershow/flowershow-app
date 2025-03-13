@@ -35,21 +35,20 @@ Before we start, this is my sample obsidian vault that I want to publish. and th
 ## STEP 3: Create a GitHub Repository for Syncing
 
 1. Create a Github repository. This will act as a backup and sync point between Obsidian and Flowershow.  
-2. Click on the **Quickstart Publish** button in FlowerShow.  
-3. Follow the link to create a GitHub repository from the template.
+2. Use our [template repostory](https://github.com/flowershow/flowershow-cloud-template) -- click "Use this template" button to create a new repository (can be private if you want).
 
 ## STEP 4: Connect Flowershow to Your GitHub Repository
 
-1. Go back to Flowershow Cloud dashboard.  
-2. Select the GitHub repository you just created.  
-3. Click **Create Website**—FlowerShow will set up your site in seconds\!
+1. Go back to Flowershow Cloud dashboard
+2. Choose either option for creating a new site (or click [here](https://cloud.flowershow.app/new))
+2. Select the GitHub repository you just created. 
+3. Click **Create Website** — your Flowershow will set up your site in seconds!
 
 ## STEP 5: Sync Your Obsidian Vault & Publish
 
-1. Open Obsidian and go to the **Flowershow plugin settings**.  
+1. Go back to Obsidian and go to the **Flowershow plugin settings**.  
 2. Enter the details for your GitHub repository.  
-3. Click **Sync** to upload your notes.  
-4. Finally, hit **Publish All**—and that’s it!
+3. Go to the Flowershow button in the sidebar and **select the notes to publish** — and that’s it!
 
 ## Conclusion
 

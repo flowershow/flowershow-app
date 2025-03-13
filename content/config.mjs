@@ -29,11 +29,9 @@ const config = {
   analytics: "G-RQWLTRWBS2",
   navLinks: [
     { href: "/#features", name: "Features" },
+    { href: "/pricing", name: "Pricing" },
     { href: "/docs", name: "Docs" },
     { href: "/blog", name: "Blog" },
-    { href: "/docs/roadmap", name: "Roadmap" },
-    { href: "/about", name: "About" },
-    { href: "/pricing", name: "Pricing" },
     { href: "/self-hosted", name: "Self-hosted" },
     {
       href: "https://github.com/flowershow/flowershow/discussions",
@@ -43,6 +41,8 @@ const config = {
       href: "https://github.com/flowershow/flowershow/discussions",
       name: "Support",
     },
+    { href: "/about", name: "About" },
+    { href: "https://cloud.flowershow.app/", name: "Login/Signup" },
   ],
   social: [
     { label: "github", href: "https://github.com/datopian/flowershow" },

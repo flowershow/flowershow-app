@@ -7,11 +7,7 @@ showLinkPreview: false
 
 Flowershow is a cloud platform for easily converting your markdown files into an elegant website. 
 
-Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also many **Obsidian-specific syntax elements**, like internal links or footnotes[^1].
-[^1]: Support for some GFM and Obsidian-specific syntax elements is still a work in progress. See our [[roadmap]] to learn more.
-
-> [!tip] Quickstart
-👉 Sign up and follow our **[Obsidian Quickstart](https://cloud.flowershow.app/obsidian-quickstart)** to publish your vault in a few simple steps!
+Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also many **Obsidian-specific syntax elements**, like internal links or footnotes.
 
 ## Tutorials & How-Tos
 

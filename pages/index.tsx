@@ -14,7 +14,7 @@ type Props = CustomAppProps;
 
 const heroProps = {
     title: "Publish your markdown quickly, easily and for free",
-    subtitle: "Fast and easy way to publish your digital garden, Obsidian vault or any kind of markdown – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.",
+    subtitle: "Flowershow is a quick and easy way to publish your digital garden, Obsidian vault or any kind of markdown – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.",
     highlights: [
         "Obsidian compatibile",
         "Quick and easy",
