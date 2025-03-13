@@ -1,10 +1,13 @@
 ---
-title: How to Publish Your Obsidian Vault online quickly and easily with FlowerShow
+title: How to Publish Your Obsidian Vault Quickly and Easily with Flowershow
+date: 2025-03-11
 authors: [ "rufuspollock", "olayway" ]
-date: 2025-03-12
+image: "/assets/publish-obsidian-vault-with-flowershow.jpeg"
 ---
- 
+
 Hi everyone! In this tutorial and video, we’ll show you how to publish your Obsidian Vault quickly and easily using FlowerShow. We’ll go through four simple steps to get your notes online. Let’s get started!
+
+https://www.youtube.com/watch?v=_2cwU6zwNWQ
 
 ## Step 0: what the result will be
 
@@ -43,11 +46,11 @@ Before we start, this is my sample obsidian vault that I want to publish. and th
 
 ## STEP 5: Sync Your Obsidian Vault & Publish
 
-1. Open Obsidian and go to the **FlowerShow plugin settings**.  
+1. Open Obsidian and go to the **Flowershow plugin settings**.  
 2. Enter the details for your GitHub repository.  
 3. Click **Sync** to upload your notes.  
 4. Finally, hit **Publish All**—and that’s it!
 
 ## Conclusion
 
-Congratulations! Your Obsidian Vault is now published with FlowerShow. If you found this tutorial helpful, like and subscribe for more Obsidian tips.
+Congratulations! Your Obsidian Vault is now published with Flowershow. 💐

@@ -15,7 +15,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 ## Tutorials & How-Tos
 
-- [How to Publish an Obsidian Vault](https://cloud.flowershow.app/obsidian-quickstart)
+- [[blog/howto-publish-vault-quickly-easily|How to Publish an Obsidian Vault]]
 - [[blog/flowershow-cloud-header-configuration|A Complete Guide to Configuring Your Site's Header]]
 - [[blog/flowershow-cloud-nav-config|How to Configure the Navigation Bar]]
 - [[blog/flowershow-cloud-comments|How to Enable Comments]]
