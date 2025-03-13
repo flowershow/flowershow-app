@@ -42,7 +42,7 @@ Before we start, this is my sample obsidian vault that I want to publish. and th
 ## STEP 4: Connect Flowershow to Your GitHub Repository
 
 1. Go back to Flowershow Cloud dashboard
-2. Choose either option for creating a new site (or click [here](https://cloud.flowershow.app/new))
+2. Choose the Publish your Obsidian vault option (or click [go directly to new site creation here](https://cloud.flowershow.app/new))
 2. Select the GitHub repository you just created. 
 3. Click **Create Website** — your Flowershow will set up your site in seconds!
 

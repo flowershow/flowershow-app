@@ -1,7 +1,7 @@
 ---
 title: "Announcing Flowershow Cloud: quick and easy way to publish your markdown"
 date: 2025-03-13
-authors: [ "rufuspollock" ]
+authors: [ "rufuspollock", "olayway" ]
 image: "/assets/publish-obsidian-vault-with-flowershow.jpeg"
 ---
 
@@ -9,7 +9,9 @@ Today, we're launching [Flowershow Cloud](https://flowershow.app) – a quick, e
 
 Getting started is easy and takes 2 minutes: just sign up, add your vault and you’ll have your site online in a few minutes!
 
-<a href="https://flowershow.app/">Sign up for free</a>
+<a href="https://flowershow.app/">Sign up for free &raquo;</a>
+
+![image](https://github.com/user-attachments/assets/d9ce266b-e264-4962-bbc1-96ea3cf6c1da)
 
 ## What is Flowershow Cloud
 
@@ -55,4 +57,6 @@ Ready to share your digital garden with the world?
 
 [Get Started for Free →](https://flowershow.app/)
 
-Or check out the [[|video walkthrough of how to publish your Obsidian vault with Flowershow]]
+Or check out the [[howto-publish-vault-quickly-easily|full tutorial with video walkthrough of how to publish your Obsidian vault with Flowershow]]
+
+https://www.youtube.com/watch?v=_2cwU6zwNWQ
