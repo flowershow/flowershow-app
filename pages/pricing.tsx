@@ -19,12 +19,6 @@ export default function PricingPage() {
                     <p className="mx-auto mt-6 text-center text-lg leading-8 text-gray-600 dark:text-white">
                         Start sharing your digital garden for free. Upgrade to get extra premium features.
                     </p>
-                    <div className="mx-auto mt-12 text-center px-4 py-2 bg-secondary/10 rounded-lg">
-                        <p className="text-sm text-secondary">
-                            <span className="mr-2">🎉</span>
-                            Beta period: All Premium features are temporarily enabled for free. They will become premium-only features soon.
-                        </p>
-                    </div>
 
                     {/* xs to md */}
                     <div className="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 md:hidden">
@@ -280,20 +274,20 @@ const tiers = [
     {
         name: 'Free',
         id: 'tier-free',
-        href: "https://tally.so/r/3EN1yX",
+        href: "https://cloud.flowershow.app/",
         priceMonthly: '$0',
         description: 'Perfect for personal digital gardens and small projects',
         mostPopular: true,
-        cta: "Get early access"
+        cta: "Sign up now"
     },
     {
         name: 'Premium',
         id: 'tier-premium',
-        href: "https://tally.so/r/3EN1yX",
+        href: "https://cloud.flowershow.app/",
         priceMonthly: '$5',
         description: 'For creators who want more customization and features',
         mostPopular: false,
-        cta: "Get early access"
+        cta: "Sign up now"
     },
 ]
 const sections = [
@@ -328,7 +322,7 @@ const sections = [
         features: [
             { name: 'Community support', tiers: { Free: true, Premium: true } },
             { name: 'Priority support', tiers: { Premium: true } },
-            { name: 'Onboarding assistance', tiers: { Premium: true } },
+            { name: 'Onboarding assistance', tiers: { Premium: false, Free: false  } },
         ],
     },
 ]
