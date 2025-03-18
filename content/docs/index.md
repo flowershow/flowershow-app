@@ -19,7 +19,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/flowershow-cloud-edit-this-page-button|How to Add 'Edit this page' Button (To Encourage Contributions)]]
 - [[blog/flowershow-cloud-featured-images|How to Set Custom Social Previews for Your Pages]]
 - [[blog/flowershow-cloud-featured-images|How to Add Featured Images to Your Pages]]
-- [[blog/flowershow-cloud-nav-config|How to Enable Sidebar Navigation]]
+- [[docs/flowershow-cloud/sidebar|How to Enable Sidebar Navigation]]
 - 🚧 How to Configure Your Site with Google Analytics
 - 🚧 How to Add Charts and Graphs
 
