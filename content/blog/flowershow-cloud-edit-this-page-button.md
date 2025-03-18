@@ -23,7 +23,7 @@ The "Edit this page" button appears at the bottom of your pages and links direct
 
 ## How to Enable
 
-Enabling the edit button is simple - just add one line to your `config.json` file:
+Add the following line to your `config.json` file:
 
 ```json
 {
