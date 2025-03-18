@@ -1,5 +1,5 @@
 ---
-title: "Flowershow Cloud: How to Enable 'Edit this page'"
+title: "Flowershow Cloud: How to Enable 'Edit this page' Button"
 description: Learn how to add an edit button to your Flowershow pages that links directly to GitHub, allowing readers to contribute improvements to your content.
 date: 2025-03-18
 authors:
