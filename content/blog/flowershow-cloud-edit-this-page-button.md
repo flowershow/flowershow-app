@@ -1,0 +1,56 @@
+---
+title: "Flowershow Cloud: How to Enable 'Edit this page'"
+description: Learn how to add an edit button to your Flowershow pages that links directly to GitHub, allowing readers to contribute improvements to your content.
+date: 2025-03-18
+authors:
+  - olayway
+tags:
+  - flowershow-cloud
+---
+
+Want to make your Flowershow site more collaborative? Adding an "Edit this page" button is a great way to encourage community contributions to your content. In this quick guide, I'll show you how to enable this feature.
+
+## What is the "Edit this page" Button?
+
+The "Edit this page" button appears at the bottom of your pages and links directly to the GitHub edit interface for that page. When visitors click it, they'll be taken to GitHub where they can:
+- Suggest improvements to your content
+- Fix typos or broken links
+- Add new information
+- Submit changes through GitHub's pull request system
+
+>[!important]
+> Before enabling this feature, ensure your repository is public on GitHub (this is required for the edit links to work).
+
+## How to Enable
+
+Enabling the edit button is simple - just add one line to your `config.json` file:
+
+```json
+{
+  "showEditLink": true
+}
+```
+
+That's it! Once you add this configuration and deploy your site, every page will display an "Edit this page" button at the bottom.
+
+![[Pasted image 20250318145737.png]]
+
+## Benefits
+
+Adding an edit button to your pages:
+- Encourages community engagement
+- Helps maintain up-to-date content
+- Builds a collaborative knowledge base
+- Makes it easy to fix small issues quickly
+
+## Troubleshooting
+
+If the edit button isn't appearing:
+
+1. Verify your repository is public
+2. Check your `config.json` syntax
+3. Try clearing your browser cache
+
+---
+
+Ready to make your site more collaborative? Enable the edit button today and start accepting community contributions! If you run into any issues, feel free to ask for help in our [GitHub discussions](https://github.com/flowershow/flowershow/discussions). 🌷

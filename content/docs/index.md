@@ -16,6 +16,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/flowershow-cloud-nav-config|How to Configure the Navigation Bar]]
 - [[blog/flowershow-cloud-comments|How to Enable Comments]]
 - [[blog/flowershow-cloud-custom-styles|How to Customize the Look of Your Site]]
+- [[blog/flowershow-cloud-edit-this-page-button|How to Add 'Edit this page' Button (To Encourage Contributions)]]
 
 ### 🚧 Coming soon...
 
@@ -31,6 +32,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/flowershow-cloud/sidebar|Sidebar]]
 - [[docs/flowershow-cloud/comments|Page comments]]
 - [[docs/flowershow-cloud/custom-styles|Custom styles]]
+- [[docs/flowershow-cloud/edit-this-page|Edit this page button]]
 
 ---
 
