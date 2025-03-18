@@ -33,7 +33,7 @@ Add the following line to your `config.json` file:
 
 That's it! Once you add this configuration and deploy your site, every page will display an "Edit this page" button at the bottom.
 
-![[Pasted image 20250318145737.png]]
+![[edit-this-page-button.png]]
 
 ## Benefits
 
