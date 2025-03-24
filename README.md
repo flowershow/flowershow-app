@@ -89,7 +89,7 @@ Transform your page headers into stunning, full-width hero sections with customi
 ![[hero-layout.png]]
 
 
-<div style={{ textAlign: 'center' marginTop: '2rem' }}><h2>Try out Flowershow</h2><p>Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you.</p><a href="https://cloud.flowershow.app/" target="_blank" style={{
+<div style={{ textAlign: 'center' }}><h2>Try out Flowershow</h2><p>Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you.</p><a href="https://cloud.flowershow.app/" target="_blank" style={{
     borderRadius: '0.75rem',
     backgroundColor: 'rgb(0 0 0)',
     padding: '0.5rem 1rem',
