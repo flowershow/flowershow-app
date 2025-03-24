@@ -8,6 +8,7 @@ cta:
   - label: Use Flowershow for free
     href: https://cloud.flowershow.app/
 ---
+
 >[!info] What is Flowershow? 💐
 >Flowershow is the easiest way to turn your Obsidian vault into an elegant website. No coding, no technical setup, no maintenance required. Just connect your vault and publish with a click. Perfect for digital gardens, documentation, blogs, or any knowledge sharing.
 >
@@ -87,10 +88,22 @@ Transform your page headers into stunning, full-width hero sections with customi
 
 ![[hero-layout.png]]
 
->[!important] Try out Flowershow
-> Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you.
-> 
-> [Sign up for free now](https://cloud.flowershow.app/)
+## Try out Flowershow
+
+Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you.
+
+<a href="https://cloud.flowershow.app/" target="_blank" style={{
+    borderRadius: '0.75rem',
+    backgroundColor: 'rgb(0 0 0)',
+    padding: '0.5rem 1rem',
+    marginTop: '1rem',
+    fontSize: '1rem',
+    fontWeight: '600',
+    color: '#ffffff',
+    boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+    textDecoration: 'none',
+    display: 'inline-block'
+  }}>Sign up for free now</a>
 
 
 
