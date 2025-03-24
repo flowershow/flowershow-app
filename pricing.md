@@ -12,12 +12,12 @@ Start sharing your digital garden for free. Upgrade to get extra premium feature
 ## Free Plan
 **$0/month**  
 Perfect for personal digital gardens and small projects  
-[Get early access](https://tally.so/r/3EN1yX)
+[Sign up now](https://cloud.flowershow.app/)
 
 ## Premium Plan
 **$5/month**  
 For creators who want more customization and features  
-[Get early access](https://tally.so/r/3EN1yX)
+[Sign up now](https://cloud.flowershow.app/)
 
 ## Feature Comparison
 
@@ -49,10 +49,25 @@ For creators who want more customization and features
 
 ### Support
 
-| Feature | Free | Premium |
-|---------|------|---------|
-| Community support | ✓ | ✓ |
-| Priority support | - | ✓ |
-| Onboarding assistance | - | ✓ |
+| Feature               | Free | Premium |
+| --------------------- | ---- | ------- |
+| Community support     | ✓    | ✓       |
+| Priority support      | -    | ✓       |
+| Onboarding assistance | -    | -       |
 
 Note: 🚧 indicates features that are currently in development.
+
+
+## Empower Flowershow Development
+
+Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.
+
+<a href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox" target="_blank" style={{
+    borderRadius: '0.75rem',
+    backgroundColor: secondaryColor,
+    padding: '1rem 2rem',
+    fontSize: '1rem',
+    fontWeight: 600,
+    color: '#ffffff',
+    boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
+  }}><span style={{ marginRight: '0.5rem' }}>{'❤'}</span>Become a Supporter by making a one-off contribution</a>
