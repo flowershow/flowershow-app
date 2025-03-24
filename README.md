@@ -19,25 +19,17 @@ Flowershow is the easiest way to turn your Obsidian vault into an elegant websit
 
 ### Crafted for Obsidian
 
-<img src="/assets/obsidian_icon.png" style={{"height": "50px"}}/>
-
 Works with your existing Obsidian notes out of the box. No need to modify the syntax or change file layout. Not an obsidian fan? Flowershow will work with any CommonMark or GFM markdown files.
 
 ### Instant Publishing
-
-<img src="/assets/bolt.png" style={{"height": "50px"}}/>
 
 No technical setup required. Just connect your vault and publish with a click. Your content goes live instantly, and updates are reflected immediately on your site.
 
 ### Elegant & Functional
 
-<img src="/assets/star.png" style={{"height": "50px"}}/>
-
 Clean and elegant. Perfect for digital gardens, documentation, or any knowledge sharing.
 
 ### Always Up to Date
-
-<img src="/assets/sync.png" style={{"height": "50px"}}/>
 
 Flowershow ensures you're always using the latest features without any maintenance. Focus on creating content while we handle the technical details.
 
