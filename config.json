@@ -19,7 +19,7 @@
       }
     ],
     "social": [
-      { "label": "github", "href": "https://github.com/datopian/flowershow" }
+      { "label": "github", "href": "https://github.com/datopian/flowershow", "name": "GitHub" }
     ]
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/people", "/public"]
