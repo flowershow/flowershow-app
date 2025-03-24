@@ -3,11 +3,9 @@
     "title": "Flowershow",
     "links": [
       { "href": "/#features", "name": "Features" },
+      { "href": "/pricing", "name": "Pricing" },
       { "href": "/docs", "name": "Docs" },
       { "href": "/blog", "name": "Blog" },
-      { "href": "/docs/roadmap", "name": "Roadmap" },
-      { "href": "/about", "name": "About" },
-      { "href": "/pricing", "name": "Pricing" },
       { "href": "/self-hosted", "name": "Self-hosted" },
       {
         "href": "https://github.com/flowershow/flowershow/discussions",
@@ -16,10 +14,12 @@
       {
         "href": "https://github.com/flowershow/flowershow/discussions",
         "name": "Support"
-      }
+      },
+      { "href": "/about", "name": "About" },
+      { "href": "https://cloud.flowershow.app", "name": "Login/Signup" }
     ],
     "social": [
-      { "label": "github", "href": "https://github.com/datopian/flowershow", "name": "GitHub" }
+      { "label": "github", "href": "https://github.com/datopian/flowershow", "name": "Our GitHub" }
     ]
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/people", "/public"]
