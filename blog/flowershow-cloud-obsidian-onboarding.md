@@ -121,8 +121,6 @@ When you update your notes in Obsidian, you'll need to publish those changes to 
 4. Click "Commit to main"
 5. Click "Push origin" to update your website
 
-![[Pasted image 20240708202621.png]]
-
 Your website will update automatically. If you see "Outdated" under your site's title, just click "Sync" to manually update it.
 
 ## Making Updates Even Easier (Optional)
@@ -145,19 +143,3 @@ For more details about the plugin, check out [its documentation](https://github.
 ---
 
 Need help? The Flowershow Cloud community and support team are here to assist you. Happy sharing!
-
-## Notes 🚧
-
-### Friction points for Obsidian users
-
-- People generally don't use `README.md` or `index.md` files
-	- Specifically they don't use top level one, meaning visiting their site at `/@username/sitename` will show 404 **should we allow for configuring homepage file like in Obsidian Publish that will be used to redirect from `/@username/sitename` to `/@username/sitename/homepage` ?**
-- People usually use note (file) names as note titles **is this even a problem? need to test**
-- Sidebar is not enabled by default
-- GitHub and git
-
-### TODOs
-
-Adjust instructions on the starting dashboard screen to have 2 options:
-1. Start from scratch with our template.
-2. See tutorial on publishing Obsidian vault.
