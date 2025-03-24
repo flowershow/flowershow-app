@@ -70,6 +70,6 @@ Join us in making digital gardens bloom! Your contribution helps us build better
     fontSize: '1rem',
     fontWeight: '600',
     color: '#ffffff',
-    boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
+    boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
     textDecoration: 'none'
-  }}><span style={{ marginRight: '0.5rem' }}>{'❤️'}</span>Become a Supporter by making a one-off contribution</a>
+  }}><span style={{ marginRight: '0.5rem' }}>&#10084;</span>Become a Supporter by making a one-off contribution</a>
