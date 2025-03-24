@@ -61,7 +61,7 @@ Note: 🚧 indicates features that are currently in development.
 
 Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.
 
-<a href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox" target="_blank" style={{
+<div style={{ textAlign: 'center' }}><a href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox" target="_blank" style={{
     borderRadius: '0.75rem',
     backgroundColor: 'rgb(56 189 248)',
     padding: '1rem 2rem',
@@ -72,4 +72,4 @@ Join us in making digital gardens bloom! Your contribution helps us build better
     boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
     textDecoration: 'none',
     display: 'inline-block'
-  }}><span style={{ marginRight: '0.5rem' }}>{'❤️'}</span>Become a Supporter by making a one-off contribution</a>
+  }}><span style={{ marginRight: '0.5rem' }}>{'❤️'}</span>Become a Supporter by making a one-off contribution</a></div>

@@ -92,7 +92,7 @@ Transform your page headers into stunning, full-width hero sections with customi
 
 Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you.
 
-<a href="https://cloud.flowershow.app/" target="_blank" style={{
+<div style={{ textAlign: 'center' }}><a href="https://cloud.flowershow.app/" target="_blank" style={{
     borderRadius: '0.75rem',
     backgroundColor: 'rgb(0 0 0)',
     padding: '0.5rem 1rem',
@@ -103,7 +103,7 @@ Be part of shaping the future of digital garden publishing. Your feedback will h
     boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
     textDecoration: 'none',
     display: 'inline-block'
-  }}>Sign up for free now</a>
+  }}>Sign up for free now</a></div>
 
 
 
