@@ -6,16 +6,15 @@ showToc: false
 
 Start sharing your digital garden for free. Upgrade to get extra premium features.
 
->[!note] 🎉 Beta period
-> All Premium features are temporarily enabled for free. They will become premium-only features soon.
-
 ## Free Plan
+
 **$0/month**  
 Perfect for personal digital gardens and small projects  
 [Sign up now](https://cloud.flowershow.app/)
 
 ## Premium Plan
-**$5/month**  
+
+**$5/month or $50/annually** 
 For creators who want more customization and features  
 [Sign up now](https://cloud.flowershow.app/)
 
