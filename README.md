@@ -9,12 +9,13 @@ cta:
     href: https://cloud.flowershow.app/
 ---
 
->[!info] What is Flowershow? 💐
->Flowershow is the easiest way to turn your Obsidian vault into an elegant website. No coding, no technical setup, no maintenance required. Just connect your vault and publish with a click. Perfect for digital gardens, documentation, blogs, or any knowledge sharing.
->
->- [x] Obsidian compatibile
->- [x] Quick and easy
->- [x] Free forever plan
+## What is Flowershow?
+
+Flowershow is the easiest way to turn your Obsidian vault into an elegant website. No coding, no technical setup, no maintenance required. Just connect your vault and publish with a click. Perfect for digital gardens, documentation, blogs, or any knowledge sharing.
+
+- Obsidian compatibile
+- Quick and easy
+- Free forever plan
 
 ### Crafted for Obsidian
 
