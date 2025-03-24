@@ -83,9 +83,8 @@ Transform your page headers into stunning, full-width hero sections with customi
 
 ![[hero-layout.png]]
 
+## Try out Flowershow
 
-<div className="text-center">
-<h2>Try out Flowershow</h2>
-<p>Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you.</p>
-<a className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-800 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900" target="_blank" href="https://cloud.flowershow.app/"><span>Sign up for free now</span></a>
-</div>
+Be part of shaping the future of digital garden publishing. Your feedback will help us build the perfect tool for you.
+
+[Sign up for free now](https://cloud.flowershow.app/)
