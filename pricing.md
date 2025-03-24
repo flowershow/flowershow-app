@@ -64,10 +64,10 @@ Join us in making digital gardens bloom! Your contribution helps us build better
 
 <a href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox" target="_blank" style={{
     borderRadius: '0.75rem',
-    backgroundColor: secondaryColor,
+    backgroundColor: 'rgb(56 189 248)',
     padding: '1rem 2rem',
     fontSize: '1rem',
-    fontWeight: 600,
+    fontWeight: '600',
     color: '#ffffff',
     boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
   }}><span style={{ marginRight: '0.5rem' }}>{'❤'}</span>Become a Supporter by making a one-off contribution</a>
