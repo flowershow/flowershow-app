@@ -66,8 +66,10 @@ Join us in making digital gardens bloom! Your contribution helps us build better
     borderRadius: '0.75rem',
     backgroundColor: 'rgb(56 189 248)',
     padding: '1rem 2rem',
+    marginTop: '1rem',
     fontSize: '1rem',
     fontWeight: '600',
     color: '#ffffff',
     boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
-  }}><span style={{ marginRight: '0.5rem' }}>{'❤'}</span>Become a Supporter by making a one-off contribution</a>
+    textDecoration: 'none'
+  }}><span style={{ marginRight: '0.5rem' }}>❤️</span>Become a Supporter by making a one-off contribution</a>
