@@ -20,6 +20,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/flowershow-cloud-featured-images|How to Set Custom Social Previews for Your Pages]]
 - [[blog/flowershow-cloud-featured-images|How to Add Featured Images to Your Pages]]
 - [[docs/flowershow-cloud/sidebar|How to Enable Sidebar Navigation]]
+- [[flowershow-cloud-index-component|How to Create Content Catalogs with the Index Component (for Your Blog Posts, Tutorials List and More)]]
 - 🚧 How to Configure Your Site with Google Analytics
 - 🚧 How to Add Charts and Graphs
 
@@ -31,6 +32,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/flowershow-cloud/comments|Page comments]]
 - [[docs/flowershow-cloud/custom-styles|Custom styles]]
 - [[docs/flowershow-cloud/edit-this-page|Edit this page button]]
+- [[index-component|Index Component]]
 
 ---
 
