@@ -1,17 +1,17 @@
 ---
-title: Index Component
+title: List Component
 tags:
   - flowershow-cloud
 ---
 
-The Index component allows you to create organized catalogs of your markdown content by automatically listing files from a specified directory.
+The List component allows you to create organized catalogs of your markdown content by automatically listing files from a specified directory.
 
 ## Usage
 
-Add the Index component to your markdown file:
+Add the List component to your markdown file:
 
 ```markdown
-<Index dir="/blog"/>
+<List dir="/blog"/>
 ```
 
 The component will display:
@@ -24,7 +24,7 @@ The component will display:
 
 ## Configuration
 
-The Index component accepts one required prop:
+The List component accepts one required prop:
 
 ```markdown
 dir: string       # Absolute path to directory (must start with '/')
@@ -32,18 +32,18 @@ dir: string       # Absolute path to directory (must start with '/')
 
 For example:
 ```markdown
-<Index dir="/blog"/>        # Lists files from blog directory
-<Index dir="/tutorials"/>   # Lists files from tutorials directory
-<Index dir="/recipes"/>     # Lists files from recipes directory
+<List dir="/blog"/>        # Lists files from blog directory
+<List dir="/tutorials"/>   # Lists files from tutorials directory
+<List dir="/recipes"/>     # Lists files from recipes directory
 ```
 
 ## Behavior
 
-The Index component:
+The List component:
 - Lists markdown files from the specified directory
 - Ignores `README.md` and `index.md` files
 - Is non-recursive (doesn't show files in subdirectories)
 - Sorts by date if available, otherwise by title
 - Displays each file's title, description, and date (if provided)
 
-For more details practices, see our [[flowershow-cloud-index-component|blog post]].
+For more details practices, see our [[flowershow-cloud-list-component|blog post]].
