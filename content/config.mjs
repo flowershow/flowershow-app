@@ -42,7 +42,8 @@ const config = {
       name: "Support",
     },
     { href: "/about", name: "About" },
-    { href: "https://cloud.flowershow.app/", name: "Login/Signup" },
+    { href: "https://demo.flowershow.app/", name: "Demo" },
+    { href: "https://cloud.flowershow.app/", name: "Login/Signup" }
   ],
   social: [
     { label: "github", href: "https://github.com/datopian/flowershow" },
