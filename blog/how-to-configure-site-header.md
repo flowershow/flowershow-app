@@ -1,11 +1,9 @@
 ---
-title: "Flowershow Cloud: A Complete Guide to Configuring Your Site's Header"
+title: Learn How to Configure Your Site's Header
 description: Learn how to customize your page headers in Flowershow Cloud with frontmatter configuration options for titles, descriptions, authors, dates, and featured images.
 date: 2025-03-06
 authors:
-  - olayway
-tags:
-  - flowershow-cloud
+  - Ola Rubaj
 ---
 
 If you're using Flowershow Cloud to build your website, one of the first things you'll want to customize is how your pages look. The page header is particularly important as it's the first thing visitors see and plays a crucial role in SEO and social sharing. Let's dive into how you can configure your page headers to look exactly the way you want.
@@ -32,7 +30,9 @@ title: Chasing Auroras in Norway
 ```
 
 ![[header-title.png]]
+
 Alternatively you could use the top level heading:
+
 ```markdown
 # Chasing Auroras in Norway
 ```
@@ -49,6 +49,7 @@ description: "Join me on a mesmerizing journey beneath the Arctic skies, where n
 ```
 
 ![[header-description.png]]
+
 ### Authors
 
 Whether you're running a solo blog or managing a team publication, you can easily attribute content to its creators by setting `authors` frontmatter field.
@@ -59,6 +60,7 @@ authors: ["Jane Doe"]
 ```
 
 ![[header-author.png]]
+
 ### Publication date
 
 Adding publication dates helps visitors understand when content was created. You can configure it with `date` frontmatter field.
@@ -88,6 +90,7 @@ image: https://example.com/my-image.jpg
 ```
 
 ![[header-image.png]]
+
 ## Best Practices for Header Configuration
 
 To get the most out of your page headers:

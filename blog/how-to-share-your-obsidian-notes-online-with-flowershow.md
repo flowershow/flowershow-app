@@ -1,5 +1,5 @@
 ---
-title: "Flowershow Cloud: How to Share Your Obsidian Notes Online"
+title: How to Share Your Obsidian Notes Online with Flowershow Cloud
 description: A beginner-friendly guide to publishing your Obsidian vault online with Flowershow Cloud
 date: 2025-02-12
 authors:

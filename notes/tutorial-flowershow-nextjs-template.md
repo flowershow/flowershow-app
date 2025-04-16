@@ -4,7 +4,7 @@ date: 2022-09-23
 
 # Flowershow as a NextJS template
 
-Original guide [[blog/flowershow-setup-v0.0.1-for-alpha-users-june-2022]]
+Original guide [[flowershow-setup-v0.0.1-for-alpha-users-june-2022]]
 
 2 options
 

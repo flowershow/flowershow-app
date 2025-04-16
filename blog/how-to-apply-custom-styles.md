@@ -1,11 +1,9 @@
 ---
-title: "Flowershow Cloud: Learn How to Style Your Site with CSS"
+title: Learn How to Style Your Site with CSS
 description: A step-by-step guide to customizing your site's appearance using CSS, from basic styling to advanced hero sections
 date: 2025-02-11
 authors:
   - Ola Rubaj
-tags:
-  - flowershow-cloud
 ---
 
 This tutorial will guide you through the process of customizing your Flowershow Cloud site's appearance using CSS. You'll learn how to create and use a custom CSS file to modify existing styles and add new styled components like a hero section.

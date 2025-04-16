@@ -1,39 +1,38 @@
 ---
 title: Get Started with Flowershow
+showLinkPreview: false
 ---
 
 ## What is Flowershow?
 
 Flowershow is a cloud platform for easily converting your markdown files into an elegant website. 
 
-Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also many **Obsidian-specific syntax elements**, like internal links or footnotes[^1].
-[^1]: Support for some GFM and Obsidian-specific syntax elements is still a work in progress. See our [[roadmap]] to learn more.
-
-> [!tip] Quickstart
-👉 Sign up and follow our **[Obsidian Quickstart](https://cloud.flowershow.app/obsidian-quickstart)** to publish your vault in a few simple steps!
+Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also many **Obsidian-specific syntax elements**, like internal links or footnotes.
 
 ## Tutorials & How-Tos
 
-- [How to Publish an Obsidian Vault](https://cloud.flowershow.app/obsidian-quickstart)
-- [[blog/flowershow-cloud-header-configuration|A Complete Guide to Configuring Your Site's Header]]
-- [[blog/flowershow-cloud-nav-config|How to Configure the Navigation Bar]]
-- [[blog/flowershow-cloud-comments|How to Enable Comments]]
-- [[blog/flowershow-cloud-custom-styles|How to Customize the Look of Your Site]]
-
-### 🚧 Coming soon...
-
-- How to Set Custom Social Previews for Your Pages
-- How to Configure Your Site with Google Analytics
-- How to Enable Sidebar Navigation
-- How to Add Charts and Graphs
+- [[blog/howto-publish-vault-quickly-easily|How to Publish an Obsidian Vault]]
+- [[blog/header-configuration|A Complete Guide to Configuring Your Site's Header]]
+- [[how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
+- [[how-to-enable-page-comments|How to Enable Comments]]
+- [[how-to-apply-custom-styles|How to Customize the Look of Your Site]]
+- [[blog/how-to-add-edit-this-page-button|How to Add 'Edit this page' Button (To Encourage Contributions)]]
+- [[how-to-add-featured-images|How to Set Custom Social Previews for Your Pages]]
+- [[how-to-add-featured-images|How to Add Featured Images to Your Pages]]
+- [[docs/flowershow-cloud/sidebar|How to Enable Sidebar Navigation]]
+- [[flowershow-cloud-list-component|How to Create Content Catalogs with the List Component (for Your Blog Posts, Tutorials List and More)]]
+- 🚧 How to Configure Your Site with Google Analytics
+- 🚧 How to Add Charts and Graphs
 
 ## Reference
 
-- [[docs/flowershow-cloud/header-configuration|Header configuration]]
-- [[docs/flowershow-cloud/navbar-configuration|Navbar configuration]]
-- [[docs/flowershow-cloud/sidebar|Sidebar]]
-- [[docs/flowershow-cloud/comments|Page comments]]
-- [[docs/flowershow-cloud/custom-styles|Custom styles]]
+- [[docs/header|Header]]
+- [[docs/navbar|Navbar]]
+- [[docs/sidebar|Sidebar]]
+- [[docs/comments|Page comments]]
+- [[docs/custom-styles|Custom styles]]
+- [[docs/edit-this-page|Edit this page button]]
+- [[docs/list-component|List Component]]
 
 ---
 

@@ -21,4 +21,4 @@ Place the `custom.css` file in:
 > [!important]
 > When using h1 tags in custom components, you must set `display: block !important;` in your CSS due to how page titles are handled internally.
 
-For a detailed guide on styling your site, including examples and step-by-step instructions, check out our [[flowershow-cloud-custom-styles|tutorial]].
+For a detailed guide on styling your site, including examples and step-by-step instructions, check out our [[how-to-apply-custom-styles|tutorial]].

@@ -1,5 +1,5 @@
 ---
-title: "Flowershow Cloud: How to Add Featured Images to Your Pages"
+title: Learn How to Add Featured Images
 description: Learn how to enhance your pages with featured images that look great on your site and social media
 date: 2025-03-05
 authors:

@@ -1,11 +1,9 @@
 ---
-title: "Flowershow Cloud: Learn How to Configure the Navigation Bar in Your Site"
+title: Learn How to Configure the Navigation Bar
 description: A step-by-step guide to customizing your site's navigation bar with logos, links, and social media
 date: 2025-02-09
 authors:
   - olayway
-tags:
-  - flowershow-cloud
 ---
 
 This tutorial will guide you through the process of customizing your Flowershow Cloud site's navigation bar. You'll learn how to add your logo, customize the title, create navigation links, and integrate social media links.

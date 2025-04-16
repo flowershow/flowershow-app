@@ -63,7 +63,7 @@ Every markdown page comes with a table of contents enabled by default. You can a
 
 Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.
 
-[Learn more →](/blog/flowershow-cloud-comments)
+[Learn more →](how-to-enable-page-comments.md)
 
 ![[comments.png]]
 
@@ -71,7 +71,7 @@ Foster community engagement with built-in commenting functionality powered by Gi
 
 Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.
 
-[Learn more →](/blog/flowershow-cloud-header-configuration)
+[Learn more →](how-to-configure-site-header.md)
 
 ![[page_header.png]]
 
@@ -79,7 +79,7 @@ Display your content in an elegant format supporting title, description, authors
 
 Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.
 
-[Learn more →](/blog/flowershow-cloud-hero-sections)
+[Learn more →](how-to-add-hero-headers.md)
 
 ![[hero-layout.png]]
 
