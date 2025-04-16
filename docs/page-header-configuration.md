@@ -1,7 +1,5 @@
 ---
 title: Page Header Configuration
-tags:
-  - flowershow-cloud
 ---
 
 Flowershow Cloud supports several page configuration options through frontmatter. These options help you control how your pages appear both on your site and in social media shares.

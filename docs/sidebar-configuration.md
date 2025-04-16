@@ -1,4 +1,7 @@
-# Sidebar Navigation
+---
+title: Sidebar Configuration
+---
+
 
 Flowershow allows you to enable a sidebar navigation that displays your site's structure and links to all pages.
 

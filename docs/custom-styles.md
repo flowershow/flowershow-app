@@ -1,20 +1,12 @@
 ---
-title: Customize Your Site with CSS
-tags:
-  - flowershow-cloud
+title: Custom Styles
 ---
 
 You can customize the appearance of your Flowershow Cloud site by adding a `custom.css` file to your site's repository.
 
-## File Location
-
-Place the `custom.css` file in:
-- The root directory of your repository, or
-- The directory specified in your site's "Root Directory" setting (if you're publishing from a subfolder)
-
 ## Creating the File
 
-1. Create a new file named `custom.css` in the appropriate location
+1. Create a new file named `custom.css` in the root of your repository (or the root directory of you're site's content if you're publishing from a subfolder)
 2. Add your CSS rules to customize colors, fonts, layouts, and more
 3. Commit and sync your site to apply the changes
 

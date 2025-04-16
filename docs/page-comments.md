@@ -1,7 +1,5 @@
 ---
-title: Enable Comments
-tags:
-  - flowershow-cloud
+title: Page Comments
 ---
 
 You can enable comments on your Flowershow Cloud site through the site settings in your dashboard. Comments are powered by GitHub Discussions.
