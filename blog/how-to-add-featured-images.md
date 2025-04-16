@@ -1,5 +1,5 @@
 ---
-title: Learn How to Add Featured Images (and Set Social Previews)
+title: How to Add Featured Images (and Set Social Previews)
 description: Learn how to enhance your pages with featured images that look great on your site and social media
 date: 2025-03-05
 authors:

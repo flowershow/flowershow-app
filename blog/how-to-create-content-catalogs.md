@@ -1,5 +1,5 @@
 ---
-title: Learn How to Create Content Catalogs with the List Component
+title: How to Create Content Catalogs with the List Component
 description: Learn how to organize and display your content collections using Flowershow's List component, perfect for blog posts, tutorials, recipes, and more.
 date: 2025-03-25
 authors:
