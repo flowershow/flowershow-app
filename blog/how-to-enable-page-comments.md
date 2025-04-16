@@ -1,9 +1,9 @@
 ---
 title: Learn How to Enable Page Comments
-description: "A step-by-step guide to enabling and configuring Giscus-powered comments on your Flowershow Cloud sites, allowing readers to engage with your content through GitHub Discussions."
+description: A step-by-step guide to enabling and configuring Giscus-powered comments on your Flowershow Cloud sites, allowing readers to engage with your content through GitHub Discussions.
 date: 2025-01-23
 authors:
-  - Ola Rubaj
+  - olayway
 ---
 
 This tutorial will guide you through the process of enabling comments on your Flowershow Cloud site using Giscus - a comments system powered by GitHub Discussions. You'll learn how to set up GitHub Discussions, configure the Giscus app, and integrate comments into your site.

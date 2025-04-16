@@ -3,7 +3,8 @@ title: Self publish your digital garden with Obsidian Flowershow plugin
 description: Learn how to publish your digital garden with Obsidian Flowershow plugin 🌷
 layout: blog
 date: 2023-08-03
-authors: [Ola Rubaj]
+authors:
+  - olayway
 ---
 
 ## Prerequisites
