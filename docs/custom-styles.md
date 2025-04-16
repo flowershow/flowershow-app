@@ -13,4 +13,4 @@ You can customize the appearance of your Flowershow Cloud site by adding a `cust
 > [!important]
 > When using h1 tags in custom components, you must set `display: block !important;` in your CSS due to how page titles are handled internally.
 
-For a detailed guide on styling your site, including examples and step-by-step instructions, check out our [[how-to-apply-custom-styles|tutorial]].
+For a detailed guide on styling your site, including examples and step-by-step instructions, check out our [[how-to-customize-style|tutorial]].

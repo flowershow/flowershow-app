@@ -14,7 +14,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[how-to-configure-page-headers|How to Configure Page Headers]]
 - [[how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
 - [[how-to-enable-page-comments|How to Enable Page Comments]]
-- [[how-to-apply-custom-styles|How to Customize the Look of Your Site]]
+- [[how-to-customize-style|How to Customize the Look of Your Site]]
 - [[blog/how-to-add-edit-this-page-button|How to Add 'Edit this page' Button (To Encourage Contributions)]]
 - [[how-to-add-featured-images|How to Set Custom Social Previews for Your Pages]]
 - [[how-to-add-featured-images|How to Add Featured Images to Your Pages]]
