@@ -8,7 +8,7 @@ Start sharing your digital garden for free. Upgrade to get extra premium feature
 
 ## Free Plan
 
-**$0/month**  
+**USD 0/month**  
 
 Perfect for personal digital gardens and small projects
 
@@ -27,11 +27,7 @@ Perfect for personal digital gardens and small projects
 
 ## Premium Plan
 
-**$5/month**
-
-or
-
-**$50/annually**
+**USD 5/month** or **USD 50/annually**
 
 For creators who want more customization and features
 
