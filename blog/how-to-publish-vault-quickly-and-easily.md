@@ -28,7 +28,7 @@ Before we start, this is my sample obsidian vault that I want to publish. and th
 
 ## STEP 2: Sign Up for FlowerShow (Cloud)
 
-1. Click the sign-up link in the plugin or visit [Flowershow](https://flowershow.app/) and click the sign up link.  
+1. Click the sign-up link in the plugin or visit [Flowershow](https://cloud.flowershow.app/).
 2. Log in using your **GitHub** account.  
 3. If you don’t have a GitHub account, create one -- it takes just a few seconds.
 
