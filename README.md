@@ -11,7 +11,7 @@ cta:
 
 ## What is Flowershow?
 
-Flowershow is the easiest way to turn your Obsidian vault into an elegant website. No coding, no technical setup, no maintenance required. Just connect your vault and publish with a click. Perfect for digital gardens, documentation, blogs, or any knowledge sharing.
+Flowershow is a quick and easy way to turn your markdown into an elegant website. No coding, no technical setup, no maintenance required. Just connect your content and publish with a click. Perfect for markdown-based digital gardens, documentation, blogs, wikis, websites including Obsidian vaults.
 
 - Obsidian compatibile
 - Quick and easy
@@ -37,7 +37,7 @@ Flowershow ensures you're always using the latest features without any maintenan
 
 Here are some of the cool features that are currently supported by Flowershow
 
-### Markdown and MDX syntax support
+### Markdown and Obsidian Syntax Support
 
 Flowershow was designed with Obsidian users in mind, so it aims to fully support Obsidian syntax, including CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links.
 
@@ -48,6 +48,8 @@ Flowershow was designed with Obsidian users in mind, so it aims to fully support
 ### Mermaid and MathJax support
 
 Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.
+
+[Learn more →](/docs/mermaid)
 
 ![[math_and_mermaid.png]]
 
@@ -65,7 +67,7 @@ Foster community engagement with built-in commenting functionality powered by Gi
 
 ![[comments.png]]
 
-### Elegant Page Headers
+### Elegant Layout
 
 Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.
 
@@ -73,7 +75,7 @@ Display your content in an elegant format supporting title, description, authors
 
 ![[page_header.png]]
 
-### Hero Sections
+### Hero Section
 
 Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.
 
