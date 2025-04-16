@@ -19,20 +19,4 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 ## Guides
 
-1. [[docs/config|Basic Configurations with `config.mjs`]]
-2. [[syntax|Markdown Syntax Support]]
-3. [[syntax#callouts|Callouts (Admonitions)]]
-4. [[custom-404|Custom 404 Page]]
-5. [[tailwind|Styling with Tailwind]]
-6. [[table-of-contents|Table of Contents]]
-7. [[assets|Assets]]
-8. [[analytics|Analytics]]
-9. [[seo|SEO Configuration]]
-10. [[theme|Dark-Light Theme]]
-11. [[search|Full-Text Search]]
-12. [[comments|Page Comments]]
-13. [[computed-fields|Computed Fields]]
-14. [[document-types|Document Types]]
-15. [[tasks|Tasks]]
-16. [[content-processing|Modifying Content of Files with JavaScript]]
-17. [[data-visualization|Visualizing data in FlowerShow]]
+<List dir="/docs/self-hosted"/>

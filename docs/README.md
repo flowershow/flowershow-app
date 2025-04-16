@@ -33,6 +33,9 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[edit-this-page-button|Edit this page button]]
 - [[docs/list-component|List Component]]
 
+>[note!]
+>If you're looking for docs and tutorials related to Flowershow Self-Hosted, [[docs/self-hosted/README|click here]].
+
 ---
 
 Suggest improvements to out docs and new features in our [GitHub discussions](https://github.com/orgs/flowershow/discussions) and help us shape the future of Flowershow! 💐
