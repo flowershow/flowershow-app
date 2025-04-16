@@ -33,7 +33,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[edit-this-page-button|Edit this page button]]
 - [[docs/list-component|List Component]]
 
->[note!]
+>[!note]
 >If you're looking for docs and tutorials related to Flowershow Self-Hosted, [[docs/self-hosted/README|click here]].
 
 ---
