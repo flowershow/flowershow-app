@@ -3,7 +3,8 @@ title: Get Started with Flowershow Self-Hosted
 showLinkPreview: false
 ---
 
->[!note] The self-hosted documentation is currently under construction as we focus our efforts on Flowershow Cloud. Some information in these docs may be outdated or incorrect. Learn more about Flowershow Cloud [here](/).
+>[!note]
+>The self-hosted documentation is currently under construction as we focus our efforts on Flowershow Cloud. Some information in these docs may be outdated or incorrect. Learn more about Flowershow Cloud [here](/).
 
 ## What is Flowershow Self-Hosted?
 
