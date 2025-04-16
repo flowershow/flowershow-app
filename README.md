@@ -41,7 +41,7 @@ Here are some of the cool features that are currently supported by Flowershow
 
 Flowershow was designed with Obsidian users in mind, so it aims to fully support Obsidian syntax, including CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links.
 
-[Learn more →](/docs/syntax)
+[[syntax|Learn more →]]
 
 ![[/assets/syntax.png]]
 
@@ -49,7 +49,7 @@ Flowershow was designed with Obsidian users in mind, so it aims to fully support
 
 Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.
 
-[Learn more →](/docs/mermaid)
+[[mermaid|Learn more →]]
 
 ![[math_and_mermaid.png]]
 
@@ -63,7 +63,7 @@ Every markdown page comes with a table of contents enabled by default. You can a
 
 Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.
 
-[Learn more →](how-to-enable-page-comments.md)
+[[how-to-enable-page-comments|Learn more →]]
 
 ![[comments.png]]
 
@@ -71,7 +71,7 @@ Foster community engagement with built-in commenting functionality powered by Gi
 
 Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.
 
-[Learn more →](how-to-configure-page-headers.md)
+[[how-to-configure-page-headers|Learn more →]]
 
 ![[page_header.png]]
 
@@ -79,7 +79,7 @@ Display your content in an elegant format supporting title, description, authors
 
 Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.
 
-[Learn more →](how-to-add-hero-headers.md)
+[[how-to-add-hero-headers|Learn more →]]
 
 ![[hero-layout.png]]
 
