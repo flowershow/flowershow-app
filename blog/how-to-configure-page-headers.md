@@ -1,5 +1,5 @@
 ---
-title: Learn How to Configure Your Site's Header
+title: Learn How to Configure Page Headers
 description: Learn how to customize your page headers in Flowershow Cloud with frontmatter configuration options for titles, descriptions, authors, dates, and featured images.
 date: 2025-03-06
 authors:

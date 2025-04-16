@@ -11,7 +11,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 ## Tutorials & How-Tos
 
 - [[how-to-publish-vault-quickly-and-easily|How to Publish an Obsidian Vault]]
-- [[how-to-configure-site-header|A Complete Guide to Configuring Your Site's Header]]
+- [[how-to-configure-page-headers|How to Configure Page Headers]]
 - [[how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
 - [[how-to-enable-page-comments|How to Enable Comments]]
 - [[how-to-apply-custom-styles|How to Customize the Look of Your Site]]

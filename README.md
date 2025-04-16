@@ -71,7 +71,7 @@ Foster community engagement with built-in commenting functionality powered by Gi
 
 Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.
 
-[Learn more →](how-to-configure-site-header.md)
+[Learn more →](how-to-configure-page-headers.md)
 
 ![[page_header.png]]
 
