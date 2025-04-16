@@ -17,8 +17,8 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[how-to-customize-style|How to Customize the Look of Your Site]]
 - [[blog/how-to-add-edit-this-page-button|How to Add 'Edit this page' Button (To Encourage Contributions)]]
 - [[how-to-add-featured-images|How to Add Featured Images to Your Pages (and Set Social Previews)]]
+- [[how-to-create-content-catalogs|How to Create Content Catalogs with the List Component (for Your Blog Posts, Tutorials List and More)]]
 - [[sidebar-configuration|How to Enable Sidebar Navigation]]
-- [[list-component|How to Create Content Catalogs with the List Component (for Your Blog Posts, Tutorials List and More)]]
 
 - 🚧 How to Configure Your Site with Google Analytics
 - 🚧 How to Add Charts and Graphs
