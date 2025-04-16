@@ -25,6 +25,9 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 ## Reference
 
+- [[syntax|Syntax]]
+- [[math|Math equations]]
+- [[mermaid|Mermaid graphs]]
 - [[page-header-configuration|Page Headers]]
 - [[navbar-configuration|Navbar]]
 - [[sidebar-configuration|Sidebar]]
