@@ -139,7 +139,3 @@ Want to skip GitHub Desktop entirely? The Obsidian Git plugin can automatically 
    - Choose how often you want your changes to be uploaded
 
 For more details about the plugin, check out [its documentation](https://github.com/Vinzent03/obsidian-git).
-
----
-
-Need help? The Flowershow Cloud community and support team are here to assist you. Happy sharing!

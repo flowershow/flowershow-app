@@ -24,4 +24,4 @@ In your site's dashboard settings:
 2. Toggle comments on
 3. Enter your Repository ID and Category ID
 
-For a detailed guide on setting up comments, including examples and step-by-step instructions, check out our [[how-to-enable-page-comments|tutorial]].
+For a detailed guide including examples and step-by-step instructions, check out our [[how-to-enable-page-comments|this blog post]].

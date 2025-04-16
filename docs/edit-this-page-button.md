@@ -31,3 +31,5 @@ You can also overwrite the default setting in single pages by including this fie
 showEditLink: true
 ---
 ```
+
+For a detailed guide including examples and step-by-step instructions, check out our [[how-to-add-edit-this-page-button|this blog post]].

@@ -112,7 +112,3 @@ If your hero section isn't appearing as expected:
 
 > [!tip]
 > Remember to sync your site after making changes to see them live!
-
----
-
-We 💙 feedback! If you have any questions about hero sections or ideas for improvements, please submit an issue [here](https://github.com/flowershow/flowershow/issues) or start a discussion [here](https://github.com/flowershow/flowershow/discussions). Thank you! 🌷

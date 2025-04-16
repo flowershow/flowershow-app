@@ -213,7 +213,3 @@ If your changes aren't showing up:
 
 > [!tip]
 > Keep the Developer Tools open while you work - it's the easiest way to see what's happening with your styles in real-time!
-
----
-
-We 💙 feedback! If you have any ideas for new features or if you've noticed any bugs, please submit an issue [here](https://github.com/flowershow/flowershow/issues) or start a discussion [here](https://github.com/flowershow/flowershow/discussions). Thank you! 🌷

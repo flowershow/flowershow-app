@@ -48,7 +48,3 @@ If the edit button isn't appearing:
 1. Verify your repository is public
 2. Check your `config.json` syntax
 3. Try clearing your browser cache
-
----
-
-Ready to make your site more collaborative? Enable the edit button today and start accepting community contributions! If you run into any issues, feel free to ask for help in our [GitHub discussions](https://github.com/flowershow/flowershow/discussions). 🌷

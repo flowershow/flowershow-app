@@ -91,7 +91,3 @@ After adding a featured image:
 3. Test how it looks when shared:
    - Use social media preview tools
    - Or share the page on a test account
-
----
-
-We 💙 feedback! If you have any questions about featured images or ideas for improvements, please submit an issue [here](https://github.com/flowershow/flowershow/issues) or start a discussion [here](https://github.com/flowershow/flowershow/discussions). Thank you! 🌷

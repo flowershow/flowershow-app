@@ -105,3 +105,5 @@ image: https://example.com/my-image.jpg  # external URL
 - Recommended image dimensions: 1200x630 pixels for optimal social media sharing
 - Keep image file sizes reasonable (under 1MB) for better performance
 - Use ISO date format (YYYY-MM-DD) for dates
+
+For a detailed guide including examples and step-by-step instructions, check out our [[how-to-configure-page-headers|this blog post]].

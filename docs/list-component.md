@@ -44,4 +44,4 @@ The List component:
 - Sorts by date if available, otherwise by title
 - Displays each file's title, description, and date (if provided)
 
-For more details practices, see our [[flowershow-cloud-list-component|blog post]].
+For a detailed guide including examples and step-by-step instructions, check out our [[how-to-create-content-catalogs|this blog post]].
