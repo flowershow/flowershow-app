@@ -1,8 +1,10 @@
 ---
 date: 2025-01-12
 title: Contributing Improvements to Flowershow Docs and Website is Easy
-authors: [ "rufuspollock" ]
+authors:
+  - rufuspollock
 image: https://github.com/user-attachments/assets/91ecfcb8-877e-4a98-b42d-3b5452159ced
+description: Learn how to contribute to Flowershow website content, docs and tutorials.
 ---
 
 

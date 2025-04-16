@@ -1,11 +1,14 @@
 ---
 title: How to Publish Your Obsidian Vault Quickly and Easily with Flowershow
 date: 2025-03-11
-authors: [ "rufuspollock", "olayway" ]
-image: "/assets/publish-obsidian-vault-with-flowershow.jpeg"
+authors:
+  - rufuspollock
+  - olayway
+image: /assets/publish-obsidian-vault-with-flowershow.jpeg
+description: Learn how to publish your Obsidian Vault quickly and easily using Flowershow. We’ll go through four simple steps to get your notes online. Let’s get started!
 ---
 
-Hi everyone! In this tutorial and video, we’ll show you how to publish your Obsidian Vault quickly and easily using FlowerShow. We’ll go through four simple steps to get your notes online. Let’s get started!
+Hi everyone! In this tutorial and video, we’ll show you how to publish your Obsidian Vault quickly and easily using Flowershow. We’ll go through four simple steps to get your notes online. Let’s get started!
 
 https://www.youtube.com/watch?v=_2cwU6zwNWQ
 
