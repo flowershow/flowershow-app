@@ -4,7 +4,7 @@ showLinkPreview: false
 ---
 
 >[!note]
->The self-hosted documentation is currently under construction as we focus our efforts on Flowershow Cloud. Some information in these docs may be outdated or incorrect. Learn more about Flowershow Cloud [here](/).
+>The self-hosted documentation is currently under construction as we focus our efforts on Flowershow Cloud, so some information in the docs found on this page may be outdated or incorrect. Click [here](/) to learn more about Flowershow Cloud.
 
 ## What is Flowershow Self-Hosted?
 
