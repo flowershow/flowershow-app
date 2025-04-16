@@ -41,7 +41,7 @@ Note: You can ignore other settings as they are pre-configured in Flowershow Clo
 5. Save your changes
 
 
-![](../assets/cloud-comments-demo.mp4)
+![](/assets/cloud-comments-demo.mp4)
 
 ## Features and Benefits
 
