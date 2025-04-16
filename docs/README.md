@@ -8,11 +8,6 @@ Flowershow is a cloud platform for easily converting your markdown files into an
 
 Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also many **Obsidian-specific syntax elements**, like internal links or footnotes.
 
-## Reference
-
-<List dir="/docs"/>
-
-
 ## Tutorials & How-Tos
 
 - [[how-to-publish-vault-quickly-and-easily|How to Publish an Obsidian Vault]]
@@ -28,6 +23,16 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 - 🚧 How to Configure Your Site with Google Analytics
 - 🚧 How to Add Charts and Graphs
+
+## Reference
+
+- [[page-header-configuration|Page Headers]]
+- [[navbar-configuration|Navbar]]
+- [[sidebar-configuration|Sidebar]]
+- [[page-comments|Page comments]]
+- [[docs/custom-styles|Custom styles]]
+- [[edit-this-page-button|Edit this page button]]
+- [[docs/list-component|List Component]]
 
 ---
 
