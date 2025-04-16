@@ -20,24 +20,27 @@ cta:
 ## Features
 
 ### Blog Support
+
 Blog document type for your blog posts. This way you'll be able to fetch and display them on any of your pages by using our BlogsList component (or you can create a custom one).
 
-[Learn more about Blog Support](/docs/blog)
+[[blog|Learn more about Blog Support]]
 
 ![Blog feature](/assets/blog.png)
 
 ### Tailwind support
+
 Flowershow comes with built-in tailwind support on any markdown page for styling your content.
 
-[Learn more about Tailwind](/docs/tailwind)
+[[tailwind|Learn more about Tailwind]]
 
 ![Tailwind feature](/assets/tw.png)
 
 ### Custom dark and light themes
+
 Change the fonts and colors used throughout your website as well as switch between dark and light modes.
 
-[Learn more about Themes](/docs/custom-theme)
+[[custom-theme|Learn more about Themes]]
 
 ![Theme feature](/assets/theme.png)
 
-👉 See our [self-publish guide](https://flowershow.app/docs/publish-howto) to learn more!
+🧐 Visit our [[docs/self-hosted/README|docs for Flowershow Self-hosted]] to learn more!
