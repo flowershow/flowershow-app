@@ -9,6 +9,7 @@ Start sharing your digital garden for free. Upgrade to get extra premium feature
 ## Free Plan
 
 **$0/month**  
+
 Perfect for personal digital gardens and small projects
 
 <a href="https://cloud.flowershow.app/" target="_blank" style={{
@@ -26,7 +27,8 @@ Perfect for personal digital gardens and small projects
 
 ## Premium Plan
 
-**$5/month** or **$50/annually** 
+**$5/month** or **$50/annually**
+
 For creators who want more customization and features
 
 [Sign up now](https://cloud.flowershow.app/)
