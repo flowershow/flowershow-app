@@ -50,54 +50,36 @@ showComments: false
       <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
         <div className="relative pl-16">
           <dt className="text-base/7 font-semibold text-gray-900">
-            <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-              <feature.icon aria-hidden="true" className="size-6 text-white" />
-            </div>
             Features name
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">Feature description</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base/7 font-semibold text-gray-900">
-            <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-              <feature.icon aria-hidden="true" className="size-6 text-white" />
-            </div>
             Features name
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">Feature description</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base/7 font-semibold text-gray-900">
-            <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-              <feature.icon aria-hidden="true" className="size-6 text-white" />
-            </div>
             Features name
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">Feature description</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base/7 font-semibold text-gray-900">
-            <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-              <feature.icon aria-hidden="true" className="size-6 text-white" />
-            </div>
             Features name
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">Feature description</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base/7 font-semibold text-gray-900">
-            <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-              <feature.icon aria-hidden="true" className="size-6 text-white" />
-            </div>
             Features name
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">Feature description</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base/7 font-semibold text-gray-900">
-            <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-              <feature.icon aria-hidden="true" className="size-6 text-white" />
-            </div>
             Features name
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">Feature description</dd>
