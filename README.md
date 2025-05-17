@@ -44,47 +44,47 @@ showComments: false
           <dt className="font-semibold text-gray-900">
             ⚡️ Instant deployment
           </dt>
-          <dd className="mt-2 text-gray-600">
+          <dd className="mt-2 text-base/7 text-gray-600">
             Go live in seconds with zero configuration
           </dd>
         </div>
         <div>
-          <dt className="font-semibold text-gray-900">
+          <dt className="text-base/7 font-semibold text-gray-900">
             🗂️ Folder-based publishing
           </dt>
-          <dd className="mt-2 text-gray-600">
+          <dd className="mt-2 text-base/7 text-gray-600">
             Point to a folder of Markdown files
           </dd>
         </div>
         <div>
-          <dt className="font-semibold text-gray-900">
+          <dt className="text-base/7 font-semibold text-gray-900">
             🗂️ Multi-page navigation
           </dt>
-          <dd className="mt-2 text-gray-600">
+          <dd className="mt-2 text-base/7 text-gray-600">
             Automatically generates structured sites
           </dd>
         </div>
         <div>
-          <dt className="font-semibold text-gray-900">
+          <dt className="text-base/7 font-semibold text-gray-900">
             ☁️ Hosted & beautiful by default
           </dt>
-          <dd className="mt-2 text-gray-600">
+          <dd className="mt-2 text-base/7 text-gray-600">
             No need for custom design or build tools
           </dd>
         </div>
         <div>
-          <dt className="font-semibold text-gray-900">
+          <dt className="text-base/7 font-semibold text-gray-900">
             🔓 Own your content
           </dt>
-          <dd className="mt-2 text-gray-600">
+          <dd className="mt-2 text-base/7 text-gray-600">
             Fully Markdown-native, no lock-in, Git-integrable
           </dd>
         </div>
         <div>
-          <dt className="font-semibold text-gray-900">
+          <dt className="text-base/7 font-semibold text-gray-900">
             🖌️ Custom domains and themes
           </dt>
-          <dd className="mt-2 text-gray-600">
+          <dd className="mt-2 text-base/7 text-gray-600">
             Bring your own domain, style your site
           </dd>
         </div>
@@ -100,7 +100,6 @@ showComments: false
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Markdown and Wiki Syntax Support</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Fully supports CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links.</p>
-          <a href="https://flowershow.app/docs/syntax" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div className="flex items-start justify-end lg:order-first">
@@ -123,7 +122,6 @@ showComments: false
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Mermaid and MathJax support</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.</p>
-          <a href="https://flowershow.app/docs/mermaid" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <img
