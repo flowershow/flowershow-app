@@ -40,49 +40,49 @@ showComments: false
     </div>
     <div className="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
       <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-16">
-        <div className="relative pl-16">
+        <div>
           <dt className="text-base/7 font-semibold text-gray-900">
-            Instant deployment
+            ⚡️ Instant deployment
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">
             Go live in seconds with zero configuration
           </dd>
         </div>
-        <div className="relative pl-16">
+        <div>
           <dt className="text-base/7 font-semibold text-gray-900">
-            Folder-based publishing
+            🗂️ Folder-based publishing
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">
             Point to a folder of Markdown files
           </dd>
         </div>
-        <div className="relative pl-16">
+        <div>
           <dt className="text-base/7 font-semibold text-gray-900">
-            Multi-page navigation
+            🗂️ Multi-page navigation
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">
             Automatically generates structured sites
           </dd>
         </div>
-        <div className="relative pl-16">
+        <div>
           <dt className="text-base/7 font-semibold text-gray-900">
-            Hosted & beautiful by default
+            ☁️ Hosted & beautiful by default
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">
             No need for custom design or build tools
           </dd>
         </div>
-        <div className="relative pl-16">
+        <div>
           <dt className="text-base/7 font-semibold text-gray-900">
-            Own your content
+            🔓 Own your content
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">
             Fully Markdown-native, no lock-in, Git-integrable
           </dd>
         </div>
-        <div className="relative pl-16">
+        <div>
           <dt className="text-base/7 font-semibold text-gray-900">
-            Custom domains and themes
+            🖌️ Custom domains and themes
           </dt>
           <dd className="mt-2 text-base/7 text-gray-600">
             Bring your own domain, style your site
@@ -99,13 +99,8 @@ showComments: false
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
           <h2 className="text-base/7 font-semibold text-indigo-600">Deploy faster</h2>
-          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-            A better workflow
-          </p>
-          <p className="mt-6 text-lg/8 text-gray-600">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-            iste dolor cupiditate blanditiis ratione.
-          </p>
+          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">A better workflow</p>
+          <p className="mt-6 text-lg/8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque.</p>
         </div>
       </div>
       <img
