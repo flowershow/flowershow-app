@@ -101,7 +101,7 @@ showComments: false
     <div className="mx-auto max-w-2xl text-center">
       <h2 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">💐 This site is built with Flowershow!</h2>
       <div className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-slate-900">
-        This website, including this very page, is built with Flowershow! It's written in MDX (Markdown with JSX) and published using Flowershow. Check out the source code on <a href="https://github.com/flowershow/flowershow-app" className="text-orange-500 hover:text-orange-300">GitHub</a> to see how it's done.</p>
+        This website, including this very page, is built with Flowershow! It's written in MDX (Markdown with JSX) and published using Flowershow. Check out the source code on <a href="https://github.com/flowershow/flowershow-app" className="text-orange-500 hover:text-orange-300">GitHub</a> to see how it's done.
       </div>
     </div>
   </div>
