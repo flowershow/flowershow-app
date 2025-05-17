@@ -1,6 +1,6 @@
 ---
 title: The best way to publish markdown powered websites
-description: Flowershow is the fast and easy way to create elegant markdown-based websites — for docs, handbooks, blogs and landing pages. No coding required. Sign up, connect your content, and have your site live in seconds
+description: Flowershow is the fast and easy way to create elegant markdown-based websites — for docs, handbooks, blogs and landing pages. No coding required. Sign up, connect your content, and have your site live in seconds!
 layout: plain
 showHero: true
 showToc: false
