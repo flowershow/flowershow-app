@@ -41,50 +41,50 @@ showComments: false
     <div className="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
       <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-16">
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             ⚡️ Instant deployment
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Go live in seconds with zero configuration
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             🗂️ Folder-based publishing
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Point to a folder of Markdown files
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             🗂️ Multi-page navigation
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Automatically generates structured sites
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             ☁️ Hosted & beautiful by default
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             No need for custom design or build tools
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             🔓 Own your content
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Fully Markdown-native, no lock-in, Git-integrable
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             🖌️ Custom domains and themes
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Bring your own domain, style your site
           </dd>
         </div>
