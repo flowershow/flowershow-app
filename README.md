@@ -38,8 +38,8 @@ showComments: false
       <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">What is Flowershow?</h2>
       <p className="mt-6 text-lg/8 text-gray-600">Flowershow is a quick and easy way to turn your markdown into an elegant website. No coding, no technical setup, no maintenance required. Just connect your content and publish with a click. Perfect for markdown-based docs, blogs, knowledgebases, landing pages and more.</p>
     </div>
-    <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-      <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none md:grid-cols-2 lg:grid-cols-3 lg:gap-y-16">
+    <div className="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
+      <dl className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-16">
         <div className="relative pl-16">
           <dt className="text-base/7 font-semibold text-gray-900">
             Instant deployment
