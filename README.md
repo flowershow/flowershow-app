@@ -93,13 +93,14 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-12 sm:py-24">
+<div className="overflow-hidden bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Markdown and Wiki Syntax Support</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Fully supports CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links.</p>
+          <a href="https://flowershow.app/docs/syntax" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div className="flex items-start justify-end lg:order-first">
@@ -115,18 +116,19 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-12 sm:py-24">
+<div className="overflow-hidden bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Mermaid and MathJax support</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.</p>
+          <a href="https://flowershow.app/docs/mermaid" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <img
         alt="Product screenshot"
-        src="/@olayway/flowershow-app/_r/-/assets/comments.png"
+        src="/@olayway/flowershow-app/_r/-/assets/math_and_mermaid.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -135,7 +137,7 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-12 sm:py-24">
+<div className="overflow-hidden bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
@@ -155,7 +157,7 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-12 sm:py-24">
+<div className="overflow-hidden bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
@@ -177,7 +179,7 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-12 sm:py-24">
+<div className="overflow-hidden bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
@@ -197,7 +199,7 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-12 sm:py-24">
+<div className="overflow-hidden bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
