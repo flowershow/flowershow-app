@@ -76,7 +76,7 @@ showComments: false
 </div>
 
 
-<div className="bg-slate-900">
+<div className="bg-slate-900 mt-16 sm:mt-20 md:mt-24">
   <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
     <div className="mx-auto max-w-2xl text-center">
       <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Start using Flowershow today.</h2>
