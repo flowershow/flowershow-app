@@ -8,7 +8,7 @@ showComments: false
 <div className="bg-white">
   <div className="py-12 sm:py-24 lg:pb-32">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl text-center">
+      <div className="mx-auto max-w-3xl text-center">
         <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">The best way to publish markdown powered websites</h1>
         <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Flowershow is the fast and easy way to create elegant markdown-based websites — for docs, handbooks, blogs and landing pages. No coding required. Sign up, connect your content, and have your site live in seconds!</p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
