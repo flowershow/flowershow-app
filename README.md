@@ -1,4 +1,7 @@
 ---
+title: The best way to publish markdown powered websites
+description: Flowershow is the fast and easy way to create elegant markdown-based websites — for docs, handbooks, blogs and landing pages. No coding required. Sign up, connect your content, and have your site live in seconds!
+image: /assets/hero.png
 layout: plain
 showToc: false
 showEditLink: false
@@ -45,7 +48,7 @@ showComments: false
             ⚡️ Instant deployment
           </dt>
           <dd className="mt-2 text-gray-600">
-            Go live in seconds with zero configuration
+            Publish your site in seconds with zero configuration—no coding or setup required.
           </dd>
         </div>
         <div>
@@ -53,23 +56,24 @@ showComments: false
             🗂️ Folder-based publishing
           </dt>
           <dd className="mt-2 text-gray-600">
-            Point to a folder of Markdown files
+            Turn any folder of Markdown files into a structured, multi-page website automatically.
           </dd>
         </div>
         <div>
           <dt className="font-semibold text-gray-900">
-            🗂️ Multi-page navigation
+            📠 Markdown-based
           </dt>
           <dd className="mt-2 text-gray-600">
-            Automatically generates structured sites
+            Compatible with CommonMark, GitHub Flavored Markdown, Obsidian-style Wiki links, and more.
           </dd>
         </div>
         <div>
+        <div>
           <dt className="font-semibold text-gray-900">
-            ☁️ Hosted & beautiful by default
+            ☁️ Hosted for you
           </dt>
           <dd className="mt-2 text-gray-600">
-            No need for custom design or build tools
+            Get a clean, beautiful site out of the box—no need for custom design or build tools.
           </dd>
         </div>
         <div>
@@ -77,7 +81,7 @@ showComments: false
             🔓 Own your content
           </dt>
           <dd className="mt-2 text-gray-600">
-            Fully Markdown-native, no lock-in, Git-integrable
+            Fully Markdown-native and Git-integrable—no platform lock-in.
           </dd>
         </div>
         <div>
@@ -85,7 +89,7 @@ showComments: false
             🖌️ Custom domains and themes
           </dt>
           <dd className="mt-2 text-gray-600">
-            Bring your own domain, style your site
+            Use your own domain and personalize the look of your site with custom CSS and Tailwind classes.
           </dd>
         </div>
       </dl>
@@ -100,6 +104,7 @@ showComments: false
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Rich Markdown Syntax Support</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Fully supports CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links. Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.</p>
+          <a href="/docs/syntax" className="inline-block mt-4 text-sm/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div className="flex items-start justify-end lg:order-first">
@@ -122,6 +127,7 @@ showComments: false
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
+          <a href="/docs/comments" className="inline-block mt-4 text-sm/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <img
@@ -183,39 +189,19 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Custom Styles</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Use CSS to customize the look of your site and style your in-markdown JSX blocks with Tailwind classes.</p>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Hero Section</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.</p>
         </div>
       </div>
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/@olayway/flowershow-app/_r/-/assets/custom-styles.png"
+          src="/@olayway/flowershow-app/_r/-/assets/hero-layout.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
         />
       </div>
-    </div>
-  </div>
-</div>
-
-<div className="overflow-hidden bg-white py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <div className="lg:pr-8 lg:pt-4">
-        <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Hero Section</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.</p>
-        </div>
-      </div>
-      <img
-        alt="Product screenshot"
-        src="/@olayway/flowershow-app/_r/-/assets/hero-layout.png"
-        width={2432}
-        height={1442}
-        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-      />
     </div>
   </div>
 </div>
