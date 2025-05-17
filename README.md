@@ -9,18 +9,14 @@ showComments: false
   <div className="py-12 sm:py-24 lg:pb-32">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
-        <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-          Data to enrich your online business
-        </h1>
+        <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Data to enrich your online business</h1>
         <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.</p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
             href="#"
             className="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-300"
           >Get started</a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Learn more <span aria-hidden="true">→</span>
-          </a>
+          <a href="#" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div className="mt-16 flow-root sm:mt-24">
@@ -36,6 +32,47 @@ showComments: false
       </div>
     </div>
   </div>
+</div>
+
+<div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
+  <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+    <div className="relative pl-9">
+      <dt className="inline font-semibold text-gray-900">
+        Feature name
+      </dt>
+      <dd className="inline">Feature description</dd>
+    </div>
+    <div className="relative pl-9">
+      <dt className="inline font-semibold text-gray-900">
+        Feature name
+      </dt>
+      <dd className="inline">Feature description</dd>
+    </div>
+    <div className="relative pl-9">
+      <dt className="inline font-semibold text-gray-900">
+        Feature name
+      </dt>
+      <dd className="inline">Feature description</dd>
+    </div>
+    <div className="relative pl-9">
+      <dt className="inline font-semibold text-gray-900">
+        Feature name
+      </dt>
+      <dd className="inline">Feature description</dd>
+    </div>
+    <div className="relative pl-9">
+      <dt className="inline font-semibold text-gray-900">
+        Feature name
+      </dt>
+      <dd className="inline">Feature description</dd>
+    </div>
+    <div className="relative pl-9">
+      <dt className="inline font-semibold text-gray-900">
+        Feature name
+      </dt>
+      <dd className="inline">Feature description</dd>
+    </div>
+  </dl>
 </div>
 
 
