@@ -96,23 +96,12 @@ showComments: false
   </div>
 </div>
 
-<div className="bg-orange-50 mt-16 sm:mt-20 md:mt-24">
-  <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
-    <div className="mx-auto max-w-2xl text-center">
-      <h2 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">💐 This site is built with Flowershow!</h2>
-      <div className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-slate-900">
-        <p>This website, including this very page, is built with Flowershow! It's written in MDX (Markdown with JSX) and published using Flowershow. Check out the source code on <a href="https://github.com/flowershow/flowershow-app" className="text-orange-500 hover:text-orange-300">GitHub</a> to see how it's done.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-
-<div className="bg-white py-12 sm:py-24">
+<div className="bg-orange-50 py-12 sm:py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl lg:text-center">
-      <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance"></h2>
-      <p className="mt-6 text-lg/8 text-gray-600">
+      <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">💐 This site is built with Flowershow!</h2>
+      <p className="mt-6 text-lg/8 text-gray-600">This website, including this very page, is built with Flowershow! It's written in MDX (Markdown with JSX) and published using Flowershow. Check out the source code on <a href="https://github.com/flowershow/flowershow-app" className="text-orange-400 hover:text-orange-300">GitHub</a> to see how it's done.</p>
     </div>
   </div>
 </div>
