@@ -126,13 +126,13 @@ showComments: false
           <a href="https://flowershow.app/docs/mermaid" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
-      <img
+      {/*<img
         alt="Product screenshot"
         src="/@olayway/flowershow-app/_r/-/assets/math_and_mermaid.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-      />
+      />*/}
     </div>
   </div>
 </div>
