@@ -22,7 +22,7 @@ showComments: false
       <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
         <img
           alt="App screenshot"
-          src="/@olayway/flowershow-app/_r/-/assets/hero.png"
+          src="/@olayway/flowershow-app/_r/-/assets/landing.png"
           width={2432}
           height={1442}
           className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
@@ -44,47 +44,47 @@ showComments: false
           <dt className="font-semibold text-gray-900">
             ⚡️ Instant deployment
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Go live in seconds with zero configuration
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             🗂️ Folder-based publishing
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Point to a folder of Markdown files
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             🗂️ Multi-page navigation
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Automatically generates structured sites
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             ☁️ Hosted & beautiful by default
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             No need for custom design or build tools
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             🔓 Own your content
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Fully Markdown-native, no lock-in, Git-integrable
           </dd>
         </div>
         <div>
-          <dt className="text-base/7 font-semibold text-gray-900">
+          <dt className="font-semibold text-gray-900">
             🖌️ Custom domains and themes
           </dt>
-          <dd className="mt-2 text-base/7 text-gray-600">
+          <dd className="mt-2 text-gray-600">
             Bring your own domain, style your site
           </dd>
         </div>
@@ -99,7 +99,7 @@ showComments: false
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Rich Markdown Syntax Support</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Fully supports CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wikilinks.</p>
+          <p className="mt-6 text-lg/8 text-gray-600">Fully supports CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links. Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.</p>
         </div>
       </div>
       <div className="flex items-start justify-end lg:order-first">
@@ -120,33 +120,13 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Mermaid and MathJax support</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.</p>
-        </div>
-      </div>
-      <img
-        alt="Product screenshot"
-        src="/@olayway/flowershow-app/_r/-/assets/math_and_mermaid.png"
-        width={2432}
-        height={1442}
-        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-      />
-    </div>
-  </div>
-</div>
-
-<div className="overflow-hidden bg-white py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <div className="lg:pr-8 lg:pt-4">
-        <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
         </div>
       </div>
       <img
         alt="Product screenshot"
-        src="/@olayway/flowershow-app/_r/-/assets/comments.png"
+        src="/@olayway/flowershow-app/_r/-/assets/math_and_mermaid.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
