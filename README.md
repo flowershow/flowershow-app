@@ -32,7 +32,7 @@ showComments: false
   </div>
 </div>
 
-<div className="bg-white py-12 sm:py-24">
+<div className="bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl lg:text-center">
       <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">What is Flowershow?</h2>
