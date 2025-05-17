@@ -38,7 +38,37 @@ cta:
         <dt className="inline font-semibold text-gray-900">
           <span>️⚡ Instant deployment</span>
         </dt>
-        <dd className="inline">Go live in seconds with zero configuration</dd>
+        <dd className="inline ml-1">Go live in seconds with zero configuration</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <span>️⚡ Folder-based publishingt</span>
+        </dt>
+        <dd className="inline ml-1">Point to a folder of Markdown files</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <span>️Multi-page navigationt</span>
+        </dt>
+        <dd className="inline ml-1">Automatically generates structured sites</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <span>️Hosted & beautiful by default</span>
+        </dt>
+        <dd className="inline ml-1">No need for custom design or build tools</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <span>️Own your content</span>
+        </dt>
+        <dd className="inline ml-1">Fully Markdown-native, no lock-in, Git-integrable</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <span>️Custom domains and themes</span>
+        </dt>
+        <dd className="inline ml-1">Bring your own domain, style your site</dd>
       </div>
     </dl>
   </div>
