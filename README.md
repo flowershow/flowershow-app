@@ -25,7 +25,7 @@ showComments: false
       <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
         <img
           alt="App screenshot"
-          src="/@olayway/flowershow-app/_r/-/assets/hero.png"
+          src="/_r/-/assets/hero.png"
           width={2432}
           height={1442}
           className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
@@ -119,7 +119,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/@olayway/flowershow-app/_r/-/assets/syntax.png"
+          src="/_r/-/assets/syntax.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
@@ -141,7 +141,7 @@ showComments: false
       </div>
       <img
         alt="Product screenshot"
-        src="/@olayway/flowershow-app/_r/-/assets/comments.png"
+        src="/_r/-/assets/comments.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -162,7 +162,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/@olayway/flowershow-app/_r/-/assets/toc_and_sitemap.png"
+          src="/_r/-/assets/toc_and_sitemap.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
@@ -183,7 +183,7 @@ showComments: false
       </div>
       <img
         alt="Product screenshot"
-        src="/@olayway/flowershow-app/_r/-/assets/page_header.png"
+        src="/_r/-/assets/page_header.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -205,7 +205,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/@olayway/flowershow-app/_r/-/assets/hero-layout.png"
+          src="/_r/-/assets/hero-layout.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
