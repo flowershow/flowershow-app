@@ -102,7 +102,7 @@ showComments: false
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Rich Markdown Syntax Support</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Fully supports CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links. Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.</p>
+          <p className="mt-6 text-lg/8 text-gray-600">From basic CommonMark to advanced GitHub Flavoured Markdown and Obsidian Wiki links, we've got you covered. Enhance your content with Mermaid diagrams for clear visualizations and KaTeX/MathJax for beautiful mathematical equations.</p>
           <a href="/docs/syntax" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
