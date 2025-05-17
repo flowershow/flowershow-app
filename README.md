@@ -68,7 +68,6 @@ showComments: false
           </dd>
         </div>
         <div>
-        <div>
           <dt className="font-semibold text-gray-900">
             ☁️ Hosted for you
           </dt>
