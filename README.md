@@ -39,7 +39,7 @@ showComments: false
 </div>
 
 
-<div className="bg-primary-strong">
+<div className="bg-primary">
   <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
     <div className="mx-auto max-w-2xl text-center">
       <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Start using Flowershow today.</h2>
