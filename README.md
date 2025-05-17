@@ -36,45 +36,9 @@ cta:
     <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
       <div className="relative pl-9">
         <dt className="inline font-semibold text-gray-900">
-          <span aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600">⚡️</span>
-          Instant deployment
-        </dt>{' '}
+          <span>️⚡ Instant deployment</span>
+        </dt>
         <dd className="inline">Go live in seconds with zero configuration</dd>
-      </div>
-      <div className="relative pl-9">
-        <dt className="inline font-semibold text-gray-900">
-          <span aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600">⚡️</span>
-          Folder-based publishing
-        </dt>{' '}
-        <dd className="inline">Point to a folder of Markdown files</dd>
-      </div>
-      <div className="relative pl-9">
-        <dt className="inline font-semibold text-gray-900">
-          <span aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600">⚡️</span>
-          Multi-page navigation
-        </dt>{' '}
-        <dd className="inline">Automatically generates structured sites</dd>
-      </div>
-      <div className="relative pl-9">
-        <dt className="inline font-semibold text-gray-900">
-          <span aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600">⚡️</span>
-          Hosted & beautiful by default
-        </dt>{' '}
-        <dd className="inline">No need for custom design or build tools</dd>
-      </div>
-      <div className="relative pl-9">
-        <dt className="inline font-semibold text-gray-900">
-          <span aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600">⚡️</span>
-          Own your content
-        </dt>{' '}
-        <dd className="inline">Fully Markdown-native, no lock-in, Git-integrable</dd>
-      </div>
-      <div className="relative pl-9">
-        <dt className="inline font-semibold text-gray-900">
-          <span aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600">⚡️</span>
-          Custom domains and themes
-        </dt>{' '}
-        <dd className="inline">Bring your own domain, style your site</dd>
       </div>
     </dl>
   </div>
