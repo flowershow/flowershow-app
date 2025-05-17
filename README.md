@@ -105,7 +105,30 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/_r/-/assets/syntax.png"
+          src="/@olayway/flowershow-app/_r/-/assets/syntax.png"
+          width={2432}
+          height={1442}
+          className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div className="overflow-hidden bg-white py-24 sm:py-32">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div className="lg:ml-auto lg:pl-4 lg:pt-4">
+        <div className="lg:max-w-lg">
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Table of Contents and Sitemap</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Every markdown page comes with a table of contents enabled by default. You can also add a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.</p>
+        </div>
+      </div>
+      <div className="flex items-start justify-end lg:order-first">
+        <img
+          alt="Product screenshot"
+          src="/@olayway/flowershow-app/_r/-/assets/toc_and_sitemap.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
@@ -120,13 +143,53 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Mermaid and MathJax support</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.</p>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
         </div>
       </div>
       <img
         alt="Product screenshot"
-        src="/_r/-/assets/math_and_mermaid.png"
+        src="/@olayway/flowershow-app/_r/-/assets/comments.png"
+        width={2432}
+        height={1442}
+        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+      />
+    </div>
+  </div>
+</div>
+
+<div className="overflow-hidden bg-white py-24 sm:py-32">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div className="lg:pr-8 lg:pt-4">
+        <div className="lg:max-w-lg">
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Elegant Layout</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.</p>
+        </div>
+      </div>
+      <img
+        alt="Product screenshot"
+        src="/@olayway/flowershow-app/_r/-/assets/page_header.png"
+        width={2432}
+        height={1442}
+        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+      />
+    </div>
+  </div>
+</div>
+
+<div className="overflow-hidden bg-white py-24 sm:py-32">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div className="lg:pr-8 lg:pt-4">
+        <div className="lg:max-w-lg">
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Hero Section</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.</p>
+        </div>
+      </div>
+      <img
+        alt="Product screenshot"
+        src="/@olayway/flowershow-app/_r/-/assets/hero-layout.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
