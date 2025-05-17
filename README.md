@@ -16,7 +16,7 @@ showComments: false
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
             href="#"
-            className="rounded-md bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary/80"
+            className="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-300"
           >Get started</a>
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Learn more <span aria-hidden="true">→</span>
@@ -39,15 +39,15 @@ showComments: false
 </div>
 
 
-<div className="bg-primary">
+<div className="bg-slate-900">
   <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
     <div className="mx-auto max-w-2xl text-center">
       <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Start using Flowershow today.</h2>
-      <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-primary-faint">Publish an elegant markdown-based website in a breeze.</p>
+      <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-slate-100">Publish an elegant markdown-based website in a breeze.</p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://cloud.flowershow.app/"
-          className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-primary shadow-sm hover:bg-primary-faint"
+          className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-slate-900 shadow-sm hover:bg-primary-faint"
         >Sing up for free</a>
       </div>
     </div>
