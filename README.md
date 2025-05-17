@@ -39,15 +39,15 @@ showComments: false
 </div>
 
 
-<div className="bg-secondary">
+<div className="bg-primary-strong">
   <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
     <div className="mx-auto max-w-2xl text-center">
       <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Start using Flowershow today.</h2>
-      <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-secondary/20">Publish an elegant markdown-based website in a breeze.</p>
+      <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-primary-faint">Publish an elegant markdown-based website in a breeze.</p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://cloud.flowershow.app/"
-          className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-secondary shadow-sm hover:bg-secondary/80"
+          className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-primary shadow-sm hover:bg-primary-faint"
         >Sing up for free</a>
       </div>
     </div>
