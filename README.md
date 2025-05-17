@@ -13,9 +13,9 @@ showComments: false
         <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Flowershow is the fast and easy way to create elegant markdown-based websites — for docs, handbooks, blogs and landing pages. No coding required. Sign up, connect your content, and have your site live in seconds!</p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
-            href="#"
+            href="https://cloud.flowershow.app/"
             className="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-300"
-          >Get started</a>
+          >Start publishing for free</a>
           {/*<a href="#" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>*/}
         </div>
       </div>
