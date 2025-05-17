@@ -103,7 +103,7 @@ showComments: false
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Rich Markdown Syntax Support</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Fully supports CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links. Create beautiful diagrams and visualizations with Mermaid, and write mathematical equations using KaTeX notation with MathJax support. Perfect for technical documentation, academic writing, and complex explanations.</p>
-          <a href="/docs/syntax" className="inline-block mt-4 text-sm/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
+          <a href="/docs/syntax" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div className="flex items-start justify-end lg:order-first">
@@ -126,7 +126,7 @@ showComments: false
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
-          <a href="/docs/comments" className="inline-block mt-4 text-sm/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
+          <a href="/docs/comments" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <img
