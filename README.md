@@ -86,8 +86,6 @@ Transform your page headers into stunning, full-width hero sections with customi
       <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
         Start using Flowershow today.
       </h2>
-      <!-- <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-indigo-200">
-      </p> -->
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://cloud.flowershow.app/"
