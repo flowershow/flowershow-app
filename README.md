@@ -11,17 +11,74 @@ cta:
     href: https://cloud.flowershow.app/
 ---
 
-
-## What is Flowershow?
-
-Flowershow is a quick and easy way to turn your markdown into an elegant website. No coding, no technical setup, no maintenance required. Just connect your content and publish with a click. Perfect for markdown-based docs, blogs, knowledgebases, landing pages and more.
-
-- **Instant deployment**: Go live in seconds with zero configuration
-- **Folder-based publishing**: Point to a folder of Markdown files
-- **Multi-page navigation**: Automatically generates structured sites
-- **Hosted & beautiful by default**: No need for custom design or build tools
-- **Own your content**: Fully Markdown-native, no lock-in, Git-integrable
-- **Custom domains and themes**: Bring your own domain, style your site
+<div className="bg-white py-24 sm:py-32">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto max-w-2xl sm:text-center">
+      <h2 className="text-base/7 font-semibold text-indigo-600">What is Flowershow?</h2>
+      <p className="mt-6 text-lg/8 text-gray-600">Flowershow is a quick and easy way to turn your markdown into an elegant website. No coding, no technical setup, no maintenance required. Just connect your content and publish with a click. Perfect for markdown-based docs, blogs, knowledgebases, landing pages and more.</p>
+    </div>
+  </div>
+  <div className="relative overflow-hidden pt-16">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <img
+        alt="App screenshot"
+        src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png"
+        width={2432}
+        height={1442}
+        className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
+      />
+      <div aria-hidden="true" className="relative">
+        <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]"/>
+      </div>
+    </div>
+  </div>
+  <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
+    <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600" />
+          Instant deployment
+        </dt>{' '}
+        <dd className="inline">Go live in seconds with zero configuration</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600" />
+          Folder-based publishing
+        </dt>{' '}
+        <dd className="inline">Point to a folder of Markdown files</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600" />
+          Multi-page navigation
+        </dt>{' '}
+        <dd className="inline">Automatically generates structured sites</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600" />
+          Hosted & beautiful by default
+        </dt>{' '}
+        <dd className="inline">No need for custom design or build tools</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600" />
+          Own your content
+        </dt>{' '}
+        <dd className="inline">Fully Markdown-native, no lock-in, Git-integrable</dd>
+      </div>
+      <div className="relative pl-9">
+        <dt className="inline font-semibold text-gray-900">
+          <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600" />
+          Custom domains and themes
+        </dt>{' '}
+        <dd className="inline">Bring your own domain, style your site</dd>
+      </div>
+    </dl>
+  </div>
+</div>
 
 ### Instant Publishing
 
