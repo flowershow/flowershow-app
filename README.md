@@ -13,9 +13,9 @@ cta:
 
 <div className="bg-white py-24 sm:py-32">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto max-w-2xl sm:text-center">
-      <h2 className="text-base/7 font-semibold text-indigo-600">What is Flowershow?</h2>
-      <p className="mt-6 text-lg/8 text-gray-600">Flowershow is a quick and easy way to turn your markdown into an elegant website. No coding, no technical setup, no maintenance required. Just connect your content and publish with a click. Perfect for markdown-based docs, blogs, knowledgebases, landing pages and more.</p>
+    <div className="mx-auto max-w-3xl sm:text-center">
+      <h2 className="text-xl font-semibold text-indigo-600">What is Flowershow?</h2>
+      <p className="mt-6 text-lg text-gray-600">Flowershow is a quick and easy way to turn your markdown into an elegant website. No coding, no technical setup, no maintenance required. Just connect your content and publish with a click. Perfect for markdown-based docs, blogs, knowledgebases, landing pages and more.</p>
     </div>
   </div>
   <div className="relative overflow-hidden pt-16">
@@ -36,13 +36,13 @@ cta:
     <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
       <div className="relative pl-9">
         <dt className="inline font-semibold text-gray-900">
-          <span>️⚡ Instant deployment</span>
+          <span>️Instant deployment</span>
         </dt>
         <dd className="inline ml-1">Go live in seconds with zero configuration</dd>
       </div>
       <div className="relative pl-9">
         <dt className="inline font-semibold text-gray-900">
-          <span>️⚡ Folder-based publishingt</span>
+          <span>️Folder-based publishing</span>
         </dt>
         <dd className="inline ml-1">Point to a folder of Markdown files</dd>
       </div>
