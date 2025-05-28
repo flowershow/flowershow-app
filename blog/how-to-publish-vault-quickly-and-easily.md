@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=_2cwU6zwNWQ
 
 ## Step 0: what the result will be
 
-Before we start, this is my sample obsidian vault that I want to publish. and this is what it will look like in 2m online once i’ve published it with flowershow.
+Before we start, this is my sample Obsidian vault that I want to publish. And this is what it will look like in 2m online once I’ve published it with Flowershow.
 
 <img width="1522" alt="image" src="https://github.com/user-attachments/assets/c7790fb4-4d12-42dc-955e-38f45fa41aed" />
 
@@ -40,7 +40,7 @@ Before we start, this is my sample obsidian vault that I want to publish. and th
 ## STEP 3: Create a GitHub Repository for Syncing
 
 1. Create a Github repository. This will act as a backup and sync point between Obsidian and Flowershow.  
-2. Use our [template repostory](https://github.com/flowershow/flowershow-cloud-template) -- click "Use this template" button to create a new repository (can be private if you want).
+2. Use our [template repository](https://github.com/flowershow/flowershow-cloud-template) -- click "Use this template" button to create a new repository (can be private if you want).
 
 ## STEP 4: Connect Flowershow to Your GitHub Repository
 
@@ -57,4 +57,4 @@ Before we start, this is my sample obsidian vault that I want to publish. and th
 
 ## Conclusion
 
-Congratulations! Your Obsidian Vault is now published with Flowershow. 💐
+Congratulations! Your Obsidian vault is now published with Flowershow. 💐
