@@ -99,7 +99,7 @@ showComments: false
 <div className="bg-orange-50 py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl lg:text-center">
-      <h2 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">💐 This site is built with Flowershow!</h2>
+      <h2 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">💐 This site is built with Flowershow...</h2>
       <p className="mt-6 text-lg/8 text-gray-600">This website, including this very page, is built with Flowershow! It's written in MDX (Markdown with JSX) and published using Flowershow. Check out the source code on <a href="https://github.com/flowershow/flowershow-app" className="text-orange-400 hover:text-orange-300">GitHub</a> to see how it's done.</p>
     </div>
   </div>
@@ -108,9 +108,23 @@ showComments: false
 <div className="bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl lg:text-center">
-      <h2 className="mt-2 mb-12 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">Other sites built with Flowershow</h2>
+      <h2 className="mt-2 mb-12 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">...and these are too!</h2>
     </div>
     <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
+      <div className="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
+        <img
+          alt="Showcase"
+          src="#"
+          className="aspect-video w-full bg-gray-200 object-cover group-hover:opacity-75"
+        />
+        <div className="flex flex-1 flex-col space-y-2 p-4">
+          <h3 className="text-sm font-medium text-gray-900">
+            <a href="#">
+              Site name
+            </a>
+          </h3>
+        </div>
+      </div>
       <div className="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
         <img
           alt="Showcase"
