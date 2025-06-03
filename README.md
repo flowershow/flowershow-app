@@ -103,7 +103,7 @@ showComments: false
         <img
           alt="Showcase"
           src="#"
-          className="aspect-video w-full bg-gray-200 object-cover group-hover:opacity-75 sm:aspect-auto sm:h-96"
+          className="aspect-video w-full bg-gray-200 object-cover group-hover:opacity-75"
         />
         <div className="flex flex-1 flex-col space-y-2 p-4">
           <h3 className="text-sm font-medium text-gray-900">
