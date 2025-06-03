@@ -99,16 +99,15 @@ showComments: false
 <div className="bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
-      <div className="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
+      <div className="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
         <img
           alt="Showcase"
-          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBlue_flower&psig=AOvVaw35ySKylCT_KpJHO8S_FWgC&ust=1749065247623000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKC6tvj91Y0DFQAAAAAdAAAAABAE"
-          className="aspect-[3/4] w-full bg-gray-200 object-cover group-hover:opacity-75 sm:aspect-auto sm:h-96"
+          src="#"
+          className="aspect-video w-full bg-gray-200 object-cover group-hover:opacity-75 sm:aspect-auto sm:h-96"
         />
         <div className="flex flex-1 flex-col space-y-2 p-4">
           <h3 className="text-sm font-medium text-gray-900">
             <a href="#">
-              <span aria-hidden="true" className="absolute inset-0" />
               Site name
             </a>
           </h3>
