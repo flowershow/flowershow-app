@@ -49,4 +49,4 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 ---
 
-Suggest improvements to out docs and new features in our [GitHub discussions](https://github.com/orgs/flowershow/discussions) and help us shape the future of Flowershow! 💐
+Suggest improvements to our docs and new features in our [GitHub discussions](https://github.com/orgs/flowershow/discussions) and help us shape the future of Flowershow! 💐

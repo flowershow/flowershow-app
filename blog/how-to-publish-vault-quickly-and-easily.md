@@ -58,3 +58,4 @@ Before we start, below is my sample Obsidian Vault that I want to publish and th
 ## Conclusion
 
 Congratulations! Your Obsidian Vault is now published with Flowershow. 💐
+
