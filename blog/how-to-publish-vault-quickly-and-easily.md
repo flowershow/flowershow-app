@@ -12,9 +12,9 @@ Hi everyone! In this tutorial and video, we’ll show you how to publish your Ob
 
 https://www.youtube.com/watch?v=_2cwU6zwNWQ
 
-## Step 0: what the result will be
+## STEP 0: What the Result Will Be
 
-Before we start, this is my sample obsidian vault that I want to publish. and this is what it will look like in 2m online once i’ve published it with flowershow.
+Before we start, below is my sample Obsidian Vault that I want to publish and the following image is what it will look like in a couple minutes once I've published it online with Flowershow.
 
 <img width="1522" alt="image" src="https://github.com/user-attachments/assets/c7790fb4-4d12-42dc-955e-38f45fa41aed" />
 
@@ -40,19 +40,19 @@ Before we start, this is my sample obsidian vault that I want to publish. and th
 ## STEP 3: Create a GitHub Repository for Syncing
 
 1. Create a Github repository. This will act as a backup and sync point between Obsidian and Flowershow.  
-2. Use our [template repostory](https://github.com/flowershow/flowershow-cloud-template) -- click "Use this template" button to create a new repository (can be private if you want).
+2. Use our [template repository](https://github.com/flowershow/flowershow-cloud-template) -- click "Use this template" button to create a new repository (can be private if you want).
 
 ## STEP 4: Connect Flowershow to Your GitHub Repository
 
-1. Go back to Flowershow Cloud dashboard
-2. Choose the Publish your Obsidian vault option (or click [go directly to new site creation here](https://cloud.flowershow.app/new))
+1. Go back to the Flowershow Cloud dashboard
+2. Choose the Publish your Obsidian Vault option (or click [go directly to new site creation here](https://cloud.flowershow.app/new))
 3. Select the GitHub repository you just created. 
 4. Click **Create Website** — your Flowershow will set up your site in seconds!
 
 ## STEP 5: Sync Your Obsidian Vault & Publish
 
 1. Go back to Obsidian and go to the **Flowershow plugin settings**.  
-2. Enter the details for your GitHub repository.  
+2. Enter the details of your GitHub repository.  
 3. Go to the Flowershow button in the sidebar and **select the notes to publish** — and that’s it!
 
 ## Conclusion
