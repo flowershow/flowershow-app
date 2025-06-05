@@ -22,6 +22,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/how-to-configure-google-analytics|How to Configure Your Site with Google Analytics]]
 - [[blog/how-to-debug-404-pages|How to Debug 404 Pages]]
 - [[how-to-exclude-files-from-publishing|How to Exclude Files From Publishing]]
+- [[how-to-use-jsx-in-markdown|How to Enhance Markdown Pages with Styled JSX Blocks]]
 - 🚧 How to Add Charts and Graphs
 
 ## Reference
