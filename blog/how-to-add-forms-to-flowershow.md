@@ -6,38 +6,22 @@ authors:
   - olayway
 ---
 
-Forms are essential for engaging with your audience - whether you're collecting newsletter signups, gathering feedback, or creating contact forms. In this guide, we'll walk through setting up Tally and Brevo forms in your Flowershow site, and give you hints on how to use any other forms too.
+Forms are essential for engaging with your audience - whether you're collecting newsletter signups, gathering feedback, or creating contact forms. In this guide, we'll walk through how to add forms to your Flowershow site.
 
-## Tally Forms
+There are two main approaches to embedding forms, depending on the complexity of the embed code provided by your form service:
 
-Once you've created your form in [Tally](http://tally.so/), follow these steps:
+## Simple `iframe` Embeds
 
-1. **Get the embed code**
-   - Click "Share" in your form editor
-   - Select "Standard" option under "Embeded Form"
-2. **Copy the `<iframe>` tag** (skip any `<script>` tags).
-3. **Paste the `<iframe>` tag** into your Flowershow markdown page.
-4. **Adjust for JSX** in markdown pages:
+If your form provider gives you a single `<iframe>` tag (with no extra `<script>` or wrapper elements), you can embed it directly in your markdown:
+
+1. **Copy the `<iframe>` tag** from your form provider
+2. **Paste it** into your Flowershow markdown page
+3. **Adjust for JSX** in markdown pages:
    - camelCase multiword attributes (e.g. `frameborder` -> `frameBorder`)
+   - Change `class` to `className`
+   - Convert any inline `style` attributes to JavaScript objects
 
-> [!note]
-> Flowershow automatically loads the Tally embed script, so you don't need to include it manually.
-
-**Example:**
-```markdown
-<iframe
-  data-tally-src="https://tally.so/embed/your-form-id?your-form-configs"
-  loading="lazy"
-  width="100%"
-  height="157"
-  frameBorder="0"
-  marginHeight="0"
-  marginWidth="0"
-  title="Your form title">
-</iframe>
-```
-
-## Brevo Forms
+### Brevo Forms
 
 After creating your form in Brevo, follow these steps:
 
@@ -69,7 +53,42 @@ After creating your form in Brevo, follow these steps:
 </iframe>
 ```
 
-## Mailchimp Forms
+## Complex Embeds
+
+For forms that require additional elements like `<script>` tags, wrapper `<div>`s, or custom CSS (common with providers like Mailchimp, Tally, TypeForm, etc.):
+
+1. **Get the full embed code** from your form provider
+2. **Use the `CustomHtml` component** in your markdown
+3. **Pass the raw HTML** as a template string to the `html` prop
+
+### Tally Forms
+
+Once you've created your form in [Tally](http://tally.so/), follow these steps:
+
+1. **Get the embed code**
+   - Click "Share" in your form editor
+   - Select "Standard" option under "Embeded Form"
+   - Click "Get the code"
+2. **Copy the `<iframe>` tag** (skip any `<script>` tags).
+3. **Paste the `<iframe>` tag** into your Flowershow markdown page.
+4. **Adjust for JSX** in markdown pages:
+   - camelCase multiword attributes (e.g. `frameborder` -> `frameBorder`)
+
+**Example:**
+```jsx
+<iframe
+  data-tally-src="https://tally.so/embed/your-form-id?your-form-configs"
+  loading="lazy"
+  width="100%"
+  height="157"
+  frameBorder="0"
+  marginHeight="0"
+  marginWidth="0"
+  title="Your form title">
+</iframe>
+```
+
+### Mailchimp Forms
 
 After creating your form in Mailchimp, follow these steps:
 
@@ -81,30 +100,12 @@ After creating your form in Mailchimp, follow these steps:
 **Example**:
 ```jsx
 <CustomHtml html={`<div id="mc_embed_shell">
-      <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-        #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
-        ...
+<link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+    ...
 `}/>
 ```
-
-
-## Other Forms
-
-Depending on how your form provider generates its embed code, choose one of the following approaches:
-
-1. **Standalone `<iframe>` embeds**  
-   If you receive a single `<iframe>` tag (with no extra `<script>` or wrapper elements), treat it like a Brevo form:
-   - Copy the `<iframe>` tag into your Flowershow markdown page.
-
-2. **Complex Embeds (Multiple Tags or Scripts)**  
-   If the provider's snippet includes wrapper `<div>`s, `<script>` tags, or inline CSS/JS:
-   - Wrap the full embed snippet in Flowershow's `<CustomHtml>` component.
-   - Pass the raw HTML as a template string to the `html` prop:
-   ```jsx
-   <CustomHtml html={`<div id="embed-container">…full embed code…</div><script src="…"></script>`} />
-   ```
-   - This ensures Flowershow injects the code exactly as provided, without JSX conflicts.
 
 > [!important]
 > ### Why JSX Adjustments Are Needed
