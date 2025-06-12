@@ -1,16 +1,16 @@
 ---
-title: How to Add Forms to Your Flowershow Site
+title: How to Add Newsletter and Other Subscription Forms
 description: Learn how to integrate newsletter signup forms, contact forms, and surveys into your Flowershow site
-date: 2025-05-26
+date: 2025-06-12
 authors:
   - olayway
 ---
 
-Forms are essential for engaging with your audience - whether you're collecting newsletter signups, gathering feedback, or creating contact forms. In this guide, we'll walk through setting up Tally and Brevo forms in your Flowershow site.
+Forms are essential for engaging with your audience - whether you're collecting newsletter signups, gathering feedback, or creating contact forms. In this guide, we'll walk through setting up Tally and Brevo forms in your Flowershow site, and give you hints on how to use any other forms too.
 
 ## Tally Forms
 
-Once you've created your form in Tally, follow these steps:
+Once you've created your form in [Tally](http://tally.so/), follow these steps:
 
 1. **Get the embed code**
    - Click "Share" in your form editor
@@ -22,7 +22,6 @@ Once you've created your form in Tally, follow these steps:
 
 > [!note]
 > Flowershow automatically loads the Tally embed script, so you don't need to include it manually.
-
 
 **Example:**
 ```markdown
@@ -72,7 +71,7 @@ After creating your form in Brevo, follow these steps:
 
 ## Mailchimp Forms
 
-After creating your form in Brevo, follow these steps:
+After creating your form in Mailchimp, follow these steps:
 
 1. **Get the embed code**
    - In the form editor, after you've set it up, click on "Continue"
@@ -94,16 +93,24 @@ After creating your form in Brevo, follow these steps:
 
 Depending on how your form provider generates its embed code, choose one of the following approaches:
 
-1. **Standalone `<iframe>` Embeds**  
+1. **Standalone `<iframe>` embeds**  
    If you receive a single `<iframe>` tag (with no extra `<script>` or wrapper elements), treat it like a Brevo form:
    - Copy the `<iframe>` tag into your Flowershow markdown page.
-   - Adjust attributes for JSX
 
 2. **Complex Embeds (Multiple Tags or Scripts)**  
-   If the provider’s snippet includes wrapper `<div>`s, `<script>` tags, or inline CSS/JS:
-   - Wrap the full embed snippet in Flowershow’s `<CustomHtml>` component.
+   If the provider's snippet includes wrapper `<div>`s, `<script>` tags, or inline CSS/JS:
+   - Wrap the full embed snippet in Flowershow's `<CustomHtml>` component.
    - Pass the raw HTML as a template string to the `html` prop:
    ```jsx
    <CustomHtml html={`<div id="embed-container">…full embed code…</div><script src="…"></script>`} />
    ```
    - This ensures Flowershow injects the code exactly as provided, without JSX conflicts.
+
+> [!important]
+> ### Why JSX Adjustments Are Needed
+> Flowershow uses React under the hood, which means any HTML in your markdown files is actually processed as JSX (React's template syntax). JSX has slightly different requirements than standard HTML:
+> - Attributes with multiple words must use camelCase (e.g., `frameborder` becomes `frameBorder`)
+> - The `class` attribute must be written as `className`
+> - Style attributes must be JavaScript objects with camelCase properties
+> 
+> These adjustments ensure your embedded forms work correctly within React's rendering system. For complex embeds where these adjustments would be tedious, use the `CustomHtml` component which bypasses JSX processing entirely.
