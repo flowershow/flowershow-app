@@ -116,7 +116,7 @@ Show "Edit this page" links at the bottom of your site's pages to allow visitors
 }
 ```
 
-👉 See [[edit-this-page-links|"Edit this page" links]] to learn more.
+👉 See [[edit-this-page|"Edit this page" links]] to learn more.
 
 ## Excluding files from publishing
 
