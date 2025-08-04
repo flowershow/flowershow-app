@@ -40,7 +40,7 @@ With these IDs, you can proceed with either basic or advanced configuration.
 4. Enter the Repository ID and Category ID from Step 3
 5. Save your changes
 
-<video width="100%" className="rounded-md" controls>
+<video className="w-full rounded-md" controls>
   <source src="/assets/cloud-comments-demo.mp4" type="video/mp4"/>
 </video>
 
