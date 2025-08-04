@@ -41,7 +41,7 @@ With these IDs, you can proceed with either basic or advanced configuration.
 5. Save your changes
 
 <video width="320" height="240" controls>
-  <source src="/assets/cloud-comments-demo.mp4" type="video/mp4">
+  <source src="/assets/cloud-comments-demo.mp4" type="video/mp4"/>
 </video>
 
 ## Step 5: Advanced Configuration (Optional)
