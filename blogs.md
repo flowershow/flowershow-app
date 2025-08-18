@@ -94,7 +94,7 @@ showComments: false
       </div>
       <img
         alt="Blog layout showcase"
-        src="/_r/-/assets/blog-index.png"
+        src="/assets/blog-index.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -115,7 +115,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Post header showcase"
-          src="/_r/-/assets/blog-header.png"
+          src="/assets/blog-header.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
@@ -136,7 +136,7 @@ showComments: false
       </div>
       <img
         alt="Comments showcase"
-        src="/_r/-/assets/comments.png"
+        src="/assets/comments.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
