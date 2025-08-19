@@ -20,7 +20,7 @@
       { "label": "x", "href": "https://x.com/flowershowapp", "name": "X" },
       { "label": "bluesky", "href": "https://bsky.app/profile/flowershowapp.bsky.social", "name": "Bluesky" },
       { "label": "linkedin", "href": "https://www.linkedin.com/company/flowershowapp/", "name": "LinkedIn" },
-      {"label": "discord", "href": "https://discord.gg/JChzM5VdFn", "name": "Discord"}
+      { "label": "discord", "href": "https://discord.gg/JChzM5VdFn", "name": "Discord" }
     ]
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md"],
