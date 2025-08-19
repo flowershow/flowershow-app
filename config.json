@@ -8,7 +8,7 @@
       { "href": "/docs", "name": "Docs" },
       { "href": "/blog", "name": "Blog" },
       {
-        "href": "https://github.com/flowershow/flowershow/discussions",
+        "href": "https://discord.gg/JChzM5VdFn",
         "name": "Forum"
       },
       { "href": "/blogs", "name": "Flowershow for Blogs" },
@@ -19,7 +19,8 @@
       { "label": "github", "href": "https://github.com/flowershow/flowershow", "name": "GitHub" },
       { "label": "x", "href": "https://x.com/flowershowapp", "name": "X" },
       { "label": "bluesky", "href": "https://bsky.app/profile/flowershowapp.bsky.social", "name": "Bluesky" },
-      { "label": "linkedin", "href": "https://www.linkedin.com/company/flowershowapp/", "name": "LinkedIn" }
+      { "label": "linkedin", "href": "https://www.linkedin.com/company/flowershowapp/", "name": "LinkedIn" },
+      {"label": "discord", "href": "https://discord.gg/JChzM5VdFn", "name": "Discord"}
     ]
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md"],
