@@ -1,6 +1,7 @@
 ---
 title: "Announcing Official Flowershow Themes"
 description: "Introducing the official Flowershow themes repository - a curated collection of CSS themes to customize your Flowershow site."
+image: /assets/themes.png
 date: 2025-08-21
 authors: ["olayway"]
 ---
