@@ -24,5 +24,8 @@
     ]
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md"],
-  "showEditLink": true
+  "showEditLink": true,
+  "redirects": {
+    "from": "/docs/site-wide-toc", "to": "/docs/sidebar"
+  }
 }
