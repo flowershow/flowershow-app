@@ -38,7 +38,7 @@ The `fields` prop lets you specify which metadata to display for each item:
 - `title`: The page title
 - `description`: The page description
 - `authors`: Author information
-- `date`: Publication date
+- `date`: Publication date (`YYYY-MM-DD`  ISO 8601 format)
 - `image`: Featured image
 
 By default, only `title` and `description` are shown.
@@ -66,7 +66,7 @@ Here are all my blog posts:
 
 ## Important Notes
 
-- The `dir` prop must be an absolute path
+- The `dir` prop must be an absolute path (in respect to your site's root directory)
 - The component won't list home (aka index) pages (`README.md` or `index.md` files)
 - Files are sorted by date (newest first) if dates are provided in frontmatter, otherwise they are sorted by title
 - The component is recursive - it will show files in subdirectories
