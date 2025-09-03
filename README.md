@@ -128,14 +128,6 @@ showComments: false
         </a>
       </div>
       <div>
-        <a href="https://digi.dana.nyc/">
-          <img alt="Digi Dana NYC" src="/assets/showcases/digi-dana-nyc.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
-          <div className="mt-4 text-lg font-medium text-gray-900">
-            <h3>Digi Dana NYC</h3>
-          </div>
-        </a>
-      </div>
-      <div>
         <a href="https://givewiser.org/">
           <img alt="Give Wiser" src="/assets/showcases/give-wiser.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
