@@ -203,7 +203,7 @@ showComments: false
           <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
           <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
             <div className="overflow-hidden -mb-2 -mr-4 rounded-tl-xl rounded-tr-xl bg-gray-900 ring-1 ring-white/10">
-              <img alt="Product screenshot" src="https://flowershow.app/_r/-/assets/syntax-support.png"className="w-full" />
+              <img alt="Product screenshot" src="/assets/syntax-support.png"className="w-full" />
             </div>
           </div>
           <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
