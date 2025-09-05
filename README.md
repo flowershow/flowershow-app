@@ -11,7 +11,7 @@ showComments: false
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
       <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">The best way to publish markdown-based websites</h1>
-      <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Flowershow is the easiest way to create elegant markdown-based websites — docs, handbooks, blogs and landing pages. No coding required. Sign up and have your site live in seconds!</p>
+      <p className="mt-8 text-pretty text-lg text-gray-500 sm:text-xl/8">Flowershow is the easiest way to create elegant markdown-based websites — docs, handbooks, blogs and landing pages. No coding required. Sign up and have your site live in seconds!</p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://cloud.flowershow.app/"
@@ -189,109 +189,128 @@ showComments: false
     
 <h2 id="features" className="sr-only">Features</h2>
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <div className="lg:ml-auto lg:pl-4 lg:pt-4">
-        <div className="lg:max-w-lg">
-          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Rich Markdown Syntax Support</h3>
-          <p className="mt-6 text-lg/8 text-gray-600">From basic CommonMark to advanced GitHub Flavoured Markdown and Obsidian Wiki links, we've got you covered. Enhance your content with Mermaid diagrams for clear visualizations and LaTeX for beautiful mathematical equations.</p>
-          <a href="/docs/syntax" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
+  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
+      <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+          <h2 className="text-base/7 font-semibold text-orange-600">Deploy faster</h2>
+          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Rich Markdown Syntax Support</p>
+          <p className="mt-6 text-lg/8 text-gray-700">From basic CommonMark to advanced GitHub Flavoured Markdown and Obsidian Wiki links, we've got you covered. Enhance your content with Mermaid diagrams for clear visualizations and LaTeX for beautiful mathematical equations.</p>
+          <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
       </div>
-      <div className="flex items-start justify-end lg:order-first">
-        <img
-          alt="Product screenshot"
-          src="/assets/syntax-support.png"
-          width={2432}
-          height={1442}
-          className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-        />
+      <div className="sm:px-6 lg:px-0">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+          <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
+          <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="/assets/syntax-support.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            </div>
+          </div>
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <div className="lg:pr-8 lg:pt-4">
-        <div className="lg:max-w-lg">
-          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Page Comments</h3>
-          <p className="mt-6 text-lg/8 text-gray-600">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
-          <a href="/docs/comments" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
+  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
+      <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+          <h2 className="text-base/7 font-semibold text-orange-600">Deploy faster</h2>
+          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</p>
+          <p className="mt-6 text-lg/8 text-gray-700">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
+          <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
       </div>
-      <img
-        alt="Product screenshot"
-        src="/assets/comments.png"
-        width={2432}
-        height={1442}
-        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-      />
-    </div>
-  </div>
-</div>
-
-<div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <div className="lg:ml-auto lg:pl-4 lg:pt-4">
-        <div className="lg:max-w-lg">
-          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Table of Contents and Sidebar Navigation</h3>
-          <p className="mt-6 text-lg/8 text-gray-600">Every markdown page comes with a table of contents enabled by default. You can also add a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.</p>
+      <div className="sm:px-6 lg:px-0">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+          <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
+          <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="/assets/comments.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            </div>
+          </div>
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
         </div>
-      </div>
-      <div className="flex items-start justify-end lg:order-first">
-        <img
-          alt="Product screenshot"
-          src="/assets/toc-and-sidebar.png"
-          width={2432}
-          height={1442}
-          className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-        />
       </div>
     </div>
   </div>
 </div>
 
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <div className="lg:pr-8 lg:pt-4">
-        <div className="lg:max-w-lg">
-          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Elegant Layout</h3>
-          <p className="mt-6 text-lg/8 text-gray-600">Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.</p>
+  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
+      <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+          <h2 className="text-base/7 font-semibold text-orange-600">Table of Contents and Sidebar Navigation</h2>
+          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Every markdown page comes with a table of contents enabled by default. You can also add a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.</p>
+          <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
       </div>
-      <img
-        alt="Product screenshot"
-        src="/assets/blog-header.png"
-        width={2432}
-        height={1442}
-        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-      />
+      <div className="sm:px-6 lg:px-0">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+          <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
+          <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="/assets/toc-and-sidebar.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            </div>
+          </div>
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="overflow-hidden py-8 sm:py-12">
+  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
+      <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+          <h2 className="text-base/7 font-semibold text-orange-600">Elegant Layout</h2>
+          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.</p>
+          <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
+        </div>
+      </div>
+      <div className="sm:px-6 lg:px-0">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+          <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
+          <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="/assets/blog-header.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            </div>
+          </div>
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <div className="lg:ml-auto lg:pl-4 lg:pt-4">
-        <div className="lg:max-w-lg">
-          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Hero Section</h3>
-          <p className="mt-6 text-lg/8 text-gray-600">Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.</p>
+  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
+      <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+          <h2 className="text-base/7 font-semibold text-orange-600">Hero Section</h2>
+          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.</p>
+          <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
       </div>
-      <div className="flex items-start justify-end lg:order-first">
-        <img
-          alt="Product screenshot"
-          src="/assets/hero-section.png"
-          width={2432}
-          height={1442}
-          className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-        />
+      <div className="sm:px-6 lg:px-0">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+          <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
+          <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="/assets/hero-section.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            </div>
+          </div>
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
+        </div>
       </div>
     </div>
   </div>
