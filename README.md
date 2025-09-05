@@ -187,7 +187,6 @@ showComments: false
   </div>
 </div>
     
-<h2 id="features" className="sr-only">Features</h2>
 <div className="overflow-hidden py-8 sm:py-12">
   <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
@@ -200,11 +199,11 @@ showComments: false
         </div>
       </div>
       <div className="sm:px-6 lg:px-0">
-        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-12 sm:pr-0 sm:pt-12 lg:mx-0 lg:max-w-none">
           <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
           <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
-              <img alt="Product screenshot" src="/assets/syntax-support.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            <div className="overflow-hidden -mb-2 -mr-4 rounded-tl-xl rounded-tr-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="https://flowershow.app/_r/-/assets/syntax-support.png"className="w-full" />
             </div>
           </div>
           <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
@@ -226,11 +225,11 @@ showComments: false
         </div>
       </div>
       <div className="sm:px-6 lg:px-0">
-        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-12 sm:pr-0 sm:pt-12 lg:mx-0 lg:max-w-none">
           <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
           <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
-              <img alt="Product screenshot" src="/assets/comments.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            <div className="overflow-hidden -mb-2 -mr-4 rounded-tl-xl rounded-tr-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="https://flowershow.app/_r/-/assets/comments.png"className="w-full" />
             </div>
           </div>
           <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
@@ -252,11 +251,11 @@ showComments: false
         </div>
       </div>
       <div className="sm:px-6 lg:px-0">
-        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-12 sm:pr-0 sm:pt-12 lg:mx-0 lg:max-w-none">
           <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
           <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
-              <img alt="Product screenshot" src="/assets/toc-and-sidebar.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            <div className="overflow-hidden -mb-2 -mr-4 rounded-tl-xl rounded-tr-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="https://flowershow.app/_r/-/assets/toc-and-sidebar.png"className="w-full" />
             </div>
           </div>
           <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
@@ -278,11 +277,11 @@ showComments: false
         </div>
       </div>
       <div className="sm:px-6 lg:px-0">
-        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-12 sm:pr-0 sm:pt-12 lg:mx-0 lg:max-w-none">
           <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
           <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
-              <img alt="Product screenshot" src="/assets/blog-header.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            <div className="overflow-hidden -mb-2 -mr-4 rounded-tl-xl rounded-tr-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="https://flowershow.app/_r/-/assets/blog-header.png"className="w-full" />
             </div>
           </div>
           <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
@@ -305,11 +304,11 @@ showComments: false
         </div>
       </div>
       <div className="sm:px-6 lg:px-0">
-        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-12 sm:pr-0 sm:pt-12 lg:mx-0 lg:max-w-none">
           <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
           <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-            <div className="w-screen overflow-hidden rounded-tl-xl bg-gray-900 ring-1 ring-white/10">
-              <img alt="Product screenshot" src="/assets/hero-section.png" width="2432" height="1442" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" />
+            <div className="overflow-hidden -mb-2 -mr-4 rounded-tl-xl rounded-tr-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="https://flowershow.app/_r/-/assets/hero-section.png"className="w-full" />
             </div>
           </div>
           <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
