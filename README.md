@@ -22,7 +22,7 @@ showComments: false
     </div>
     <div className="mt-16 max-w-6xl mx-auto flow-root sm:mt-24">
       <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-        <video width="1920" height="1080" className="w-full rounded-md" controls autoplay>
+        <video width="1920" height="1080" className="w-full rounded-md" controls autoplay muted>
           <source src="/assets/demo.mp4" type="video/mp4"/>
         </video>
       </div>
