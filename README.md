@@ -163,7 +163,7 @@ showComments: false
         <a href="https://my.flowershow.app/@Iwuaa/dnd-compendium">
           <img alt="D&D Compendium" src="/assets/showcases/dnd.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
-            <h3>Professor Robson</h3>
+            <h3>D&D Compendium</h3>
           </div>
         </a>
       </div>
