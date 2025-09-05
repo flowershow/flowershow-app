@@ -188,7 +188,7 @@ showComments: false
 </div>
     
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+  <div className="mx-auto max-w-8xl md:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
@@ -214,12 +214,12 @@ showComments: false
 </div>
 
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+  <div className="mx-auto max-w-8xl md:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
           <h2 className="text-base/7 font-semibold text-orange-600">Comments</h2>
-          <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</p>
+          <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Page Comments</p>
           <p className="mt-6 text-lg/8 text-gray-700">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
           <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
@@ -240,7 +240,7 @@ showComments: false
 </div>
 
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+  <div className="mx-auto max-w-8xl md:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
@@ -266,7 +266,7 @@ showComments: false
 </div>
 
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+  <div className="mx-auto max-w-8xl md:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
@@ -293,7 +293,7 @@ showComments: false
 
 
 <div className="overflow-hidden py-8 sm:py-12">
-  <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
+  <div className="mx-auto max-w-8xl md:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
