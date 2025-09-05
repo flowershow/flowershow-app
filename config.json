@@ -18,7 +18,6 @@
       { "label": "github", "href": "https://github.com/flowershow/flowershow", "name": "GitHub" },
       { "label": "x", "href": "https://x.com/flowershowapp", "name": "X" },
       { "label": "reddit", "href": "https://www.reddit.com/r/flowershow/", "name": "Reddit" },
-      { "label": "linkedin", "href": "https://www.linkedin.com/company/flowershowapp/", "name": "LinkedIn" },
       { "label": "discord", "href": "https://discord.gg/JChzM5VdFn", "name": "Discord" }
     ],
     "cta": { "name": "Sign In", "href": "https://cloud.flowershow.app/login" }
