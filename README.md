@@ -20,25 +20,15 @@ showComments: false
         {/*<a href="#" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>*/}
       </div>
     </div>
-    <div className="mt-16 flow-root sm:mt-24">
+    <div className="mt-16 max-w-6xl mx-auto flow-root sm:mt-24">
       <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-        <video className="w-full rounded-md" controls>
+        <video className="w-full rounded-md aspect-video" controls autoplay>
           <source src="/assets/demo.mp4" type="video/mp4"/>
         </video>
       </div>
     </div>
   </div>
 </div>
-
-<div className="my-12">
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto max-w-4xl rounded-lg overflow-hidden">
-      https://www.youtube.com/watch?v=Pe1c737A3p0
-    </div>
-  </div>
-</div>
-
-
 
 <div className="py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -179,6 +169,14 @@ showComments: false
           </div>
         </a>
       </div>
+    </div>
+  </div>
+</div>
+
+<div className="my-12">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto max-w-4xl rounded-lg overflow-hidden">
+      https://www.youtube.com/watch?v=Pe1c737A3p0
     </div>
   </div>
 </div>
