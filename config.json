@@ -22,7 +22,7 @@
       { "label": "linkedin", "href": "https://www.linkedin.com/company/flowershowapp/", "name": "LinkedIn" },
       { "label": "discord", "href": "https://discord.gg/JChzM5VdFn", "name": "Discord" }
     ],
-    "cta": { "label": "Sign In", "href": "https://cloud.flowershow.app/login" }
+    "cta": { "name": "Sign In", "href": "https://cloud.flowershow.app/login" }
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md", "/about.md"],
   "showEditLink": true,
