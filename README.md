@@ -193,7 +193,7 @@ showComments: false
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
           <h2 className="text-base/7 font-semibold text-orange-600">Syntax</h2>
-          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Rich Markdown Syntax Support</p>
+          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Rich Markdown Syntax Support</p>
           <p className="mt-6 text-lg/8 text-gray-700">From basic CommonMark to advanced GitHub Flavoured Markdown and Obsidian Wiki links, we've got you covered. Enhance your content with Mermaid diagrams for clear visualizations and LaTeX for beautiful mathematical equations.</p>
           <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
@@ -219,7 +219,7 @@ showComments: false
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
           <h2 className="text-base/7 font-semibold text-orange-600">Comments</h2>
-          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</p>
+          <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</p>
           <p className="mt-6 text-lg/8 text-gray-700">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
           <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
@@ -245,7 +245,7 @@ showComments: false
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
           <h2 className="text-base/7 font-semibold text-orange-600">Navigation</h2>
-          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Table of contents and sidebar</p>
+          <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Table of contents and sidebar</p>
           <p className="mt-6 text-lg/8 text-gray-700">Every markdown page comes with a table of contents enabled by default. You can also add a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.</p>
           <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
@@ -271,7 +271,7 @@ showComments: false
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
           <h2 className="text-base/7 font-semibold text-orange-600">Layout</h2>
-          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Elegant layout</p>
+          <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Elegant layout</p>
           <p className="mt-6 text-lg/8 text-gray-700">Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.</p>
           <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
@@ -298,7 +298,7 @@ showComments: false
       <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
           <h2 className="text-base/7 font-semibold text-orange-600">Hero</h2>
-          <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Hero Section</p>
+          <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Hero Section</p>
           <p className="mt-6 text-lg/8 text-gray-700">Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.</p>
           <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
         </div>
