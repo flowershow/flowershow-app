@@ -259,6 +259,31 @@ showComments: false
   </div>
 </div>
 
+<div className="overflow-hidden py-8 sm:py-12">
+  <div className="mx-auto max-w-8xl md:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
+      <div className="px-6 md:px-0 lg:pr-4 lg:pt-4">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+          <h2 className="text-base/7 font-semibold text-orange-600">Themes</h2>
+          <p className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Customizable theme</p>
+          <p className="mt-6 text-lg/8 text-gray-700">Use one of the Flowershow official themes or customize your site yourself with CSS. You can also use JSX blocks and style them with Tailwind!</p>
+          <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none"></dl>
+        </div>
+      </div>
+      <div className="sm:px-6 lg:px-0">
+        <div className="relative isolate overflow-hidden bg-orange-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-12 sm:pr-0 sm:pt-12 lg:mx-0 lg:max-w-none">
+          <div aria-hidden="true" className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-orange-100 opacity-20 ring-1 ring-inset ring-white"></div>
+          <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+            <div className="overflow-hidden -mb-2 -mr-4 rounded-tl-xl rounded-tr-xl bg-gray-900 ring-1 ring-white/10">
+              <img alt="Product screenshot" src="https://flowershow.app/_r/-/assets/hero-section.png"className="w-full" />
+            </div>
+          </div>
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div className="overflow-hidden py-8 sm:py-12">
   <div className="mx-auto max-w-8xl md:px-6 lg:px-8">
