@@ -29,9 +29,9 @@ showComments: false
   </div>
 </div>
 
-<div className="bg-white py-8 sm:py-12">
+<div className="bg-white py-12 sm:py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
+    <div className="mx-auto max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
       <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-16">
         <div>
           <dt className="font-semibold text-gray-900">🧩 MDX-first authoring</dt>
