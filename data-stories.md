@@ -7,20 +7,23 @@ showEditLink: false
 showComments: false
 ---
 
-<div className="bg-white py-12 sm:py-24">
+<div className="py-12 sm:py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
-      <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-        The best way to create markdown-based <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-yellow-500">data-rich stories</span>
-      </h1>
-      <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-        Write like you always do—then drop in live tables and charts. Flowershow renders local or external CSV files, so your posts stay readable <em>and</em> explorable.
-      </p>
+      <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">The best way to create markdown-based <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-yellow-500">data-rich stories</span></h1>
+      <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Write like you always do—then drop in live tables and charts. Flowershow renders local or external CSV files, so your posts stay readable <em>and</em> explorable.</p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://cloud.flowershow.app/"
           className="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow hover:bg-orange-300"
-        >Start building for free</a>
+        >Start publishing for free</a>
+      </div>
+    </div>
+    <div className="mt-16 max-w-6xl mx-auto flow-root sm:mt-24">
+      <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+        <video width="1920" height="1080" className="w-full rounded-md" controls autoPlay muted loop>
+          <source src="/assets/data-rich-demo.mp4" type="video/mp4"/>
+        </video>
       </div>
     </div>
   </div>
