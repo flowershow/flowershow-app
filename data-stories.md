@@ -22,7 +22,7 @@ showComments: false
     <div className="mt-16 max-w-6xl mx-auto flow-root sm:mt-24">
       <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
         <video width="1920" height="1080" className="w-full rounded-md" controls autoPlay muted loop>
-          <source src="/assets/data-rich-demo.mp4" type="video/mp4"/>
+          <source src="/assets/data-rich-demo-2.mp4" type="video/mp4"/>
         </video>
       </div>
     </div>
@@ -142,8 +142,14 @@ showComments: false
 <div className="py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl lg:text-center">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">And more!</h2>
-      <p className="mt-6 text-lg/8 text-gray-600">Check out other data-rich components <a href="https://components.flowershow.app/" className="text-orange-400 hover:text-orange-300">here</a> and start using them today!</p>
+      <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">And more!</h2>
+      <p className="mt-6 text-lg/8 text-gray-600">Check out other available data-rich components and start using them today!</p>
+      <div className="mt-10 flex items-center justify-center gap-x-6">
+        <a
+          href="https://components.flowershow.app/"
+          className="rounded-md bg-primary-strong px-3.5 py-2.5 text-sm font-semibold text-slate-900 shadow hover:bg-primary"
+        >See all components</a>
+      </div>
     </div>
   </div>
 </div>
