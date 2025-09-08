@@ -1,5 +1,5 @@
 ---
-title: The best way to create markdown-powered blogs
+title: The best way to create markdown-based blogs
 description: Transform your markdown files into a professional blog with elegant post layouts, author profiles, and built-in commenting. Perfect for writers who want to focus on content, not configuration.
 layout: plain
 showToc: false
@@ -10,7 +10,7 @@ showComments: false
 <div className="bg-white py-12 sm:py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
-      <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">The best way to create markdown-powered <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-yellow-500  ">blogs</span></h1>
+      <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">The best way to create markdown-based <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-yellow-500">blogs</span></h1>
       <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Transform your markdown files into a professional blog with elegant post layouts, author profiles, and built-in commenting. Perfect for writers who want to focus on content, not configuration.</p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a

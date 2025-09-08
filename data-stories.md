@@ -11,7 +11,7 @@ showComments: false
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
       <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-        The best way to create <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-yellow-500">data-rich stories</span> with Markdown
+        The best way to create markdown-based <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-yellow-500">data-rich stories</span>
       </h1>
       <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
         Write like you always do—then drop in live tables and charts. Flowershow renders local or external CSV files, so your posts stay readable <em>and</em> explorable.
