@@ -7,11 +7,8 @@
       { "href": "/pricing", "name": "Pricing" },
       { "href": "/docs", "name": "Docs" },
       { "href": "/blog", "name": "Blog" },
-      {
-        "href": "https://discord.gg/JChzM5VdFn",
-        "name": "Forum"
-      },
       { "href": "/blogs", "name": "Flowershow for Blogs" },
+      { "href": "/data-stories", "name": "Flowershow for Data Stories" },
       { "href": "https://demo.flowershow.app/", "name": "Demo" }
     ],
     "social": [
