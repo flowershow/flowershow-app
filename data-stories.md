@@ -67,7 +67,7 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Interactive Tables</h2>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Interactive tables</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Point to a local or remote CSV and render a searchable, sortable table in one line of MDX.</p>
           <pre className="mt-6 overflow-x-auto rounded-lg bg-gray-50 p-4 text-sm leading-6 text-gray-800 ring-1 ring-gray-200">
 {`<FlatUiTable
@@ -86,8 +86,8 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Data Visualisation</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Create charts with a couple of props. Pull columns by name, pick a chart type, and you’re done.</p>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Line charts</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Visualize trends and continuous changes over time with simple line charts. Pull columns by name and you’re done.</p>
           <pre className="mt-6 overflow-x-auto rounded-lg bg-gray-50 p-4 text-sm leading-6 text-gray-800 ring-1 ring-gray-200">
 {`<LineChart 
   data={{ url: "/assets/global-co2-emissions.csv" }}
@@ -107,6 +107,47 @@ showComments: false
     </div>
   </div>
 </div>
+
+<div className="overflow-hidden bg-white py-8 sm:py-12">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div className="lg:pr-8 lg:pt-4">
+        <div className="lg:max-w-lg">
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Bar charts</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Comparing discrete data points across different categories or groups with a bar chart.</p>
+          <pre className="mt-6 overflow-x-auto rounded-lg bg-gray-50 p-4 text-sm leading-6 text-gray-800 ring-1 ring-gray-200">
+{`<PlotlyBarChart
+  data={{
+    url: '/assets/global-co2-emissions-2010.csv'
+  }}
+  title="Emissions distribution in 2010"
+  xAxis="Type"
+  yAxis="Amount"
+/>`}
+          </pre>
+        </div>
+      </div>
+      <PlotlyBarChart
+        data={{
+          url: '/assets/global-co2-emissions-2010.csv'
+        }}
+        title="Emissions distribution in 2010"
+        xAxis="Type"
+        yAxis="Amount"
+      />
+    </div>
+  </div>
+</div>
+
+<div className="py-12 sm:py-24 my-12">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto max-w-3xl lg:text-center">
+      <h2 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">And more!</h2>
+      <p className="mt-6 text-lg/8 text-gray-600">>Check out the full data-rich components collection <a href="https://components.flowershow.app/" className="text-orange-400 hover:text-orange-300">here</a> and start using them today!</p>
+    </div>
+  </div>
+</div>
+
 
 
 
