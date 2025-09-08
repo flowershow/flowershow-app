@@ -142,13 +142,33 @@ showComments: false
 <div className="py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl lg:text-center">
-      <h2 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">And more!</h2>
-      <p className="mt-6 text-lg/8 text-gray-600">>Check out the full data-rich components collection <a href="https://components.flowershow.app/" className="text-orange-400 hover:text-orange-300">here</a> and start using them today!</p>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">And more!</h2>
+      <p className="mt-6 text-lg/8 text-gray-600">Check out other data-rich components <a href="https://components.flowershow.app/" className="text-orange-400 hover:text-orange-300">here</a> and start using them today!</p>
     </div>
   </div>
 </div>
 
+<div className="py-12 sm:py-24 my-12">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <h2 className="mb-4 text-pretty text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:mb-6 sm:text-5xl">Be the first to know about new features</h2>
+      <CustomHtml html={`<iframe data-tally-src="https://tally.so/embed/mYy8k6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" width="100%" height="157" frameBorder="0" marginHeight="0" marginWidth="0" title="Want product news and updates? Sign up for our newsletter."></iframe><script async src="https://tally.so/widgets/embed.js"></script>`}/>
+  </div>
+</div>
 
+<div className="bg-slate-900 mt-16 sm:mt-20 md:mt-24">
+  <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+    <div className="mx-auto max-w-2xl text-center">
+      <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Start using Flowershow today.</h2>
+      <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-slate-100">Publish an elegant markdown-based website in a breeze.</p>
+      <div className="mt-10 flex items-center justify-center gap-x-6">
+        <a
+          href="https://cloud.flowershow.app/"
+          className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-slate-900 shadow hover:bg-primary-faint"
+        >Sing up for free</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
