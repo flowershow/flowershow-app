@@ -114,7 +114,7 @@ showComments: false
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Bar charts</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Comparing discrete data points across different categories or groups with a bar chart.</p>
+          <p className="mt-6 text-lg/8 text-gray-600">Compare discrete data points across different categories or groups with a bar chart.</p>
           <pre className="mt-6 overflow-x-auto rounded-lg bg-gray-50 p-4 text-sm leading-6 text-gray-800 ring-1 ring-gray-200">
 {`<PlotlyBarChart
   data={{
