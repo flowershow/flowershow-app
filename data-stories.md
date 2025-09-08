@@ -71,7 +71,9 @@ showComments: false
           <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Interactive Table from CSV</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Point to a local or remote CSV and render a searchable, sortable table in one line of MDX.</p>
           <pre className="mt-6 overflow-x-auto rounded-lg bg-gray-50 p-4 text-sm leading-6 text-gray-800 ring-1 ring-gray-200">
-          {`<FlatUiTable data={{ url: "/assets/global-co2-emissions.csv" }} />`}
+          {`<FlatUiTable
+              data={{ url: "/assets/global-co2-emissions.csv" }}
+          />`}
           </pre>
         </div>
       </div>
@@ -83,8 +85,9 @@ showComments: false
 <div className="overflow-hidden bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-      <div className="lg:ml-auto lg:pl-4 lg:pt-4">
+      <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Interactive Table from CSV</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Create charts with a couple of props. Pull columns by name, pick a chart type, and you’re done.</p>
           <pre className="mt-6 overflow-x-auto rounded-lg bg-gray-50 p-4 text-sm leading-6 text-gray-800 ring-1 ring-gray-200">
 {`<LineChart 
@@ -96,6 +99,12 @@ showComments: false
           </pre>
         </div>
       </div>
+      <LineChart 
+        data={{ url: "/assets/global-co2-emissions.csv" }}
+        title="Global CO2 Emissions from fossil-fuels"
+        xAxis="Year"
+        yAxis="Total"
+      />
     </div>
   </div>
 </div>
