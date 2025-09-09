@@ -1,6 +1,6 @@
 ---
 title: The best way to publish markdown powered websites
-description: Flowershow is the easiest way to create markdown-based websites quickly — for docs, handbooks, blogs and landing pages. No coding required. Sign up and have a site live in seconds!
+description: Flowershow is the easiest way to create elegant markdown-based websites quickly — for docs, handbooks, blogs, PKMs and landing pages. No coding required. Sign up and have a site live in seconds!
 layout: plain
 showToc: false
 showEditLink: false
@@ -11,7 +11,7 @@ showComments: false
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
       <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">The best way to publish markdown-based websites</h1>
-      <p className="mt-8 text-pretty text-lg text-gray-500 sm:text-xl/8">Flowershow is the easiest way to create elegant markdown-based websites — docs, handbooks, blogs and landing pages. No coding required. Sign up and have your site live in seconds!</p>
+      <p className="mt-8 text-pretty text-lg text-gray-500 sm:text-xl/8">Flowershow is the easiest way to create elegant markdown-based websites — for docs, handbooks, blogs, PKMS and landing pages. No coding required. Sign up and have your site live in seconds!</p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://cloud.flowershow.app/"
