@@ -23,5 +23,9 @@
   "showEditLink": true,
   "redirects": [
     { "from": "/docs/site-wide-toc", "to": "/docs/sidebar" }
-  ]
+  ],
+  "theme": {
+    "defaultMode": "light",
+    "showModeSwitch": true
+  }
 }
