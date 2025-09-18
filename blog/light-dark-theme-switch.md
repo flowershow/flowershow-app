@@ -96,6 +96,6 @@ If you're using custom CSS and want to support dark mode, you can use the `data-
 
 > **Note:** We're working on comprehensive documentation for CSS variables that you can use to easily customize colors for both light and dark themes. Stay tuned for updates!
 
-![See it in action on our demo site](https://demo.flowershow.app/)
+[See it in action on our demo site](https://demo.flowershow.app/)
 
 Try enabling the theme switch on your Flowershow site and let us know what you think! We're always looking for feedback to improve the user experience.
