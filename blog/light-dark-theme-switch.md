@@ -62,7 +62,8 @@ The legacy API where `theme: string` was used to specify the name of the officia
 }
 ```
 
->[!important] If you're using one of the official Flowershow themes (other than the default theme), check the [flowershow/themes](https://github.com/flowershow/themes) repository first to ensure your chosen theme supports dark mode in the first place.
+>[!important]
+>If you're using one of the official Flowershow themes (other than the default theme), check the [flowershow/themes](https://github.com/flowershow/themes) repository first to ensure your chosen theme supports dark mode in the first place.
 
 ## Full Configuration Interface
 
@@ -94,7 +95,8 @@ If you're using custom CSS and want to support dark mode, you can use the `data-
 }
 ```
 
-> [!note] We're working on comprehensive documentation for CSS variables that you can use to easily customize colors for both light and dark themes. Stay tuned for updates!
+> [!note]
+> We're working on comprehensive documentation for CSS variables that you can use to easily customize colors for both light and dark themes. Stay tuned for updates!
 
 [See it in action on our demo site](https://demo.flowershow.app/)
 
