@@ -94,7 +94,7 @@ If you're using custom CSS and want to support dark mode, you can use the `data-
 }
 ```
 
-> [!note] We're working on comprehensive documentation for CSS variables that you can  to easily customize colors for both light and dark themes. Stay tuned for updates!
+> [!note] We're working on comprehensive documentation for CSS variables that you can use to easily customize colors for both light and dark themes. Stay tuned for updates!
 
 [See it in action on our demo site](https://demo.flowershow.app/)
 
