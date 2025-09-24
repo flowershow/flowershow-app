@@ -200,8 +200,7 @@ You might encounter SSL handshake errors during the initial setup if you're usin
    - It's used when traffic goes directly to Vercel (when not using a DNS provider's proxy)
 
 2. **DNS Provider's SSL Certificate**:
-   - If you're using your DNS provider's proxy/SSL features (like Cloudflare's proxy or similar services)
-   - Your DNS provider provisions its own SSL certificate
+   - If you're using your DNS provider's proxy/SSL features (like Cloudflare's proxy or similar services) your DNS provider provisions its own SSL certificate
    - This certificate handles HTTPS between users and the DNS provider's servers
    - The DNS provider then forwards traffic to Vercel using Vercel's SSL certificate
 
