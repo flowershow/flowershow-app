@@ -10,7 +10,9 @@ This guide will walk you step by step through the setup.
 
 ---
 
-## 1. Replace `image` (and `avatar`) frontmatter fields with wikilinks
+## Steps
+
+### 1. Replace `image` (and `avatar`) frontmatter fields with wikilinks
 
 Enveloppe only uploads attachments that are **embedded or linked using Obsidian wiki link format** (e.g., `![[image.png]]`) (and CommonMark links). It doesn't just upload everything it finds in your vault.
 
@@ -37,7 +39,7 @@ We’ve just added support for wiki links in these frontmatter fields, so now yo
 After this, your `image` (and `avatar`) fields should display like this: 
 ![[Pasted image 20250926015538.png]]
 
-### Bulk-convert existing frontmatter
+#### Bulk-convert existing frontmatter
 
 If you have many files to update, Obsidian unfortunately doesn’t support global search-and-replace. You’ll need to use a different text editor (like VS Code or Atom).
 
@@ -51,13 +53,13 @@ image:\s*([^\s]+)
 image: "[[$1]]"
 ```
 
-## 2. Install the [Enveloppe Obsidian plugin](obsidian://show-plugin?id=obsidian-mkdocs-publisher)
+### 2. Install the [Enveloppe Obsidian plugin](obsidian://show-plugin?id=obsidian-mkdocs-publisher)
 
 Open the **Community Plugins** tab in Obsidian and search for Enveloppe:
 
 ![[Pasted image 20250926011800.png]]
 
-## 3. Connect your GitHub repository
+### 3. Connect your GitHub repository
 
 Once installed, go to the plugin settings. You’ll need to provide:
 
@@ -69,7 +71,7 @@ You can then click **Test connection** to confirm it’s working.
 
 ![[Pasted image 20250926011953.png]]
 
-## 4. Import our preset configuration
+### 4. Import our preset configuration
 
 To make setup easier, we’ve prepared a configuration preset. Click **Import settings** in the plugin’s settings, and paste this JSON:
 
@@ -179,7 +181,7 @@ To make setup easier, we’ve prepared a configuration preset. Click **Import se
 }
 ```
 
-## 5. Push your content
+### 5. Push your content
 
 When you’re ready, run the command: **"Enveloppe: Upload all shared notes"**
 This will push your vault (and linked assets) to GitHub. From there, Flowershow can publish it.
@@ -187,7 +189,7 @@ This will push your vault (and linked assets) to GitHub. From there, Flowershow 
 ![[Pasted image 20250926020042.png]]
 ![[Pasted image 20250926022608.png]]
 
-## 6. Connect your GitHub repo to Flowershow
+### 6. Connect your GitHub repo to Flowershow
 
 Now that your vault is uploaded to GitHub, you can connect it to Flowershow and publish it.
 
@@ -196,7 +198,7 @@ Now that your vault is uploaded to GitHub, you can connect it to Flowershow and 
 3. Click **Create Site**.
 4. Select the repository you just pushed with Enveloppe.
 
-## 7. (Optional) Upload `config.json`
+### 7. (Optional) Upload `config.json`
 
 Enveloppe’s behavior related to attachments uploading also applies to your `config.json`. If you want to edit it locally and have it uploaded with the rest of your vault, you must link to it somewhere. Otherwise, it will be ignored.
 
@@ -209,14 +211,27 @@ config: "[[config.json]]"
 
 ![[Pasted image 20250926020008.png]]
 
+
+## ✨ Bonus features of using Enveloppe
+
+Using Enveloppe also brings some extras:
+
+### 🖼️ Excalidraw support out of the box
+- Your Excalidraw drawings are automatically converted to SVG.
+- All embed links are updated for you.
+- You don’t need to clutter your vault with extra `.svg` files — Enveloppe does this on the fly and only in the repo.
+
+### 📊 Dataview query resolution
+
+- Dataview queries are evaluated and saved as plain Markdown in the repo.
+- This means your published site contains the fully rendered tables/lists, without depending on Obsidian plugins.
+
 ## Done!
 
 That’s it — you’ve connected Obsidian, GitHub, Enveloppe, and Flowershow. Your vault should now be live 🎉
 
 > [!success]
 > Try updating a note in your vault, running the upload again, and watch your site update within minutes.
-
-
 
 
 
