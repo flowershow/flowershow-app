@@ -1,10 +1,11 @@
 ---
 title: Publish Your Obsidian Vault with Enveloppe + Flowershow
-description: Learn how to set up the Enveloppe plugin in Obsidian to publish your vault with Flowershow as a temporary alternative to our plugin.
+description: Learn how to set up the Enveloppe plugin in Obsidian to publish your vault with Flowershow
 ---
-Many of you have been asking about how to publish your Obsidian vault with Flowershow.  
 
-Since our **Flowershow Obsidian plugin** requires some refactoring and is currently a bit outdated, we propose this **temporary (maybe permanent?) solution** using the excellent [Enveloppe plugin](https://github.com/Enveloppe/obsidian-enveloppe).  
+Many of you have been asking about how to publish your Obsidian vault with Flowershow. One option is, of course, the dedicated Flowershow Obsidian plugin.
+
+Another option we want to highlight today is the excellent [Enveloppe plugin](https://github.com/Enveloppe/obsidian-enveloppe). This works with Flowershow because Flowershow integrates with Github as the intermediate storage layer. Thus, you can use Enveloppe to push your content to Github and then use Flowershow to publish your site live.  
 
 This guide will walk you step by step through the setup.
 
