@@ -103,12 +103,14 @@ Here is a description of some of the classes used above:
 >
 > **Pro tip**: When you're happy with your component in the playground, use ctrl+f to find all `class` attributes, then click the `>` button to open the replacement panel and quickly replace them with `className` before copying the code to your markdown file.
 
-> [!info] Why `not-prose` is Essential
+> [!info] Why `not-prose` is needed
 > The `not-prose` class is crucial when creating custom JSX components in Flowershow. By default, Flowershow applies Tailwind's typography plugin styles (prose classes) to all markdown content, which includes automatic styling for headings, paragraphs, links, and other elements.
 >
 > Without `not-prose`, your custom Tailwind classes might conflict with or be overridden by the default prose styling. For example, your custom `text-orange-600` link color might be ignored in favor of the default prose link styling.
 >
 > Adding `not-prose` to your JSX components ensures that only your intentional styling is applied, giving you complete control over the appearance.
+>
+> If you’re planning a **bespoke landing page** (custom hero, layout, typography), consider writing most of the page as JSX blocks inside markdown—or switch the entire page to a `plain` layout (see below) and build the whole thing in JSX. This gives you pixel‑level control typical for landing pages.
 
 ## Step 3: Create a Grid of Features
 
@@ -147,9 +149,33 @@ Final result:
 > [!tip] Icon Options
 > Flowershow supports Material Design Icons through CSS classes. You can browse available icons at [Iconify's Material Design Icons collection](https://icon-sets.iconify.design/mdi/). Simply prefix any icon name with `i-mdi-` to use it as a CSS class.
 
+## JSX-only landing pages
+
+For landing pages, you often want zero interference from default styles. Flowershow lets you opt out of `prose` typography styles entirely with a `plain` layout.
+
+### Use `layout: plain` to disable page‑level styling
+
+Add this to your frontmatter to remove Flowershow’s typography for the entire page:
+
+```
+---
+layout: plain
+---
+```
+
+With `layout: plain`:
+
+- The default `prose` typography styles are not applied, so you don’t need `not-prose` on each component.
+- You’re free to build the entire page in JSX (hero, grids, pricing, testimonials) with your own Tailwind classes.
+- Perfect for **bespoke landing pages** that need full visual control.
+
+When to stick with `not-prose`:
+- You’re building a regular content page (blog post, docs) but want one or two custom sections (e.g., a CTA card or feature grid) to ignore prose styles.
+- You still like the default typography everywhere else.
+
 ## Summary
 
-We've transformed a simple markdown list into a neat features grid. The progression shows how you can start with content-first thinking and gradually enhance the presentation without losing the essence of your message.
+We took a simple markdown list and turned it into a landing‑page‑ready features grid. The progression shows how you can start with content‑first thinking and then layer in JSX + Tailwind for precise layout and styling.
 
 ![[Pasted image 20250605151131.png]]
 
@@ -164,7 +190,7 @@ We've transformed a simple markdown list into a neat features grid. The progress
 
 ## Working with Flowershow
 
-When developing with Flowershow Cloud, you can see your changes in real-time:
+When developing with Flowershow, you can see your changes in real-time:
 
 1. **Edit directly on GitHub** - Use GitHub's web editor for quick changes
 2. **Sync your site** - Wait for the site to sync automatically (or sync it manually)
