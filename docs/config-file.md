@@ -42,6 +42,11 @@ Here is an overview of all the site-wide configuration options that you can set 
   "showComments": false,           // Disable comments site-wide (if you want to enable them only on specific pages)
   "showSidebar": true,             // Show site map on the left,
   "contentInclude": ["/blog", "README.md"],
-  "contentExclude": ["/blog/_archive"]
+  "contentExclude": ["/blog/_archive"],
+  "theme": {
+    "theme": "superstack",        // Optional official Flowershow theme
+    "defaultMode": "light",
+    "showModeSwitch": true
+  }
 }
 ```
