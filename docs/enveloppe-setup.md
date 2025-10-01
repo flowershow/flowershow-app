@@ -133,7 +133,7 @@ To make setup easier, we’ve prepared a configuration preset. Click **Import se
     "links": {
       "internal": true,
       "unshared": true,
-      "wiki": false,
+      "wiki": true,
       "slugify": "disable",
       "unlink": false,
       "relativePath": false,
