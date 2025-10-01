@@ -146,7 +146,8 @@ To make setup easier, we’ve prepared a configuration preset. Click **Import se
     "keySendFile": [
       "image",
       "avatar",
-      "config"
+      "config",
+      "css"
     ],
     "notes": false,
     "folder": "assets",
