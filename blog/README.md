@@ -4,7 +4,7 @@ description: A collection of blog posts about Flowershow, its features, updates,
 showToc: false
 ---
 
-<List dir="/blog" pageSize={{15}} fields={["title", "description", "date", "image"]}/>
+<List dir="/blog" pageSize="15" fields={["title", "description", "date", "image"]}/>
 
 <div className="bg-white py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
