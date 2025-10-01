@@ -154,7 +154,8 @@ To make setup easier, we’ve prepared a configuration preset. Click **Import se
     "convertEmbedToLinks": "keep",
     "charConvert": "->",
     "unHandledObsidianExt": [
-      "json"
+      "json",
+      "css"
     ],
     "sendSimpleLinks": true,
     "forcePush": true,
