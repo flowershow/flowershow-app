@@ -6,7 +6,7 @@ description: Manage settings for your published site
 > [!info]
 > Some features are only available on the [premium plan](https://flowershow.app/pricing).
 
-## Site name
+## Name
 
 Change your site’s name. If you don’t have a custom domain set, it will be used in your site’s URL:
 `https://my.flowershow.app/@<your-username>/<site-name>`
@@ -19,7 +19,7 @@ Change the branch of the GitHub repository your site is built from. Defaults to 
 
 ![[branch-option.png]]
 
-## Root directory
+## Root Directory
 
 Set the path to the folder in your GitHub repository that you want to publish. For example, if you have a repository with your app's code and you want to publish only it's documentation stored in `/docs`, you can specify that folder here.
 
@@ -27,7 +27,7 @@ Leave this field empty if you want to publish the entire repository.
 
 ![[root-dir-option.png]]
 
-## Auto-sync
+## Auto-Sync
 
 Automatically publish your site whenever you commit changes to your GitHub repository.
 
@@ -41,19 +41,27 @@ Show a comments section at the bottom of your pages.
 
 👉 See [[/docs/comments|Comments]] to learn more.
 
-## Full-text search (⭐️ Premium feature)
-
-Enable content indexing and display a search field in the navigation bar to help visitors find information more easily.
-
-![[search-option.png]]
-
-## Custom domain (⭐️ Premium feature)
+## Custom Domain (⭐️ Premium feature)
 
 Set a custom domain for your site.
 
 ![[custom-domain-option.png]]
 
 👉 See [[custom-domain|Custom domain]] to learn more.
+
+## Full-Text Search (⭐️ Premium feature)
+
+Enable content indexing and display a search field in the navigation bar to help visitors find information more easily.
+
+![[search-option.png]]
+
+## Password Protection (⭐️ Premium feature)
+
+Limit access to your site by requiring a password.
+
+![[password-protection-option.png]]
+
+---
 
 ## Analytics
 
