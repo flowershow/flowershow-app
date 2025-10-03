@@ -5,6 +5,8 @@ date: 2025-09-26
 authors: [olayway]
 ---
 
+https://www.youtube.com/watch?v=8km17DPf0GM&t=4s
+
 Many of you have been asking about how to publish your Obsidian vault with Flowershow. One option is, of course, the dedicated Flowershow Obsidian plugin.
 
 Another option we want to highlight today is the excellent [Enveloppe plugin](https://github.com/Enveloppe/obsidian-enveloppe). This works with Flowershow because Flowershow integrates with Github as the intermediate storage layer. Thus, you can use Enveloppe to push your content to Github and then use Flowershow to publish your site live.  
