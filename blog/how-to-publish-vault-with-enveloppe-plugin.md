@@ -2,6 +2,7 @@
 title: Publish Your Obsidian Vault with Enveloppe + Flowershow
 description: Learn how to set up the Enveloppe plugin in Obsidian to publish your vault with Flowershow
 date: 2025-09-26
+image: "[[publish-vault-with-enveloppe.png]]"
 authors: [olayway]
 ---
 
