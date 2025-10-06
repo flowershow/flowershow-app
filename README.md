@@ -1,6 +1,6 @@
 ---
-title: The best way to publish markdown powered websites
-description: Flowershow is the easiest way to create elegant markdown-based websites quickly — for docs, handbooks, blogs, PKMs and landing pages. No coding required. Sign up and have a site live in seconds!
+title: Markdown to website in seconds
+description: Fastest way to create elegant markdown-based websites quickly — for docs, handbooks, blogs, PKMs and landing pages. No coding required.
 layout: plain
 showToc: false
 showEditLink: false
@@ -10,13 +10,13 @@ showComments: false
 <div className="py-12 sm:py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
-      <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">The best way to publish markdown-based websites</h1>
-      <p className="mt-8 text-pretty text-lg text-gray-500 sm:text-xl/8">Flowershow is the easiest way to create elegant markdown-based websites — for docs, handbooks, blogs, PKMS and landing pages. No coding required. Sign up and have your site live in seconds!</p>
+      <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Markdown to website in seconds</h1>
+      <p className="mt-8 text-pretty text-lg text-gray-500 sm:text-xl/8">Fastest way to turn markdown into a website — from blogs to docs, landing pages to knowledgebases. For geeks who  value their time.<sup title="Yes, we know you could code your own site in NextJS, Hugo or whatever. (We did that too). But is that *really* the best use of your time? (OK, OK, if you deploy your apps to baremetal and roll your own Linux go for it! But otherwise give us a try.">*</sup></p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://cloud.flowershow.app/"
           className="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow hover:bg-orange-300"
-        >Start publishing for free</a>
+        >Start publishing (free forever)</a>
         {/*<a href="#" className="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>*/}
       </div>
     </div>
