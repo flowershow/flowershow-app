@@ -15,6 +15,7 @@ You’ll learn how to create a dedicated blog section, set up a landing page tha
 > However, you can use **any markdown editor**, or even edit files directly in the **GitHub web interface** — Flowershow works the same way.
 
 🎥 **Watch the full video tutorial:**
+
 https://youtu.be/ZbQRlNm2dww
 
 We're going to start with a very basic Flowershow site, with just a `README.md` file:
