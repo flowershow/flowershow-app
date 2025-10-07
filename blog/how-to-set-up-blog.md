@@ -1,16 +1,22 @@
 ---
 title: How to Set Up a Blog
-description: A comprehensive guide to setting up a blog on your Flowershow site, including creating a blog section, configuring the List component, and adding navigation
+description: A comprehensive guide to setting up a blog on your Flowershow site — from creating a blog section to configuring the List component, adding authors, navigation, and themes.
 date: 2025-06-24
 authors:
   - olayway
 image: /assets/blog-showcase.png
 ---
 
-This guide will walk you through the process of adding a blog to your Flowershow site. You'll learn how to create a dedicated blog section, set up a landing page that lists all your blog posts, attribute content to its authors, and keep some of your blog posts unpublished.
+This guide walks you through the process of adding a **blog** to your Flowershow site.  
+You’ll learn how to create a dedicated blog section, set up a landing page that lists your posts, attribute content to authors, manage drafts, embed a subscription form, and apply a custom theme.
 
 > [!note] Prerequisites
-> Before you begin, make sure you have a Flowershow site set up.
+> Before you begin, make sure you have a Flowershow site set up.  
+> In the video tutorial, I’m using **Obsidian** connected to GitHub via the **Enveloppe plugin**, and the site is already published with **Flowershow**.  
+> However, you can use **any markdown editor**, or even edit files directly in the **GitHub web interface** — Flowershow works the same way.
+
+🎥 **Watch the full video tutorial:**
+https://youtu.be/ZbQRlNm2dww
 
 ## Step 1: Create a Blog Directory
 
@@ -74,14 +80,27 @@ title: Blog
 description: A collection of blog posts
 ---
 
-<List dir="/blog" fields={["title", "description", "date", "image"]}/>
+<List 
+  dir="/blog" 
+  slots={{
+    headline: "title",
+    summary: "description",
+    eyebrow: "date",
+    media: "image"
+  }}
+/>
 ```
 
-The `List` component will automatically display all markdown files in the directory specified in `dir` property (in our case it's `/blog`). The `fields` prop specifies which frontmatter fields to display for each post:
-- `title`: The post's title
-- `description`: The post's description
-- `date`: Publication date
-- `image`: Featured image
+The List component automatically scans the directory specified in the dir property (in our case /blog) and displays all markdown files inside.
+
+The slots tell Flowershow which frontmatter fields to display in each part of the list item:
+- headline: the main title (title field)
+- summary: short description (description field)
+- eyebrow: smaller text above the title (often the date)
+- media: the featured image (image field)
+- footnote: optional small text below the summary (for example, authors)
+
+💡 You can freely adjust which frontmatter fields are connected to which slots — or omit slots you don’t need.
 
 ![[Pasted image 20250624183244.png]]
 >[!info] `List` Component Options
