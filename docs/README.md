@@ -30,7 +30,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[enhance-markdown-with-styled-jsx-blocks|Enhance Markdown Pages with Styled JSX Blocks]]
 - [[how-to-set-custom-domain|Set Custom Domain]]
 - [[how-to-add-forms|Add Newsletter, Contact and Survey Forms]]
-- [[how-to-set-up-blog|How to Set Up a Blog]]
+- [[how-to-publish-a-blog|How to Set Up a Blog]]
 - 🚧 How to Add Charts and Graphs
 
 ## Reference

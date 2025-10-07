@@ -1,12 +1,11 @@
 ---
-title: How to Set Up a Blog
+title: How to Publish Up a Blog
 description: A comprehensive guide to setting up a blog on your Flowershow site — from creating a blog section to configuring the blog home page, adding authors, navigation, and applying themes.
 date: 2025-06-24
 authors:
   - olayway
-image: /assets/blog-showcase.png
+image: "[[blog-showcase.png]]"
 ---
-
 This guide walks you through the process of adding a **blog** to your Flowershow site.  
 You’ll learn how to create a dedicated blog section, set up a landing page that lists your posts, attribute content to authors, embed a subscription form, and apply a theme.
 

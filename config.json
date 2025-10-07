@@ -22,6 +22,7 @@
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md", "/about.md"],
   "showEditLink": true,
   "redirects": [
-    { "from": "/docs/site-wide-toc", "to": "/docs/sidebar" }
+    { "from": "/docs/site-wide-toc", "to": "/docs/sidebar" },
+    { "from": "/blog/how-to-setup-a-blog", "to": "/blog/how-to-publish-a-blog" }
   ]
 }
