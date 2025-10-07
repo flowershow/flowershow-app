@@ -23,6 +23,6 @@
   "showEditLink": true,
   "redirects": [
     { "from": "/docs/site-wide-toc", "to": "/docs/sidebar" },
-    { "from": "/blog/how-to-setup-a-blog", "to": "/blog/how-to-publish-a-blog" }
+    { "from": "/blog/how-to-setup-blog", "to": "/blog/how-to-publish-a-blog" }
   ]
 }
