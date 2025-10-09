@@ -327,7 +327,7 @@ showComments: false
         <a
           href="https://cloud.flowershow.app/"
           className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-slate-900 shadow hover:bg-slate-200"
-        >Sing up for free</a>
+        >Sign up for free</a>
       </div>
     </div>
   </div>
