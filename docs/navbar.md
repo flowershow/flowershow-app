@@ -3,6 +3,9 @@ title: Navbar configuration
 description: Set logo, title, links and socials in your navigation bar.
 ---
 
+> [!info]
+> [[how-to-configure-navigation-bar|Tutorial with examples and step-by-step instructions]].
+
 ## Configuration structure
 
 The navigation bar configuration is defined under the `nav` object in your `config.json`:
@@ -143,6 +146,3 @@ Common issues and solutions:
 2. **Social Icons Not Showing**
    - Confirm you're using supported platform labels
    - Check that the `label` value matches exactly (case-sensitive)
-
->[!info]
->For a detailed guide including examples and step-by-step instructions, check out [[how-to-configure-navigation-bar|this blog post]].
