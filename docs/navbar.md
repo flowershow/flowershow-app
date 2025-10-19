@@ -6,20 +6,7 @@ description: Set logo, title, links and socials in your navigation bar.
 > [!info]
 > [[how-to-configure-navigation-bar|Tutorial with examples and step-by-step instructions]].
 
-## Configuration structure
-
-The navigation bar configuration is defined under the `nav` object in your `config.json` and has the following schema:
-
-```ts
-{
-  "nav": {
-    "logo": "string",
-    "title": "string",
-    "links": Array<Link>,
-    "social": Array<SocialLink>
-  }
-}
-```
+The navigation bar configuration is defined under the `nav` object in your `config.json`.
 
 ## Logo and title
 
