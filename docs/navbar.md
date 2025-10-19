@@ -8,9 +8,9 @@ description: Set logo, title, links and socials in your navigation bar.
 
 ## Configuration structure
 
-The navigation bar configuration is defined under the `nav` object in your `config.json`:
+The navigation bar configuration is defined under the `nav` object in your `config.json` and has the following schema:
 
-```json
+```ts
 {
   "nav": {
     "logo": "string",
@@ -90,15 +90,20 @@ Properties:
 - `name`: Text label (used in sidebar mode)
 - `href`: Your social media profile URL
 
-Supported Platform Labels:
-- `github`
+Supported social platforms:
+- `bluesky` (or `bsky`)
 - `discord`
-- `linkedin`
-- `twitter`
-- `x`
 - `facebook`
+- `github`
 - `instagram`
+- `linkedin`
+- `mastodon`
+- `twitter` (or `x`)
 - `youtube`
+
+> [!info] Is your favorite platform missing from the list?
+> If the social platform you want to use isn’t listed above, you can skip the `label` and Flowershow will display a generic 🌐 icon.
+We encourage you to submit an issue, too. 😉
 
 ## Complete example
 
