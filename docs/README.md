@@ -47,6 +47,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/dark-mode|Dark mode]]
 - [[docs/content-filtering|Excluding files from publishing]]
 - [[custom-domain|Custom domain (Premium)]]
+- [[docs/redirects|URL Redirects]]
 - [[config-file|`config.json` file]]
 
 ### Page content

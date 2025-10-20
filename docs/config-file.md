@@ -47,6 +47,9 @@ Here is an overview of all the site-wide configuration options that you can set 
     "theme": "superstack",        // Optional official Flowershow theme
     "defaultMode": "light",
     "showModeSwitch": true
-  }
+  },
+  "redirects": [
+    { "from": "/blog/old-post", "to": "/blog/new-post" }
+  ]
 }
 ```
