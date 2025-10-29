@@ -8,7 +8,6 @@
       { "href": "/docs", "name": "Docs" },
       { "href": "/blog", "name": "Blog" },
       { "href": "/blogs", "name": "Flowershow for Blogs" },
-      { "href": "/data-stories", "name": "Flowershow for Data Stories" },
       { "href": "https://demo.flowershow.app/", "name": "Demo" },
       { "href": "https://github.com/flowershow/themes", "name": "Themes" }
     ],
