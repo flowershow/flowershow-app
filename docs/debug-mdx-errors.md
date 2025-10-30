@@ -233,6 +233,6 @@ This means `.md` files will be parsed as plain Markdown, but `.mdx` files will b
 
 If you ran into an error that isn’t covered here — or something just doesn’t make sense — we’d love to help you out.
 
-✅ Leave a comment below
-✅ Or ask a question in our **Flowershow Discord community**
-✅ Share a snippet of what you were trying — we genuinely enjoy debugging with users!
+- ✅ Leave a comment below
+- ✅ Or ask a question in our **Flowershow Discord community**
+- ✅ Share a snippet of what you were trying — we genuinely enjoy debugging with users!
