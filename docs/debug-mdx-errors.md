@@ -108,13 +108,13 @@ Or if it’s just a standalone component:
 <List />
 ```
 
-### “Unexpected token in expression” (curly brace `{}` issue)
+### “xyz is not defined”
 
 **Plain English explanation:**
 
 Anything inside `{…}` in MDX is treated as **JavaScript**, not text.
 
-So if MDX sees `{word}`, it tries to evaluate it — and errors if it’s not valid JS.
+So if MDX sees `{word}`, it tries to evaluate it — and errors if it’s not valid JS (e.g. `word` variable is not defined).
 
 This often happens when you’re trying to literally show something in braces, like set notation:
 ```mdx
