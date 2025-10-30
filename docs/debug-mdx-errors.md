@@ -182,3 +182,11 @@ This means `.md` files will be parsed as plain Markdown, but `.mdx` files will b
 | mdx _(default)_ | All files support MDX components   | Advanced users, interactive content |
 | md              | No MDX at all, plain Markdown only | Writers, note-takers, simple blogs  |
 | auto            | .md → Markdown, .mdx → MDX         | Mixed content / gradual learning    |
+
+## Still stuck? We’re here to help!
+
+If you ran into an error that isn’t covered here — or something just doesn’t make sense — we’d love to help you out.
+
+✅ Leave a comment below
+✅ Or ask a question in our **Flowershow Discord community**
+✅ Share a snippet of what you were trying — we genuinely enjoy debugging with users!
