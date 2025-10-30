@@ -139,6 +139,53 @@ Option B — escape braces:
 &#123;a, b, c&#125;
 ```
 
+### Runtime MDX rendering errors
+
+Sometimes your MDX content will _parse correctly_ but still fail when the page tries to **render** it.
+
+**In plain English:**
+
+> The file is valid MDX, but something inside the JSX / JavaScript part crashed when the page tried to run it.
+
+This is different from syntax errors like unclosed tags — these are **runtime errors**.
+
+**A common example:**
+
+You reference a value that doesn’t exist:
+
+```
+{a}
+```
+
+To MDX/React, `{a}` means _“take the variable_ _a_ _and render its value here.”_
+If a isn’t defined anywhere, the page tries to run that code and crashes.
+
+**Fix**
+
+Escape the curly brackets:
+```
+\{a\}
+```
+or wrap in backticks:
+```
+`{a}`
+```
+
+**When does this happen?**
+
+Any time MDX thinks you’re writing **JavaScript**, but you actually meant **text**, for example:
+
+- Set notation / math
+- Curly braces used for emphasis
+- Accidentally typing {something} while writing prose
+
+**Other things that can cause MDX to fail at render time**
+
+Besides undefined values like `{a}`, runtime MDX errors can also happen if:
+
+- An unknown component is used (e.g. `<Something/>`)    
+- Your JavaScript expression inside `{}` throws an error (e.g. `const = 2`)
+
 ## Disabling MDX rendering
 
 Flowershow is designed to feel like writing in a modern digital notebook — where you can write normal Markdown and, when you want, sprinkle in JSX blocks styled with Tailwind or add interactive components like:
