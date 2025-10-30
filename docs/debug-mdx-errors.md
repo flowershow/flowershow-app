@@ -177,7 +177,6 @@ Any time MDX thinks you’re writing **JavaScript**, but you actually meant **te
 
 - Set notation / math
 - Curly braces used for emphasis
-- Accidentally typing {something} while writing prose
 
 **Other things that can cause MDX to fail at render time**
 
