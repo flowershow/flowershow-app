@@ -184,8 +184,12 @@ Any time MDX thinks you’re writing **JavaScript**, but you actually meant **te
 
 Besides undefined values like `{a}`, runtime MDX errors can also happen if:
 
-- An unknown component is used (e.g. `<Something/>`)    
+- An unknown component is used (e.g. `<Something/>`)
 - Your JavaScript expression inside `{}` throws an error (e.g. `const = 2`)
+
+**💡 Debugging tip:**
+
+If you're struggling to identify the issue, try copying your page content into the [MDX Playground](https://mdxjs.com/playground/). Since it renders on the client side only, it can show you more helpful error messages that aren't restricted like they are in Next.js server-side rendering.
 
 ## Disabling MDX rendering
 
