@@ -139,7 +139,7 @@ Option B — escape braces:
 &#123;a, b, c&#125;
 ```
 
-### Runtime MDX rendering errors
+### MDX rendering errors
 
 Sometimes your MDX content will _parse correctly_ but still fail when the page tries to **render** it.
 
@@ -148,6 +148,8 @@ Sometimes your MDX content will _parse correctly_ but still fail when the page t
 > The file is valid MDX, but something inside the JSX / JavaScript part crashed when the page tried to run it.
 
 This is different from syntax errors like unclosed tags — these are **runtime errors**.
+
+> **Note:** Unlike the syntax errors above (which catch invalid MDX), rendering errors happen when your MDX is perfectly valid but fails when converted to React and rendered. Unfortunately, you won't get precise error information for these cases because Next.js security restrictions prevent server runtime errors from being surfaced to the frontend. You'll need to carefully review your MDX expressions and component usage to identify the issue. Below are listed the most common issues.
 
 **A common example:**
 
