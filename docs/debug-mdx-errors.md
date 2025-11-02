@@ -149,7 +149,8 @@ Sometimes your MDX content will _parse correctly_ but still fail when the page t
 
 This is different from syntax errors like unclosed tags — these are **runtime errors**.
 
-> **Note:** Unlike the syntax errors above (which catch invalid MDX), rendering errors happen when your MDX is perfectly valid but fails when converted to React and rendered. Unfortunately, you won't get precise error information for these cases because Next.js security restrictions prevent server runtime errors from being surfaced to the frontend. You'll need to carefully review your MDX expressions and component usage to identify the issue. Below are listed the most common issues.
+> [!note]
+> Unlike the syntax errors above (which catch invalid MDX), rendering errors happen when your MDX is perfectly valid but fails when converted to React and rendered. Unfortunately, you won't get precise error information for these cases because Next.js security restrictions prevent server runtime errors from being surfaced to the frontend. You'll need to carefully review your MDX expressions and component usage to identify the issue. Below are listed the most common issues.
 
 **A common example:**
 
@@ -187,9 +188,8 @@ Besides undefined values like `{a}`, runtime MDX errors can also happen if:
 - An unknown component is used (e.g. `<Something/>`)
 - Your JavaScript expression inside `{}` throws an error (e.g. `const = 2`)
 
-**💡 Debugging tip:**
-
-If you're struggling to identify the issue, try copying your page content into the [MDX Playground](https://mdxjs.com/playground/). Since it renders on the client side only, it can show you more helpful error messages that aren't restricted like they are in Next.js server-side rendering.
+> [!tip] Debugging tip
+> If you're struggling to identify the issue, try copying your page content into the [MDX Playground](https://mdxjs.com/playground/). Since it renders on the client side only, it can show you more helpful error messages that aren't restricted like they are in Next.js server-side rendering.
 
 ## Disabling MDX rendering
 
