@@ -41,6 +41,7 @@ Here is an overview of all the site-wide configuration options that you can set 
   "analytics": "G-XXXXXXXXXX",
   "showComments": false,           // Disable comments site-wide (if you want to enable them only on specific pages)
   "showSidebar": true,             // Show site map on the left,
+  "showToc": false,                // Disable table of contents site-wide
   "contentInclude": ["/blog", "README.md"],
   "contentExclude": ["/blog/_archive"],
   "theme": {
