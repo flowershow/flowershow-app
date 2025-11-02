@@ -8,14 +8,14 @@ The table of contents visible on the right hand side of the page is enabled by d
 To disable it globally, set the `showToc` variable to `false` in your [[config-file|`config.json`]]:
 
 ```json
-showToc: true
+showToc: false
 ```
 
 You can also disable it on per-page basis or override your global config, by setting `showToc` to **true** or **false** in the frontmatter, like so:
 
 ```md
 ---
-showToc: true
+showToc: false
 ---
 
 Page content
