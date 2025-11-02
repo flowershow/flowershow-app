@@ -150,7 +150,7 @@ Sometimes your MDX content will _parse correctly_ but still fail when the page t
 This is different from syntax errors like unclosed tags — these are **runtime errors**.
 
 > [!note]
-> Unlike the syntax errors above (which catch invalid MDX), rendering errors happen when your MDX is perfectly valid but fails when converted to React and rendered. Unfortunately, you won't get precise error information for these cases because Next.js security restrictions prevent server runtime errors from being surfaced to the frontend. You'll need to carefully review your MDX expressions and component usage to identify the issue. Below are listed the most common issues.
+> Unlike the syntax errors above (which catch invalid MDX), rendering errors happen when your MDX is perfectly valid but fails when converted to React and rendered. Unfortunately, you won't get precise error information for these cases. This is because Next.js processes your content on the server, and for security reasons, it can't send detailed error messages to your browser—it only sends a generic error code. You'll need to carefully review your MDX expressions and component usage to identify the issue. Below are listed the most common issues.
 
 **A common example:**
 
