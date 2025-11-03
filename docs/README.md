@@ -54,6 +54,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 ### Page content
 
 - [[syntax|Supported syntax]]
+- [[syntax-mode|Syntax mode configuration (Markdown vs MDX)]]
 - [[math|Math equations]]
 - [[mermaid|Mermaid graphs]]
 - [[hero-sections|Hero sections]]

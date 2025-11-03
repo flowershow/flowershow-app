@@ -2,6 +2,9 @@
 title: Markdown syntax support
 ---
 
+> [!tip] Choose Your Rendering Mode
+> Flowershow lets you choose between Markdown and MDX rendering modes. If you're publishing plain Markdown content and experience parsing issues, see [[syntax-mode|Syntax Mode Configuration]] to learn how to switch modes.
+
 Flowershow was designed with Obsidian users in mind, and so, it aims to fully support Obsidian syntax, including **CommonMark**, **GitHub Flavoured Markdown** and **Obsidian extensions**, like Wiki links.
 
 ## CommonMark
