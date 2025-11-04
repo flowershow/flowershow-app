@@ -11,7 +11,7 @@ When we created **Flowershow**, our mission was simple:
 
 Today, we’re marking an important milestone in that mission:
 
-### **Flowershow now supports full CommonMark + GitHub-Flavored Markdown spec.**
+**Flowershow now supports full CommonMark + GitHub-Flavored Markdown spec.**
 
 That means:
 
