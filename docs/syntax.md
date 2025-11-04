@@ -271,30 +271,48 @@ Indent sub-items with two or four spaces:
 - [ ] a second thing to do
   - [ ] another thing to do!
 
-## Fenced code blocks with code highlighting
+## Code
 
-Code blocks created with backtics will be parsed as `pre` tags with support for code highlighting in respective languages and copy/paste button included on hover.
+### Inline code
 
-**Javascript example:**
+Use backticks for short code snippets inside a sentence:
 
-```javascript {2}
+```md
+Use the `print()` function.
+```
+
+Use the `print()` function.
+
+### Fenced code blocks (multi-line)
+
+Wrap code in triple backticks:
+
+<pre>
+```
+const greeting = "Hello!"; console.log(greeting);
+```
+</pre>
+
+```
+const greeting = "Hello!"; console.log(greeting);
+```
+
+**Syntax highlighting**
+
+Specify a language after the backticks:
+
+<pre>
+```javascript
 const ExampleCode = () => {
   return <div> .... </div>;
 };
 ```
+</pre>
 
-**Python example:**
-
-```python {3}
-class Example:
-	def code(self,test):
-		return 'Code highlighter'
-```
-
-**Bash example:**
-
-```bash
-git commit && git push
+```javascript
+const ExampleCode = () => {
+  return <div> .... </div>;
+};
 ```
 
 ### Inline code
