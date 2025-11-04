@@ -371,6 +371,12 @@ Use `:` to align text:
 | [[Wikilinks]]| ✅       |
 ```
 
+| Feature     | Supported |
+|-------------|----------|
+| **Bold**     | ✅       |
+| `Code`       | ✅       |
+| [[Wikilinks]]| ✅       |
+
 ## Links
 
 ### CommonMark Links
