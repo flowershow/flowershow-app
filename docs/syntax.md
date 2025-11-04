@@ -6,8 +6,11 @@ Flowershow was designed with Obsidian users in mind, and so, it aims to fully su
 
 ## Headings
 
+In Markdown you can create headings in two main ways — ATX style (with `#`) and Setext style (with `=` and `-`).
+
 ### ATX Headings
 
+Use 1–6 # symbols:
 ```
 # Heading 1
 ## Heading 2
@@ -17,7 +20,12 @@ Flowershow was designed with Obsidian users in mind, and so, it aims to fully su
 ###### Heading 6
 ```
 
+**Notes**
+- A space after `#` is required (`## Heading` not `##Heading`)
+
 ### Setext Headings
+
+Only for H1 and H2 — underline with `=` or `-`:
 
 ```
 Heading 1
@@ -26,6 +34,15 @@ Heading 1
 Heading 2
 ---------------
 ```
+
+> [!note]
+> Headings automatically generate anchors for linking:
+> `[Jump to section](#my-heading)`
+> You can get the full URL with a heading by hovering over a heading and clicking on the `#` icon on the left.
+
+> [!tip] Tips
+> - Use Heading 1 only once per page for proper HTML semantics
+> - Use headings logically (H2 → H3 under it, etc.)
 
 ## Thematic breaks
 
@@ -166,28 +183,80 @@ or code:
 
 ## Lists
 
-**Example:**
+Markdown supports two main types of lists: **unordered** (bulleted) and **ordered** (numbered). You can also nest lists and mix types.
+
+### Unordered Lists (bullets)
+
+Use `-`, `*`, or `+` — they all work the same:
 
 ```md
-- one
-- two
-
-1. one
-2. two
-   - one
-   - two
+- Item one
+- Item two
+- Item three
 ```
 
-**Renders as:**
+- Item one
+- Item two
+- Item three
 
-- one
-- two
+### Ordered Lists (numbered)
 
-1. one
-2. two
-   - one
-   - two
+```md
+1. First item
+2. Second item
+3. Third item
+```
 
+1. First item
+2. Second item
+3. Third item
+
+### Nested Lists
+
+Indent sub-items with two or four spaces:
+```md
+- Groceries
+    - Apples
+    - Bananas
+- Chores
+    - Laundry
+    - Dishes
+```
+
+- Groceries
+    - Apples
+    - Bananas
+- Chores
+    - Laundry
+    - Dishes
+ 
+### Mixed Lists
+
+```md
+1. Step one
+2. Step two
+   - Note A
+   - Note B
+3. Step three
+```
+
+1. Step one
+2. Step two
+   - Note A
+   - Note B
+3. Step three
+
+### Task Lists
+
+```md
+- [x] one thing to do
+- [ ] a second thing to do
+  - [ ] another thing to do!
+```
+
+- [x] one thing to do
+- [ ] a second thing to do
+  - [ ] another thing to do!
 
 ## Fenced code blocks with code highlighting
 
@@ -272,21 +341,6 @@ Here is some code: `print("hello world!")`
 | :--- | :----: | ----: |
 | 1    |   2    |     3 |
 
-## Task lists
-
-**Example:**
-
-```md
-- [x] one thing to do
-- [ ] a second thing to do
-  - [ ] another thing to do!
-```
-
-**Renders as:**
-
-- [x] one thing to do
-- [ ] a second thing to do
-  - [ ] another thing to do!
 
 ## Autolinks
 
