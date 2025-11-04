@@ -292,6 +292,7 @@ const greeting = "Hello!"; console.log(greeting);
 ```
 ````
 
+Renders as:
 ```
 const greeting = "Hello!"; console.log(greeting);
 ```
@@ -308,6 +309,7 @@ class Example:
 ```
 ````
 
+Renders as:
 ```python
 class Example:
 	def code(self,test):
