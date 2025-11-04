@@ -632,11 +632,11 @@ Or like this: . . .
 | `<=`  | <=     | Less-than-or-equal                            |
 
 ```
-a < b
+a < b  
 x => y
 ```
 
-a < b
+a < b  
 x => y
 
 ## Obsidian Callouts
