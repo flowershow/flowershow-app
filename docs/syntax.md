@@ -49,7 +49,7 @@ Thematic breaks can be made with three `*`, `-` or `_`.
 
 **Example:**
 
-```md
+```
 ***
 ---
 ___
@@ -80,7 +80,7 @@ _Italic with __bold__ inside_ is done with `_Italic with __bold__ inside_`
 
 To start a new paragraph, leave a blank line between lines of text:
 
-```md
+```
 This is paragraph one.
 
 This is paragraph two.
@@ -94,7 +94,7 @@ This is paragraph two.
 
 A soft line break is just a newline in your editor and markdown treats it as a space.
 
-```md
+```
 Line one
 Line two (still same paragraph)
 ```
@@ -107,7 +107,7 @@ Line two (still same paragraph)
 To force a break without starting a new paragraph, use two spaces at the end of a line or a backslash (`\`):
 
 **Option 1: Two spaces at end**
-```md
+```
 Line one  
 Line two
 ```
@@ -116,7 +116,7 @@ Line one
 Line two
 
 **Option 2: Backslash**
-```md
+```
 Line one\
 Line two
 ```
@@ -131,7 +131,7 @@ They work by prefixing lines with `>`.
 
 **Basic blockquote**
 
-```md
+```
 > This is a quote.
 ```
 
@@ -141,7 +141,7 @@ They work by prefixing lines with `>`.
 
 Add another > for each level:
 
-```md
+```
 > Level 1
 >> Level 2
 >>> Level 3
@@ -155,7 +155,7 @@ Add another > for each level:
 
 Leave a blank line inside and prefix every paragraph with `>`:
 
-```md
+```
 > This is the first paragraph of a quote.
 >
 > This is the second paragraph.
@@ -168,7 +168,7 @@ Leave a blank line inside and prefix every paragraph with `>`:
 **Blockquote with other elements (lists/code)**
 
 Markdown inside still works:
-```md
+```
 > Shopping list:
 > - Apples
 > - Bananas
@@ -179,7 +179,7 @@ Markdown inside still works:
 > - Bananas
 
 or code:
-```md
+```
 > Code inside a quote:
 >
 > ```js
@@ -201,7 +201,7 @@ Markdown supports two main types of lists: **unordered** (bulleted) and **ordere
 
 Use `-`, `*`, or `+` — they all work the same:
 
-```md
+```
 - Item one
 - Item two
 - Item three
@@ -213,7 +213,7 @@ Use `-`, `*`, or `+` — they all work the same:
 
 ### Ordered Lists (numbered)
 
-```md
+```
 1. First item
 2. Second item
 3. Third item
@@ -226,7 +226,7 @@ Use `-`, `*`, or `+` — they all work the same:
 ### Nested Lists
 
 Indent sub-items with two or four spaces:
-```md
+```
 - Groceries
     - Apples
     - Bananas
@@ -244,7 +244,7 @@ Indent sub-items with two or four spaces:
  
 ### Mixed Lists
 
-```md
+```
 1. Step one
 2. Step two
    - Note A
@@ -260,7 +260,7 @@ Indent sub-items with two or four spaces:
 
 ### Task Lists
 
-```md
+```
 - [x] one thing to do
 - [ ] a second thing to do
   - [ ] another thing to do!
@@ -276,7 +276,7 @@ Indent sub-items with two or four spaces:
 
 Use backticks for short code snippets inside a sentence:
 
-```md
+```
 Use the `print()` function.
 ```
 
@@ -318,13 +318,9 @@ class Example:
 
 ### Inline code
 
-**Example:**
-
-```md
+```
 Here is some code: `print("hello world!")`
 ```
-
-**Renders as:**
 
 Here is some code: `print("hello world!")`
 
@@ -335,7 +331,7 @@ You include tables in Markdown using pipes `|` to separate columns and dashes `-
 
 **Basic Markdown table**
 
-```md
+```
 | Name   | Age | City       |
 |--------|-----|------------|
 | Alice  | 30  | Lausanne   |
@@ -504,7 +500,7 @@ PDF:
 
 Bare URLs and email addresses are detected and turned into links.
 
-```md
+```
 Check out Flowershow at https://flowershow.app!
 
 ola@example.com
@@ -516,7 +512,7 @@ ola@example.com
 
 ## Footnotes
 
-```md
+```
 Roses are red... [^1]
 
 [^1]: ...violets are blue.
@@ -563,7 +559,7 @@ Embed your diagram inside a code block with `mermaid` type.
 
 **Example:**
 
-````md
+````
 ```mermaid
 graph LR
   A[Start] --> B{Decision}
@@ -597,7 +593,7 @@ Flowershow automatically converts certain character sequences into typographic s
 | `--`  | --      | en-dash (range, e.g., 2020–2025) |
 | `---` | ---      | em-dash (sentence break)         |
 
-```md
+```
 2020--2025
 A---B
 ```
@@ -639,7 +635,7 @@ x >= y
 
 ## Obsidian Callouts
 
-```md
+```
 > [!info] This is cool!
 > Here's a callout block.
 > It supports **markdown** and [[abc|wikilinks]].
@@ -649,13 +645,13 @@ x >= y
 > Here's a callout block.
 > It supports **markdown** and [[abc|wikilinks]].
 
-```md
+```
 > [!tip] Title-only callout
 ```
 
 > [!tip] Title-only callout
 
-```md
+```
 > [!faq]- Are callouts foldable?
 > Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
 ```
@@ -663,7 +659,7 @@ x >= y
 > [!faq]- Are callouts foldable?
 > Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
 
-```md
+```
 > [!question] Can callouts be nested?
 > > [!todo] Yes!, they can.
 > > > [!example]  You can even use multiple layers of nesting.
@@ -684,7 +680,7 @@ When using MDX rendering, you can add invisible comments using JSX style:
 
 **Example:**
 
-```md
+```
 Here is some invisible inline comment: {/* comment! */}
 
 Here is an invisible multiline comment:
