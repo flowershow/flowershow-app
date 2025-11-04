@@ -10,7 +10,7 @@ In Markdown you can create headings in two main ways — ATX style (with `#`) an
 
 ### ATX Headings
 
-Use 1–6 # symbols:
+Use 1–6 `#` symbols:
 ```
 # Heading 1
 ## Heading 2
@@ -36,13 +36,12 @@ Heading 2
 ```
 
 > [!note]
-> Headings automatically generate anchors for linking:
+> Headings automatically generate anchors for linking, like:
 > `[Jump to section](#my-heading)`
-> You can get the full URL with a heading by hovering over a heading and clicking on the `#` icon on the left.
+> You can get the full URL of a heading by hovering over it and clicking on the `#` icon on the left.
 
-> [!tip] Tips
-> - Use Heading 1 only once per page for proper HTML semantics
-> - Use headings logically (H2 → H3 under it, etc.)
+> [!tip]
+> It's recommended to use H1 only once per page for proper HTML semantics.
 
 ## Thematic breaks
 
@@ -73,7 +72,7 @@ _Italic with __bold__ inside_ is done with `_Italic with __bold__ inside_`
 
 ~~Strikethrough~~ is done with `~~Strikethrough~~`  
 ==Highlight== is done with `==Highlight==`  
-`Inline code` is done with `\`Inline code\``
+`Inline code` is done with ``Inline code``
 
 ## Paragraphs & Line breaks
 
