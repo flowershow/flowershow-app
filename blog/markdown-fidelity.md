@@ -38,6 +38,10 @@ If Markdown renders correctly in CommonMark-compliant tools, GitHub, or modern e
 - Mermaid charts
 - Text highlighting
 
+> 📚 **Full Syntax Reference**
+> We maintain a complete list of Markdown, GFM, and extended syntax supported by Flowershow.  
+> 👉 https://flowershow.app/docs/syntax
+
 ---
 
 ## 🎯 Why this matters
