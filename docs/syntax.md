@@ -2,59 +2,194 @@
 title: Markdown syntax support
 ---
 
-Flowershow was designed with Obsidian users in mind, and so, it aims to fully support Obsidian syntax, including **CommonMark**, **GitHub Flavoured Markdown** and **Obsidian extensions**, like Wiki links.
+Flowershow was designed with Obsidian users in mind, and so, it aims to fully support Obsidian syntax, including **CommonMark**, **GitHub Flavoured Markdown** and **Obsidian extensions**, like Wikilinks. Here is a list of the most important ones:
 
-## CommonMark
+## Headings
 
-Here are some of the CommonMark syntax elements supported by Flowershow.
+### ATX Headings
 
-### Thematic breaks
+```
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
+
+### Setext Headings
+
+```
+Heading 1
+===============
+
+Heading 2
+---------------
+```
+
+## Thematic breaks
 
 Thematic breaks made with three `*`, `-` or `_` will be converted to HTML `<hr />`
 
 **Example:**
 
 ```md
+***
 ---
----
-
----
+___
 ```
 
-**Renders as:**
-
+***
 ---
+___
 
----
+## Emphasis
 
----
+**I'm Bold!** is done with `**I'm Bold!**`  
+**I'm Bold!** is done with `__I'm Bold!__`
 
-### Headings
+*I'm Italic!* is done with `*I'm Italic!*`  
+*I'm Italic!* is done with `_I'm Italic!_`
 
-Markdown headings will be converted to HTML `<h1>`-`<h6>` tags.
+*Italic with **bold** inside* is done with `*Italic with **bold** inside*`
+_Italic with __bold__ inside_ is done with `_Italic with __bold__ inside_`
+
+~~Strikethrough~~ is done with `~~Strikethrough~~`
+==Highlight== is done with `==Highlight==`
+`Inline code` is done with `\`Inline code\``
+
+## Paragraphs & Line breaks
+
+### New paragraph
+
+To start a new paragraph, leave a blank line between lines of text:
+
+```md
+This is paragraph one.
+
+This is paragraph two.
+```
+
+This is paragraph one.
+
+This is paragraph two.
+
+### Soft Line Break (line break within the same paragraph)
+
+A soft line break happens is just a newline in your editor. Markdown treats it as a space unless you explicitly force a break.
+
+```md
+Line one
+Line two (still same paragraph)
+```
+
+Line one
+Line two (still same paragraph)
+
+### Hard Line Break (force a line break)
+
+To force a break without starting a new paragraph, use two spaces at the end of a line or a backslash (`\`):
+
+**Option 1: Two spaces at end**
+```md
+Line one  
+Line two
+```
+
+Line one  
+Line two
+
+**Option 2: Backslash**
+```md
+Line one\
+Line two
+```
+
+## Blockquotes
+
+Blockquotes in Markdown let you quote text, like an email reply or a citation.
+They work by prefixing lines with `>`.
+
+**Basic blockquote**
+
+```md
+> This is a quote.
+```
+
+> This is a quote.
+
+**Nested blockquotes (multi-level)**
+
+Add another > for each level:
+
+```md
+> Level 1
+>> Level 2
+>>> Level 3
+```
+
+**Blockquote with multiple paragraphs**
+
+Leave a blank line inside and prefix every paragraph with `>`:
+
+```md
+> This is the first paragraph of a quote.
+>
+> This is the second paragraph.
+```
+
+> This is the first paragraph of a quote.
+>
+> This is the second paragraph.
+
+**Blockquote with other elements (lists/code)**
+
+Markdown inside still works:
+```md
+> Shopping list:
+> - Apples
+> - Bananas
+```
+
+> Shopping list:
+> - Apples
+> - Bananas
+
+or code:
+```md
+> Code inside a quote:
+>
+> ```js
+> console.log("Hi");
+> ```
+```
+
+## Lists
 
 **Example:**
 
 ```md
-# Heading 1
+- one
+- two
 
-...
-
-###### Heading 6
+1. one
+2. two
+   - one
+   - two
 ```
 
 **Renders as:**
-All the headings on this page 🙂.
 
-### Emphasis
+- one
+- two
 
-**I'm Bold!** is done using `**I'm Bold!**`  
-**I'm Bold!** is done using `__I'm Bold!__`
+1. one
+2. two
+   - one
+   - two
 
-*I'm Italic!* is done using `*I'm Italic!*`  
-*I'm Italic!* is done using `_I'm Italic!_`
 
-### Fenced code blocks with code highlighting
+## Fenced code blocks with code highlighting
 
 Code blocks created with backtics will be parsed as `pre` tags with support for code highlighting in respective languages and copy/paste button included on hover.
 
@@ -79,42 +214,6 @@ class Example:
 ```bash
 git commit && git push
 ```
-
-### Blockquotes
-
-**Example:**
-
-```md
-> Roses are red, violets are blue.
-```
-
-**Renders as:**
-
-> Roses are red, violets are blue.
-
-### Lists
-
-**Example:**
-
-```md
-- one
-- two
-
-1. one
-2. two
-   - one
-   - two
-```
-
-**Renders as:**
-
-- one
-- two
-
-1. one
-2. two
-   - one
-   - two
 
 ### Inline code
 
@@ -157,9 +256,7 @@ Here is some code: `print("hello world!")`
 
 ---
 
-## GitHub Flavored Markdown (GFM) extensions
-
-### Tables
+## Tables
 
 **Example:**
 
@@ -175,7 +272,7 @@ Here is some code: `print("hello world!")`
 | :--- | :----: | ----: |
 | 1    |   2    |     3 |
 
-### Task lists
+## Task lists
 
 **Example:**
 
@@ -191,11 +288,7 @@ Here is some code: `print("hello world!")`
 - [ ] a second thing to do
   - [ ] another thing to do!
 
-### Strikethrough
-
-~~I'm CrossedOut!~~ is done using `~~I'm CrossedOut!~~`
-
-### Autolinks
+## Autolinks
 
 **Example:**
 
@@ -210,11 +303,7 @@ Check out Flowershow at https://flowershow.app!
 > [!NOTE]
 > 🔍 To learn more about the GitHub Flavored Markdown syntax refer to the [GFM specification](https://github.github.com/gfm/).
 
----
-
-## Other extensions
-
-### Obisidian internal links (Wiki links)
+## Obisidian internal links (Wikilinks)
 
 Wiki links are hyperlinks that give one-click access to other pages on the site. These are usually denoted with double square brackets `[[some_page]]` and Obsidian would generate the reference to that page automatically.
 
@@ -233,7 +322,7 @@ Flowershow will convert internal links to HTML `a` tags, with their `href` attri
 > [!note]
 > Note, that Flowershow will also handle Obsidian wiki links with "shortest path when possible" setting.
 
-### Footnotes
+## Footnotes
 
 **Example:**
 
@@ -247,7 +336,7 @@ Roses are red... [^1]
 
 [^1]: ...violets are blue.
 
-### Math
+## Math
 
 Place your math equation between `$`.
 
@@ -263,7 +352,7 @@ $\sqrt{a^2 + b^2}$
 
 Documentation on supported math syntax can be found in [KaTeX docs](https://katex.org/docs/support_table.html).
 
-### Mermaid diagrams
+## Mermaid diagrams
 
 Embed your diagram inside a code block with `mermaid` type.
 
@@ -287,7 +376,7 @@ a --> b
 
 Read more about Mermaid diagrams on the [Mermaid website](https://mermaid.js.org/)..
 
-### Dashes/Ellipse
+## Dashes/Ellipse
 
 Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with or without spacing will convert to ellipse.
 
@@ -306,7 +395,7 @@ Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with o
 ...ellipse\
 ...another ellipse
 
-### PDF embedding
+## PDF embedding
 
 **Example:**
 
@@ -317,7 +406,7 @@ Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with o
 **Renders as:**  
 ![[sample.pdf]]
 
-### Callouts
+## Callouts
 
 **Example:**
 
@@ -372,7 +461,7 @@ Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with o
 **Supported callout types:**
 Flowershow supports 13 different Obsidian callout types (with aliases) like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types.
 
-### Comments
+## Comments
 
 **Example:**
 
@@ -399,17 +488,3 @@ multi
 line
 comment!
 */}
-
-### 🚧 Excalidraw sketches support
-
-Displaying embedded [Excalidraw](https://excalidraw.com/) sketches.
-
-**Example:**
-
-```md
-![[customizability-vs-upgradeability-efficient-frontier-2022-06-26]]
-```
-
-**Renders as:**  
-![[customizability-vs-upgradeability-efficient-frontier-2022-06-26]]
-
