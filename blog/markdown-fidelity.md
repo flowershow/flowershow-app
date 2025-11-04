@@ -59,8 +59,6 @@ Flowershow aims to fix that.
 - Publish
 - Keep the exact meaning & formatting you wrote
 
-Whether you keep notes in a folder, sync via Git, or write in your favorite editor — your content is yours, and it should travel with you.
-
 Markdown is the open web’s content layer — and Flowershow treats it that way.
 
 ---
@@ -78,6 +76,7 @@ Coming soon:
 * 🧠 **Obsidian Bases support**
 * 💬 **Obsidian-style comments (%%…%%)**
 * 🎨 Better support for Excalidraw
+* 🧘‍♀️ Seamless publishing experience
 
 If your workflow lives in Obsidian —
 Flowershow is evolving to be **the publishing engine your vault deserves.**
