@@ -626,10 +626,10 @@ Or like this: . . .
 
 | Input | Output | Notes                                         |
 | ----- | ------ | --------------------------------------------- |
-| \>   | >      | Greater than                                  |
-| \<   | <      | Less-than                                     |
-| \=\>  | =>     | Greater-than-or-equal                         |
-| \<\=  | <=     | Less-than-or-equal                            |
+| `>`   | >      | Greater than                                  |
+| `<`   | <      | Less-than                                     |
+| `=>`  | =>     | Greater-than-or-equal                         |
+| `<=`  | <=     | Less-than-or-equal                            |
 
 ```
 a < b
