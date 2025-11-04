@@ -600,11 +600,11 @@ Flowershow automatically converts certain character sequences into typographic s
 | `---` | ---      | em-dash (sentence break)         |
 
 ```
-2020--2025
+2020--2025  
 A---B
 ```
 
-2020--2025
+2020--2025  
 A---B
 
 ### Ellipsis
@@ -615,29 +615,29 @@ A---B
 | `. . .` | . . .      | spaced ellipsis |
 
 ```
-Wait for it...
+Wait for it...  
 Or like this: . . .
 ```
 
-Wait for it...
+Wait for it...  
 Or like this: . . .
 
 ### Less than / greater than
 
 | Input | Output | Notes                                         |
 | ----- | ------ | --------------------------------------------- |
-| `>`   | >      | Greater than                                  |
-| `<`   | <      | Less-than                                     |
-| `>=`  | >=     | Greater-than-or-equal                         |
-| `<=`  | <=     | Less-than-or-equal                            |
+| \>   | >      | Greater than                                  |
+| \<   | <      | Less-than                                     |
+| \=\>  | =>     | Greater-than-or-equal                         |
+| \<\=  | <=     | Less-than-or-equal                            |
 
 ```
 a < b
-x >= y
+x => y
 ```
 
 a < b
-x >= y
+x => y
 
 ## Obsidian Callouts
 
