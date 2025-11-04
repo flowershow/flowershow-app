@@ -527,19 +527,34 @@ Roses are red... [^1]
 
 ## Math
 
-Place your math equation between `$`.
+Flowershow supports math expressions using LaTeX-style syntax (powered by KaTeX).
 
-**Example:**
+### Inline math
 
-```markdown
-$\sqrt{a^2 + b^2}$
+Wrap math in single `$`:
+
+```
+The equation $E = mc^2$ is famous.
 ```
 
-**Renders as:**
+The equation $E = mc^2$ is famous.
 
-$\sqrt{a^2 + b^2}$
+### Block math
 
-Documentation on supported math syntax can be found in [KaTeX docs](https://katex.org/docs/support_table.html).
+Use double $$ for a displayed equation:
+
+```
+$$
+\frac{d}{dx} (x^2) = 2x
+$$
+```
+
+$$
+\frac{d}{dx} (x^2) = 2x
+$$
+
+> [!note] Reference
+> Full supported syntax: [KaTeX docs](https://katex.org/docs/support_table.html).
 
 ## Mermaid diagrams
 
@@ -550,54 +565,78 @@ Embed your diagram inside a code block with `mermaid` type.
 ````md
 ```mermaid
 graph LR
-
-a --> b
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Do something]
+  B -->|No| D[Do something else]
+  C --> E[Finish]
+  D --> E[Finish]
 ```
 ````
 
-**Renders as:**
-
 ```mermaid
 graph LR
-
-a --> b
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Do something]
+  B -->|No| D[Do something else]
+  C --> E[Finish]
+  D --> E[Finish]
 ```
 
-Read more about Mermaid diagrams on the [Mermaid website](https://mermaid.js.org/)..
+> [!note]
+> You can find more examples and syntax on the [Mermaid website](https://mermaid.js.org/).
 
-## Dashes/Ellipse
+## Automatic punctuation conversions
 
-Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with or without spacing will convert to ellipse.
+Flowershow automatically converts certain character sequences into typographic symbols, just like Obsidian and many Markdown engines.
 
-**Example:**
+### ndash / mdash
+
+| Input | Output | Meaning                          |
+| ----- | ------ | -------------------------------- |
+| `--`  | --      | en-dash (range, e.g., 2020–2025) |
+| `---` | ---      | em-dash (sentence break)         |
 
 ```md
---ndash
----mdash
-...ellipse
-. . .another ellipse
+2020--2025
+A---B
 ```
 
-**Renders as:**\
-–ndash\
-—mdash\
-...ellipse\
-...another ellipse
+2020--2025
+A---B
 
-## PDF embedding
+### Ellipsis
 
-**Example:**
+| Input   | Output | Meaning         |
+| ------- | ------ | --------------- |
+| `...`   | ...      | ellipsis        |
+| `. . .` | . . .      | spaced ellipsis |
 
-```md
-![[sample.pdf]]
+```
+Wait for it...
+Or like this: . . .
 ```
 
-**Renders as:**  
-![[sample.pdf]]
+Wait for it...
+Or like this: . . .
 
-## Callouts
+### Less than / greater than
 
-**Example:**
+| Input | Output | Notes                                         |
+| ----- | ------ | --------------------------------------------- |
+| `>`   | >      | Greater than                                  |
+| `<`   | <      | Less-than                                     |
+| `>=`  | >=     | Greater-than-or-equal                         |
+| `<=`  | <=     | Less-than-or-equal                            |
+
+```
+a < b
+x >= y
+```
+
+a < b
+x >= y
+
+## Obsidian Callouts
 
 ```md
 > [!info] This is cool!
@@ -605,35 +644,23 @@ Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with o
 > It supports **markdown** and [[abc|wikilinks]].
 ```
 
-**Renders as:**
-
 > [!info] This is cool!
 > Here's a callout block.
 > It supports **markdown** and [[abc|wikilinks]].
 
-**Example:**
-
 ```md
 > [!tip] Title-only callout
 ```
 
-**Renders as:**
-
 > [!tip] Title-only callout
-
-**Example:**
 
 ```md
 > [!faq]- Are callouts foldable?
 > Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
 ```
 
-**Renders as:**
-
 > [!faq]- Are callouts foldable?
 > Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
-
-**Example:**
 
 ```md
 > [!question] Can callouts be nested?
@@ -641,17 +668,33 @@ Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with o
 > > > [!example]  You can even use multiple layers of nesting.
 ```
 
-**Renders as:**
-
 > [!question] Can callouts be nested?
 > > [!todo] Yes!, they can.
 > > > [!example]  You can even use multiple layers of nesting.
 
-**Supported callout types:**
-Flowershow supports 13 different Obsidian callout types (with aliases) like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types.
+> [!note] Supported callout types
+> Flowershow supports 13 different Obsidian callout types like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types. Aliases work too!
 
 ## Comments
 
+### Markdown comments
+
+Markdown has no native hidden comment syntax.
+
+If you want comments in pure Markdown, you can use HTML comments (since HTML blocks are allowed):
+
+```
+The paragraph is hidden:  
+<!-- This is hidden in Markdown mode -->
+```
+
+The paragraph is hidden:  
+<!-- This is hidden in Markdown mode -->
+
+### MDX comment syntax
+
+When using MDX rendering, you can add invisible comments using JSX style:
+
 **Example:**
 
 ```md
@@ -666,8 +709,6 @@ comment!
 */}
 ```
 
-**Renders as:**
-
 Here is some invisible inline comment: {/* comment! */}
 
 Here is an invisible multiline comment:
@@ -678,9 +719,37 @@ line
 comment!
 */}
 
+### Obsidian-style comments (coming soon) 🚧
+
+In Obsidian, you can wrap your comment text in double percent signs `%%`:
+
+```
+This text is invisible: %%magic!%%
+```
+
+This text is invisible: %%magic!%%
+
+---
 
 > [!NOTE]
 > 🔍 To learn more about the Markdown syntax refer to the [CommonMark specification](https://spec.commonmark.org/0.30/).
 
 > [!NOTE]
 > 🔍 To learn more about the GitHub Flavored Markdown syntax refer to the [GFM specification](https://github.github.com/gfm/).
+
+---
+
+Flowershow strives for full compatibility with:
+
+- ✅ CommonMark
+- ✅ GitHub-Flavored Markdown (GFM)
+- ✅ Core Obsidian syntax (and some extensions)
+
+We work hard to ensure everything works the way you expect.
+If you notice anything missing or behaving differently than Obsidian/GFM/CommonMark, please let us know:
+
+- 💬 Join our Discord community
+- 🗨️ Leave a comment below
+- 🐛 Or open an issue on GitHub
+
+Your feedback helps us improve Flowershow for everyone — thank you!
