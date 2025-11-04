@@ -631,14 +631,6 @@ Or like this: . . .
 | `=>`  | =>     | Greater-than-or-equal                         |
 | `<=`  | <=     | Less-than-or-equal                            |
 
-```
-a < b  
-x => y
-```
-
-a < b  
-x => y
-
 ## Obsidian Callouts
 
 ```
