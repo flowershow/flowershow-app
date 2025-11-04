@@ -287,11 +287,11 @@ Use the `print()` function.
 
 Wrap code in triple backticks:
 
-<pre>
+```
 ```
 const greeting = "Hello!"; console.log(greeting);
 ```
-</pre>
+```
 
 ```
 const greeting = "Hello!"; console.log(greeting);
@@ -301,13 +301,13 @@ const greeting = "Hello!"; console.log(greeting);
 
 Specify a language after the backticks to get syntax highlighting:
 
-<pre>
+```
 ```python
 class Example:
 	def code(self,test):
 		return 'Code highlighter'
 ```
-</pre>
+```
 
 ```python
 class Example:
@@ -676,20 +676,6 @@ x >= y
 > Flowershow supports 13 different Obsidian callout types like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types. Aliases work too!
 
 ## Comments
-
-### Markdown comments
-
-Markdown has no native hidden comment syntax.
-
-If you want comments in pure Markdown, you can use HTML comments (since HTML blocks are allowed):
-
-```
-The paragraph is hidden:  
-<!-- This is hidden in Markdown mode -->
-```
-
-The paragraph is hidden:  
-<!-- This is hidden in Markdown mode -->
 
 ### MDX comment syntax
 
