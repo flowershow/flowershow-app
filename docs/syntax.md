@@ -20,8 +20,8 @@ Use 1–6 # symbols:
 ###### Heading 6
 ```
 
-**Notes**
-- A space after `#` is required (`## Heading` not `##Heading`)
+> [!note]
+> A space after `#` is required (`## Heading` not `##Heading`)
 
 ### Setext Headings
 
@@ -46,7 +46,7 @@ Heading 2
 
 ## Thematic breaks
 
-Thematic breaks made with three `*`, `-` or `_` will be converted to HTML `<hr />`
+Thematic breaks can be made with three `*`, `-` or `_`.
 
 **Example:**
 
@@ -68,11 +68,11 @@ ___
 *I'm Italic!* is done with `*I'm Italic!*`  
 *I'm Italic!* is done with `_I'm Italic!_`
 
-*Italic with **bold** inside* is done with `*Italic with **bold** inside*`
+*Italic with **bold** inside* is done with `*Italic with **bold** inside*`  
 _Italic with __bold__ inside_ is done with `_Italic with __bold__ inside_`
 
-~~Strikethrough~~ is done with `~~Strikethrough~~`
-==Highlight== is done with `==Highlight==`
+~~Strikethrough~~ is done with `~~Strikethrough~~`  
+==Highlight== is done with `==Highlight==`  
 `Inline code` is done with `\`Inline code\``
 
 ## Paragraphs & Line breaks
@@ -93,7 +93,7 @@ This is paragraph two.
 
 ### Soft Line Break (line break within the same paragraph)
 
-A soft line break happens is just a newline in your editor. Markdown treats it as a space unless you explicitly force a break.
+A soft line break is just a newline in your editor and markdown treats it as a space.
 
 ```md
 Line one
@@ -122,9 +122,12 @@ Line one\
 Line two
 ```
 
+Line one\
+Line two
+
 ## Blockquotes
 
-Blockquotes in Markdown let you quote text, like an email reply or a citation.
+Blockquotes in Markdown let you quote text like a citation.
 They work by prefixing lines with `>`.
 
 **Basic blockquote**
@@ -144,6 +147,10 @@ Add another > for each level:
 >> Level 2
 >>> Level 3
 ```
+
+> Level 1
+>> Level 2
+>>> Level 3
 
 **Blockquote with multiple paragraphs**
 
@@ -180,6 +187,12 @@ or code:
 > console.log("Hi");
 > ```
 ```
+
+> Code inside a quote:
+>
+> ```js
+> console.log("Hi");
+> ```
 
 ## Lists
 
