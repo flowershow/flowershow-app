@@ -5,8 +5,6 @@ authors:
 date: 2025-11-04
 ---
 
-Markdown isn't just a formatting language — it's a philosophy.
-
 When we created **Flowershow**, our mission was simple:
 
 > Let people publish beautiful, fast websites directly from Markdown — without changing how they write.
@@ -17,15 +15,28 @@ Today, we’re marking an important milestone in that mission:
 
 That means:
 
-- ✅ Headings, lists, blockquotes, tables
-- ✅ Code blocks + syntax highlighting
-- ✅ Task lists, footnotes, autolinks
-- ✅ Inline formatting + emphasis
-- ✅ Emoji, HTML inline tags
-- ✅ Images, media, and embeds
-- ✅ Extensions you expect in modern Markdown workflows (wikilinks, highlights, etc.)
+**💪 Full CommonMark + GFM support**
+- Headings, paragraphs, line breaks  
+- Lists (ordered + unordered)  
+- Blockquotes  
+- Code blocks + syntax highlighting  
+- Inline code + emphasis  
+- Links + autolinks  
+- Images  
+- Tables
+- Footnotes
+- Task lists
+- Strikethrough
+- Emoji & shortcodes  
+- HTML inline tags
 
 If Markdown renders correctly in CommonMark-compliant tools, GitHub, or modern editors, it should now “just work” in Flowershow.
+
+**✨ Extended Markdown features**
+- Obsidian Wikilinks, embeds and Callouts
+- Math equations
+- Mermaid charts
+- Text highlighting
 
 ---
 
