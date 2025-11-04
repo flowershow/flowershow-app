@@ -327,6 +327,53 @@ Here is some code: `print("hello world!")`
 
 Here is some code: `print("hello world!")`
 
+
+## Tables
+
+You include tables in Markdown using pipes `|` to separate columns and dashes `-` to define the header row.
+
+**Basic Markdown table**
+
+```md
+| Name   | Age | City       |
+|--------|-----|------------|
+| Alice  | 30  | Lausanne   |
+| Bob    | 28  | Warsaw     |
+| Clara  | 32  | Amsterdam  |
+```
+
+| Name   | Age | City       |
+|--------|-----|------------|
+| Alice  | 30  | Lausanne   |
+| Bob    | 28  | Warsaw     |
+| Clara  | 32  | Amsterdam  |
+
+**Alignment**
+
+Use `:` to align text:
+
+```
+| Left Align | Center Align | Right Align |
+|:-----------|:------------:|------------:|
+| apple      | banana       | cherry      |
+| dog        | cat          | bird        |
+```
+
+| Left Align | Center Align | Right Align |
+|:-----------|:------------:|------------:|
+| apple      | banana       | cherry      |
+| dog        | cat          | bird        |
+
+**With inline formatting**
+
+```
+| Feature     | Supported |
+|-------------|----------|
+| **Bold**     | ✅       |
+| `Code`       | ✅       |
+| [[Wikilinks]]| ✅       |
+```
+
 ## Links
 
 ### CommonMark Links
@@ -364,7 +411,7 @@ You can use Obsidian's "shortest possible path" style links:
 
 [[turn-obsidian-vault-into-a-blog]]
 
-**Alias**
+**With alias**
 
 ```
 [[turn-obsidian-vault-into-a-blog|Publish a blog directly from Obsidian with Flowershow]]
@@ -378,65 +425,95 @@ You can use Obsidian's "shortest possible path" style links:
 
 Basic format:
 ```
-![alt text]([https://example.com/image.jpg](https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abstract-flowers-rose-sciberras.jpg))
+![alt text](/assets/hiroshige.jpg)
 ```
 
-![alt text]([https://example.com/image.jpg](https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abstract-flowers-rose-sciberras.jpg))
+![alt text](/assets/hiroshige.jpg)
 
-## Tables
-
-**Example:**
-
-```md
-| Left | Center | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
+With title:
+```
+![alt text](/assets/hiroshige.jpg "Hiroshige art")
 ```
 
-**Renders as:**
+![alt text](/assets/hiroshige.jpg "Hiroshige art")
 
-| Left | Center | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
+### Obsidian image embeds
 
+You can use Obsidian's "shortest possible path" style links:
+```
+![[hiroshige.jpg]]
+```
+
+![[hiroshige.jpg]]
+
+Alias (alt text override):
+```
+![[hiroshige.jpg|Hiroshige art]]
+```
+
+![[hiroshige.jpg|Hiroshige art]]
+
+Set width:
+```
+![[hiroshige.jpg|200]]
+```
+
+![[hiroshige.jpg|200]]
+
+Or both width and height:
+```
+![[hiroshige.jpg|300x200]]
+```
+
+![[hiroshige.jpg|300x200]]
+
+## Other media files
+
+Flowershow supports Obsidian’s media embeds using `![[...]]`.
+
+Audio:
+```
+![[sample.mp3]]
+```
+
+![[sample.mp3]]
+
+
+Video:
+```
+![[sample.mp4]]
+```
+
+![[sample.mp4]]
+
+PDF:
+```
+![[sample.pdf]]
+```
+
+![[sample.pdf]]
+
+> [!note] Coming soon: Note transclusions
+> Just like in Obsidian, Flowershow will soon support embedding one note inside another:
+> ```
+> ![[my-note]]
+> ```
 
 ## Autolinks
 
-**Example:**
+Bare URLs and email addresses are detected and turned into links.
 
 ```md
 Check out Flowershow at https://flowershow.app!
-```
 
-**Renders as:**
+ola@example.com
+```
 
 Check out Flowershow at https://flowershow.app!
 
-> [!NOTE]
-> 🔍 To learn more about the GitHub Flavored Markdown syntax refer to the [GFM specification](https://github.github.com/gfm/).
-
-## Obisidian internal links (Wikilinks)
-
-Wiki links are hyperlinks that give one-click access to other pages on the site. These are usually denoted with double square brackets `[[some_page]]` and Obsidian would generate the reference to that page automatically.
-
-Flowershow will convert internal links to HTML `a` tags, with their `href` attributes pointing to the location referenced by original internal links.
-
-**Internal link types**
-
-- Link to a page, e.g. `[[/docs/blog]]`, which renders as [[/docs/blog]]
-- Link to a page with a custom name, e.g. `[[/docs/blog|Blog support]]`, which renders as [[/docs/blog|Blog support]]
-- Link to a specific heading within a given page `[[/docs/blog#Blog author frontmatter fields]]`, which renders as [[/docs/blog#Blog author frontmatter fields]]
-- Link to a specific heading within a given page with a custom name, e.g. `[[/docs/blog#Blog author frontmatter fields|Some alias]]` which renders as [[/docs/blog#Blog author frontmatter fields|Some alias]]
-- Link to an image file with supported image formats - png, jpg and jpeg, eg. `![[/assets/images/park.png]]` which renders as:
-  ![[park.png]]
-- 🚧 Link to a specific block (paragraph) within a given page, e.g. `[[/docs/blog#f93ba0]]`
-
-> [!note]
-> Note, that Flowershow will also handle Obsidian wiki links with "shortest path when possible" setting.
+ola@example.com
 
 ## Footnotes
-
-**Example:**
 
 ```md
 Roses are red... [^1]
@@ -604,3 +681,6 @@ comment!
 
 > [!NOTE]
 > 🔍 To learn more about the Markdown syntax refer to the [CommonMark specification](https://spec.commonmark.org/0.30/).
+
+> [!NOTE]
+> 🔍 To learn more about the GitHub Flavored Markdown syntax refer to the [GFM specification](https://github.github.com/gfm/).
