@@ -3,7 +3,7 @@ title: Flowershow Supports Full CommonMark + GitHub Flavored Markdown
 authors:
   - olayway
 date: 2025-11-04
---
+---
 
 Markdown isn't just a formatting language — it's a philosophy.
 
