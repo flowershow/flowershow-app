@@ -302,17 +302,17 @@ const greeting = "Hello!"; console.log(greeting);
 Specify a language after the backticks:
 
 <pre>
-```javascript
-const ExampleCode = () => {
-  return <div> .... </div>;
-};
+```python
+class Example:
+	def code(self,test):
+		return 'Code highlighter'
 ```
 </pre>
 
-```javascript
-const ExampleCode = () => {
-  return <div> .... </div>;
-};
+```python
+class Example:
+	def code(self,test):
+		return 'Code highlighter'
 ```
 
 ### Inline code
