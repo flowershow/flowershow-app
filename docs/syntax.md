@@ -516,6 +516,15 @@ Check out Flowershow at https://flowershow.app!
 
 ola@example.com
 
+### YouTube
+
+YouTube video links will be auto-embedded.
+```
+https://youtu.be/ZbQRlNm2dww
+```
+
+https://youtu.be/ZbQRlNm2dww
+
 ## Footnotes
 
 ```
