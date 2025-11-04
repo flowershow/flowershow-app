@@ -299,7 +299,7 @@ const greeting = "Hello!"; console.log(greeting);
 
 **Syntax highlighting**
 
-Specify a language after the backticks:
+Specify a language after the backticks to get syntax highlighting:
 
 <pre>
 ```python
@@ -327,34 +327,61 @@ Here is some code: `print("hello world!")`
 
 Here is some code: `print("hello world!")`
 
-### Links
+## Links
 
-**Example:**
+### CommonMark Links
 
-```md
-[Link to roadmap](/docs/roadmap)
+Use `[text](url)` format:
+
+```
+[Read the blog post](/blog/turn-obsidian-vault-into-a-blog.md)
 ```
 
-**Renders as:**
+[Read the blog post](/blog/turn-obsidian-vault-into-a-blog.md)
 
-[Link to roadmap](/docs/roadmap)
+#### Reference-style links
 
-### Images
+```
+See the [docs][docs-link].
 
-**Example:**
-
-```md
-![tulip](https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abstract-flowers-rose-sciberras.jpg)
+[docs-link]: https://flowershow.app/docs
 ```
 
-**Renders as:**
+See the [docs][docs-link].
 
-![tulip](https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abstract-flowers-rose-sciberras.jpg)
+[docs-link]: https://flowershow.app/docs
 
-> [!NOTE]
-> 🔍 To learn more about the Markdown syntax refer to the [CommonMark specification](https://spec.commonmark.org/0.30/).
+### Obsidian Wikilinks
 
----
+Obsidian uses `[[ ]]` for internal links.
+
+**Link to a page**
+
+You can use Obsidian's "shortest possible path" style links:
+```
+[[turn-obsidian-vault-into-a-blog]]
+```
+
+[[turn-obsidian-vault-into-a-blog]]
+
+**Alias**
+
+```
+[[turn-obsidian-vault-into-a-blog|Publish a blog directly from Obsidian with Flowershow]]
+```
+
+[[turn-obsidian-vault-into-a-blog|Publish a blog directly from Obsidian with Flowershow]]
+
+## Images
+
+### CommonMark images
+
+Basic format:
+```
+![alt text]([https://example.com/image.jpg](https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abstract-flowers-rose-sciberras.jpg))
+```
+
+![alt text]([https://example.com/image.jpg](https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abstract-flowers-rose-sciberras.jpg))
 
 ## Tables
 
@@ -573,3 +600,7 @@ multi
 line
 comment!
 */}
+
+
+> [!NOTE]
+> 🔍 To learn more about the Markdown syntax refer to the [CommonMark specification](https://spec.commonmark.org/0.30/).
