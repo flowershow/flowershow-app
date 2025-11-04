@@ -286,11 +286,11 @@ Use the `print()` function.
 
 Wrap code in triple backticks:
 
-<pre>
+````
 ```
 const greeting = "Hello!"; console.log(greeting);
 ```
-</pre>
+````
 
 ```
 const greeting = "Hello!"; console.log(greeting);
@@ -300,13 +300,13 @@ const greeting = "Hello!"; console.log(greeting);
 
 Specify a language after the backticks to get syntax highlighting:
 
-<pre>
+````
 ```python
 class Example:
 	def code(self,test):
 		return 'Code highlighter'
 ```
-</pre>
+````
 
 ```python
 class Example:
