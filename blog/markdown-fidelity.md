@@ -1,6 +1,5 @@
 ---
 title: Flowershow Supports Full CommonMark + GitHub Flavored Markdown
-description: "Full CommonMark and GitHub-Flavored Markdown support is now live in Flowershow — delivering accurate rendering for Obsidian vaults and Markdown-first workflows."
 authors:
   - olayway
 date: 2025-11-04
