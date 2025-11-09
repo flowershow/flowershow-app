@@ -5,6 +5,7 @@ date: 2025-11-03
 authors:
   - olayway
 image: /assets/md-and-mdx.png
+isDraft: true
 ---
 
 If you’ve ever published notes from Obsidian or another Markdown editor with Flowershow and suddenly ran into strange parsing errors — like `<a, b>` breaking your page or `{something}` causing a crash — you’re not alone.
