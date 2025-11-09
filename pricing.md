@@ -145,7 +145,6 @@ showEditLink: false
 | | Notes | Unlimited | Unlimited |
 | **Support** | Community support | ✓ | ✓ |
 | | Priority support | - | ✓ |
-| | Onboarding assistance | - | - |
 </div>
 
 

@@ -2,417 +2,747 @@
 title: Markdown syntax support
 ---
 
-> [!tip] Choose Your Rendering Mode
+> [!tip] Choose Markdown or MDX rendering mode
 > Flowershow lets you choose between Markdown and MDX rendering modes. If you're publishing plain Markdown content and experience parsing issues, see [[syntax-mode|Syntax Mode Configuration]] to learn how to switch modes.
 
 Flowershow was designed with Obsidian users in mind, and so, it aims to fully support Obsidian syntax, including **CommonMark**, **GitHub Flavoured Markdown** and **Obsidian extensions**, like Wiki links.
 
-## CommonMark
+## Headings
 
-Here are some of the CommonMark syntax elements supported by Flowershow.
+In Markdown you can create headings in two main ways — ATX style (with `#`) and Setext style (with `=` and `-`).
 
-### Thematic breaks
+### ATX Headings
 
-Thematic breaks made with three `*`, `-` or `_` will be converted to HTML `<hr />`
-
-**Example:**
-
-```md
----
----
-
----
+Use 1–6 `#` symbols:
 ```
-
-**Renders as:**
-
----
-
----
-
----
-
-### Headings
-
-Markdown headings will be converted to HTML `<h1>`-`<h6>` tags.
-
-**Example:**
-
-```md
 # Heading 1
-
-...
-
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
 ###### Heading 6
 ```
 
-**Renders as:**
-All the headings on this page 🙂.
+> [!note]
+> A space after `#` is required (`## Heading` not `##Heading`)
 
-### Emphasis
+### Setext Headings
 
-**I'm Bold!** is done using `**I'm Bold!**`  
-**I'm Bold!** is done using `__I'm Bold!__`
+Only for H1 and H2 — underline with `=` or `-`:
 
-*I'm Italic!* is done using `*I'm Italic!*`  
-*I'm Italic!* is done using `_I'm Italic!_`
+```
+Heading 1
+===============
 
-### Fenced code blocks with code highlighting
-
-Code blocks created with backtics will be parsed as `pre` tags with support for code highlighting in respective languages and copy/paste button included on hover.
-
-**Javascript example:**
-
-```javascript {2}
-const ExampleCode = () => {
-  return <div> .... </div>;
-};
+Heading 2
+---------------
 ```
 
-**Python example:**
+> [!note]
+> Headings automatically generate anchors for linking, like:
+> `[Jump to section](#my-heading)`
+> You can get the full URL of a heading by hovering over it and clicking on the `#` icon on the left.
 
-```python {3}
+> [!tip]
+> It's recommended to use H1 only once per page for proper HTML semantics.
+
+## Thematic breaks
+
+Thematic breaks can be made with three `*`, `-` or `_`.
+
+**Example:**
+
+```
+***
+---
+___
+```
+
+***
+---
+___
+
+## Emphasis
+
+**I'm Bold!** is done with `**I'm Bold!**`  
+**I'm Bold!** is done with `__I'm Bold!__`
+
+*I'm Italic!* is done with `*I'm Italic!*`  
+*I'm Italic!* is done with `_I'm Italic!_`
+
+*Italic with **bold** inside* is done with `*Italic with **bold** inside*`  
+_Italic with __bold__ inside_ is done with `_Italic with __bold__ inside_`
+
+~~Strikethrough~~ is done with `~~Strikethrough~~`  
+==Highlight== is done with `==Highlight==`  
+`Inline code` is done with ``Inline code``
+
+## Paragraphs & Line breaks
+
+### New paragraph
+
+To start a new paragraph, leave a blank line between lines of text:
+
+```
+This is paragraph one.
+
+This is paragraph two.
+```
+
+This is paragraph one.
+
+This is paragraph two.
+
+### Soft Line Break (line break within the same paragraph)
+
+A soft line break is just a newline in your editor and markdown treats it as a space.
+
+```
+Line one
+Line two (still same paragraph)
+```
+
+Line one
+Line two (still same paragraph)
+
+### Hard Line Break (force a line break)
+
+To force a break without starting a new paragraph, use two spaces at the end of a line or a backslash (`\`):
+
+**Option 1: Two spaces at end**
+```
+Line one  
+Line two
+```
+
+Line one  
+Line two
+
+**Option 2: Backslash**
+```
+Line one\
+Line two
+```
+
+Line one\
+Line two
+
+## Blockquotes
+
+Blockquotes in Markdown let you quote text like a citation.
+They work by prefixing lines with `>`.
+
+**Basic blockquote**
+
+```
+> This is a quote.
+```
+
+> This is a quote.
+
+**Nested blockquotes (multi-level)**
+
+Add another > for each level:
+
+```
+> Level 1
+>> Level 2
+>>> Level 3
+```
+
+> Level 1
+>> Level 2
+>>> Level 3
+
+**Blockquote with multiple paragraphs**
+
+Leave a blank line inside and prefix every paragraph with `>`:
+
+```
+> This is the first paragraph of a quote.
+>
+> This is the second paragraph.
+```
+
+> This is the first paragraph of a quote.
+>
+> This is the second paragraph.
+
+**Blockquote with other elements (lists/code)**
+
+Markdown inside still works:
+```
+> Shopping list:
+> - Apples
+> - Bananas
+```
+
+> Shopping list:
+> - Apples
+> - Bananas
+
+or code:
+```
+> Code inside a quote:
+>
+> ```js
+> console.log("Hi");
+> ```
+```
+
+> Code inside a quote:
+>
+> ```js
+> console.log("Hi");
+> ```
+
+## Lists
+
+Markdown supports two main types of lists: **unordered** (bulleted) and **ordered** (numbered). You can also nest lists and mix types.
+
+### Unordered Lists (bullets)
+
+Use `-`, `*`, or `+` — they all work the same:
+
+```
+- Item one
+- Item two
+- Item three
+```
+
+- Item one
+- Item two
+- Item three
+
+### Ordered Lists (numbered)
+
+```
+1. First item
+2. Second item
+3. Third item
+```
+
+1. First item
+2. Second item
+3. Third item
+
+### Nested Lists
+
+Indent sub-items with two or four spaces:
+```
+- Groceries
+    - Apples
+    - Bananas
+- Chores
+    - Laundry
+    - Dishes
+```
+
+- Groceries
+    - Apples
+    - Bananas
+- Chores
+    - Laundry
+    - Dishes
+ 
+### Mixed Lists
+
+```
+1. Step one
+2. Step two
+   - Note A
+   - Note B
+3. Step three
+```
+
+1. Step one
+2. Step two
+   - Note A
+   - Note B
+3. Step three
+
+### Task Lists
+
+```
+- [x] one thing to do
+- [ ] a second thing to do
+  - [ ] another thing to do!
+```
+
+- [x] one thing to do
+- [ ] a second thing to do
+  - [ ] another thing to do!
+
+## Code
+
+### Inline code
+
+Use backticks for short code snippets inside a sentence:
+
+```
+Use the `print()` function.
+```
+
+Use the `print()` function.
+
+### Fenced code blocks (multi-line)
+
+Wrap code in triple backticks:
+
+````
+```
+const greeting = "Hello!"; console.log(greeting);
+```
+````
+
+Renders as:
+```
+const greeting = "Hello!"; console.log(greeting);
+```
+
+**Syntax highlighting**
+
+Specify a language after the backticks to get syntax highlighting:
+
+````
+```python
+class Example:
+	def code(self,test):
+		return 'Code highlighter'
+```
+````
+
+Renders as:
+```python
 class Example:
 	def code(self,test):
 		return 'Code highlighter'
 ```
 
-**Bash example:**
-
-```bash
-git commit && git push
-```
-
-### Blockquotes
-
-**Example:**
-
-```md
-> Roses are red, violets are blue.
-```
-
-**Renders as:**
-
-> Roses are red, violets are blue.
-
-### Lists
-
-**Example:**
-
-```md
-- one
-- two
-
-1. one
-2. two
-   - one
-   - two
-```
-
-**Renders as:**
-
-- one
-- two
-
-1. one
-2. two
-   - one
-   - two
-
 ### Inline code
 
-**Example:**
-
-```md
+```
 Here is some code: `print("hello world!")`
 ```
 
-**Renders as:**
-
 Here is some code: `print("hello world!")`
 
-### Links
+
+## Tables
+
+You include tables in Markdown using pipes `|` to separate columns and dashes `-` to define the header row.
+
+**Basic Markdown table**
+
+```
+| Name   | Age | City       |
+|--------|-----|------------|
+| Alice  | 30  | Lausanne   |
+| Bob    | 28  | Warsaw     |
+| Clara  | 32  | Amsterdam  |
+```
+
+| Name   | Age | City       |
+|--------|-----|------------|
+| Alice  | 30  | Lausanne   |
+| Bob    | 28  | Warsaw     |
+| Clara  | 32  | Amsterdam  |
+
+**Alignment**
+
+Use `:` to align text:
+
+```
+| Left Align | Center Align | Right Align |
+|:-----------|:------------:|------------:|
+| apple      | banana       | cherry      |
+| dog        | cat          | bird        |
+```
+
+| Left Align | Center Align | Right Align |
+|:-----------|:------------:|------------:|
+| apple      | banana       | cherry      |
+| dog        | cat          | bird        |
+
+**With inline formatting**
+
+```
+| Feature     | Supported |
+|-------------|----------|
+| **Bold**     | ✅       |
+| `Code`       | ✅       |
+| [[Wikilinks]]| ✅       |
+```
+
+| Feature     | Supported |
+|-------------|----------|
+| **Bold**     | ✅       |
+| `Code`       | ✅       |
+| [[Wikilinks]]| ✅       |
+
+## Links
+
+### CommonMark Links
+
+Use `[text](url)` format:
+
+```
+[Read the blog post](/blog/turn-obsidian-vault-into-a-blog.md)
+```
+
+[Read the blog post](/blog/turn-obsidian-vault-into-a-blog.md)
+
+#### Reference-style links
+
+```
+See the [docs][docs-link].
+
+[docs-link]: https://flowershow.app/docs
+```
+
+See the [docs][docs-link].
+
+[docs-link]: https://flowershow.app/docs
+
+### Obsidian Wikilinks
+
+Obsidian uses `[[ ]]` for internal links.
+
+**Link to a page**
+
+You can use Obsidian's "shortest possible path" style links:
+```
+[[turn-obsidian-vault-into-a-blog]]
+```
+
+[[turn-obsidian-vault-into-a-blog]]
+
+**With alias**
+
+```
+[[turn-obsidian-vault-into-a-blog|Publish a blog directly from Obsidian with Flowershow]]
+```
+
+[[turn-obsidian-vault-into-a-blog|Publish a blog directly from Obsidian with Flowershow]]
+
+## Images
+
+### CommonMark images
+
+Basic format:
+```
+![alt text](/assets/hiroshige.jpg)
+```
+
+![alt text](/assets/hiroshige.jpg)
+
+With title:
+```
+![alt text](/assets/hiroshige.jpg "Hiroshige art")
+```
+
+![alt text](/assets/hiroshige.jpg "Hiroshige art")
+
+### Obsidian image embeds
+
+You can use Obsidian's "shortest possible path" style links:
+```
+![[hiroshige.jpg]]
+```
+
+![[hiroshige.jpg]]
+
+Alias (alt text override):
+```
+![[hiroshige.jpg|Hiroshige art]]
+```
+
+![[hiroshige.jpg|Hiroshige art]]
+
+Set width:
+```
+![[hiroshige.jpg|200]]
+```
+
+![[hiroshige.jpg|200]]
+
+Or both width and height:
+```
+![[hiroshige.jpg|300x200]]
+```
+
+![[hiroshige.jpg|300x200]]
+
+## Other media files
+
+Flowershow supports Obsidian’s media embeds using `![[...]]`.
+
+Audio:
+```
+![[sample.mp3]]
+```
+
+![[sample.mp3]]
+
+
+Video:
+```
+![[sample.mp4]]
+```
+
+![[sample.mp4]]
+
+PDF:
+```
+![[sample.pdf]]
+```
+
+![[sample.pdf]]
+
+> [!note] Coming soon: Note transclusions
+> Just like in Obsidian, Flowershow will soon support embedding one note inside another:
+> ```
+> ![[my-note]]
+> ```
+
+## Autolinks
+
+Bare URLs and email addresses are detected and turned into links.
+
+```
+Check out Flowershow at https://flowershow.app!
+
+ola@example.com
+```
+
+Check out Flowershow at https://flowershow.app!
+
+ola@example.com
+
+### YouTube
+
+YouTube video links will be auto-embedded.
+```
+https://youtu.be/ZbQRlNm2dww
+```
+
+https://youtu.be/ZbQRlNm2dww
+
+## Footnotes
+
+```
+Roses are red... [^1]
+
+[^1]: ...violets are blue.
+```
+
+Roses are red... [^1]
+
+[^1]: ...violets are blue.
+
+## Math
+
+Flowershow supports math expressions using LaTeX-style syntax (powered by KaTeX).
+
+### Inline math
+
+Wrap math in single `$`:
+
+```
+The equation $E = mc^2$ is famous.
+```
+
+The equation $E = mc^2$ is famous.
+
+### Block math
+
+Use double $$ for a displayed equation:
+
+```
+$$
+\frac{d}{dx} (x^2) = 2x
+$$
+```
+
+$$
+\frac{d}{dx} (x^2) = 2x
+$$
+
+> [!note] Reference
+> Full supported syntax: [KaTeX docs](https://katex.org/docs/support_table.html).
+
+## Mermaid diagrams
+
+Embed your diagram inside a code block with `mermaid` type.
 
 **Example:**
 
-```md
-[Link to roadmap](/docs/roadmap)
+````
+```mermaid
+graph LR
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Do something]
+  B -->|No| D[Do something else]
+  C --> E[Finish]
+  D --> E[Finish]
+```
+````
+
+```mermaid
+graph LR
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Do something]
+  B -->|No| D[Do something else]
+  C --> E[Finish]
+  D --> E[Finish]
 ```
 
-**Renders as:**
+> [!note]
+> You can find more examples and syntax on the [Mermaid website](https://mermaid.js.org/).
 
-[Link to roadmap](/docs/roadmap)
+## Automatic punctuation conversions
 
-### Images
+Flowershow automatically converts certain character sequences into typographic symbols, just like Obsidian and many Markdown engines.
+
+### ndash / mdash
+
+| Input | Output | Meaning                          |
+| ----- | ------ | -------------------------------- |
+| `--`  | --      | en-dash (range, e.g., 2020–2025) |
+| `---` | ---      | em-dash (sentence break)         |
+
+```
+2020--2025  
+A---B
+```
+
+2020--2025  
+A---B
+
+### Ellipsis
+
+| Input   | Output | Meaning         |
+| ------- | ------ | --------------- |
+| `...`   | ...      | ellipsis        |
+| `. . .` | . . .      | spaced ellipsis |
+
+```
+Wait for it...  
+Or like this: . . .
+```
+
+Wait for it...  
+Or like this: . . .
+
+### Less than / greater than
+
+| Input | Output | Notes                                         |
+| ----- | ------ | --------------------------------------------- |
+| `>`   | >      | Greater than                                  |
+| `<`   | <      | Less-than                                     |
+| `=>`  | =>     | Greater-than-or-equal                         |
+| `<=`  | <=     | Less-than-or-equal                            |
+
+## Obsidian Callouts
+
+```
+> [!info] This is cool!
+> Here's a callout block.
+> It supports **markdown** and [[abc|wikilinks]].
+```
+
+> [!info] This is cool!
+> Here's a callout block.
+> It supports **markdown** and [[abc|wikilinks]].
+
+```
+> [!tip] Title-only callout
+```
+
+> [!tip] Title-only callout
+
+```
+> [!faq]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+```
+
+> [!faq]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+
+```
+> [!question] Can callouts be nested?
+> > [!todo] Yes!, they can.
+> > > [!example]  You can even use multiple layers of nesting.
+```
+
+> [!question] Can callouts be nested?
+> > [!todo] Yes!, they can.
+> > > [!example]  You can even use multiple layers of nesting.
+
+> [!note] Supported callout types
+> Flowershow supports 13 different Obsidian callout types like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types. Aliases work too!
+
+## Comments
+
+### MDX comment syntax
+
+When using MDX rendering, you can add invisible comments using JSX style:
 
 **Example:**
 
-```md
-![tulip](https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abstract-flowers-rose-sciberras.jpg)
+```
+Here is some invisible inline comment: {/* comment! */}
+
+Here is an invisible multiline comment:
+
+{/*
+multi
+line
+comment!
+*/}
 ```
 
-**Renders as:**
+Here is some invisible inline comment: {/* comment! */}
 
-![tulip](https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/abstract-flowers-rose-sciberras.jpg)
+Here is an invisible multiline comment:
 
-> [!NOTE]
-> 🔍 To learn more about the Markdown syntax refer to the [CommonMark specification](https://spec.commonmark.org/0.30/).
+{/*
+multi
+line
+comment!
+*/}
+
+### Obsidian-style comments (coming soon) 🚧
+
+In Obsidian, you can wrap your comment text in double percent signs `%%`:
+
+```
+This text is invisible: %%magic!%%
+```
+
+This text is invisible: %%magic!%%
 
 ---
 
-## GitHub Flavored Markdown (GFM) extensions
-
-### Tables
-
-**Example:**
-
-```md
-| Left | Center | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
-```
-
-**Renders as:**
-
-| Left | Center | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
-
-### Task lists
-
-**Example:**
-
-```md
-- [x] one thing to do
-- [ ] a second thing to do
-  - [ ] another thing to do!
-```
-
-**Renders as:**
-
-- [x] one thing to do
-- [ ] a second thing to do
-  - [ ] another thing to do!
-
-### Strikethrough
-
-~~I'm CrossedOut!~~ is done using `~~I'm CrossedOut!~~`
-
-### Autolinks
-
-**Example:**
-
-```md
-Check out Flowershow at https://flowershow.app!
-```
-
-**Renders as:**
-
-Check out Flowershow at https://flowershow.app!
+> [!NOTE]
+> 🔍 To learn more about the Markdown syntax refer to the [CommonMark specification](https://spec.commonmark.org/0.30/).
 
 > [!NOTE]
 > 🔍 To learn more about the GitHub Flavored Markdown syntax refer to the [GFM specification](https://github.github.com/gfm/).
 
 ---
 
-## Other extensions
+Flowershow strives for full compatibility with:
 
-### Obisidian internal links (Wiki links)
+- ✅ CommonMark
+- ✅ GitHub-Flavored Markdown (GFM)
+- ✅ Core Obsidian syntax (and some extensions)
 
-Wiki links are hyperlinks that give one-click access to other pages on the site. These are usually denoted with double square brackets `[[some_page]]` and Obsidian would generate the reference to that page automatically.
+We work hard to ensure everything works the way you expect.
+If you notice anything missing or behaving differently than Obsidian/GFM/CommonMark, please let us know:
 
-Flowershow will convert internal links to HTML `a` tags, with their `href` attributes pointing to the location referenced by original internal links.
+- 💬 Join our Discord community
+- 🗨️ Leave a comment below
+- 🐛 Or open an issue on GitHub
 
-**Internal link types**
-
-- Link to a page, e.g. `[[/docs/blog]]`, which renders as [[/docs/blog]]
-- Link to a page with a custom name, e.g. `[[/docs/blog|Blog support]]`, which renders as [[/docs/blog|Blog support]]
-- Link to a specific heading within a given page `[[/docs/blog#Blog author frontmatter fields]]`, which renders as [[/docs/blog#Blog author frontmatter fields]]
-- Link to a specific heading within a given page with a custom name, e.g. `[[/docs/blog#Blog author frontmatter fields|Some alias]]` which renders as [[/docs/blog#Blog author frontmatter fields|Some alias]]
-- Link to an image file with supported image formats - png, jpg and jpeg, eg. `![[/assets/images/park.png]]` which renders as:
-  ![[park.png]]
-- 🚧 Link to a specific block (paragraph) within a given page, e.g. `[[/docs/blog#f93ba0]]`
-
-> [!note]
-> Note, that Flowershow will also handle Obsidian wiki links with "shortest path when possible" setting.
-
-### Footnotes
-
-**Example:**
-
-```md
-Roses are red... [^1]
-
-[^1]: ...violets are blue.
-```
-
-Roses are red... [^1]
-
-[^1]: ...violets are blue.
-
-### Math
-
-Place your math equation between `$`.
-
-**Example:**
-
-```markdown
-$\sqrt{a^2 + b^2}$
-```
-
-**Renders as:**
-
-$\sqrt{a^2 + b^2}$
-
-Documentation on supported math syntax can be found in [KaTeX docs](https://katex.org/docs/support_table.html).
-
-### Mermaid diagrams
-
-Embed your diagram inside a code block with `mermaid` type.
-
-**Example:**
-
-````md
-```mermaid
-graph LR
-
-a --> b
-```
-````
-
-**Renders as:**
-
-```mermaid
-graph LR
-
-a --> b
-```
-
-Read more about Mermaid diagrams on the [Mermaid website](https://mermaid.js.org/)..
-
-### Dashes/Ellipse
-
-Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with or without spacing will convert to ellipse.
-
-**Example:**
-
-```md
---ndash
----mdash
-...ellipse
-. . .another ellipse
-```
-
-**Renders as:**\
-–ndash\
-—mdash\
-...ellipse\
-...another ellipse
-
-### PDF embedding
-
-**Example:**
-
-```md
-![[sample.pdf]]
-```
-
-**Renders as:**  
-![[sample.pdf]]
-
-### Callouts
-
-**Example:**
-
-```md
-> [!info] This is cool!
-> Here's a callout block.
-> It supports **markdown** and [[abc|wikilinks]].
-```
-
-**Renders as:**
-
-> [!info] This is cool!
-> Here's a callout block.
-> It supports **markdown** and [[abc|wikilinks]].
-
-**Example:**
-
-```md
-> [!tip] Title-only callout
-```
-
-**Renders as:**
-
-> [!tip] Title-only callout
-
-**Example:**
-
-```md
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
-```
-
-**Renders as:**
-
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
-
-**Example:**
-
-```md
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
-```
-
-**Renders as:**
-
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
-
-**Supported callout types:**
-Flowershow supports 13 different Obsidian callout types (with aliases) like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types.
-
-### Comments
-
-**Example:**
-
-```md
-Here is some invisible inline comment: {/* comment! */}
-
-Here is an invisible multiline comment:
-
-{/*
-multi
-line
-comment!
-*/}
-```
-
-**Renders as:**
-
-Here is some invisible inline comment: {/* comment! */}
-
-Here is an invisible multiline comment:
-
-{/*
-multi
-line
-comment!
-*/}
-
-### 🚧 Excalidraw sketches support
-
-Displaying embedded [Excalidraw](https://excalidraw.com/) sketches.
-
-**Example:**
-
-```md
-![[customizability-vs-upgradeability-efficient-frontier-2022-06-26]]
-```
-
-**Renders as:**  
-![[customizability-vs-upgradeability-efficient-frontier-2022-06-26]]
-
+Your feedback helps us improve Flowershow for everyone — thank you!
