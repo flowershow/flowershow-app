@@ -4,9 +4,30 @@ description: Flowershow now lets you choose how each page is rendered — Markdo
 date: 2025-11-03
 authors:
   - olayway
+image: "[[md-and-mdx.png]]"
 ---
 
-Flowershow now gives you control over how your content is parsed: Markdown or MDX. Use Markdown for clean note-style pages (perfect for Obsidian users), or switch to MDX when you want to use JSX components like `<List>`.
+If you’ve ever published notes from Obsidian or another Markdown editor with Flowershow and suddenly ran into strange parsing errors — like `<a, b>` breaking your page or `{something}` causing a crash — you’re not alone.
+
+Until now, Flowershow rendered everything as MDX, a powerful format that supports JSX components like `<List>` or custom JSX blocks styled with Tailwind. The trade-off? MDX is also stricter than plain Markdown. Some syntax that works fine in Obsidian or GitHub Markdown doesn’t play nicely with MDX’s JavaScript-based parsing rules.
+
+That changes today.
+
+Flowershow will now automatically choose the right rendering mode for your content — Markdown or MDX — based on the file extension. Regular `.md` files are parsed as plain Markdown, while `.mdx` files use MDX rendering. And if you ever want to override this behavior, you can control it per-site or per-page.
+
+## Why This Matters
+
+This update ensures that your regular Markdown notes “just work”, while still giving you the option to use JSX components whenever you need them.
+
+Markdown mode is perfect for clean, note-style content (ideal for Obsidian users). MDX mode, on the other hand, unlocks dynamic components and JSX blocks, but comes with stricter syntax rules. For example:
+- HTML blocks may not parse if they aren’t valid JSX
+- `<a, b>` or other “non-JSX” tags (`<a` is treated as a start of a tag) will break
+- `{a}` is treated as a JavaScript expression, not plain text, so you'll get errors like "a is not defined"
+
+With syntax mode configuration, you can:
+- Use Markdown rendering for content with HTML or special characters
+- Switch to MDX for JSX-based pages and Flowershow components
+- Mix both across your site as needed
 
 ## Configuration Options
 
@@ -22,8 +43,8 @@ Set the default rendering mode for your entire site in `config.json`:
 
 Options:
 - `"md"` - Use regular Markdown rendering for all pages
-- `"mdx"` - Use MDX rendering for all pages (default)
-- `"auto"` - Automatically decide based on file extension (`.md` vs `.mdx`)
+- `"mdx"` - Use MDX rendering for all pages
+- `"auto"` - (Default) Automatically decide based on file extension (`.md` vs `.mdx`)
 
 ### Per-Page Override
 
@@ -42,33 +63,9 @@ Per-page frontmatter accepts:
 - `"md"` - Render this page as regular Markdown
 - `"mdx"` - Render this page as MDX
 
-## Why This Matters
-
-This feature is particularly useful if you're publishing content from Obsidian or other "normal" (non-MDX) Markdown editors. While MDX is powerful and allows you to use JSX components (like our [[how-to-create-content-catalogs|List component]]), it has stricter parsing rules than regular Markdown.
-
-MDX has stricter parsing rules and may not handle certain syntax that works fine in plain Markdown, such as:
-- HTML blocks (MDX expects JSX syntax instead of plain HTML, though some HTML may work)
-- Special characters like `<` that aren't part of valid JSX
-- Unescaped curly braces like `{a}` in regular text
-
-If you've been authoring your content using plain Markdown (not MDX) and experience issues when publishing with Flowershow, try switching to `"md"` mode globally and use MDX only where you need it.
-
-With syntax mode configuration, you can:
-- Use regular Markdown rendering for content that includes HTML blocks or special characters
-- Switch to MDX when you want to leverage Flowershow components or write [[enhance-markdown-with-styled-jsx-blocks|JSX blocks styled with Tailwind]]
-- Mix both approaches across different pages in your site
-
 ## Publishing from Obsidian
 
-If you're authoring your content in Obsidian (or some other Markdown editor) and have been using HTML blocks or special characters in your notes, set the global mode to Markdown:
-
-```json
-{
-  "syntaxMode": "md"
-}
-```
-
-Then, when you want to use Flowershow components (like the [[how-to-create-content-catalogs|List component]]) on specific pages, override it with frontmatter:
+If you're authoring your content in Obsidian (or some other Markdown editor) and want to take advantage of some MDX features, e.g. use a Flowershow component, you can use frontmatter to set the rendering mode to MDX for a given file. Changing file extension to `.mdx` is not advised in this case, because you won't be able to edit that file in Obsidian anymore (you can only edit `.md` files there).
 
 ```markdown
 ---
