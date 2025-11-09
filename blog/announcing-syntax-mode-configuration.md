@@ -4,7 +4,7 @@ description: Flowershow now lets you choose how each page is rendered — Markdo
 date: 2025-11-03
 authors:
   - olayway
-image: "[[md-and-mdx.png]]"
+image: /assets/md-and-mdx.png
 ---
 
 If you’ve ever published notes from Obsidian or another Markdown editor with Flowershow and suddenly ran into strange parsing errors — like `<a, b>` breaking your page or `{something}` causing a crash — you’re not alone.
