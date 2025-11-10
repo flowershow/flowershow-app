@@ -8,13 +8,7 @@ Flowershow lets you choose how your content is parsed: Markdown or MDX. This is 
 
 ### Global Setting
 
-Set the default rendering mode in `config.json`:
-
-```json
-{
-  "syntaxMode": "md"
-}
-```
+Set the default rendering mode in site settings in your dashboard.
 
 **Options:**
 - `"md"` - Regular Markdown rendering
@@ -52,15 +46,7 @@ Use MDX when you want to:
 
 ## Example Workflow
 
-For Obsidian users, set global mode to Markdown:
-
-```json
-{
-  "syntaxMode": "md"
-}
-```
-
-Then enable MDX for specific pages that need components:
+For Obsidian users, set global mode to Markdown (you can't edit `.mdx` files there, so "auto" option will make it harder for you to edit and create new files). Then enable MDX for specific pages that need components:
 
 ```markdown
 ---
