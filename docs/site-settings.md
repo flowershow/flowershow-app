@@ -13,12 +13,6 @@ Change your site’s name. If you don’t have a custom domain set, it will be u
 
 ![[site-name-option.png]]
 
-## Branch
-
-Change the branch of the GitHub repository your site is built from. Defaults to `main`.
-
-![[branch-option.png]]
-
 ## Root Directory
 
 Set the path to the folder in your GitHub repository that you want to publish. For example, if you have a repository with your app's code and you want to publish only it's documentation stored in `/docs`, you can specify that folder here.
@@ -26,6 +20,14 @@ Set the path to the folder in your GitHub repository that you want to publish. F
 Leave this field empty if you want to publish the entire repository.
 
 ![[root-dir-option.png]]
+
+## Syntax Mode
+
+Choose how Flowershow parses your content, as regular Markdown or as MDX. Use "auto" for auto-detection based on file extension.
+
+![syntax-mode-config](syntax-mode-config.png)
+
+👉 See [[syntax-mode|Syntax mode]] to learn more.
 
 ## Auto-Sync
 
@@ -55,13 +57,13 @@ Enable content indexing and display a search field in the navigation bar to help
 
 ![[search-option.png]]
 
+👉 See [[announcing-full-text-search|Full-text search]] to learn more.
+
 ## Password Protection (⭐️ Premium feature)
 
 Limit access to your site by requiring a password.
 
 ![[password-protection-option.png]]
-
----
 
 ## Analytics
 

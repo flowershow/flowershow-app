@@ -50,11 +50,11 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[custom-domain|Custom domain (Premium)]]
 - [[docs/redirects|URL Redirects]]
 - [[config-file|`config.json` file]]
+- [[syntax-mode|Syntax mode configuration (Choose Markdown or MDX)]]
 
 ### Page content
 
 - [[syntax|Supported syntax]]
-- [[syntax-mode|Syntax mode configuration (Choose Markdown or MDX)]]
 - [[math|Math equations]]
 - [[mermaid|Mermaid graphs]]
 - [[hero-sections|Hero sections]]

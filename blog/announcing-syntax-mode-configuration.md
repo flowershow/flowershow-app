@@ -5,7 +5,6 @@ date: 2025-11-03
 authors:
   - olayway
 image: /assets/md-and-mdx.png
-isDraft: true
 ---
 
 If you’ve ever published notes from Obsidian or another Markdown editor with Flowershow and suddenly ran into strange parsing errors — like `<a, b>` breaking your page or `{something}` causing a crash — you’re not alone.
@@ -34,13 +33,9 @@ With syntax mode configuration, you can:
 
 ### Global Configuration
 
-Set the default rendering mode for your entire site in `config.json`:
+Set the default rendering mode for your entire site using the **Syntax Mode** option in your site's dashboard settings.
 
-```json
-{
-  "syntaxMode": "md"
-}
-```
+![](syntax-mode-config.png)
 
 Options:
 - `"md"` - Use regular Markdown rendering for all pages
