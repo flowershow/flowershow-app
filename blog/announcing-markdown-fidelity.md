@@ -2,7 +2,7 @@
 title: Flowershow Supports Full CommonMark + GitHub Flavored Markdown
 authors:
   - olayway
-date: 2025-11-04
+date: 2025-11-10
 ---
 
 When we created **Flowershow**, our mission was simple:
