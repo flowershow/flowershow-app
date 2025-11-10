@@ -4,7 +4,7 @@ description: A comprehensive guide on setting up a blog on your Flowershow site 
 date: 2025-06-24
 authors:
   - olayway
-image: "[[blog-showcase.png]]"
+image: /assets/blog-showcase.png
 ---
 This guide walks you through the process of adding a **blog** to your Flowershow site.  
 You’ll learn how to create a dedicated blog section, set up a landing page that lists your posts, attribute content to authors, embed a subscription form, and apply a theme.
