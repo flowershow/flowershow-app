@@ -6,12 +6,13 @@ authors:
   - olayway
 image: /assets/blog-showcase.png
 ---
+
 This guide walks you through the process of adding a **blog** to your Flowershow site.  
 You’ll learn how to create a dedicated blog section, set up a landing page that lists your posts, attribute content to authors, embed a subscription form, and apply a theme.
 
 > [!note] Prerequisites
 > Before you begin, make sure you have a Flowershow site set up.  
-> In the video tutorial, I’m using **Obsidian** connected to GitHub via the **Enveloppe plugin** (as a temporary replacement for our Flowershow Obsidian plugin, which is under construction!), and the site is already published with **Flowershow**.
+> In the video tutorial, I’m using **Obsidian** connected to GitHub via the **Flowershow Obsidian plugin**, and the site is already published with **Flowershow**.
 > However, you can use **any markdown editor**, or even edit files directly in the **GitHub web interface** — Flowershow works the same way.
 
 🎥 **Watch the full video tutorial:**
