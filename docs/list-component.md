@@ -4,7 +4,7 @@ description: Create organized lists and content catalogs by automatically listin
 ---
 
 > [!important]
-> Using the `List` component requires MDX rendering, since it uses JSX (like <List />).
+> Using the `List` component requires MDX rendering, since it uses JSX (like `<List />`).
 > Make sure to switch to MDX rendering for this page by changing its extension to `.mdx` (if you're using "auto" syntax mode) or by adding `syntaxMode: mdx` in the frontmatter.
 > 📚 Read more about different syntax rendering modes and how to enable them: https://flowershow.app/blog/announcing-syntax-mode-configuration
 
