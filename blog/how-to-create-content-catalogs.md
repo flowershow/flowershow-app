@@ -13,12 +13,18 @@ Whether you're managing a blog, tutorials, or any other collection of markdown f
 ## Quick Start (2-Minute Setup)
 
 1. Create a new markdown file (or pick one you already have)
-2. Add this single line:
+2. Change it's extension to `.mdx` (or set `syntaxMode: mdx` in the frontmatter)
+3. Add this single line:
 ```jsx
 <List dir="/blog"/> // replace `/blog` with path to your folder 
 ```
 
 That's it! You now have a beautifully formatted list of all the markdown files within the specified directory. By default, it will display their title and descriptions only. Read on to learn how to customize it further.
+
+> [!important]
+> Using the `List` component requires MDX rendering, since it uses JSX (like <List />).
+> Make sure to switch to MDX rendering for this page by changing its extension to `.mdx` (if you're using "auto" syntax mode) or by adding `syntaxMode: mdx` in the frontmatter.
+> 📚 Read more about different syntax rendering modes and how to enable them: https://flowershow.app/blog/announcing-syntax-mode-configuration
 
 ## Configuration Options
 
