@@ -1,7 +1,7 @@
 ---
 title: Choose Your Rendering Mode - Markdown or MDX
 description: Flowershow now lets you choose how each page is rendered — Markdown for pure content, MDX for components and JSX.
-date: 2025-11-03
+date: 2025-11-09
 authors:
   - olayway
 image: /assets/md-and-mdx.png
