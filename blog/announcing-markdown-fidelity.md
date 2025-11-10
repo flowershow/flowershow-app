@@ -7,7 +7,7 @@ date: 2025-11-04
 
 When we created **Flowershow**, our mission was simple:
 
-> Let people publish beautiful, fast websites directly from Markdown — without changing how they write.
+> Let people publish beautiful websites quickly and easily from Markdown — without changing how they write.
 
 Today, we’re marking an important milestone in that mission:
 
