@@ -109,6 +109,7 @@ The landing page serves as the main entry point for your blog section. You can c
 title: Blog
 description: A collection of my blog posts
 showToc: false
+synaxMode: mdx
 ---
 
 <List 
@@ -137,6 +138,11 @@ The `slots` tell Flowershow which frontmatter fields to display in each part of 
 
 >[!info] `List` Component Options
 > Learn how to customize the List component in the [List Component Docs](/docs/list-component).
+
+> [!important]
+> Using the `List` component requires MDX rendering, since it uses JSX (like `<List />`).
+> This is why we set `syntaxMode: mdx` in the frontmatter - to make sure Flowershow parses and renders this file as MDX.
+> 📚 Read more about different syntax rendering modes and how to enable them: https://flowershow.app/blog/announcing-syntax-mode-configuration
 
 ## Step 4: Set Up Author Pages
 
