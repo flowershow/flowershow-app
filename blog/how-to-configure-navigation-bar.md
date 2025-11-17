@@ -84,6 +84,7 @@ Supported social platforms:
 - `linkedin`
 - `mastodon`
 - `twitter` (or `x`)
+- `substack`
 - `youtube`
 
 > [!info] Is your favorite platform missing from the list?
