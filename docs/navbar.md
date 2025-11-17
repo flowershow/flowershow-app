@@ -85,6 +85,7 @@ Supported social platforms:
 - `instagram`
 - `linkedin`
 - `mastodon`
+- `substack`
 - `twitter` (or `x`)
 - `youtube`
 
