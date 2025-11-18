@@ -505,6 +505,32 @@ PDF:
 > ![[my-note]]
 > ```
 
+## Obsidian comments
+
+### Inline comments
+
+```
+This %%word%% is invisible
+```
+
+This %%word%% is invisible
+
+### Multi-line
+
+```
+The paragraph below is invisible:
+
+%%
+I'm invisible!
+%%
+```
+
+The paragraph below is invisible:
+
+%%
+I'm invisible!
+%%
+
 ## Autolinks
 
 Bare URLs and email addresses are detected and turned into links.
