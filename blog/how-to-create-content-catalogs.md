@@ -22,7 +22,7 @@ Whether you're managing a blog, tutorials, or any other collection of markdown f
 That's it! You now have a beautifully formatted list of all the markdown files within the specified directory. By default, it will display their title and descriptions only. Read on to learn how to customize it further.
 
 > [!important]
-> Using the `List` component requires MDX rendering, since it uses JSX (like <List />).
+> Using the `List` component requires MDX rendering, since it uses JSX (like `<List />`).
 > Make sure to switch to MDX rendering for this page by changing its extension to `.mdx` (if you're using "auto" syntax mode) or by adding `syntaxMode: mdx` in the frontmatter.
 > 📚 Read more about different syntax rendering modes and how to enable them: https://flowershow.app/blog/announcing-syntax-mode-configuration
 
@@ -31,27 +31,34 @@ That's it! You now have a beautifully formatted list of all the markdown files w
 The List component supports several configuration options:
 
 ```markdown
-<List 
+<List
   dir="/blog"
-  fields={["title", "description", "date", "authors", "image"]}
+  slots={{
+    headline: "title",
+    summary: "description",
+    eyebrow: "date",
+    footnote: "authors",
+    media: "image"
+  }}
   pageSize={5}
 />
 ```
 
-### Fields
+### Slots
 
-The `fields` prop lets you specify which metadata to display for each item:
-- `title`: The page title
-- `description`: The page description
-- `authors`: Author information
-- `date`: Publication date (`YYYY-MM-DD`  ISO 8601 format)
-- `image`: Featured image
+The `slots` prop lets you decide what information should appear in each part of the list item. Each slot can be connected to a field from your page's frontmatter:
 
-By default, only `title` and `description` are shown.
+- **media** → usually an image (e.g., `image`)
+- **eyebrow** → small text shown above the title (e.g., `date`)
+- **headline** → the main title (e.g., `title`)
+- **summary** → a short description (e.g., `description`)
+- **footnote** → small text shown below (e.g., `authors`)
+
+By default, `headline: "title"` and `summary: "description"` are set.
 
 ### Pagination
 
-The `pageSize` prop controls how many items are displayed per page. The default is 10 items per page.
+The `pageSize` prop controls how many items are displayed per page. If not provided, all items are shown without pagination.
 
 ## Example Usage
 
@@ -63,9 +70,14 @@ description: Welcome to my collection of thoughts and ideas
 
 Here are all my blog posts:
 
-<List 
+<List
   dir="/blog"
-  fields={["title", "description", "date", "authors"]}
+  slots={{
+    headline: "title",
+    summary: "description",
+    eyebrow: "date",
+    footnote: "authors"
+  }}
   pageSize={5}
 />
 ```
