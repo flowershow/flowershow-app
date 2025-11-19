@@ -51,6 +51,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/redirects|URL Redirects]]
 - [[config-file|`config.json` file]]
 - [[syntax-mode|Syntax mode configuration (Choose Markdown or MDX)]]
+- [[announcing-password-protection|Password protection]]
 
 ### Page content
 
