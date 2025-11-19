@@ -427,7 +427,7 @@ You can use Obsidian's "shortest possible path" style links:
 
 ## Images
 
-### CommonMark images
+### CommonMark image embeds
 
 Basic format:
 ```
@@ -442,6 +442,26 @@ With title:
 ```
 
 ![alt text](/assets/hiroshige.jpg "Hiroshige art")
+
+**Obsidian-style resizing with CommonMark syntax**
+
+You can use Obsidian's resizing syntax with CommonMark image links:
+
+Width only:
+
+```
+![200](/assets/hiroshige.jpg)
+```
+
+![200](/assets/hiroshige.jpg)
+
+Width and height:
+
+```
+![300x200](/assets/hiroshige.jpg)
+```
+
+![300x200](/assets/hiroshige.jpg)
 
 ### Obsidian image embeds
 
