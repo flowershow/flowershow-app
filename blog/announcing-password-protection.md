@@ -7,7 +7,7 @@ authors:
 image: /assets/password-protection-option.png
 ---
 
-We're excited to announce that password protection is now available for all **premium** Flowershow sites.
+Password protection is now available for all **Premium** Flowershow sites!
 
 ## Why Password Protection?
 
