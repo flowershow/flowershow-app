@@ -51,4 +51,4 @@ While password protection adds a layer of privacy, keep in mind:
 
 Have questions or feedback about password protection? Drop a comment below or reach out to us on our Discord!
 
---Flowershow team 💐
+–Flowershow team 💐
