@@ -3,7 +3,7 @@
   "nav": {
     "title": "Flowershow",
     "links": [
-      { "href": "#features", "name": "Features" },
+      { "href": "/#features", "name": "Features" },
       { "href": "/pricing", "name": "Pricing" },
       { "href": "/docs", "name": "Docs" },
       { "href": "/blog", "name": "Blog" },
