@@ -654,15 +654,6 @@ Or like this: . . .
 Wait for it...  
 Or like this: . . .
 
-### Less than / greater than
-
-| Input | Output | Notes                                         |
-| ----- | ------ | --------------------------------------------- |
-| `>`   | >      | Greater than                                  |
-| `<`   | <      | Less-than                                     |
-| `=>`  | =>     | Greater-than-or-equal                         |
-| `<=`  | <=     | Less-than-or-equal                            |
-
 ## Obsidian Callouts
 
 ```
