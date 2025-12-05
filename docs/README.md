@@ -40,6 +40,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 - [[site-settings|Site settings (comprehensive list of options)]]
 - [[navbar|Navbar]]
+- [[docs/footer|Footer]]
 - [[sidebar|Sidebar]]
 - [[docs/comments|Comments]]
 - [[edit-this-page|"Edit this page" links]]
