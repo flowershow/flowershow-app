@@ -29,7 +29,7 @@ Obsidian Bases let you organize and display your vault's content in multiple way
 ### Properties
 
 - ✅ **Note Properties** - Access frontmatter properties from your Markdown files
-- ✅ **File Properties** - Limited support for file metadata:
+- 🚧 **File Properties** - Limited support for file metadata:
   - `file.name`, `file.path`, `file.folder`, `file.ext`, `file.size`
   - `file.hasProperty()`, `file.inFolder()`
 
