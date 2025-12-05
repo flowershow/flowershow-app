@@ -24,12 +24,14 @@ Obsidian Bases let you organize and display your vault's content in multiple way
 - ✅ **Filters** - Define conditions to narrow down your dataset with `and`, `or`, and `not` logic
 - ✅ **Formulas** - Create computed properties using arithmetic operators and built-in functions
 - ✅ **Properties** - Configure display names for your properties
-- ✅ **Views** - Display your data in multiple layouts (support for List, Table and Cards views)
+- ✅ **Views** - Display your data in multiple layouts (List, Table, and Cards views)
 
 ### Properties
 
 - ✅ **Note Properties** - Access frontmatter properties from your Markdown files
-- ✅ **File Properties** - Use file metadata like name, path, extension, size, dates, and more
+- ✅ **File Properties** - Limited support for file metadata:
+  - `file.name`, `file.path`, `file.folder`, `file.ext`, `file.size`
+  - `file.hasProperty()`, `file.inFolder()`
 
 ### Operators
 
@@ -53,34 +55,29 @@ Obsidian Bases let you organize and display your vault's content in multiple way
 
 #### Type-Specific Functions
 - ✅ **Any** - `isTruthy()`, `toString()`
-- ✅ **Date** - All fields and functions including `format()`, `relative()`, `time()`
-- ✅ **String** - Complete support for all string operations
-- ✅ **Number** - All numeric functions including `abs()`, `ceil()`, `floor()`, `round()`, `toFixed()`
-- ✅ **List** - Full support including `map()`, `filter()`, `reduce()`, `sort()`, and more
+- ✅ **Date** - All fields (`year`, `month`, `day`, `hour`, `minute`, `second`, `millisecond`) and functions (`format()`, `relative()`, `time()`, `date()`, `isEmpty()`)
+- ✅ **String** - Complete support for all string operations (`contains()`, `lower()`, `replace()`, `split()`, `trim()`, etc.)
+- ✅ **Number** - All numeric functions (`abs()`, `ceil()`, `floor()`, `round()`, `toFixed()`, `isEmpty()`)
+- ✅ **List** - Full support (`map()`, `filter()`, `reduce()`, `sort()`, `contains()`, `join()`, etc.)
 - ✅ **Object** - `isEmpty()`, `keys()`, `values()`
 - ✅ **Regular Expression** - Pattern matching with `matches()`
 
 ### View Types
 
 - ✅ **Table View** - Display files as rows with property columns
-  - ✅ Built-in summaries (Average, Sum, Min, Max, Median, etc.)
-  - ✅ All property type summaries (Numbers, Dates, Checkboxes)
+  - ✅ Built-in summaries (Average, Sum, Min, Max, Median, Stddev, Range)
+  - ✅ Date summaries (Earliest, Latest, Range)
+  - ✅ Checkbox summaries (Checked, Unchecked)
+  - ✅ Generic summaries (Empty, Filled, Unique)
   
 - ✅ **Cards View** - Gallery-like grid layout
   - ✅ Card size configuration
   - ✅ Image properties (local attachments and URLs)
   - ✅ Image fit options (Cover/Contain)
   - ✅ Image aspect ratio control
+  - ✅ Use hex color codes as card backgrounds
 
 - ✅ **List View** - Bulleted or numbered list display
-
-### File Property Support
-
-All standard file properties are available:
-- `file.name`, `file.path`, `file.folder`, `file.ext`
-- `file.size`, `file.ctime`, `file.mtime`
-- `file.links`, `file.embeds`, `file.tags`
-- `file.hasProperty()`, `file.inFolder()`
 
 ## Upcoming Features
 
@@ -90,6 +87,11 @@ The following features are planned for future releases:
 - ❌ **Custom Summaries** - Define your own summary formulas
 - ❌ **Date Arithmetic** - Add/subtract durations from dates
 - ❌ **`this` Context** - Access properties of the embedding file
+
+### File Properties
+- ❌ `file.ctime`, `file.mtime` - File creation and modification times
+- ❌ `file.links`, `file.embeds`, `file.tags` - File content metadata
+- ❌ `file.backlinks`, `file.properties` - Advanced file metadata
 
 ### Functions
 - ❌ `duration()` - Parse duration strings
@@ -101,40 +103,28 @@ The following features are planned for future releases:
 ### View Features
 - ❌ **Map View** - Display files as pins on interactive maps
 - ❌ **Row Height Control** - Customize table row heights
-- ❌ **Hex Color Images** - Use color codes as card backgrounds
 
 ## Getting Started
 
-To use Obsidian Bases in your Flowershow site:
+To use Obsidian Bases in your Flowershow site, embed a base configuration using a YAML code block with the `base` language identifier, e.g.:
 
-1. Create a `.base` file in your vault with your desired configuration
-2. Define your filters, formulas, and views using the supported syntax
-3. Publish your site - Flowershow will automatically render your bases
-
-Example base file:
-
-```yaml
+````markdown
+```base
 filters:
   or:
     - file.hasProperty("status")
     - file.inFolder("Projects")
-formulas:
-  days_old: "(now() - file.ctime) / (1000 * 60 * 60 * 24)"
-properties:
-  status:
-    displayName: Status
-  formula.days_old:
-    displayName: "Age (days)"
 views:
   - type: table
     name: "All Items"
     order:
       - file.name
       - status
-      - formula.days_old
-    summaries:
-      formula.days_old: Average
 ```
+````
+
+> [!note] Current Limitation
+> Flowershow currently supports base configurations only through YAML code blocks (as in example above). Support for `.base` file embeds is planned for a future release.
 
 ## Feedback
 
