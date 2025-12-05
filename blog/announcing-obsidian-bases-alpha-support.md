@@ -15,7 +15,7 @@ Obsidian Bases let you organize and display your vault's content in multiple way
 
 > [!info] Learn More
 > - 📚 [Obsidian Bases Documentation](https://help.obsidian.md/bases) - Complete guide to Bases syntax and features
-> - 🎯 [Flowershow Demo Site](https://demo.flowershow.app) - See Bases in action with live examples
+> - 🎯 [Flowershow Demo Site](https://demo.flowershow.app/books/Bookshelf) - See Bases in action with live examples
 
 ## Supported Features
 
