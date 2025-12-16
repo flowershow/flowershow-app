@@ -1,80 +1,162 @@
 # Image Optimization
 
+## TL;DR
+
+* **We already partially use Vercel image optimization** via `next/image` in layout components (hero, header, featured images, logos).
+* **The biggest current problem** is that **Markdown-rendered content images still use plain `<img>`**, so they:
+  * have no `srcset` / `sizes`
+  * always download the original image
+  * hurt bandwidth, LCP, and overall performance
+* **The most important first step (v1)** is to:
+  * render **all content images with `next/image`**
+  * consistently define correct `sizes` across the app
+* **v2 (optional, later)**: move image transformations & caching from Vercel to Cloudflare (custom loader + R2), if/when we want more control or lower cost.
+
+**Recommendation:**
+👉 **Do v1 first**. It delivers the majority of performance wins with minimal complexity and builds on what we already have.
+
+>[!note]
+> See "Notes" section with a bit of explanation of how things work.
+
+---
+
 ## Situation
 
-Today in Flowershow:
-- Markdown page content renders images as plain `<img>` tags pointing at R2 (via redirects from "natural" paths). These have no `srcset` and no `sizes` -> every user downloads the same original file size regardless of device/layout.
-- Layout-level images (hero, header, etc.) use `next/image` with `fill` attribute (fill available space), but without `sizes` the browser assumes `100vw` is needed, which can cause unnecessarily large downloads (and Next may generate an unhelpful candidate set).
+Flowershow serves all user assets (including images) from Cloudflare R2.
+However, **images are currently rendered via two different pipelines**:
+
+1. **Layout-level images** (hero, header, featured image, logo, etc.)
+   * Rendered with `next/image`
+   * Already benefit from **Vercel’s built-in image optimization**
+   * Often use `fill`, but **lack explicit `sizes`**
+
+2. **Markdown content images**
+   * Rendered as plain `<img>` tags
+   * Point directly to R2 (via redirects from logical paths)
+   * Have **no `srcset` and no `sizes`**
+
+As a result, **only part of the site is optimized today**.
+
+---
 
 ## Complication
 
-Performance suffers because:
-- Without `srcset`/`sizes`, the browser can’t pick an appropriately sized image for the user’s viewport/DPR -> oversized downloads, worse LCP, higher bandwidth.
-- With `next/image` `fill` but no `sizes`, the browser assumes 100vw -> can still select overly large candidates.
-- We’re paying extra bytes either way (user bandwidth + CDN egress), and if you later add transforms you’ll want a predictable, bounded set of variants (to avoid cache fragmentation).
+This split causes multiple performance issues:
 
+### 1. Markdown images are completely unoptimized
+
+* Every user downloads the **same original file**, regardless of:
+  * viewport size
+  * device pixel ratio
+* Leads to:
+  * wasted bandwidth (user + CDN egress)
+  * slower LCP and page load times
+
+### 2. Some layout images are sub-optimally optimized
+
+* `next/image` components using `fill` **without `sizes`** default to `100vw`
+* This makes the browser assume the image spans the full viewport width
+* Result:
+  * overly large image candidates selected
+  * unnecessary bytes downloaded
+  * suboptimal `srcset` generation
+
+### 3. Future optimization becomes harder
+
+* Without a predictable set of image variants:
+  * cache fragmentation increases
+  * later adding transformations (e.g. via Cloudflare) becomes riskier
+* We pay extra costs **either way** (Vercel or Cloudflare) if images aren’t bounded properly.
+
+---
+
+## Goal
+
+* Ensure **all images** (layout + content):
+  * use responsive images (`srcset` + `sizes`)
+  * download the **smallest appropriate variant**
+
+---
 
 ## Solution
 
-### Prerequisite
+### Prerequisite: Consistent `sizes`
 
-We have two separate rendering pipelines - Markdown and MDX. To improve things consistently, we must ensure all content images that currently use `img` tag, get replaced with `<Image />` in both pipelines.
+Define **clear default `sizes` per image context**:
 
-### Option 1 (quick v1): Use next/image default optimizer & just add `sizes`
+* **Markdown / MDX content images**
+  Example:
+  ```
+  (max-width: 768px) 100vw, 700px
+  ```
+  (or whatever the content max width is)
 
-Implementation outline
-1. Set good default `sizes` per context:
-- Md/MDX (content) images: e.g. "(max-width: 768px) 100vw, 700px" (or our content max width)
-- App layout components (hero, logo, blog featured image, logo etc.): e.g. "(max-width: 768px) 100vw, 1200px"
-2. Tune `next.config.js`:
-- Optionally reduce `deviceSizes` to a tighter set to limit variants
+* **Layout / app images** (hero, featured image, logo, etc.)
+  Example:
+  ```
+  (max-width: 768px) 100vw, 1200px
+  ```
 
-How it works
-- Transform happens in: Next.js image optimizer (app runtime; used by default).
-- Caching: optimized variants are cached by Vercel. Repeated requests for the same variant URL hit cache.
-- `srcset` generation:
-  - With `sizes` present Next emits width-based `srcset` (bucketed widths from deviceSizes/imageSizes).
-  - Result: real resized variants exist behind the `srcset` URLs (/_next/image?...w=...) and the browser picks one based on sizes.
+This bounds the generated variants and prevents oversized downloads.
 
-Benefits
-- Big win quickly and easily: smaller downloads + better LCP/CLS (if we also ensure width/height or stable layout).
-- No Cloudflare image pipeline needed to start getting real responsive images.
+---
 
-Cons / trade-offs
-- We pay compute in app runtime for first-hit transforms (CPU + latency) and we’ll feel it if we have many cold variants.
-- Ccost and pressure shifted to Vercel runtime.
+## Option 1 (Recommended – v1): Use `next/image` everywhere
 
-### Option 2 (better v2): Custom loader + Cloudflare image transformations
+**What we do:**
 
-Implementation outline
-1. Implement a custom loader and use it in `next/image` (will replace the default Next.js Optimizer):
-- Takes `{ src, width, quality }`
-- Returns a Cloudflare-transform URL pointing at the R2 asset
-- Ensures widths come only from allowed buckets
-2. Enable/configure Cloudflare Image Resizing:
-- Confirm caching TTLs and cache keys are sane (width, format, quality)
+* Replace all Markdown-rendered `<img>` tags with `<Image />`
+* Ensure **all images define appropriate `sizes`**
+* Continue using **Vercel’s default image optimizer**
 
-See for reference:
-- https://developers.cloudflare.com/images/transform-images/integrate-with-frameworks/
+**Why this matters most:**
 
-How it works
-- Transform happens: at Cloudflare edge (Image Resizing / transformations), not in our app runtime.
-- Caching: cached at Cloudflare edge; variants are reused globally with high hit rates.
-- `srcset` generation:
-  - Next `<Image />` still generates `srcset` widths (based on our width buckets).
-  - Our custom loader maps each requested width to a Cloudflare-transform URL (e.g. ...?width=828&format=auto&quality=75).
-  - Result: browser requests one candidate; Cloudflare serves a resized/modern-format image from cache or generates it once at the edge.
+* Instantly optimizes **all content images**
+* Fixes existing layout image inefficiencies
+* Minimal complexity
 
-Benefits
-- Offloads CPU from app runtime -> less Vercel/Node/Edge pressure.
-- Great caching characteristics (edge-local, scalable). (???? isn't Vercel cache also edge?)
-- Potentially faster TTFB for images after warmup; often better global performance.
+**Result:**
 
+* Smaller downloads
+* Better LCP
+* Lower bandwidth usage
+* Predictable image variants
+
+---
+
+## Option 2 (Later – v2 - Maybe): Cloudflare-based optimization
+
+**What changes:**
+
+* Introduce a **custom Next.js image loader**
+* Perform transformations & caching via Cloudflare Image Transformation
+
+**Why this is optional:**
+
+* Does **not unlock major gains** unless v1 is done first
+* Adds some complexity
+* Mostly about:
+  * cost optimization
+  * infra control
+  * independence from Vercel
+
+---
+
+## Recommendation
+
+1. **Do Option 1 first**
+   * Convert Markdown images to `next/image`
+   * Add correct `sizes` everywhere
+2. Measure improvements (LCP, bandwidth, CDN egress)
+3. Revisit Option 2 only if:
+   * Vercel image costs become a concern
+   * we need custom transforms or tighter cache control
+
+This staged approach delivers **maximum impact with minimum risk**.
 
 ## Rabbit Holes
 
-- Need to ensure variant bucketing stays bounded. Don’t allow arbitrary widths to prevent "variant explosion" (cache fragmentation and lots of unique variants.).
-- We must be careful about multi-tenant/security boundaries (only transform allowed assets).
+- Preventing "variant explosion" (cache fragmentation and lots of unique variants.). 
 
 ## Notes
 
