@@ -443,7 +443,7 @@ With title:
 
 ![alt text](/assets/hiroshige.jpg "Hiroshige art")
 
-**Obsidian-style resizing with CommonMark syntax**
+### Image resizing with CommonMark syntax
 
 You can use Obsidian's resizing syntax with CommonMark image links:
 
@@ -476,6 +476,8 @@ Alias (alt text override):
 ```
 ![[hiroshige.jpg|Hiroshige art]]
 ```
+
+### Image resizing Obsidian-style
 
 ![[hiroshige.jpg|Hiroshige art]]
 
