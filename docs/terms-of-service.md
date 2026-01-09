@@ -2,7 +2,7 @@
 title: Terms of Service
 ---
 
-Last update: 2017-08-09
+Last update: 2026-01-09
 
 ## 1. Acceptance of Terms
 
