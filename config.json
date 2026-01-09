@@ -12,12 +12,6 @@
       { "href": "https://demo.flowershow.app/", "name": "Demo" },
       { "href": "https://github.com/flowershow/themes", "name": "Themes" }
     ],
-    "social": [
-      { "label": "github", "href": "https://github.com/flowershow/flowershow", "name": "GitHub" },
-      { "label": "x", "href": "https://x.com/flowershowapp", "name": "X" },
-      { "label": "reddit", "href": "https://www.reddit.com/r/flowershow/", "name": "Reddit" },
-      { "label": "discord", "href": "https://discord.gg/JChzM5VdFn", "name": "Discord" }
-    ],
     "cta": { "name": "Sign In", "href": "https://cloud.flowershow.app/login" }
   },
   "footer": {
@@ -47,6 +41,12 @@
       }
     ]
   },
+  "social": [
+    { "label": "github", "href": "https://github.com/flowershow/flowershow", "name": "GitHub" },
+    { "label": "x", "href": "https://x.com/flowershowapp", "name": "X" },
+    { "label": "reddit", "href": "https://www.reddit.com/r/flowershow/", "name": "Reddit" },
+    { "label": "discord", "href": "https://discord.gg/JChzM5VdFn", "name": "Discord" }
+  ],
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md", "/about.md"],
   "showEditLink": true,
   "redirects": [
