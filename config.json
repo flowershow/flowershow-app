@@ -21,22 +21,31 @@
     "cta": { "name": "Sign In", "href": "https://cloud.flowershow.app/login" }
   },
   "footer": {
-    "navigation": {
-      "links": [
-        { "href": "/pricing", "name": "Pricing" },
-        { "href": "/docs", "name": "Docs" },
-        { "href": "/blog", "name": "Blog" },
-        { "href": "/blogs", "name": "Flowershow for Blogs" }
-      ],
-      "community": [
-        { "href": "https://github.com/flowershow/flowershow", "name": "GitHub" },
-        { "href": "https://discord.gg/JChzM5VdFn", "name": "Discord" }
-      ],
-      "legal": [
-        { "href": "/docs/terms-of-service", "name": "Terms" },
-        { "href": "/docs/privacy", "name": "Privacy" }
-      ]
-    }
+    "navigation": [
+      {
+        "title": "Links",
+        "links": [
+          { "href": "/pricing", "name": "Pricing" },
+          { "href": "/docs", "name": "Docs" },
+          { "href": "/blog", "name": "Blog" },
+          { "href": "/blogs", "name": "Flowershow for Blogs" }
+        ]
+      },
+      {
+        "title": "Community",
+        "links": [
+          { "href": "https://github.com/flowershow/flowershow", "name": "GitHub" },
+          { "href": "https://discord.gg/JChzM5VdFn", "name": "Discord" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "href": "/docs/terms-of-service", "name": "Terms" },
+          { "href": "/docs/privacy", "name": "Privacy" }
+        ]
+      }
+    ]
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md", "/about.md"],
   "showEditLink": true,
