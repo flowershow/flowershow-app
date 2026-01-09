@@ -17,7 +17,7 @@
   "footer": {
     "navigation": [
       {
-        "title": "Links",
+        "title": "Product",
         "links": [
           { "href": "/pricing", "name": "Pricing" },
           { "href": "/docs", "name": "Docs" },
