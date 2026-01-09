@@ -21,12 +21,22 @@
     "cta": { "name": "Sign In", "href": "https://cloud.flowershow.app/login" }
   },
   "footer": {
-    "links": [
-      { "href": "/docs", "name": "Docs" },
-      { "href": "/blog", "name": "Blog" },
-      { "href": "https://datahub.io/docs/terms-of-service", "name": "Terms" },
-      { "href": "https://datahub.io/docs/privacy", "name": "Privacy" }
-    ]
+    "navigation": {
+      "links": [
+        { "href": "/pricing", "name": "Pricing" },
+        { "href": "/docs", "name": "Docs" },
+        { "href": "/blog", "name": "Blog" },
+        { "href": "/blogs", "name": "Flowershow for Blogs" }
+      ],
+      "community": [
+        { "href": "https://github.com/flowershow/flowershow", "name": "GitHub" },
+        { "href": "https://discord.gg/JChzM5VdFn", "name": "Discord" }
+      ],
+      "legal": [
+        { "href": "/docs/terms-of-service", "name": "Terms" },
+        { "href": "/docs/privacy", "name": "Privacy" }
+      ]
+    }
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md", "/about.md"],
   "showEditLink": true,
