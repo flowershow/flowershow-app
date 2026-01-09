@@ -25,5 +25,13 @@
   "redirects": [
     { "from": "/docs/site-wide-toc", "to": "/docs/sidebar" },
     { "from": "/blog/how-to-set-up-blog", "to": "/blog/how-to-publish-blog" }
-  ]
+  ],
+  "footer": {
+    "links": [
+      { "href": "/docs", "name": "Docs" },
+      { "href": "/blog", "name": "Blog" },
+      { "href": "https://datahub.io/docs/terms-of-service", "name": "Terms" },
+      { "href": "https://datahub.io/docs/privacy", "name": "Privacy" }
+    ],
+  }
 }
