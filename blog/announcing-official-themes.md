@@ -28,7 +28,7 @@ If you prefer to lock your site to a specific theme version, you can specify it 
 
 ```json
 {
-  "theme": "letterpress@0.0.2"
+  "theme": "letterpress@v0.0.2"
 }
 ```
 
