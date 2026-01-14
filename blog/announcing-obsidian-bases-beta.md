@@ -3,12 +3,13 @@ title: Obsidian Bases enters Beta
 description: Dynamic views for your notes are now in Beta!
 date: 2026-01-14
 authors:
-  - flowershow-team
-  - "[[abeelha]]"
-image: /assets/obsidian-bases.png
+  - abeelha
+image:[[obsidian-bases.png]]
 ---
 
 We are excited to announce that **Obsidian Bases** support has moved from Alpha to **Beta**! 🚀
+
+Check the demo video! [Demo](https://youtu.be/0_qr_qQVkxk)
 
 This feature brings powerful database-like capabilities to your Flowershow site, allowing you to create dynamic views of your content with ease.
 
@@ -18,10 +19,12 @@ Obsidian Bases (formerly "Databases") allow you to query your notes and display 
 
 ### Key Features
 
-- **Dynamic Filters**: Show only what matters using powerful `and`, `or`, and `not` logic.
+- **Dynamic Filters**: Show only what matters using `and`, `or`, and `not` logic.
 - **Multiple Views**: Choose between Table, List, and Cards views to best present your data.
-- **Calculated Properties**: Use formulas to display derived data.
 - **Seamless Integration**: Works directly with your existing Obsidian metadata.
+- **Calculated Properties**: Use formulas to display derived data.
+
+View full list of supported syntax elements [[obsidian-bases-reference|here]].
 
 ## Try It Out
 

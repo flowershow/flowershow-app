@@ -4,16 +4,16 @@ description: Learn how to use the Flowershow CLI to publish your notes directly 
 ---
 
 > [!NOTE]
-> The Flowershow CLI is currently in Alpha.
+> The Flowershow CLI is currently in Beta.
 
-The Flowershow CLI allows you to publish your Markdown files and folders directly to Flowershow with ease. It handles authentication, file uploads, and site creation for you.
+The Flowershow CLI allows you to publish your Markdown files and folders to Flowershow directly from your terminal.
 
 ## Installation
 
 Install the CLI globally using npm:
 
 ```bash
-npm install -g flowershow
+npm i -g flowershow-publish
 ```
 
 ## Authentication
@@ -21,7 +21,7 @@ npm install -g flowershow
 Before you can publish, you need to authenticate with your Flowershow account.
 
 ```bash
-flowershow auth login
+publish auth login
 ```
 
 This command will open your browser to complete the authentication process. Once finished, your authentication token will be stored locally.
@@ -29,13 +29,13 @@ This command will open your browser to complete the authentication process. Once
 To check your authentication status:
 
 ```bash
-flowershow auth status
+publish auth status
 ```
 
 To log out:
 
 ```bash
-flowershow auth logout
+publish auth logout
 ```
 
 ## Publishing a Site
@@ -47,7 +47,7 @@ The core command is `publish`. You can publish a single file or an entire folder
 To publish a folder of notes:
 
 ```bash
-flowershow publish ./my-notes
+publish ./my-notes
 ```
 
 This will create a new site (named after the folder) and upload all supported files within it.
@@ -57,7 +57,7 @@ This will create a new site (named after the folder) and upload all supported fi
 To publish a single markdown file:
 
 ```bash
-flowershow publish ./my-note.md
+publish ./my-note.md
 ```
 
 ### Options
@@ -68,7 +68,7 @@ flowershow publish ./my-note.md
 **Example with options:**
 
 ```bash
-flowershow publish ./my-notes --name my-awesome-site --overwrite
+publish ./my-notes --name my-awesome-site --overwrite
 ```
 
 ## Syncing Changes
@@ -76,13 +76,13 @@ flowershow publish ./my-notes --name my-awesome-site --overwrite
 Once a site is published, you can use the `sync` command to update it. This is faster than `publish` as it only uploads new or modified files.
 
 ```bash
-flowershow sync ./my-notes
+publish sync ./my-notes
 ```
 
 **Note:** If you used a custom name when publishing, remember to use it when syncing:
 
 ```bash
-flowershow sync ./my-notes --name my-awesome-site
+publish sync ./my-notes --name my-awesome-site
 ```
 
 ## Managing Sites
@@ -92,7 +92,7 @@ flowershow sync ./my-notes --name my-awesome-site
 To see all your published sites:
 
 ```bash
-flowershow list
+publish list
 ```
 
 ### Delete a Site
@@ -100,11 +100,11 @@ flowershow list
 To delete a site and all its content:
 
 ```bash
-flowershow delete <site-name>
+publish delete <site-name>
 ```
 
 ## Troubleshooting
 
-- **"You must be authenticated..."**: Run `flowershow auth login`.
-- **"Site already exists"**: Use `--overwrite` or run `flowershow sync` instead.
-- **"Site not found" (during sync)**: Make sure you're using the correct site name (check with `flowershow list`).
+- **"You must be authenticated..."**: Run `publish auth login`.
+- **"Site already exists"**: Use `--overwrite` or run `publish sync` instead.
+- **"Site not found" (during sync)**: Make sure you're using the correct site name (check with `publish list`).
