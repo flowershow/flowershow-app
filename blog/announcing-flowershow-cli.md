@@ -1,6 +1,6 @@
 ---
 title: Introducing the Flowershow CLI
-description: Publish your digital garden directly from your terminal with the new Flowershow CLI.
+description: Publish markdown files directly from your terminal with the new Flowershow CLI.
 date: 2026-01-14
 authors:
   - Theo
