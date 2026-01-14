@@ -38,7 +38,7 @@ publish auth login
 ### 3. Publish
 
 ```bash
-publish ./my-vault
+publish ./my-folder
 ```
 
 And that's it! 🌺 Your site will be live and ready to share with the world.
