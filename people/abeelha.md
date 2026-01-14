@@ -7,4 +7,4 @@ showComments: false
 
 <img src="/people/abeelha.jpg" alt="Author" className="h-[10rem]"/>
 
-Hello! 👋 I'm Abeelha, a developer to Flowershow, and i love Bees! 🐝
+Hello! 👋 I'm Abeelha, a Flowershow developer, and i love Bees! 🐝
