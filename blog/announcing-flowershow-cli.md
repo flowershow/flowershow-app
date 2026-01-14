@@ -48,7 +48,7 @@ And that's it! 🌺 Your site will be live and ready to share with the world.
 Made some changes? Sync your content with this command:
 
 ```bash
-publish sync ./my-vault
+publish sync ./my-folder
 ```
 
 The CLI intelligently detects changed files and only uploads what's new.
