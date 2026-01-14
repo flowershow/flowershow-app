@@ -64,17 +64,17 @@ ___
 
 ## Emphasis
 
-**I'm Bold!** is done with `**I'm Bold!**`  
+**I'm Bold!** is done with `**I'm Bold!**`
 **I'm Bold!** is done with `__I'm Bold!__`
 
-*I'm Italic!* is done with `*I'm Italic!*`  
+*I'm Italic!* is done with `*I'm Italic!*`
 *I'm Italic!* is done with `_I'm Italic!_`
 
-*Italic with **bold** inside* is done with `*Italic with **bold** inside*`  
+*Italic with **bold** inside* is done with `*Italic with **bold** inside*`
 _Italic with __bold__ inside_ is done with `_Italic with __bold__ inside_`
 
-~~Strikethrough~~ is done with `~~Strikethrough~~`  
-==Highlight== is done with `==Highlight==`  
+~~Strikethrough~~ is done with `~~Strikethrough~~`
+==Highlight== is done with `==Highlight==`
 `Inline code` is done with ``Inline code``
 
 ## Paragraphs & Line breaks
@@ -111,11 +111,11 @@ To force a break without starting a new paragraph, use two spaces at the end of 
 
 **Option 1: Two spaces at end**
 ```
-Line one  
+Line one
 Line two
 ```
 
-Line one  
+Line one
 Line two
 
 **Option 2: Backslash**
@@ -244,7 +244,7 @@ Indent sub-items with two or four spaces:
 - Chores
     - Laundry
     - Dishes
- 
+
 ### Mixed Lists
 
 ```
@@ -622,6 +622,29 @@ graph LR
 > [!note]
 > You can find more examples and syntax on the [Mermaid website](https://mermaid.js.org/).
 
+## Obsidian Bases (Beta)
+
+Flowershow now supports **Obsidian Bases**, a powerful feature that allows you to create dynamic, queryable views of your notes directly in your published sites.
+
+**Example:**
+
+````
+```base
+filters:
+  or:
+     - file.hasProperty("status")
+     - file.inFolder("Projects")
+views:
+  - type: table
+    name: "All Items"
+    order:
+      - file.name
+      - status
+```
+````
+
+👉 See [[announcing-obsidian-bases-beta|Announcing Obsidian Bases Support]] to learn more.
+
 ## Automatic punctuation conversions
 
 Flowershow automatically converts certain character sequences into typographic symbols, just like Obsidian and many Markdown engines.
@@ -634,11 +657,11 @@ Flowershow automatically converts certain character sequences into typographic s
 | `---` | ---      | em-dash (sentence break)         |
 
 ```
-2020--2025  
+2020--2025
 A---B
 ```
 
-2020--2025  
+2020--2025
 A---B
 
 ### Ellipsis
@@ -649,11 +672,11 @@ A---B
 | `. . .` | . . .      | spaced ellipsis |
 
 ```
-Wait for it...  
+Wait for it...
 Or like this: . . .
 ```
 
-Wait for it...  
+Wait for it...
 Or like this: . . .
 
 ## Obsidian Callouts

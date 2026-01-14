@@ -7,6 +7,8 @@ authors:
 date: 2025-12-04
 ---
 
+> **Update [2026-01-14]:** After more refinement this is now in Beta. See [[announcing-obsidian-bases-beta|Obsidian Bases enters Beta]].
+
 We're excited to announce alpha support for Obsidian Bases in Flowershow! This powerful feature allows you to create dynamic, queryable views of your notes directly in your published sites.
 
 ## What are Obsidian Bases?
@@ -69,7 +71,7 @@ Obsidian Bases let you organize and display your vault's content in multiple way
   - ✅ Date summaries (Earliest, Latest, Range)
   - ✅ Checkbox summaries (Checked, Unchecked)
   - ✅ Generic summaries (Empty, Filled, Unique)
-  
+
 - ✅ **Cards View** - Gallery-like grid layout
   - ✅ Card size configuration
   - ✅ Image properties (local attachments and URLs)
