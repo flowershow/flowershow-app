@@ -59,6 +59,6 @@ The CLI intelligently detects changed files and only uploads what's new.
 
 The Flowershow CLI is currently in Beta, and we can't wait for you to try it. Give it a spin and let us know what you think!
 
-Check out the full [CLI Documentation](/docs/cli-reference) for more advanced usage and options.
+Check out the full [CLI Documentation](/docs/cli) for more advanced usage and options.
 
 Happy Publishing!
