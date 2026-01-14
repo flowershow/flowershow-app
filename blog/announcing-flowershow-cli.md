@@ -9,7 +9,7 @@ image: [[cli-launch.png]]
 
 We are releasing the **Flowershow CLI**.
 
-Check our Demo video! [Demo](https://youtu.be/_3DWycEpq2E)
+https://youtu.be/_3DWycEpq2E
 
 This tool enables you to publish your Obsidian vault or standard Markdown notes directly from your terminal. It simplifies the deployment process by removing the need for CI/CD pipelines or manual file uploads.
 
