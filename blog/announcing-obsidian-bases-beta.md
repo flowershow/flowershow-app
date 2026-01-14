@@ -9,7 +9,9 @@ image:[[obsidian-bases.png]]
 
 We are excited to announce that **Obsidian Bases** support has moved from Alpha to **Beta**! 🚀
 
-Check the demo video! [Demo](https://youtu.be/0_qr_qQVkxk)
+Check the demo video!
+
+https://youtu.be/0_qr_qQVkxk
 
 This feature brings powerful database-like capabilities to your Flowershow site, allowing you to create dynamic views of your content with ease.
 
