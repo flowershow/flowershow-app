@@ -4,13 +4,13 @@ description: Publish your digital garden directly from your terminal with the ne
 date: 2026-01-14
 authors:
   - Theo
-  - "[[abeelha]]"
-image: /assets/cli-launch.png
+  - abeelha
+image: [[cli-launch.png]]
 ---
 
-We are thrilled to announce the launch of the **Flowershow CLI**! 🚀
+We are releasing the **Flowershow CLI**.
 
-Publishing your Obsidian vault or standard Markdown notes to the web just got a whole lot easier. No more complex CI/CD pipelines or manual drag-and-drop. With the Flowershow CLI, you can ship your content directly from your terminal in seconds.
+This tool enables you to publish your Obsidian vault or standard Markdown notes directly from your terminal. It simplifies the deployment process by removing the need for CI/CD pipelines or manual file uploads.
 
 ## Why the CLI?
 
@@ -27,36 +27,35 @@ It's really this simple:
 ### 1. Install
 
 ```bash
-npm install -g flowershow
+npm i -g flowershow-publish
 ```
 
 ### 2. Login
 
 ```bash
-flowershow auth login
+publish auth login
 ```
 
 ### 3. Publish
 
 ```bash
-flowershow publish ./my-vault
+publish ./my-vault
 ```
 
 And that's it! 🌺 Your site will be live and ready to share with the world.
 
 ## Keep it Fresh
 
-Made some changes? Just accept them and sync:
+Made some changes? Sync your content with this command:
 
 ```bash
-flowershow sync ./my-vault
+publish sync ./my-vault
 ```
 
-The CLI intelligently detects changed files and only uploads what's new, making updates lightning fast.
-
+The CLI intelligently detects changed files and only uploads what's new.
 ## Try it Today
 
-The Flowershow CLI is currently in Alpha, and we can't wait for you to try it. Give it a spin and let us know what you think!
+The Flowershow CLI is currently in Beta, and we can't wait for you to try it. Give it a spin and let us know what you think!
 
 Check out the full [CLI Documentation](/docs/cli-reference) for more advanced usage and options.
 
