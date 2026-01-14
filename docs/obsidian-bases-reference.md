@@ -1,23 +1,7 @@
 ---
-title: Announcing Obsidian Bases Support (Alpha)
-description: Flowershow now supports Obsidian Bases in alpha, enabling dynamic, queryable views of your notes with filters, formulas, and multiple display layouts in your published sites.
-image: "[[obsidian-bases.png]]"
-authors:
-  - "[[olayway]]"
-date: 2025-12-04
+title: Obsidian Bases Syntax (Beta)
+description: Detailed reference for Obsidian Bases syntax, including filters, formulas, and view types.
 ---
-
-> **Update [2026-01-14]:** After more refinement this is now in Beta. See [[announcing-obsidian-bases-beta|Obsidian Bases enters Beta]].
-
-We're excited to announce alpha support for Obsidian Bases in Flowershow! This powerful feature allows you to create dynamic, queryable views of your notes directly in your published sites.
-
-## What are Obsidian Bases?
-
-Obsidian Bases let you organize and display your vault's content in multiple ways using filters, formulas, and different view types. Think of them as dynamic databases for your notes that can be embedded anywhere in your content.
-
-> [!info] Learn More
-> - 📚 [Obsidian Bases Documentation](https://help.obsidian.md/bases) - Complete guide to Bases syntax and features
-> - 🎯 [Flowershow Demo Site](https://demo.flowershow.app/books/Bookshelf) - See Bases in action with live examples
 
 ## Supported Features
 
@@ -105,33 +89,3 @@ The following features are planned for future releases:
 ### View Features
 - ❌ **Map View** - Display files as pins on interactive maps
 - ❌ **Row Height Control** - Customize table row heights
-
-## Getting Started
-
-To use Obsidian Bases in your Flowershow site, embed a base configuration using a YAML code block with the `base` language identifier, e.g.:
-
-````markdown
-```base
-filters:
-  or:
-    - file.hasProperty("status")
-    - file.inFolder("Projects")
-views:
-  - type: table
-    name: "All Items"
-    order:
-      - file.name
-      - status
-```
-````
-
-> [!note] Current Limitation
-> Flowershow currently supports base configurations only through YAML code blocks (as in example above). Support for `.base` file embeds is planned for a future release.
-
-## Feedback
-
-This is an alpha release, and we're actively working on expanding support. If you encounter any issues or have feature requests, please let us know!
-
----
-
-*Note: This feature requires Obsidian 1.9+ for full compatibility with the Bases syntax.*
