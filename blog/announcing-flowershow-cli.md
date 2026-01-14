@@ -4,7 +4,7 @@ description: Publish markdown files directly from your terminal with the new Flo
 date: 2026-01-14
 authors:
   - abeelha
-image: [[cli-launch.png]]
+image: "[[cli-launch.png]]"
 ---
 
 We are releasing the **Flowershow CLI**.
@@ -52,6 +52,7 @@ publish sync ./my-folder
 ```
 
 The CLI intelligently detects changed files and only uploads what's new.
+
 ## Try it Today
 
 The Flowershow CLI is currently in Beta, and we can't wait for you to try it. Give it a spin and let us know what you think!
