@@ -15,11 +15,9 @@ This tool enables you to publish your Obsidian vault or standard Markdown notes 
 
 ## Why the CLI?
 
-We built the CLI to streamline your publishing workflow. Whether you're a developer who lives in the terminal or a writer looking for a quick "deploy" button, the Flowershow CLI is designed for you.
+A lot of people who write in Markdown already live close to the terminal. Their notes, docs, blogs, and READMEs are just files in folders or repos. Adding a web UI on top of that often feels like unnecessary friction.
 
-- **Fast**: Direct upload to our edge storage.
-- **Secure**: OAuth-based authentication.
-- **Simple**: Commands that make sense.
+A CLI keeps things simple. Publishing becomes just another small step in the same flow as writing, editing, and committing—rather than a separate process you have to think about. It also makes automation easy.
 
 ## Get Started in 3 Steps
 
