@@ -21,10 +21,12 @@ You want it on the web.
 You don’t want a UI.
 You don’t want to decide anything else.
 
-With the CLI, publishing looks like the work itself:
+With the CLI, publishing looks like this:
 you install it, run `publish`, and your file gets a real URL.
 
 That’s it.
+
+https://www.youtube.com/watch?v=ou1bigOIlPk
 
 ---
 
@@ -47,20 +49,6 @@ publish ./my-folder
 
 And that’s it 💐
 You'll get a URL that's ready to share.
-
-**Keep it fresh**
-
-If you make changes locally, you don’t need to think about syncing or dashboards.
-```bash
-publish sync ./my-folder
-```
-
-The CLI detects what changed and only uploads what’s new.
-
-If you want to explore more options or commands, you can always run:
-```bash
-publish --help
-```
 
 ---
 
