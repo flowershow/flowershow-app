@@ -1,5 +1,5 @@
 ---
-title: Introducing the Flowershow CLI
+title: Publishing a local Markdown file shouldn’t feel like starting a project
 description: Publish markdown files directly from your terminal with the new Flowershow CLI.
 date: 2026-01-14
 authors:
@@ -7,56 +7,65 @@ authors:
 image: "[[cli-launch.png]]"
 ---
 
-We are releasing the **Flowershow CLI**.
+Most of the things we write never become “projects”.
 
-https://youtu.be/_3DWycEpq2E
+They’re notes. Drafts. Small explanations. Half-finished ideas. Files that live on our machine and are good enough to share, but not important enough (at least not yet!) to set up properly.
 
-This tool enables you to publish your Obsidian vault or standard Markdown notes directly from your terminal. It simplifies the deployment process by removing the need for CI/CD pipelines or manual file uploads.
+Until now, publishing usually meant committing to structure:
+creating a repo, syncing content, logging into a dashboard, deciding where this thing belongs.
 
-## Why the CLI?
+We built the Flowershow CLI for a simpler moment.
 
-A lot of people who write in Markdown already live close to the terminal. Their notes, docs, blogs, and READMEs are just files in folders or repos. Adding a web UI on top of that often feels like unnecessary friction.
+A moment where you already have a file, locally.
+You want it on the web.
+You don’t want a UI.
+You don’t want to decide anything else.
 
-A CLI keeps things simple. Publishing becomes just another small step in the same flow as writing, editing, and committing—rather than a separate process you have to think about. It also makes automation easy.
+With the CLI, publishing looks like the work itself:
+you install it, run `publish`, and your file gets a real URL.
 
-## Get Started in 3 Steps
+That’s it.
 
-It's really this simple:
+---
 
-### 1. Install
+**Get started in 3 steps**
 
+1. Install
 ```bash
 npm i -g flowershow-publish
 ```
 
-### 2. Login
-
+2. Login
 ```bash
 publish auth login
 ```
 
-### 3. Publish
-
+3. Publish
 ```bash
 publish ./my-folder
 ```
 
-And that's it! 🌺 Your site will be live and ready to share with the world.
+And that’s it 💐
+You'll get a URL that's ready to share.
 
-## Keep it Fresh
+**Keep it fresh**
 
-Made some changes? Sync your content with this command:
-
+If you make changes locally, you don’t need to think about syncing or dashboards.
 ```bash
 publish sync ./my-folder
 ```
 
-The CLI intelligently detects changed files and only uploads what's new.
+The CLI detects what changed and only uploads what’s new.
 
-## Try it Today
+If you want to explore more options or commands, you can always run:
+```bash
+publish --help
+```
 
-The Flowershow CLI is currently in Beta, and we can't wait for you to try it. Give it a spin and let us know what you think!
+---
 
-Check out the full [CLI Documentation](/docs/cli) for more advanced usage and options.
+This isn’t meant to replace the UI.
 
-Happy Publishing!
+The CLI is for people who are already comfortable in the terminal and want publishing to feel lightweight, reversible, and fast. It’s currently in beta, requires a Node.js environment, and comes with a small learning curve if terminal tools are new to you.
+
+But if you’ve ever thought “I just want this file on the web”, this exists for that exact moment.
