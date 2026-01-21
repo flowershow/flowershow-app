@@ -31,7 +31,6 @@ You don't need a git repo or a build pipeline. You just need a folder/file.
 ```bash
 npm i -g @flowershow/publish
 ```
-Get the global binary. Requires Node.js
 
 ### 2. Login
 
