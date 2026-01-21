@@ -10,11 +10,6 @@ layout: plain
 
 # Turn local files into websites
 
-▶️ **Watch the short demo video:**
-
-https://www.youtube.com/watch?v=ou1bigOIlPk
-
-
 Skip the repository. Skip the dashboard. Flowershow CLI lets you publish any folder of Markdown files directly from your terminal.
 
 It's built for moments when you just want a URL, not a project.
@@ -22,6 +17,10 @@ It's built for moments when you just want a URL, not a project.
 Also great for automated publishing, with scripts or by your AI agent.
 
 [Read the Docs](/docs/cli) • [Read the Announcement](/blog/announcing-flowershow-cli)
+
+▶️ **Watch the short demo video:**
+
+https://www.youtube.com/watch?v=ou1bigOIlPk
 
 ## Get started in 4 steps
 

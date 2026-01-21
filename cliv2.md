@@ -11,7 +11,16 @@ showEditLink: false
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
       <h1 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Turn local files into websites</h1>
-      <div className="mb-8 flex justify-center w-full">
+      <p className="mt-8 text-pretty text-lg text-gray-500 sm:text-xl/8">Skip the repository. Skip the dashboard. Flowershow CLI lets you publish any folder of Markdown files directly from your terminal. It's built for moments when you just want a URL, not a project.</p>
+      <p className="mt-4 text-pretty text-lg text-gray-500 sm:text-xl/8">Also great for automated publishing, with scripts or by your AI agent.</p>
+      <div className="mt-10 flex items-center justify-center gap-x-6">
+        <a
+          href="/docs/cli"
+          className="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow hover:bg-orange-300"
+        >Read the Docs</a>
+        <a href="/blog/announcing-flowershow-cli" className="text-sm/6 font-semibold text-gray-900">Read the Announcement <span aria-hidden="true">→</span></a>
+      </div>
+      <div className="mt-16 flex justify-center w-full">
         <div className="relative w-full max-w-2xl aspect-video rounded-xl overflow-hidden shadow-lg ring-1 ring-gray-900/10">
           <iframe
             className="absolute top-0 left-0 w-full h-full"
@@ -22,15 +31,6 @@ showEditLink: false
             allowFullScreen
           ></iframe>
         </div>
-      </div>
-      <p className="mt-8 text-pretty text-lg text-gray-500 sm:text-xl/8">Skip the repository. Skip the dashboard. Flowershow CLI lets you publish any folder of Markdown files directly from your terminal. It's built for moments when you just want a URL, not a project.</p>
-      <p className="mt-4 text-pretty text-lg text-gray-500 sm:text-xl/8">Also great for automated publishing, with scripts or by your AI agent.</p>
-      <div className="mt-10 flex items-center justify-center gap-x-6">
-        <a
-          href="/docs/cli"
-          className="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow hover:bg-orange-300"
-        >Read the Docs</a>
-        <a href="/blog/announcing-flowershow-cli" className="text-sm/6 font-semibold text-gray-900">Read the Announcement <span aria-hidden="true">→</span></a>
       </div>
     </div>
   </div>
