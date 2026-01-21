@@ -35,7 +35,9 @@ Authenticates via browser. You only do this once.
 ### 3. Publish
 
 ```bash
-publish ./folder-file
+publish ./my-folder
+# OR
+# publish ./my-file.md
 ```
 Publish your files and folders to the web.
 
