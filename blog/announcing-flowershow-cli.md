@@ -47,7 +47,9 @@ And that’s it 💐
 
 You'll get a URL that's ready to share.
 
-▶️ **Watch the short demo video:** https://www.youtube.com/watch?v=ou1bigOIlPk
+▶️ **Watch the short demo video:**
+
+https://www.youtube.com/watch?v=ou1bigOIlPk
 
 📖 **Explore the docs for all available commands and options:** https://flowershow.app/docs/cli (or run `publish --help`)
 
