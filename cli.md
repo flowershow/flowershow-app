@@ -1,5 +1,5 @@
 ---
-title: Flowershow CLI
+title: Flowershow Publish
 description: Publish your Files and folders directly from the terminal. No config, just shipping.
 showToc: false
 showComments: false
