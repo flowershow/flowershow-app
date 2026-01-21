@@ -4,6 +4,7 @@ description: Publish your files and folders directly from the terminal with the 
 showToc: false
 showComments: false
 showEditLink: false
+layout: plain
 ---
 
 # Publish from your terminal
