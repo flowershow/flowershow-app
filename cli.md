@@ -7,10 +7,18 @@ showEditLink: false
 layout: plain
 ---
 
-# Publish from your terminal
+▶️ **Watch the short demo video:**
 
-Skip the dashboard. Flowershow CLI lets you deploy your files and folders directly to the web.
-It's fast, and built for people who live in the command line.
+https://www.youtube.com/watch?v=ou1bigOIlPk
+
+
+# Turn local files into websites
+
+Skip the repository. Skip the dashboard. Flowershow CLI lets you publish any folder of Markdown files directly from your terminal.
+
+It's built for moments when you just want a URL, not a project.
+
+Also great for automated publishing, with scripts or by your AI agent.
 
 [Read the Docs](/docs/cli) • [Read the Announcement](/blog/announcing-flowershow-cli)
 
@@ -52,11 +60,14 @@ We diff your files and upload only what changed.
 
 ## Why use the CLI?
 
-### ⚡ Speed
-No more long processes of needing a repo/push/commit changes on files/foldersThe CLI is fast and efficient.
+### 📄 Just Files
+No `git init`. No config files. No "setting up a project". If you have a folder of Markdown on your computer, you can publish it.
 
-### 🧘 Simple
-Publishing shouldn't be a project. It should be a single command. `publish`.
+### ⚡ Instant
+No build pipelines. No waiting for a server to clone your repo. The CLI uploads your local files fast and diffs your files locally when you update them and uploads only what changed.
 
-### 🌍 Global
-Your content is distributed to the edge. Fast for everyone, everywhere, easy to share your ideas!
+### 🤖 Automation Ready
+Since it's just a command, it's perfect for scripts, cron jobs, or AI agents that need to publish content without a human clicking a UI.
+
+### 🏃 Stay in Flow
+Don't break your writing flow to switch to a browser. Write in your editor -> run `publish` -> share URL -> keep going.
