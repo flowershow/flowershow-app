@@ -47,6 +47,7 @@ Publish your files and folders to the web.
 ```bash
 publish sync ./folder-file
 ```
+
 We diff your files and upload only what changed.
 
 ## Why use the CLI?
