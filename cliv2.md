@@ -10,6 +10,7 @@ showEditLink: false
 <div className="py-12 sm:py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
+      <h1 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Turn local files into websites</h1>
       <div className="mb-8 flex justify-center w-full">
         <div className="relative w-full max-w-2xl aspect-video rounded-xl overflow-hidden shadow-lg ring-1 ring-gray-900/10">
           <iframe
@@ -22,7 +23,6 @@ showEditLink: false
           ></iframe>
         </div>
       </div>
-      <h1 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Turn local files into websites</h1>
       <p className="mt-8 text-pretty text-lg text-gray-500 sm:text-xl/8">Skip the repository. Skip the dashboard. Flowershow CLI lets you publish any folder of Markdown files directly from your terminal. It's built for moments when you just want a URL, not a project.</p>
       <p className="mt-4 text-pretty text-lg text-gray-500 sm:text-xl/8">Also great for automated publishing, with scripts or by your AI agent.</p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
