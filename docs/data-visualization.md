@@ -6,18 +6,7 @@ description: Learn how to craft compelling data visualizations using Excalidraw,
 Explore various methods to craft compelling data visualizations, including interactive charts, using Obsidian and seamlessly publish your insights with Flowershow.
 
 In this guide you can learn about:
-
-1.  **Excalidraw**: Basic line and bar charts using inline CSV data.
-2.  **Flowershow Components**: Using data-rich components like tables and charts.
-
-## Excalidraw
-
-You can create basic charts directly within Excalidraw drawings in Obsidian.
-
-**Notes:**
-*   Only line and bar charts are available.
-*   Paste only 2 fields (columns) of data; otherwise, Excalidraw might struggle to identify the x and y axes.
-*   **Flexibility**: While basic, you can edit the chart as a regular Excalidraw object (resize, change labels manually) to tell your story effectively.
+**Flowershow Components**: Using data-rich components like tables and charts.
 
 ## Flowershow Components
 
@@ -47,11 +36,6 @@ You can check the full list and API of the available features in our [Storybook]
 
 You can use several data preview and data visualization components:
 
-*   **Catalog**: If your dataset is part of a larger collection, list related datasets with search and facets.
-*   **Excel**: Preview Excel files.
-*   **Data Table**: Interactive tables with sorting and filtering.
-*   **Iframe**: Embed external content.
-*   **PdfViewer**: Display PDF documents.
 *   **Line and Bar Charts**:
     *   Plotly charts
     *   VegaLite Charts
@@ -59,11 +43,18 @@ You can use several data preview and data visualization components:
 
 ### Example: Line Chart
 
-```jsx
 <LineChart
   data={{ url: "/assets/global-co2-emissions.csv" }}
   title="Global CO2 Emissions"
   xAxis="Year"
   yAxis="Total"
 />
-```
+
+### Example: Bar Chart
+
+<BarChart
+  data={{ url: "/assets/global-co2-emissions-2010.csv" }}
+  title="2010 CO2 Emissions by Type"
+  xAxis="Type"
+  yAxis="Amount"
+/>
