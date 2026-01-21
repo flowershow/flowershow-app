@@ -55,7 +55,6 @@ We diff your files and upload only what changed.
 ### ⚡ Speed
 No more long processes of needing a repo/push/commit changes on files/foldersThe CLI is fast and efficient.
 
-
 ### 🧘 Simple
 Publishing shouldn't be a project. It should be a single command. `publish`.
 
