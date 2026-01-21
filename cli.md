@@ -22,7 +22,7 @@ Also great for automated publishing, with scripts or by your AI agent.
 
 [Read the Docs](/docs/cli) • [Read the Announcement](/blog/announcing-flowershow-cli)
 
-## Get started in 3 steps
+## Get started in 4 steps
 
 You don't need a git repo or a build pipeline. You just need a folder/file.
 
