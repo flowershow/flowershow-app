@@ -7,26 +7,22 @@ authors:
 image: "[[cli-launch.png]]"
 ---
 
-Most of the things we write never become “projects”.
+Most things we write never turn into projects.
 
-They’re notes. Drafts. Small explanations. Half-finished ideas. Files that live on our machine and are good enough to share, but not important enough (at least not yet!) to set up properly.
+They’re notes, drafts, short explanations, half-finished ideas. Files that live locally and are good enough to share, but not worth setting up properly yet.
 
-Until now, publishing usually meant committing to structure:
-creating a repo, syncing content, logging into a dashboard, deciding where this thing belongs.
+Until now, publishing usually meant extra steps: creating a repo, syncing content, logging into a dashboard, deciding where it belongs.
 
-We built the Flowershow CLI for a simpler moment.
+The Flowershow CLI is for a simpler case.
 
-A moment where you already have a file, locally.
-You want it on the web.
+You already have a local file.
+You want it accessible on the web.
 You don’t want a UI.
-You don’t want to decide anything else.
+You don’t want to make more decisions.
 
-With the CLI, publishing looks like this:
-you install it, run `publish`, and your file gets a real URL.
+With the CLI, you install it, run `publish`, and get a real URL.
 
-That’s it.
-
-https://www.youtube.com/watch?v=ou1bigOIlPk
+Nothing else required.
 
 ---
 
@@ -50,6 +46,10 @@ publish ./my-folder
 And that’s it 💐
 
 You'll get a URL that's ready to share.
+
+▶️ **Watch the short demo video:** https://www.youtube.com/watch?v=ou1bigOIlPk
+
+📖 **Explore the docs for all available commands and options:** https://flowershow.app/docs/cli (or run `publish --help`)
 
 ---
 
