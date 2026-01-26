@@ -1,11 +1,10 @@
 ---
 title: Obsidian Bases enters Beta
 description: Dynamic views for your notes are now in Beta!
-date: 2026-01-14
+date: 2026-01-26
 authors:
   - abeelha
 image: "[[obsidian-bases.png]]"
-publish: false
 ---
 
 We are excited to announce that **Obsidian Bases** support has moved from Alpha to **Beta**! 🚀
