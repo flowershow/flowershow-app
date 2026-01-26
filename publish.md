@@ -1,6 +1,6 @@
 ---
 title: Flowershow Publish
-description: Publish your files and folders directly from the terminal with the Flowershow CLI. No config, no UI, just ship.
+description: Publish your files and folders directly from the terminal with the Flowershow CLI. No config, no UI, just publish.
 layout: plain
 showToc: false
 showComments: false
