@@ -26,7 +26,7 @@ Obsidian Bases (formerly "Databases") allow you to query your notes and display 
 - **Seamless Integration**: Works directly with your existing Obsidian metadata.
 - **Calculated Properties**: Use formulas to display derived data.
 
-View full list of supported syntax elements [[obsidian-bases-reference|here]].
+📖 **Explore the docs** View full list of supported syntax elements in the [[obsidian-bases-reference|documentation-here]].
 
 ## Try It Out
 
