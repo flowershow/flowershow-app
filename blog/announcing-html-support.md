@@ -15,6 +15,10 @@ We are excited to announce that **Flowershow** now supports raw `.html` file pub
 
 That's it. That's the feature.
 
+▶️ **Watch the short demo video:**
+
+https://www.youtube.com/watch?v=v0oyBtSLECs
+
 **Why this is useful (The Old Way vs. New Way)**
 
 Before, if you wanted a custom page, you had to paste HTML blocks into Markdown.
