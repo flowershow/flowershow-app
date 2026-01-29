@@ -45,7 +45,7 @@ In these cases, converting to Markdown feels wrong. You want the file exactly as
 
 Just use the dashboard, or our CLI:
 
-```bash
+```
 flowershow publish index.html
 ```
 
