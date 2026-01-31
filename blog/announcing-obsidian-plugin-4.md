@@ -115,6 +115,19 @@ If you want the simpler, faster workflow without GitHub:
 4. **Important:** If you previously used the `rootDir` config to select a subfolder in your repo for publishing, you should now configure this in the plugin settings instead
 5. Publish as usual
 
+> [!note]
+> After switching, all your files will initially show as "changed" in the publish status. This is expected — the plugin now calculates file hashes differently than GitHub did. Simply click **Publish All** once, and subsequent syncs will correctly detect only actual changes.
+
+> [!important]
+> If you had `config.json` or `custom.css` files in your GitHub repository that weren't in your local vault, you'll need to copy them over. These files should now live in your vault (or your `rootDir` folder if you use one) and be published alongside your other files.
+>
+> To see `.json` and `.css` files in Obsidian:
+> 
+> 1. Go to **Settings → Files and Links**
+> 2. Enable **Detect all file extensions**
+> 
+> Note: Obsidian won't edit these files directly — clicking on them will open them in your OS default text editor. Edit there, save, and publish as usual.
+
 Your **existing site, URLs, and content will continue to work exactly as before**.
 
 You may delete your GitHub repository after switching, or keep it purely as a backup — the choice is yours.
