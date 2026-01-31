@@ -134,18 +134,6 @@ You may delete your GitHub repository after switching, or keep it purely as a ba
 
 ---
 
-## Why This Matters
-
-This change is about lowering friction and removing unnecessary complexity:
-
-- **Easier onboarding** — no GitHub knowledge required
-- **Faster publishing** — fewer external dependencies
-- **Fewer accounts to manage** — everything stays in Flowershow
-
-At the same time, we’ve made sure that users who prefer GitHub-based workflows aren’t forced to change anything.
-
----
-
 ## Questions?
 
 Have questions about the update or need help migrating?  
