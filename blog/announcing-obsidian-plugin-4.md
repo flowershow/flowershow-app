@@ -109,9 +109,11 @@ This keeps your existing workflow intact â€” the only difference is that vault â
 
 If you want the simpler, faster workflow without GitHub:
 
-1. Generate a Flowershow Personal Access Token
-2. Enter the token in the plugin settings
-3. Publish as usual
+1. **Disconnect your site from GitHub** in your Flowershow dashboard to prevent any weird sync behavior (especially if you make changes later on in the GitHub repo)
+2. Generate a Flowershow Personal Access Token
+3. Enter the token in the plugin settings
+4. **Important:** If you previously used the `rootDir` config to select a subfolder in your repo for publishing, you should now configure this in the plugin settings instead
+5. Publish as usual
 
 Your **existing site, URLs, and content will continue to work exactly as before**.
 
