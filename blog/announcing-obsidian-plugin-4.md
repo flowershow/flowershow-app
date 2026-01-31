@@ -4,6 +4,7 @@ description: The Flowershow Obsidian plugin now connects directly to Flowershow 
 date: 2026-01-31
 authors:
   - olayway
+image: [[plugin-04-update.png]]
 ---
 
 We’re excited to announce **Flowershow Obsidian Plugin 4.0** — a major update that significantly simplifies how you publish your Obsidian vault.
