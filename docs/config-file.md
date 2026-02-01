@@ -38,6 +38,36 @@ Here is an overview of all the site-wide configuration options that you can set 
       }
     ]
   },
+  "footer": {
+    "navigation": [
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "name": "Documentation",
+            "href": "/docs"
+          },
+          {
+            "name": "Blog",
+            "href": "/blog"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "name": "About",
+            "href": "/about"
+          },
+          {
+            "name": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ]
+  },
   "analytics": "G-XXXXXXXXXX",
   "showComments": false,
   "showSidebar": true,
