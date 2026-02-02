@@ -22,7 +22,7 @@
           { "href": "/pricing", "name": "Pricing" },
           { "href": "/docs", "name": "Docs" },
           { "href": "/blog", "name": "Blog" },
-          { "href": "/blogs", "name": "Flowershow for Blogs" }
+          { "href": "/publish", "name": "Publish CLI" }
         ]
       },
       {
