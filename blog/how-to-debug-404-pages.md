@@ -19,11 +19,13 @@ When someone visits a URL like `https://my.flowershow.app/@username/sitename/blo
 
 1. `/blog.md` or
 2. `/blog/README.md` or
-3. `/blog/index.md` 
+3. `/blog/index.md` or
+4. The **first file alphabetically** in the `/blog` folder (e.g. `/blog/a-post.md`)
 
 In case of the root (home page) of your website (e.g. `https://my.flowershow.app/@username/sitename`), Flowershow will look for:
 1. `/README.md` or
-2. `/index.md`
+2. `/index.md` or
+3. The **first file alphabetically** in your root folder.
 
 ### Root directory configuration
 
@@ -32,7 +34,8 @@ If your site is published from a specific folder within your GitHub repository (
 For example, if your `rootDir` is set to `/docs` and someone visits `/quick-start`, Flowershow will have it mapped to one of:
 1. `/docs/quick-start.md`,
 2. `/docs/quick-start/README.md` or
-3. `/docs/quick-start/index.md`
+3. `/docs/quick-start/index.md` or
+4. The **first file alphabetically** in `/docs/quick-start/`
 
 ### File name encoding in URLs
 
@@ -62,16 +65,17 @@ This encoding system ensures that your file names can contain spaces and special
 
 ### Missing index files
 
-**Problem**: You have a directory like `/blog/` with content and you try to visit it at `https://my.flowershow.app/@username/sitename/blog`, but you don't have an index file in that folder.
+**Problem**: You have a directory like `/blog/` with content but you don't have an index file.
 
 **Solution**:
 - Create one of these files:
   - `/blog/README.md` (recommended)
   - `/blog/index.md`
-- Or rename your directory to `/blog.md` if it's supposted to be a single page
+- Or rename your directory to `/blog.md` if it's supposed to be a single page
+- Note: If there are other markdown files in the folder, Flowershow will try to show the first one alphabetically.
 
 > [!note] 404 on the main page of your site
-> The problem described above also applies to root URL of your site. If you get 404 error there, it means your repository lacks the top level `/README.md` (or `/index.md`) file.
+> The problem described above also applies to root URL of your site. If you get 404 error there, it means your repository lacks the top level `/README.md` (or `/index.md`), AND has no other markdown files to fall back to.
 
 ### Mismatch in casing
 
