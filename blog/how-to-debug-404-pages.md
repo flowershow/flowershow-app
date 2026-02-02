@@ -19,8 +19,7 @@ When someone visits a URL like `https://my.flowershow.app/@username/sitename/blo
 
 1. `/blog.md` or
 2. `/blog/README.md` or
-3. `/blog/index.md` or
-4. The **first file alphabetically** in the `/blog` folder (e.g. `/blog/a-post.md`)
+3. `/blog/index.md`
 
 In case of the root (home page) of your website (e.g. `https://my.flowershow.app/@username/sitename`), Flowershow will look for:
 1. `/README.md` or
@@ -34,8 +33,7 @@ If your site is published from a specific folder within your GitHub repository (
 For example, if your `rootDir` is set to `/docs` and someone visits `/quick-start`, Flowershow will have it mapped to one of:
 1. `/docs/quick-start.md`,
 2. `/docs/quick-start/README.md` or
-3. `/docs/quick-start/index.md` or
-4. The **first file alphabetically** in `/docs/quick-start/`
+3. `/docs/quick-start/index.md`
 
 ### File name encoding in URLs
 
