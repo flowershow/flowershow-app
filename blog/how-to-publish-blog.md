@@ -109,7 +109,7 @@ The landing page serves as the main entry point for your blog section. You can c
 title: Blog
 description: A collection of my blog posts
 showToc: false
-synaxMode: mdx
+syntaxMode: mdx
 ---
 
 <List 
