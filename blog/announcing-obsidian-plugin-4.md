@@ -28,9 +28,6 @@ Over time, a clear pattern emerged from user feedback:
 
 Meanwhile, Flowershow has matured enough to handle authentication, uploads, and publishing **directly** — without relying on third-party infrastructure.
 
-Plugin 4.0 is the result of that evolution.  
-**Same outcome, fewer moving parts.**
-
 ---
 
 ## What’s New
@@ -50,18 +47,7 @@ Now, it’s simply:
 2. Enter it in the plugin settings
 3. Publish
 
-That’s it — no GitHub account, no repository, no extra steps.
-
----
-
-### Faster Publishing
-
-Files now upload directly to Flowershow’s infrastructure instead of going through GitHub.
-
-This means:
-
-- faster sync times,
-- immediate feedback on publish status.
+That’s it!
 
 ---
 
@@ -72,8 +58,7 @@ The plugin settings are now streamlined to just what you need:
 - **Flowershow PAT Token** — authentication
 - **Site Name** — where your content is published (optional, your vault name will be used by default)
 - **Exclude Patterns** — regex rules to skip files (optional)
-
-No repository names, branches, or merge settings required.
+- **Root Directory** - the directory within your vault that you want to publish (optional; if you're not publishing the entire vault.) 
 
 ---
 
@@ -97,7 +82,7 @@ If you’re already using the Flowershow plugin with GitHub, you have two option
 
 If you want to keep using GitHub for version control, backups, or collaboration:
 
-1. Sync your vault to GitHub using another tool:
+1. Sync your vault to GitHub using another tool, e.g.:
    - Obsidian Git plugin (or else)
    - GitHub Desktop
    - Git CLI
@@ -110,10 +95,10 @@ This keeps your existing workflow intact — the only difference is that vault �
 If you want the simpler, faster workflow without GitHub:
 
 1. **Disconnect your site from GitHub** in your Flowershow dashboard to prevent any weird sync behavior (especially if you make changes later on in the GitHub repo)
-2. Generate a Flowershow Personal Access Token
-3. Enter the token in the plugin settings
-4. **Important:** If you previously used the `rootDir` config to select a subfolder in your repo for publishing, you should now configure this in the plugin settings instead
-5. Publish as usual
+2. Generate a Flowershow Personal Access Token.
+3. Enter the token in the plugin settings,
+4. **Important:** If you previously used the `rootDir` config to select a subfolder in your repo for publishing, you should now configure this in the plugin settings instead.
+5. Publish as usual.
 
 > [!note]
 > After switching, all your files will initially show as "changed" in the publish status. This is expected — the plugin now calculates file hashes differently than GitHub did. Simply click **Publish All** once, and subsequent syncs will correctly detect only actual changes.
