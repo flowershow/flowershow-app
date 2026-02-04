@@ -70,6 +70,20 @@ Supported social platforms:
 > [!info] Missing your favorite platform?
 > If your platform isn't listed, skip the `label` and Flowershow will display a generic 🌐 icon. Consider submitting an issue to request support for your platform!
 
+### Email links (`mailto:`)
+
+If you want to add an email contact link, you can use the `mail` label together with a `mailto:` URL:
+
+```json
+{
+  "label": "mail",
+  "name": "Email me",
+  "href": "mailto:hello@example.com"
+}
+```
+
+This will display an email icon and open the user’s default mail client when clicked.
+
 ## Footer navigation
 
 Organize footer links into groups using the `footer.navigation` array. Each group has a title and a list of links:
