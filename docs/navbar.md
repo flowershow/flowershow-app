@@ -93,6 +93,20 @@ Supported social platforms:
 > If the social platform you want to use isn’t listed above, you can skip the `label` and Flowershow will display a generic 🌐 icon.
 We encourage you to submit an issue, too. 😉
 
+### Email links (`mailto:`)
+
+If you want to add an email contact link, you can use the `mail` label together with a `mailto:` URL:
+
+```json
+{
+  "label": "mail",
+  "name": "Email me",
+  "href": "mailto:hello@example.com"
+}
+```
+
+This will display an email icon and open the user’s default mail client when clicked.
+
 ## Complete example
 
 Here's a comprehensive configuration example:
