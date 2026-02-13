@@ -117,3 +117,102 @@ The current homepage structure is already close. The main evolution:
 **The aligned thinker**: Gets all three layers. Sees FlowerShow as part of a bigger movement. Shares the About page. Writes about it. Becomes a long-term community member.
 
 All three audiences are served. Nobody is asked to buy into the vision before they've seen the value.
+
+---
+
+## Appendix A: Initial Analysis
+
+### Starting Point: What Does Flowershow Actually Do?
+
+Flowershow takes markdown content and turns it into a live, hosted website. No repos to configure, no build pipelines, no deploy scripts. Connect content (via GitHub or CLI), get a URL. It supports docs, blogs, landing pages, knowledge bases, digital gardens -- anything that starts as markdown.
+
+The existing positioning ("Markdown to website in seconds / For geeks who value their time") is functional and honest, but doesn't differentiate strongly or tell a story about *why Flowershow exists*. It describes the what without the why.
+
+### The Core Question: What Story Do We Tell?
+
+Four candidate positioning pillars emerged from analyzing the product, the market, and the existing brand materials (about page, homepage, blog):
+
+**A. Speed & Immediacy**
+- The experience of going from content to live URL in seconds
+- "Instant deployment" as the headline promise
+- Strongest when demonstrated (demo video, CLI in action)
+- Risk: speed alone is a feature, not a brand. Others can claim speed too.
+
+**B. Simplicity & Elegance**
+- Beautiful by default, no configuration required
+- "It just works and it looks good"
+- Supported by the existing themes, layout, design quality
+- Risk: subjective, hard to prove in a headline. Better shown than told.
+
+**C. Time Saved / Cost of Switching**
+- "You could build this yourself. Should you?"
+- Respects the audience's technical capability while reframing the decision
+- The asterisk footnote on the current homepage already gestures at this
+- Risk: negative framing (what you're *not* doing) rather than positive (what you *are* doing). Works better as supporting argument than lead.
+
+**D. Future of Publishing / Strategic Narrative**
+- "Publishing rebuilt for the AI age"
+- Content creation has changed fundamentally (AI, speed, volume). Publishing infrastructure hasn't kept up. Flowershow is what you'd build if you started from scratch today.
+- Connects to the deeper story: collective sensemaking, tools that matter, open ecosystem
+- Risk: could feel like too much for a product at this stage. Vision statements need to be earned.
+
+### Initial Assessment
+
+- **A and C naturally pair together** as the practical promise: speed + "is this really the best use of your time?" = a complete value proposition for the pragmatic user
+- **B supports A** but doesn't lead well on its own (elegance is shown, not claimed)
+- **D is the most differentiated and durable** but also the riskiest to lead with -- it asks the audience to buy into a worldview before they've seen the product
+- The existing about page already has strong D-layer content ("The Bigger Picture" section on collective sensemaking) that is underutilized
+
+This set up the key strategic tension: **practical lead (A+C) vs visionary lead (D)?**
+
+---
+
+## Appendix B: Level 3 Questions and Discussion
+
+### Q1: Should we foreground A+C (practical promise) or D (visionary narrative)?
+
+**The tension:** A+C is safer, more immediately legible, and sells the experience. D is more differentiated, gives the brand more runway, and tells a bigger story. But D could feel presumptuous -- "we're building the publishing infrastructure for the future" is a big claim for what is (today) a markdown-to-website tool.
+
+**Discussion:** The hesitation was real: "I'm just not sure if that's a bit much vs combining A and C together as speed, simplicity, and save time." The concern wasn't that D was wrong -- it was that leading with D might over-promise or feel grandiose relative to where the product is today.
+
+**Resolution:** We tested this concretely with two headline versions:
+
+> *Version 1 (A+C lead):* "Content to URL. Instantly. Stop wrestling with build pipelines, CMS configs, and deploy scripts."
+>
+> *Version 2 (D lead):* "Publishing rebuilt for the AI age. Content moves faster than ever. Your publishing tools should too."
+
+The verdict was clear: **"Definitely headline 1 is better for us."** Version 2 was identified as "more like a manifesto or vision statement" -- valuable, but not as the first thing someone sees.
+
+**Decision: A+C leads. D sits underneath as narrative depth.**
+
+### Q2: Where does D live if it doesn't lead?
+
+**The tension:** If D isn't the headline, does it disappear? Is it relegated to the About page where nobody reads it?
+
+**Discussion:** The answer was structural: give D its own section on the homepage, *after* the features grid. The user has already been sold on what Flowershow does (Layer 1). Now they're ready for *why it exists* (Layer 2). This is the scroll narrative -- you discover it as you spend more time on the page.
+
+**Decision: Add a "why now" / narrative section to the homepage between features and community sites.** This is the main structural change needed on the site.
+
+### Q3: How does the collective sensemaking story connect?
+
+**The tension:** The about page has a rich section on collective sensemaking, the markdown revolution, and why publishing tools matter for how we think together. But it feels disconnected from the homepage's practical tone. How do you bridge "content to URL in seconds" to "tools for collective sensemaking" without whiplash?
+
+**Discussion:** The insight was that D ("publishing rebuilt for the AI age") serves as the *bridge*. It's concrete enough to follow naturally from the practical promise, but philosophical enough to point toward the bigger story. The connection: tools matter. The ability to publish and share -- fast, easily, reliably -- matters. Not just for convenience, but because better publishing tools are part of better collective sensemaking.
+
+The user put it directly: "The second is more like a manifesto or vision statement -- which even relates to collective sensemaking as bigger story. Tools matter and ability to publish and share fast and easily and reliably matters."
+
+**Decision: Three-layer architecture.** Practical promise (hero) -> publishing rebuilt narrative (scroll) -> collective sensemaking vision (about/long-form). Each layer earns the right to the next. Nobody is asked to buy the philosophy before they've seen the value.
+
+### Q4: Is "Markdown to website in seconds" still the right headline?
+
+**The tension:** The current headline is good -- accurate, clear, specific. But "Content to URL. Instantly." is punchier and slightly broader (doesn't limit to markdown). Which to use?
+
+**Discussion:** Both were acknowledged as strong. "Markdown to website in seconds" has the advantage of specificity -- it immediately signals the audience (people who write markdown). "Content to URL. Instantly." is more universal but loses that signal.
+
+**Decision: Left open for testing.** Both are viable. The strategy works with either headline. The key insight is that whichever headline is chosen, it should be the practical promise (A+C), not the visionary narrative (D).
+
+### Q5: Does B (Simplicity & Elegance) need its own positioning, or is it implicit?
+
+**Discussion:** B is best demonstrated, not claimed. The product screenshots, the demo video, the community showcase sites -- these all communicate elegance without needing to say "we're elegant." B shows up in the features section ("beautiful by default," "hosted for you," "customizable themes") and in the visual design of the site itself.
+
+**Decision: B is a supporting pillar, not a lead message.** It's present everywhere in the *experience* of the site without needing its own headline or narrative section.
