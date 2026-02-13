@@ -1,5 +1,5 @@
 ---
-title: Obsidian Bases Syntax (Beta)
+title: Obsidian Bases Syntax
 description: Detailed reference for Obsidian Bases syntax, including filters, formulas, and view types.
 ---
 
