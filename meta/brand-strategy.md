@@ -122,6 +122,51 @@ All three audiences are served. Nobody is asked to buy into the vision before th
 
 ## Appendix A: Initial Analysis
 
+### Current State of the Brand
+
+**Homepage (README.md):**
+- Headline: "Markdown to website in seconds"
+- Subtitle: "Fastest way to turn markdown into a website -- from blogs to docs, landing pages to knowledgebases. For geeks who value their time."
+- CTA: "Start publishing (free forever)"
+- Demo video as hero asset
+- Six feature bullets: instant deployment, folder-based publishing, markdown-based, hosted for you, own your content, custom domains and themes
+- Feature showcase sections: syntax support, comments, layout, themes, hero sections
+- Community sites gallery (12 examples)
+- Newsletter signup
+- Final CTA: "Start using Flowershow today"
+
+**About page:**
+- Origin story: started as internal tooling for markdown-driven sites, evolved through Obsidian adoption
+- Mission: make publishing markdown "as easy as publishing a Facebook post"
+- "The Bigger Picture" section with a developed argument: we need better collective sensemaking -> one part of that is tooling -> markdown revolution -> publishing is one important initial area
+- This is the strongest existing brand writing, but it lives on a page most visitors will never see
+
+**Existing taglines (from meta/plan.md):**
+- "Author in Obsidian, Publish in Flowershow"
+- "Present your ideas, beautifully"
+- "Share your digital garden"
+- "Turn your digital garden / second brain / obsidian vault into a beautiful (and customizable) website in seconds"
+
+**Sub-pages (blogs.md, data-stories.md, publish.md):**
+- Each has its own positioning adapted to the use case
+- CLI page ("publish.md") notably mentions AI agents as a use case -- an early signal of the D narrative
+- Blogs page leads with "The best way to create markdown-based blogs"
+- Data stories page leads with "Tell data-rich stories with Markdown"
+
+**What's working:**
+- The homepage is clear and functional. You land on it and know what Flowershow does.
+- The demo video is a strong proof point.
+- The community showcases provide genuine social proof.
+- The about page has real philosophical depth (collective sensemaking argument).
+- The product genuinely delivers on the speed promise.
+
+**What's missing:**
+- No narrative layer between "here's what it does" and "here's our philosophy of collective sensemaking." The jump from homepage to about page is from pure utility to deep philosophy with nothing in between.
+- No "why now" story. The homepage doesn't explain why Flowershow exists *at this moment* -- what changed in the world that makes this needed.
+- The existing taglines are Obsidian-centric ("digital garden," "vault"). The product has outgrown this framing -- it serves anyone with markdown content.
+- The strongest brand thinking (the about page) is disconnected from the front door (the homepage).
+- No differentiation story. Speed and simplicity are claimed but not contextualized. *Why* is publishing still hard? *Why* does it matter that it's easy?
+
 ### Starting Point: What Does Flowershow Actually Do?
 
 Flowershow takes markdown content and turns it into a live, hosted website. No repos to configure, no build pipelines, no deploy scripts. Connect content (via GitHub or CLI), get a URL. It supports docs, blogs, landing pages, knowledge bases, digital gardens -- anything that starts as markdown.
