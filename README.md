@@ -1,3 +1,5 @@
+> **⚠️ This repository has been archived.** Development has moved to the [flowershow monorepo](https://github.com/flowershow/flowershow) at [`content/flowershow-app`](https://github.com/flowershow/flowershow/tree/main/content/flowershow-app).
+
 ---
 title: Markdown to website in seconds
 description: Fastest way to create elegant markdown-based websites quickly — for docs, handbooks, blogs, PKMs and landing pages. No coding required.
